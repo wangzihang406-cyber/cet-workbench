@@ -235,5 +235,119 @@ window.CET_GRAMMAR = [
       { q: "We must find a solution ______ this problem.", options: ["of", "for", "to", "with"], answer: 2, exp: "solution to + 问题，固定搭配。" },
       { q: "Reading widely contributes ______ improving your writing.", options: ["for", "to", "with", "in"], answer: 1, exp: "contribute to doing 表示“有助于”。" }
     ]
+  },
+  {
+    id: "g13", level: "四级", topic: "冠词与名词单复数",
+    points: [
+      "泛指用 a/an（可数名词单数）或不加冠词（可数名词复数 / 不可数名词）；特指用 the。",
+      "独一无二的事物、最高级、序数词、乐器前用 the：the sun, the best way, the first time, play the piano。",
+      "常见不可数名词：information, advice, furniture, equipment, progress, knowledge, news —— 不能加 s，需用量词 a piece of。",
+      "固定搭配：in the morning / at night / go to school（表目的）/ in charge of / make progress。"
+    ],
+    examples: [
+      "He gave me a useful piece of advice.（advice 不可数）",
+      "The moon moves around the earth.（独一无二）",
+      "She plays the violin very well.（乐器前加 the）"
+    ],
+    quiz: [
+      { q: "I have collected a lot of ______ about this topic.", options: ["informations", "information", "an information", "informations'"], answer: 1, exp: "information 是不可数名词，不能加 s，也不能用 a/an。" },
+      { q: "He is ______ honest student and always helps others.", options: ["a", "an", "the", "不填"], answer: 1, exp: "honest 的 h 不发音，读音以元音开头，用 an。" },
+      { q: "Of all the subjects, English is ______ I like best.", options: ["a one", "the one", "one", "ones"], answer: 1, exp: "在最高级语境中表示特指“那一个”，用 the one。" }
+    ]
+  },
+  {
+    id: "g14", level: "四级", topic: "形容词与副词的位置与程度",
+    points: [
+      "形容词修饰名词，副词修饰动词、形容词和整个句子。",
+      "enough 修饰形容词/副词时要放在其后：good enough, fast enough；修饰名词时放前面：enough time。",
+      "too...to（太…而不能）、so...that（如此…以至于）、such + 名词短语 + that。",
+      "多个形容词排序：限定词 → 大小 → 形状 → 年龄 → 颜色 → 国籍 → 材料：a small old brown wooden table。"
+    ],
+    examples: [
+      "The room is big enough for ten people.",
+      "It was such a good lecture that nobody left early.",
+      "She speaks English so fluently that everyone admires her."
+    ],
+    quiz: [
+      { q: "The box is ______ for me to carry.", options: ["heavy enough", "enough heavy", "so heavy", "too much heavy"], answer: 0, exp: "enough 修饰形容词要后置。" },
+      { q: "It was ______ interesting a book that I read it twice.", options: ["so", "such", "very", "too"], answer: 0, exp: "so + 形容词 + a/an + 名词 + that 是固定结构。" },
+      { q: "He bought a ______ vase yesterday.", options: ["Chinese beautiful small", "beautiful small Chinese", "small beautiful Chinese", "small Chinese beautiful"], answer: 1, exp: "语序为：大小 → 形状 → 年龄 → 颜色 → 国籍 → 材料。" }
+    ]
+  },
+  {
+    id: "g15", level: "六级", topic: "将来完成时与过去将来",
+    points: [
+      "将来完成时 will have done：表示到将来某一时间前已完成的动作，常与 by + 将来时间连用。",
+      "过去将来时 would do：常出现在宾语从句中，主句为过去时。",
+      "过去将来完成时 would have done：表示从过去看，将来某时前会完成的动作（多见于虚拟语气）。",
+      "by the time + 一般现在时，主句用将来完成时。"
+    ],
+    examples: [
+      "By the end of next month, we will have finished the project.",
+      "He said he would come back the following week.",
+      "By the time you arrive, I will have prepared the report."
+    ],
+    quiz: [
+      { q: "By next June, she ______ from university.", options: ["graduates", "will graduate", "will have graduated", "has graduated"], answer: 2, exp: "by + 将来时间，用将来完成时。" },
+      { q: "He told me he ______ the task before Friday.", options: ["finishes", "will finish", "would have finished", "has finished"], answer: 2, exp: "从过去视角看将来某时前会完成，用 would have done。" },
+      { q: "By the time the guests arrive, we ______ everything ready.", options: ["get", "will get", "will have got", "got"], answer: 2, exp: "by the time + 一般现在时，主句用将来完成时。" }
+    ]
+  },
+  {
+    id: "g16", level: "六级", topic: "独立主格与 with 复合结构",
+    points: [
+      "独立主格：名词/代词 + 分词/形容词/介词短语，逻辑主语与主句主语不同。",
+      "with + 宾语 + 分词/形容词/不定式：表示伴随、原因或条件，是写作加分结构。",
+      "现在分词表示主动、进行；过去分词表示被动、完成。",
+      "独立结构前可加 there being / weather permitting 等固定形式。"
+    ],
+    examples: [
+      "Weather permitting, we will go hiking tomorrow.（独立主格）",
+      "He sat there, with his eyes fixed on the screen.（with + 过去分词）",
+      "There being no bus, we had to walk home."
+    ],
+    quiz: [
+      { q: "______ nothing to do, we went to the library.", options: ["There was", "There being", "Being", "It being"], answer: 1, exp: "there be 的独立主格形式为 there being。" },
+      { q: "She left the room, with the door ______ open.", options: ["leaving", "left", "to leave", "leave"], answer: 1, exp: "door 与 leave 是被动关系，用过去分词 left。" },
+      { q: "All things ______, the plan is quite practical.", options: ["considering", "considered", "to consider", "consider"], answer: 1, exp: "all things considered 是固定独立主格，表示“全面考虑之后”。" }
+    ]
+  },
+  {
+    id: "g17", level: "六级", topic: "让步与转折的多样表达",
+    points: [
+      "基础：although / though / even though / while（虽则）。",
+      "倒装式让步：形容词/副词 + as/though + 主语 + 谓语 —— Difficult as it was, he finished it.",
+      "no matter how/what/who = however/whatever/whoever 引导让步从句。",
+      "转折连接：however、nevertheless、on the contrary、in spite of / despite + 名词。"
+    ],
+    examples: [
+      "Impossible as it seemed, they achieved the goal.",
+      "No matter how hard he tried, he could not convince her.",
+      "Despite the heavy rain, the match went on."
+    ],
+    quiz: [
+      { q: "______ as he is, he never looks down on others.", options: ["Rich", "Richer", "Richest", "Being rich"], answer: 0, exp: "as 引导让步从句时，表语形容词提前（Rich as he is）。" },
+      { q: "______ happens, we will keep our promise.", options: ["No matter what", "No matter how", "No matter who", "No matter where"], answer: 0, exp: "what 在从句中作主语，表示“无论发生什么”。" },
+      { q: "He failed the exam ______ his hard work.", options: ["although", "in spite of", "even though", "no matter"], answer: 1, exp: "in spite of 后接名词短语，不能接句子。" }
+    ]
+  },
+  {
+    id: "g18", level: "六级", topic: "平行结构与句子简化",
+    points: [
+      "平行结构：and/or/but 连接的部分词性、结构要一致 —— reading, writing and speaking。",
+      "常见错误：不定式与动名词混用，如 to read and writing 应统一为 to read and write。",
+      "避免冗长：用分词、同位语、名词短语简化从句，提高写作档次。",
+      "写作中优先使用：because of / due to + 名词 替代 because 从句。"
+    ],
+    examples: [
+      "The course aims to improve listening, speaking and writing skills.（三项并列一致）",
+      "Faced with difficulties, he chose to continue.（分词简化从句）",
+      "Due to the heavy traffic, we arrived late.（名词短语替代从句）"
+    ],
+    quiz: [
+      { q: "The job requires patience, creativity and ______ well with others.", options: ["to work", "working", "work", "worked"], answer: 1, exp: "与 patience、creativity 并列，应使用动名词 working。" },
+      { q: "______ by his teacher, he decided to try again.", options: ["Encouraging", "Encouraged", "To encourage", "Encourage"], answer: 1, exp: "he 是被鼓励的对象，用过去分词表示被动。" },
+      { q: "______ the bad weather, the trip was cancelled.", options: ["Because", "Since", "Due to", "Although"], answer: 2, exp: "due to 后接名词短语，可替代 because of。" }
+    ]
   }
 ];
