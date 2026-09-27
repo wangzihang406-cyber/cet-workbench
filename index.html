@@ -593,7 +593,7 @@
     <div class="content" id="content">
 <section id="tab-news">
     <div class="card">
-      <h2>今日英语时事 <span class="muted" style="font-weight:400;">· 真实抓取 CGTN，每日 6:30 自动更新</span></h2>
+      <h2>今日英语时事 <span class="muted" style="font-weight:400;">· 真实抓取 CGTN，打开网页自动更新到最新</span></h2>
       <div class="row" style="margin-bottom:10px;">
         <button class="btn small" id="newsRefresh">🔄 在线刷新</button>
         <span class="muted" id="newsStatus"></span>
@@ -1468,7 +1468,7 @@
         "<div class='t'><a href='" + esc(n.link) + "' target='_blank' rel='noopener'>" + esc(n.title) + "</a></div>";
       ul.appendChild(li);
     });
-    document.getElementById("newsStatus").textContent = "共 " + ns.length + " 条 · 内容包更新于 " + CONTENT.updated + "（每天 6:30 自动抓取多个频道）";
+    document.getElementById("newsStatus").textContent = "共 " + ns.length + " 条 · 内容包更新于 " + CONTENT.updated + "（正在尝试在线获取最新…）";
   }
   document.getElementById("newsRefresh").addEventListener("click", function () {
     document.getElementById("newsStatus").textContent = "正在在线获取今天的新闻…";
