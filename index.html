@@ -395,6 +395,30 @@
   .flashcard .word{font-size:36px; font-weight:600; color:var(--accent-2); letter-spacing:.5px; word-break:break-word}
   .flashcard .pos{color:var(--muted); font-size:13.5px; margin-top:6px}
   .flashcard .mean{font-size:19px; margin-top:16px; color:var(--text)}
+  /* 模式切换（卡片背 / 拼写听写） */
+  .seg{display:inline-flex; gap:3px; background:var(--surface-2); border:1px solid var(--line);
+       border-radius:12px; padding:3px; margin:2px 0 10px}
+  .seg button{border:none; background:none; font:inherit; font-size:13px; padding:7px 15px;
+       border-radius:9px; cursor:pointer; color:var(--text-2)}
+  .seg button.on{background:var(--surface); color:var(--accent-2); font-weight:600; box-shadow:0 1px 2px rgba(90,84,76,.06)}
+  /* 拼写听写 */
+  .sp-card{background:var(--accent-soft); border-radius:var(--r-lg); padding:24px 22px; margin:6px 0 12px}
+  .sp-h{font-size:15px; display:block; margin-bottom:4px}
+  .sp-hint{font-size:12.8px; color:var(--text-2); line-height:1.8; margin-top:6px}
+  .sp-top{display:flex; justify-content:space-between; font-size:12.5px; color:var(--muted); margin-bottom:12px}
+  .sp-zh{font-size:21px; font-weight:600; color:var(--text); line-height:1.55}
+  .sp-zh .pos{display:block; font-size:12.5px; color:var(--muted); font-weight:400; margin-top:6px}
+  .sp-score{font-size:17px; font-weight:700; color:var(--accent-2); margin-top:10px}
+  #spInput{width:100%; margin-top:14px; font-size:18px; padding:12px 14px; text-align:center; letter-spacing:.6px}
+  .sp-fb{margin-top:12px; font-size:14px; line-height:1.85}
+  .sp-ok{color:var(--accent-2); font-weight:600}
+  .sp-no{color:var(--danger); font-weight:600}
+  .sp-ans{font-size:19px; font-weight:700; color:var(--accent-2); letter-spacing:.4px}
+  .sp-pp{font-size:13px; color:var(--muted)}
+  ul.sp-list{list-style:none; margin-top:8px}
+  ul.sp-list li{display:flex; align-items:center; gap:9px; padding:7px 0; border-bottom:1px solid var(--line-soft); font-size:14px}
+  ul.sp-list li:last-child{border-bottom:none}
+  ul.sp-list li .sp-act{margin-left:auto; display:flex; gap:5px}
   /* 例句 */
   .eg{
     margin-top:16px; padding:13px 15px; border-radius:var(--r); text-align:left;
@@ -600,6 +624,11 @@
     #flashArea.rel-mode #fcBackRel{grid-column:1 / -1}
     .rel-head{align-items:flex-start}
     .rel-head .rel-back{margin-left:0; width:100%}
+    .sp-card{padding:18px 15px}
+    .sp-zh{font-size:19px}
+    #spInput{font-size:17px}
+    .seg{width:100%; justify-content:space-between}
+    .seg button{flex:1; padding:9px 0; text-align:center}
     /* 新闻/阅读列表字号 */
     .news-item .t{font-size:14.5px; line-height:1.6}
     .passage-item .t{font-size:14.5px}
@@ -836,6 +865,10 @@
         <select id="dailyQuota"><option>5</option><option selected>10</option><option>15</option><option>20</option></select>
         <span class="muted">个</span>
       </div>
+      <div class="seg" id="vocabMode">
+        <button type="button" data-vmode="flash" class="on">🃏 卡片背</button>
+        <button type="button" data-vmode="spell">✍️ 拼写听写</button>
+      </div>
       <div id="flashArea">
         <div class="flashcard" id="flashcard">
           <div class="word" id="fcWord">—</div>
@@ -855,6 +888,7 @@
         </div>
         <p class="muted" style="text-align:center; margin-top:8px;" id="fcHint">认识就直接点「记住了」，不必先看释义；单词下方的相关词可以直接点着看</p>
       </div>
+      <div id="spellArea" style="display:none;"></div>
       <p class="muted" style="margin-top:12px;">📋 复习遵循艾宾浩斯遗忘曲线：记住后第 1、2、4、7、15 天自动安排复习。切换左上角「四级/六级」会自动切换对应词库。</p>
     </div>
   </section>
@@ -1448,6 +1482,7 @@
     renderLevel(); renderThemeChips(); renderReadings(); renderReadSrcChips(); applyReadSrc();
     renderDictPicker(); renderCountdown();
     nextCard(); renderStats();
+    if (db.vmode === "spell") { spPhase = "setup"; spShow(); }
     renderGrammar();                       /* 语法要跟着级别切换（此前漏了，这是 bug） */
     var _b = document.getElementById("lvBadge");
     if (_b) _b.textContent = lv;
@@ -3124,6 +3159,261 @@
   });
   document.getElementById("dailyQuota").addEventListener("change", function () { db.quota = parseInt(this.value); save(); renderStats(); });
 
+  /* ==================================================================
+     拼写听写：给中文（或只给发音），把英文单词拼出来
+     词库就是四六级词表（四级 4540 / 六级 5716）。听写只做检验，不改变艾宾浩斯复习计划。
+     ================================================================== */
+  var ALLOW = {};
+  (function () { BANKS.cet4.concat(BANKS.cet6).forEach(function (x) { ALLOW[String(x.w).toLowerCase()] = x; }); })();
+
+  var SP = { range: "due", mode: "zh", count: 10 };
+  var spQ = [], spIdx = 0, spRight = 0, spPhase = "setup", spAnswered = false;
+  var spRoundWrong = [], spLastWrong = [];
+  if (db.spWrong && db.spWrong.length) {
+    spLastWrong = db.spWrong.map(function (w) {
+      var o = ALLOW[w];
+      return o ? { w: o.w, p: o.p, m: o.m } : { w: w, p: "", m: DICT[w] || "" };
+    });
+  }
+  if (db.spOpt) { SP.range = db.spOpt.range || "due"; SP.mode = db.spOpt.mode || "zh"; SP.count = (db.spOpt.count === 0 ? 0 : (db.spOpt.count || 10)); }
+
+  function spSaveOpt() { db.spOpt = { range: SP.range, mode: SP.mode, count: SP.count }; save(); }
+  function spFromWB() {
+    return db.wordbook.map(function (x) {
+      var k = String(x.w).toLowerCase();
+      var o = ALLOW[k];
+      return o ? { w: o.w, p: o.p, m: o.m } : { w: x.w, p: "", m: DICT[k] || "（生词本词条）" };
+    });
+  }
+  function spPool() {
+    var all = bank();
+    if (SP.range === "bank") return all.slice();
+    if (SP.range === "wb") return spFromWB();
+    if (SP.range === "wrong") return spLastWrong.slice();
+    var pool = dueWords(all).concat(freshWords(all).slice(0, db.quota));
+    return pool.length ? pool : all.slice();
+  }
+  function spShuffle(a) {
+    for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t; }
+    return a;
+  }
+  function spSay(q) {
+    if (!q || !q.w) return;
+    speak(q.w, 0.8, function (m) {
+      var f = document.getElementById("spFb");
+      if (!f) return;
+      if (SP.mode === "spk" && !spAnswered) {
+        f.innerHTML = "<span class='muted'>" + esc(m || "发音失败") + "</span><br>" +
+          "先用中文提示代替：<b>" + esc(q.m || "") + "</b>";
+      } else {
+        f.innerHTML = "<span class='muted'>" + esc(m || "发音失败") + "</span>";
+      }
+    });
+  }
+
+  function spShow() {
+    var sp = document.getElementById("spellArea"), fl = document.getElementById("flashArea");
+    var on = db.vmode === "spell";
+    if (fl) fl.style.display = on ? "none" : "";
+    if (sp) sp.style.display = on ? "" : "none";
+    var btns = document.querySelectorAll("#vocabMode button");
+    for (var i = 0; i < btns.length; i++) btns[i].classList.toggle("on", btns[i].dataset.vmode === (on ? "spell" : "flash"));
+    if (on) {
+      if (spPhase === "done") spPhase = "setup";     /* 重新进来先看设置，而不是上一轮的总结 */
+      spRender();
+    }
+  }
+  function setVocabMode(m) { db.vmode = m; save(); spShow(); }
+
+  function spRender() {
+    var box = document.getElementById("spellArea");
+    if (!box) return;
+    if (spPhase === "run") box.innerHTML = spQuestionHtml();
+    else if (spPhase === "done") box.innerHTML = spDoneHtml();
+    else box.innerHTML = spSetupHtml();
+    if (spPhase === "run") {
+      var inp = document.getElementById("spInput");
+      if (inp) setTimeout(function () { try { inp.focus(); } catch (e) {} }, 40);
+      if (SP.mode === "spk" && !spAnswered) setTimeout(function () { spSay(spQ[spIdx]); }, 320);
+    }
+  }
+
+  function spSetupHtml() {
+    var all = bank();
+    var due = dueWords(all).length, fresh = freshWords(all).length;
+    var last = db.spLast;
+    return "<div class='sp-card'>" +
+      "<b class='sp-h'>✍️ 拼写听写</b>" +
+      "<p class='sp-hint'>给你中文（或者只给发音），你把英文单词拼出来。词库就是四六级词表：" +
+      "四级 <b>" + BANKS.cet4.length + "</b> 词、六级 <b>" + BANKS.cet6.length + "</b> 词；" +
+      "听写只做检验，<b>不会打乱你的复习计划</b>。" +
+      (last ? "<br>上次听写：" + last.right + " / " + last.total + "（" + Math.round(last.right / Math.max(1, last.total) * 100) + "%）· " + esc(last.date) : "") +
+      "</p>" +
+      "<div class='row' style='margin-top:14px;'><span class='lbl'>考哪些词</span>" +
+      "<select id='spRange'>" +
+      "  <option value='due'" + (SP.range === "due" ? " selected" : "") + ">今天要背的（待复习 " + due + " + 新词 " + fresh + "）</option>" +
+      "  <option value='bank'" + (SP.range === "bank" ? " selected" : "") + ">本级别整个词库（随机）</option>" +
+      "  <option value='wb'" + (SP.range === "wb" ? " selected" : "") + ">生词本（" + db.wordbook.length + " 词）</option>" +
+      (spLastWrong.length ? "  <option value='wrong'" + (SP.range === "wrong" ? " selected" : "") + ">上次拼错的词（" + spLastWrong.length + " 词）</option>" : "") +
+      "</select></div>" +
+      "<div class='row' style='margin-top:10px;'><span class='lbl'>给什么提示</span>" +
+      "<select id='spMode'>" +
+      "  <option value='zh'" + (SP.mode === "zh" ? " selected" : "") + ">只给中文释义</option>" +
+      "  <option value='spk'" + (SP.mode === "spk" ? " selected" : "") + ">只念单词（听音拼写）</option>" +
+      "  <option value='both'" + (SP.mode === "both" ? " selected" : "") + ">中文 + 可听发音</option>" +
+      "</select></div>" +
+      "<div class='row' style='margin-top:10px;'><span class='lbl'>题量</span>" +
+      "<select id='spCount'>" + [10, 20, 30, 0].map(function (n) {
+        return "<option value='" + n + "'" + (SP.count === n ? " selected" : "") + ">" + (n ? n + " 题" : "全部（有多少考多少）") + "</option>";
+      }).join("") + "</select></div>" +
+      "<div class='row' style='margin-top:16px;'><button class='btn primary' id='spStart'>开始听写</button></div>" +
+      "</div>";
+  }
+
+  function spQuestionHtml() {
+    var q = spQ[spIdx];
+    var spkOnly = SP.mode === "spk";
+    var h = "<div class='sp-card'>" +
+      "<div class='sp-top'><span>第 <b>" + (spIdx + 1) + "</b> / " + spQ.length + " 题</span>" +
+      "<span>✅ " + spRight + "　❌ " + (spIdx - spRight) + "</span></div>";
+    h += spkOnly
+      ? "<div class='sp-zh'>🔈 听发音，把这个单词拼出来<span class='pos'>没听清可以再点一次「听发音」</span></div>"
+      : "<div class='sp-zh'>" + esc(q.m || "（无释义）") + "</div>";
+    h += "<div class='row' style='margin-top:12px;'><button class='btn' id='spPlay'>🔊 " + (spkOnly ? "再听一遍" : "听这个词的发音") + "</button></div>";
+    h += "<input type='text' id='spInput' placeholder='在这里拼出这个单词（回车提交）' autocomplete='off' autocapitalize='off' spellcheck='false'>";
+    h += "<div class='row' style='margin-top:12px;'>" +
+      "<button class='btn primary' id='spCheck'>检查</button>" +
+      "<button class='btn small' id='spReveal'>不会，看答案</button>" +
+      "<button class='btn small' id='spQuit' style='color:var(--muted);'>结束本轮</button></div>";
+    h += "<div class='sp-fb' id='spFb'></div></div>";
+    return h;
+  }
+
+  function spDoneHtml() {
+    var total = spQ.length, rate = total ? Math.round(spRight / total * 100) : 0;
+    var uniq = [];
+    spRoundWrong.forEach(function (q) { if (!uniq.some(function (x) { return x.w === q.w; })) uniq.push(q); });
+    var h = "<div class='sp-card'>" +
+      "<b class='sp-h'>本轮听写结束</b>" +
+      "<p class='sp-score'>拼对 <b>" + spRight + " / " + total + "</b>（" + rate + "%）" +
+      (total && spRight === total ? " 🎉 全对！" : "") + "</p>";
+    if (uniq.length) {
+      h += "<p class='sp-hint'>没拼出来的词（点 🔊 听、点 ☆ 加入生词本）：</p><ul class='sp-list'>" +
+        uniq.map(function (q) {
+          return "<li><b>" + esc(q.w) + "</b><span class='muted'>" + esc(String(q.m || "").slice(0, 20)) + "</span>" +
+            "<span class='sp-act'><button class='del' data-spk='" + esc(q.w) + "' title='发音'>🔊</button>" +
+            "<button class='del' data-star='" + esc(q.w) + "' title='加入生词本'>☆</button></span></li>";
+        }).join("") + "</ul>";
+    } else {
+      h += "<p class='sp-hint'>一个都没拼错，很棒。</p>";
+    }
+    h += "<div class='row' style='margin-top:16px;'>" +
+      (uniq.length ? "<button class='btn primary' id='spRetryWrong'>只练这些错词</button>" : "") +
+      "<button class='btn' id='spAgain'>再来一轮</button>" +
+      "<button class='btn small' id='spBackSetup'>换个范围</button></div></div>";
+    return h;
+  }
+
+  function spStart() {
+    var pool = spPool();
+    if (!pool.length) { alert("这个范围里没有词，换一个范围试试。"); return; }
+    pool = spShuffle(pool.slice());
+    spQ = SP.count > 0 ? pool.slice(0, SP.count) : pool;
+    spIdx = 0; spRight = 0; spAnswered = false; spRoundWrong = [];
+    spPhase = "run";
+    spSaveOpt();
+    spRender();
+  }
+  function spNext() {
+    spIdx++;
+    if (spIdx >= spQ.length) { spFinish(); return; }
+    spAnswered = false;
+    spRender();
+  }
+  function spFinish() {
+    spPhase = "done";
+    spLastWrong = spRoundWrong.slice();
+    db.spWrong = spLastWrong.map(function (q) { return q.w; });
+    db.spLast = { total: spQ.length, right: spRight, date: today() };
+    save();
+    spRender();
+  }
+
+  function spCheck(reveal) {
+    if (spPhase !== "run" || spAnswered) return;
+    var q = spQ[spIdx];
+    var inp = document.getElementById("spInput");
+    var mine = (inp ? inp.value : "").replace(/^\s+|\s+$/g, "");
+    var ok = !reveal && mine.toLowerCase() === String(q.w).toLowerCase();
+    spAnswered = true;
+    var fb = document.getElementById("spFb");
+    var wordBtn = "<button class='eg-spk' data-spk='" + esc(q.w) + "' title='听发音'>🔊</button>";
+    if (ok) {
+      spRight++;
+      if (fb) fb.innerHTML = "<span class='sp-ok'>✅ 拼对了！</span>　<span class='sp-ans'>" + esc(q.w) + "</span>" +
+        (q.p ? "<span class='sp-pp'> /" + esc(q.p) + "/</span>" : "") + wordBtn;
+      var chk = document.getElementById("spCheck");
+      if (chk) chk.textContent = "下一题 →";
+      setTimeout(function () { if (spPhase === "run" && spAnswered) spNext(); }, 700);
+    } else {
+      spRoundWrong.push(q);
+      if (fb) {
+        fb.innerHTML = (reveal
+          ? "<span class='muted'>答案是：</span>"
+          : "<span class='sp-no'>❌ 你写的是「" + esc(mine || "（空）") + "」</span><br>正确答案：") +
+          "<span class='sp-ans'>" + esc(q.w) + "</span>" + wordBtn +
+          (q.p ? "<span class='sp-pp'> /" + esc(q.p) + "/</span>" : "") +
+          "<br><button class='btn small' data-star='" + esc(q.w) + "'>☆ 加入生词本</button>";
+      }
+      var c2 = document.getElementById("spCheck");
+      if (c2) c2.textContent = "下一题 →";
+      spSay(q);
+    }
+  }
+
+  /* 听写面板里的事件（按钮 + 回车） */
+  document.addEventListener("click", function (e) {
+    var t = e.target;
+    if (!t || !t.closest || !t.closest("#spellArea")) return;
+    var id = t.id;
+    if (id === "spStart" || id === "spAgain") {
+      if (id === "spAgain" && SP.range === "wrong") SP.range = "due";
+      spStart();
+    } else if (id === "spCheck") {
+      if (spAnswered) spNext(); else spCheck(false);
+    } else if (id === "spReveal") {
+      spCheck(true);
+    } else if (id === "spPlay") {
+      spSay(spQ[spIdx]);
+    } else if (id === "spQuit") {
+      spFinish();
+    } else if (id === "spRetryWrong") {
+      SP.range = "wrong"; spStart();
+    } else if (id === "spBackSetup") {
+      spPhase = "setup"; spRender();
+    }
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key !== "Enter") return;
+    var t = e.target;
+    if (!t || t.id !== "spInput") return;
+    e.preventDefault();
+    if (spAnswered) spNext(); else spCheck(false);
+  });
+  document.addEventListener("change", function (e) {
+    var t = e.target;
+    if (!t || !t.id) return;
+    if (t.id === "spRange") { SP.range = t.value; spSaveOpt(); }
+    else if (t.id === "spMode") { SP.mode = t.value; spSaveOpt(); }
+    else if (t.id === "spCount") { SP.count = parseInt(t.value, 10) || 0; spSaveOpt(); }
+  });
+  var vmodeBtns = document.querySelectorAll("#vocabMode button");
+  for (var vbi = 0; vbi < vmodeBtns.length; vbi++) {
+    vmodeBtns[vbi].addEventListener("click", function () { setVocabMode(this.dataset.vmode); });
+  }
+
+
+
   /* 记住所选英语音色 */
   (function () {
     var vp = document.getElementById("voicePick");
@@ -3755,7 +4045,7 @@
   migrateLook();
   applyLook();
   syncCustomSelects();
-  renderWB(); nextCard();
+  renderWB(); nextCard(); spShow();
   loadVoices();
 
   /* 支持用地址栏 hash 直达某个标签页，例如 index.html#listen */
