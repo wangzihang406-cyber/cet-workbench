@@ -276,7 +276,7 @@
   .passage-item{cursor:pointer}
   .passage-item:hover{color:var(--accent-2)}
 
-  /* ===== 练习模式：分页阅读 / 听力做题（阅读·听力共用） ===== */
+  /* ===== 练习模式：一页到底的阅读 / 听力做题（阅读·听力共用） ===== */
   #practice{display:none; position:fixed; inset:0; z-index:110; background:var(--bg); overflow-y:auto; overflow-x:hidden}
   #practice.show{display:block}
   .pr-top{
@@ -290,6 +290,9 @@
   .pr-step{font-size:12px; color:var(--muted); letter-spacing:.1em}
   .pr-title{font-size:22px; font-weight:650; line-height:1.5; margin:7px 0 6px; letter-spacing:.2px}
   .pr-sub{font-size:12.8px; color:var(--muted); line-height:1.7; margin-bottom:16px}
+  .pr-divider{display:flex; align-items:center; gap:12px; margin:28px 0 12px; color:var(--muted); font-size:12.5px; letter-spacing:.08em}
+  .pr-divider::before, .pr-divider::after{content:""; height:1px; background:var(--line); flex:1}
+  .pr-divider span{flex:0 0 auto}
   .pr-read{
     font-size:16.5px; line-height:2.15; color:var(--text); background:var(--surface);
     border:1px solid var(--line); border-radius:var(--r-lg); padding:30px 34px; box-shadow:var(--shadow);
@@ -861,7 +864,7 @@
   </main>
 </div>
 
-<!-- 练习模式：分页阅读 / 听力做题（阅读·听力共用） -->
+<!-- 练习模式：一页到底的阅读 / 听力做题（阅读·听力共用） -->
 <div id="practice">
   <div class="pr-top">
     <button class="btn small" id="prBack">← 返回列表</button>
@@ -1330,6 +1333,7 @@
     document.title = (TAB_TITLE[name] || "四六级备考") + " · 四六级备考工作台";
     if (window.scrollTo) window.scrollTo({ top: 0, behavior: "smooth" });
     try { if (history.replaceState) history.replaceState(null, "", "#" + name); } catch (e) {}
+    if (name === "news") { try { autoNews(false); } catch (e) {} }
     closeMenu();
   }
   tabs.forEach(function (b) {
@@ -1389,6 +1393,66 @@
   };
   function srcCN(s) { return "CGTN · " + (SRC_CN[s] || String(s).replace("CGTN·", "")); }
 
+  /* ===== 打开就自动取当天新闻 =====
+     线上 news.json 由 GitHub Actions 每 2 小时重写一次；GitHub Pages 允许跨域，
+     所以本机双击打开的页面也能读到它 —— 不用等本机 6:30 的自动任务。 */
+  var NEWS_JSON_URL = "https://wangzihang406-cyber.github.io/cet-workbench/news.json";
+  var NEWS_CACHE_KEY = "cetDesk_news_cache", NEWS_AT_KEY = "cetDesk_news_at";
+
+  function newsReadCache() {
+    try { return JSON.parse(localStorage.getItem(NEWS_CACHE_KEY)) || null; } catch (e) { return null; }
+  }
+  function newsWriteCache(o) {
+    try { localStorage.setItem(NEWS_CACHE_KEY, JSON.stringify(o)); } catch (e) {}
+  }
+  function paintNews(items) {
+    var ul = document.getElementById("newsList");
+    if (!ul || !items || !items.length) return;
+    ul.innerHTML = "";
+    items.forEach(function (n) {
+      var li = document.createElement("li");
+      li.className = "news-item";
+      li.innerHTML = "<span class='tag gray'>" + esc(n.date || "") + "</span> " +
+        "<span class='tag blue'>" + esc(srcCN(n.src)) + "</span>" +
+        "<div class='t'><a href='" + esc(n.link) + "' target='_blank' rel='noopener'>" + esc(n.title) + "</a></div>";
+      ul.appendChild(li);
+    });
+  }
+  /* 上次在线取到的新闻比内容包新，就直接先显示它（离线也生效） */
+  function newsApplyCache() {
+    var c = newsReadCache();
+    if (c && c.items && c.items.length && String(c.updated || "") > String(CONTENT.updated || "")) {
+      paintNews(c.items);
+      document.getElementById("newsStatus").textContent =
+        "共 " + c.items.length + " 条 · 在线获取于 " + (c.generated || c.updated);
+    }
+  }
+  function autoNews(force, onFail) {
+    var last = 0;
+    try { last = parseInt(localStorage.getItem(NEWS_AT_KEY) || "0", 10) || 0; } catch (e) {}
+    if (!force && Date.now() - last < 3600000) return;      /* 一小时内只自动取一次 */
+    try { localStorage.setItem(NEWS_AT_KEY, String(Date.now())); } catch (e) {}
+
+    var ctrl = (typeof AbortController !== "undefined") ? new AbortController() : null;
+    var timer = setTimeout(function () { if (ctrl) { try { ctrl.abort(); } catch (e) {} } }, 9000);
+    var opt = { cache: "no-store" };
+    if (ctrl) opt.signal = ctrl.signal;
+    fetch(NEWS_JSON_URL + "?t=" + Date.now(), opt).then(function (r) {
+      if (!r.ok) throw new Error("http " + r.status);
+      return r.json();
+    }).then(function (d) {
+      clearTimeout(timer);
+      if (!d || !d.items || !d.items.length) throw new Error("empty");
+      newsWriteCache(d);
+      paintNews(d.items);
+      document.getElementById("newsStatus").textContent =
+        "✓ 已自动取到最新新闻 " + d.items.length + " 条 · 生成于 " + (d.generated || d.updated) + "（在线，每天多次更新）";
+    }).catch(function () {
+      clearTimeout(timer);
+      if (onFail) onFail();
+    });
+  }
+
   function renderNews() {
     var ul = document.getElementById("newsList");
     ul.innerHTML = "";
@@ -1407,8 +1471,11 @@
     document.getElementById("newsStatus").textContent = "共 " + ns.length + " 条 · 内容包更新于 " + CONTENT.updated + "（每天 6:30 自动抓取多个频道）";
   }
   document.getElementById("newsRefresh").addEventListener("click", function () {
-    document.getElementById("newsStatus").textContent = "正在尝试在线抓取最新新闻…";
-    liveNews(true);
+    document.getElementById("newsStatus").textContent = "正在在线获取今天的新闻…";
+    autoNews(true, function () {
+      document.getElementById("newsStatus").textContent = "正在尝试其它渠道抓取…";
+      liveNews(true);
+    });
   });
 
   /* 在线抓取最新新闻（尽力而为：成功就用最新的，失败就继续显示内容包里的新闻） */
@@ -1509,7 +1576,7 @@
       "<span class='tag " + (a.theme === "科技" ? "blue" : a.theme === "传统文化" ? "orange" : "gray") + "'>" + esc(a.theme) + "</span> " +
       "<span class='tag'>" + esc(a.level) + "</span> <span class='tag gray'>" + esc(a.date) + "</span>" +
       "<div class='t' style='margin-top:5px; font-weight:600;'>" + esc(a.title) + "</div>" +
-      "<span class='muted'>" + wc + " 词 · " + ((a.questions || []).length) + " 道理解题 · 点进分页阅读，读完再做题 ↓</span>";
+      "<span class='muted'>" + wc + " 词 · " + ((a.questions || []).length) + " 道理解题 · 点进去读全文 + 做题 ↓</span>";
     li.addEventListener("click", function () { openPractice(practiceFromReading(a)); });
     return li;
   }
@@ -1526,7 +1593,7 @@
     document.getElementById("readEmpty").style.display = arts.length ? "none" : "";
     document.getElementById("readUpdated").innerHTML =
       "内容包更新：" + esc(CONTENT.updated) + " · 当前级别 <b>" + esc(db.level) + "</b> · 篇幅按真题标准（四级约 300~350 词 / 六级约 400~450 词）" +
-      "<br>📖 点任意一篇进入 <b>分页阅读</b>：一页只放一屏文章，读完翻到最后一页做题；<b>先自己选答案，提交后</b>才显示正确答案与依据。";
+      "<br>📖 点任意一篇打开做题界面：<b>整篇文章就在这一页里，往下滑着读</b>，题目紧跟在文章下面；<b>先自己选答案，提交后</b>才显示正确答案与依据。";
     arts.forEach(function (a) { ul.appendChild(readingItem(a, a === tp)); });
   }
 
@@ -1681,7 +1748,7 @@
       "<div class='t' style='margin-top:5px; font-weight:600;'>" + esc(x.title) + "</div>" +
       "<span class='muted'>" + esc(x.sec) + " · " + x.words + " 词 · " + qs.length + " 道原题" +
       (done >= qs.length && qs.length ? " · 答案已备 ✅" : (done ? " · 答案已备 " + done + "/" + qs.length : " · 答案待补")) +
-      " · 点进分页阅读 ↓</span>";
+      " · 点进去读全文 + 做题 ↓</span>";
     li.addEventListener("click", function () { openPractice(practiceFromReal(x)); });
     return li;
   }
@@ -2120,27 +2187,21 @@
   })();
 
   /* ==================================================================
-     练习模式 · 分页阅读 / 听力做题（阅读理解 + 听力共用）
-     阅读：一页一屏，翻页读完 → 做题页；先自己选答案，提交后才给答案与解析
-     听力：先听（原文隐藏）→ 做题页 → 提交后才给答案 + 原文 + 译文 + 逐句精听
+     阅读 / 听力做题界面（一页到底 · 滚动阅读，不翻页）
+     阅读：整篇原文放在这一页里，鼠标往下滑；题目紧跟在原文下面
+     听力：顶部一排播放按钮，下面直接是选项；原文提交后才显示
+     一律：先自己选答案 → 点「提交答案」→ 才给正确答案与依据
      ================================================================== */
   var PLETTERS = "ABCDEFGHIJKLMNO";
-  var prCur = null, prSteps = [], prStep = 0, prPick = [], prDone = false;
-  var prWhyHtml = [], prScoreHtml = "", prFont = 0;
+  var prCur = null, prPick = [], prDone = false, prFont = 0;
+  var prWhyHtml = [], prScoreHtml = "";
 
   function pr$(id) { return document.getElementById(id); }
   function prMain() { return pr$("prMain"); }
 
   function prMsg(t) {
-    var m = prMain().querySelector("#prAudioMsg");
-    if (!m) {
-      m = document.createElement("p");
-      m.id = "prAudioMsg";
-      m.className = "pr-hint";
-      m.style.color = "var(--warm)";
-      prMain().appendChild(m);
-    }
-    m.textContent = t || "";
+    var m = pr$("prAudioMsg");
+    if (m) m.textContent = t || "";
     return m;
   }
 
@@ -2178,75 +2239,9 @@
       if (pr && pr.catch) pr.catch(function () { speak(fallbackText, prRate(), prMsg); });
     } catch (e) { speak(fallbackText, prRate(), prMsg); }
   }
-
-  /* ---------- 把一篇材料切成一页一页 ---------- */
-  function prPageText(lines, text) {
-    var pages = [], cur = [], n = 0;
-    if (lines && lines.length) {
-      lines.forEach(function (l) {
-        cur.push({ who: l[0], en: l[1] });
-        if (cur.length >= 4) { pages.push(cur); cur = []; }
-      });
-      if (cur.length) pages.push(cur);
-      return pages.length ? pages : [[{ en: "" }]];
-    }
-    var sents = String(text || "").match(/[^.!?]+[.!?]+["'”’)]*|\S[^.!?]*$/g) || [String(text || "")];
-    sents.forEach(function (s) {
-      s = s.trim();
-      if (!s) return;
-      var w = (s.match(/\S+/g) || []).length;
-      if (n > 0 && n + w > 140) { pages.push([{ en: cur.join(" ") }]); cur = []; n = 0; }
-      cur.push(s); n += w;
-    });
-    if (cur.length) pages.push([{ en: cur.join(" ") }]);
-    return pages.length ? pages : [[{ en: String(text || "") }]];
-  }
-
-  function prReadCount() {
-    return prSteps.filter(function (x) { return x.kind === "read"; }).length;
-  }
-
-  function prLabel(i) {
-    var st = prSteps[i];
-    if (!st) return "";
-    if (st.kind === "quiz") return "做题";
-    if (st.kind === "audio") return "听力";
-    if (st.kind === "script") return "原文与译文";
-    if (st.kind === "trans") return "译文";
-    return "阅读 " + (st.i + 1) + " / " + prReadCount() + " 页";
-  }
-
-  /* ---------- 打开一个练习 ---------- */
-  function openPractice(p) {
-    if (!p) return;
-    prCur = p; prPick = []; prDone = false; prWhyHtml = []; prScoreHtml = "";
-    prFont = 0;
-
-    var steps = [];
-    if (p.kind === "listen") {
-      steps.push({ kind: "audio" });
-    } else {
-      prPageText(p.lines, p.text).forEach(function (units, i) {
-        steps.push({ kind: "read", units: units, i: i });
-      });
-    }
-    steps.push({ kind: "quiz" });
-    prSteps = steps;
-    prStep = 0;
-
-    pr$("prTopTitle").textContent = p.title;
-    prOpenBox();
-    prRender();
-  }
-
-  function prGo(i) {
-    if (i < 0 || i >= prSteps.length) return;
-    var leaving = prSteps[prStep];
-    if (leaving && (leaving.kind === "audio" || leaving.kind === "read")) prStopAu();
-    prStep = i;
-    prRender();
-    var box = pr$("practice");
-    if (box) box.scrollTop = 0;
+  function prApplyFont() {
+    var r = pr$("prRead");
+    if (r) r.style.fontSize = (16.5 + prFont) + "px";
   }
 
   function prTagHtml() {
@@ -2255,259 +2250,101 @@
     }).join(" ");
   }
 
-  function prNavBar(host, canBack, nextLabel, nextFn, extraBtn) {
-    var bar = document.createElement("div");
-    bar.className = "pr-nav";
-    var left = document.createElement("div");
-    left.className = "row";
-    if (canBack) {
-      var b = document.createElement("button");
-      b.className = "btn small";
-      b.textContent = "← 上一页";
-      b.addEventListener("click", function () { prGo(prStep - 1); });
-      left.appendChild(b);
-    }
-    bar.appendChild(left);
-    var right = document.createElement("div");
-    right.className = "row";
-    if (extraBtn) right.appendChild(extraBtn);
-    if (nextLabel) {
-      var n = document.createElement("button");
-      n.className = "btn primary";
-      n.textContent = nextLabel;
-      n.addEventListener("click", nextFn || function () { prGo(prStep + 1); });
-      right.appendChild(n);
-    }
-    bar.appendChild(right);
-    host.appendChild(bar);
+  /* ---------- 打开 ---------- */
+  function openPractice(p) {
+    if (!p) return;
+    prCur = p; prPick = []; prDone = false; prWhyHtml = []; prScoreHtml = ""; prFont = 0;
+    pr$("prTopTitle").textContent = p.title;
+    prOpenBox();
+    prRender();
   }
 
-  function prDots(host, cur) {
-    if (prReadCount() < 2) return;
-    var box = document.createElement("div");
-    box.className = "pr-dots";
-    prSteps.forEach(function (st, i) {
-      if (st.kind !== "read") return;
-      var d = document.createElement("button");
-      d.className = "pr-dot" + (i === cur ? " on" : "");
-      d.title = "第 " + (st.i + 1) + " 页";
-      d.addEventListener("click", function () { prGo(i); });
-      box.appendChild(d);
-    });
-    host.appendChild(box);
-  }
-
-  /* ---------- 渲染当前页 ---------- */
   function prRender() {
-    var st = prSteps[prStep];
     var m = prMain();
-    if (!st || !m) return;
-    m.innerHTML = "";
-    pr$("prPg").textContent = (prStep + 1) + " / " + prSteps.length + " · " + prLabel(prStep);
+    if (!m || !prCur) return;
+    var p = prCur, isL = p.kind === "listen";
+    var h = "";
 
-    if (st.kind === "read") { prRenderRead(st, m); }
-    else if (st.kind === "audio") { prRenderAudio(m); }
-    else if (st.kind === "quiz") { prRenderQuiz(m); }
-    else if (st.kind === "script") { prRenderScript(m); }
-    else if (st.kind === "trans") { prRenderTrans(m); }
-  }
+    h += "<div class='pr-step'>" + (isL ? "听力练习" : "阅读理解") +
+      ((p.qs || []).length ? " · 共 " + p.qs.length + " 题" : "") + "</div>";
+    h += "<h2 class='pr-title'>" + esc(p.title) + "</h2>";
+    h += "<p class='pr-sub'>" + prTagHtml() + " " + esc(p.sub || "") + "</p>";
 
-  function prRenderRead(st, m) {
-    var head = document.createElement("div");
-    var reads = prReadCount();
-    if (st.i === 0) {
-      head.innerHTML = "<div class='pr-step'>" + esc(prCur.kind === "listen" ? "听力" : "阅读理解") + " · 共 " + reads + " 页</div>" +
-        "<h2 class='pr-title'>" + esc(prCur.title) + "</h2>" +
-        "<p class='pr-sub'>" + prTagHtml() + " " + esc(prCur.sub || "") + "</p>";
+    if (isL) {
+      /* 听力：一排播放按钮 */
+      h += "<div class='pr-quiet'>" +
+        "<div class='pr-audio'>" +
+        "  <button class='btn primary' id='prPlay'>▶　播放音频</button>" +
+        "  <button class='btn' id='prStop'>■　停止</button>" +
+        "  <span class='lbl'>语速</span>" +
+        "  <select id='prRate'>" +
+        "    <option value='0.75'>0.75×　慢速精听</option>" +
+        "    <option value='1' selected>1.0×　考试常速</option>" +
+        "    <option value='1.25'>1.25×　偏快</option>" +
+        "  </select>" +
+        "</div>" +
+        "<p class='pr-hint'>音频可反复听，不限次数；<b>原文要等提交答案后才显示</b>，先盲听。" +
+        (p.audio && p.audio.full ? "" : "（这份材料暂无音频文件，点播放会用浏览器朗读代替）") + "</p>" +
+        "<p class='pr-hint' id='prAudioMsg' style='color:var(--warm)'></p>" +
+        "</div>";
     } else {
-      head.innerHTML = "<div class='pr-step'>" + esc(prCur.title.length > 34 ? prCur.title.slice(0, 34) + "…" : prCur.title) + " · 第 " + (st.i + 1) + " / " + reads + " 页</div>";
+      /* 阅读：整篇原文，直接往下滑 */
+      if (p.lines && p.lines.length) {
+        h += "<article class='pr-read' id='prRead' style='font-size:" + (16.5 + prFont) + "px'>" +
+          p.lines.map(function (l) {
+            return "<p class='pr-line'><b>" + esc(l[0]) + "：</b>" + clickableText(l[1]) + "</p>";
+          }).join("") + "</article>";
+      } else {
+        h += "<article class='pr-read' id='prRead' style='font-size:" + (16.5 + prFont) + "px'><p>" +
+          clickableText(p.text || "") + "</p></article>";
+      }
+      if (p.dict) h += "<div class='row' id='prDictRow' style='margin-top:10px;'></div>";
     }
-    m.appendChild(head);
 
-    var box = document.createElement("div");
-    box.className = "pr-read";
-    box.style.fontSize = (16.5 + prFont) + "px";
-    box.innerHTML = st.units.map(function (u) {
-      return u.who
-        ? "<p class='pr-line'><b>" + esc(u.who) + "：</b>" + clickableText(u.en) + "</p>"
-        : "<p>" + clickableText(u.en) + "</p>";
-    }).join("");
-    m.appendChild(box);
+    /* 题目紧接在材料下面 */
+    h += "<div class='pr-divider'><span>题目</span></div>";
+    h += "<p class='pr-hint' id='prTip'>" + (isL
+      ? "听完之后自己选答案，点「提交答案」才会给出正确答案与原文。"
+      : "读完上面的文章后自己选答案，点「提交答案」才会显示正确答案和每题的依据。") + "</p>";
+    h += "<div id='prQs'></div>";
+    h += "<div class='row' style='margin-top:15px;'>" +
+      "<button class='btn primary' id='prSubmit'>提交答案</button>" +
+      "<button class='btn small' id='prRetry' style='display:none;'>🔄 再做一遍</button>" +
+      "</div>";
+    h += "<div class='pr-result' id='prResult'></div>";
+    /* 提交后才出现的内容（听力原文/译文/逐句，阅读译文/重点词） */
+    h += "<div id='prReveal'></div>";
 
-    var last = (st.i === prReadCount() - 1);
-    var extra = null;
-    if (last && prCur.dict) {
+    m.innerHTML = h;
+
+    if (isL) {
+      pr$("prPlay").addEventListener("click", function () {
+        var rec = prCur.audio;
+        if (rec && rec.full) prPlayFile(rec.full, prCur.text);
+        else speak(prCur.text || "", prRate(), prMsg);
+      });
+      pr$("prStop").addEventListener("click", prStopAu);
+      pr$("prRate").addEventListener("change", function () {
+        var au = pr$("prAu");
+        if (au && !au.paused) au.playbackRate = prRate();
+      });
+    } else if (prCur.dict) {
       var d = prCur.dict;
-      extra = document.createElement("button");
-      extra.className = "btn small";
-      extra.textContent = "✍ 用这篇练听写";
-      extra.addEventListener("click", function () {
+      var dBtn = document.createElement("button");
+      dBtn.className = "btn small";
+      dBtn.textContent = "✍ 用这篇练听写";
+      dBtn.addEventListener("click", function () {
         prCloseBox();
         goTab("listen");
         startDict(d);
       });
+      pr$("prDictRow").appendChild(dBtn);
     }
-    prNavBar(m, st.i > 0, last ? "去做题 →" : "下一页 →", null, extra);
-    prDots(m, prStep);
-  }
-
-  function prRenderAudio(m) {
-    var head = document.createElement("div");
-    head.innerHTML = "<div class='pr-step'>听力 · 共 " + (prCur.qs || []).length + " 题</div>" +
-      "<h2 class='pr-title'>" + esc(prCur.title) + "</h2>" +
-      "<p class='pr-sub'>" + prTagHtml() + " " + esc(prCur.sub || "") + "</p>";
-    m.appendChild(head);
-
-    var box = document.createElement("div");
-    box.className = "pr-quiet";
-    box.innerHTML =
-      "<b class='pr-h'>🎧 先听音频</b>" +
-      "<p class='pr-hint'>可以反复听，不限次数。听的时候看不到原文 —— 提交答案之后才放出原文、译文和逐句精听。</p>" +
-      "<div class='pr-audio'>" +
-      "  <button class='btn primary' id='prPlay'>▶　播放音频</button>" +
-      "  <button class='btn' id='prStop'>■　停止</button>" +
-      "  <span class='lbl'>语速</span>" +
-      "  <select id='prRate'>" +
-      "    <option value='0.75'>0.75×　慢速精听</option>" +
-      "    <option value='1' selected>1.0×　考试常速</option>" +
-      "    <option value='1.25'>1.25×　偏快</option>" +
-      "  </select>" +
-      "</div>" +
-      "<div class='pr-lock' style='margin-top:14px;'>🔒 原文已隐藏。先盲听 1~2 遍，再点右下角「去做题」。</div>";
-    m.appendChild(box);
-
-    pr$("prPlay").addEventListener("click", function () {
-      var rec = prCur.audio;
-      if (rec && rec.full) prPlayFile(rec.full, prCur.text);
-      else speak(prCur.text || "", prRate(), prMsg);
-    });
-    pr$("prStop").addEventListener("click", prStopAu);
-    pr$("prRate").addEventListener("change", function () {
-      var au = pr$("prAu");
-      if (au && !au.paused) au.playbackRate = prRate();
-    });
-    if (!(prCur.audio && prCur.audio.full)) {
-      prMsg("这段材料暂无音频文件，点「播放音频」会用浏览器朗读代替。");
-    } else {
-      prMsg("");
-    }
-
-    prNavBar(m, false, "去做题 →");
-  }
-
-  function prRenderQuiz(m) {
-    var head = document.createElement("div");
-    var n = (prCur.qs || []).length;
-    head.innerHTML = "<div class='pr-step'>" + (prCur.kind === "listen" ? "听力" : "阅读理解") + " · 做题</div>" +
-      "<h2 class='pr-title'>共 " + n + " 题</h2>" +
-      "<p class='pr-sub'>" + esc(prCur.title) + "</p>";
-    m.appendChild(head);
-
-    var box = document.createElement("div");
-    box.className = "pr-quiet";
-    box.innerHTML =
-      "<b class='pr-h'>题目 <span class='muted' id='prQCount'></span></b>" +
-      "<p class='pr-hint' id='prTip'>" + (prCur.kind === "listen"
-        ? "先听音频，再自己选答案；点「提交答案」后才会给出正确答案与原文。"
-        : "先自己选好答案，再点「提交答案」——提交后才会显示正确答案和每题的依据。") + "</p>" +
-      "<div id='prQs'></div>" +
-      "<div class='row' style='margin-top:15px;'>" +
-      "  <button class='btn primary' id='prSubmit'>提交答案</button>" +
-      "  <button class='btn small' id='prRetry' style='display:none;'>🔄 再做一遍</button>" +
-      "</div>" +
-      "<div class='pr-result' id='prResult'></div>";
-    m.appendChild(box);
 
     prRenderQs();
     pr$("prSubmit").addEventListener("click", prSubmit);
     pr$("prRetry").addEventListener("click", prRetry);
-    if (prDone) prPaint();
-
-    var back = document.createElement("button");
-    back.className = "btn small";
-    back.textContent = prCur.kind === "listen" ? "← 回去再听一遍" : "← 回看原文";
-    back.addEventListener("click", function () { prGo(0); });
-    var nextLbl = "", nextFn = null;
-    if (prDone && prSteps.length > prStep + 1) {
-      nextLbl = prCur.kind === "listen" ? "查看原文与译文 →" : "查看译文 →";
-      nextFn = function () { prGo(prStep + 1); };
-    }
-    prNavBar(m, false, nextLbl, nextFn, back);
-  }
-
-  function prRenderScript(m) {
-    var head = document.createElement("div");
-    head.innerHTML = "<div class='pr-step'>听力原文与译文</div>" +
-      "<h2 class='pr-title'>" + esc(prCur.title) + "</h2>" +
-      "<p class='pr-sub'>原文单词可点击查释义、加生词本 · 音频可反复听</p>";
-    m.appendChild(head);
-
-    var box = document.createElement("div");
-    box.className = "pr-read";
-    box.style.fontSize = (16 + prFont) + "px";
-    if (prCur.lines && prCur.lines.length) {
-      box.innerHTML = prCur.lines.map(function (l) {
-        return "<p class='pr-line'><b>" + esc(l[0]) + "：</b>" + clickableText(l[1]) + "</p>";
-      }).join("");
-    } else {
-      box.innerHTML = "<p>" + clickableText(prCur.text || "") + "</p>";
-    }
-    m.appendChild(box);
-
-    /* 逐句精听 */
-    var rec = prCur.audio;
-    if (rec && rec.sents && rec.sents.length) {
-      var sc = document.createElement("div");
-      sc.className = "pr-sents";
-      sc.innerHTML = "<div class='muted' style='margin-bottom:4px;'>逐句精听（点左侧小按钮重放某一句）</div>";
-      rec.sents.forEach(function (s, i) {
-        var row = document.createElement("div");
-        row.className = "pr-sent";
-        var btn = document.createElement("button");
-        btn.type = "button";
-        btn.textContent = "▶ " + (i + 1);
-        btn.addEventListener("click", function () { prPlayFile(s.f, s.en); });
-        row.appendChild(btn);
-        var tx = document.createElement("span");
-        tx.innerHTML = (s.who ? "<b>" + esc(s.who) + "</b> " : "") + clickableText(s.en);
-        row.appendChild(tx);
-        sc.appendChild(row);
-      });
-      m.appendChild(sc);
-    }
-
-    if (prCur.trans) {
-      var tc = document.createElement("div");
-      tc.className = "pr-quiet";
-      tc.style.marginTop = "14px";
-      tc.innerHTML = "<b class='pr-h'>中文译文</b><p style='margin-top:9px; font-size:13.8px; line-height:2; color:var(--text-2);'>" + esc(prCur.trans) + "</p>";
-      m.appendChild(tc);
-    }
-    prNavBar(m, false, "", null, null);
-  }
-
-  function prRenderTrans(m) {
-    var head = document.createElement("div");
-    head.innerHTML = "<div class='pr-step'>中文译文</div>" +
-      "<h2 class='pr-title'>" + esc(prCur.title) + "</h2>" +
-      "<p class='pr-sub'>对照原文再看一遍，效果更好</p>";
-    m.appendChild(head);
-    var box = document.createElement("div");
-    box.className = "pr-read";
-    box.style.fontSize = (15 + prFont) + "px";
-    box.innerHTML = "<p>" + esc(prCur.trans || "（本篇暂无译文）") + "</p>";
-    m.appendChild(box);
-    if (prCur.words && prCur.words.length) {
-      var wc = document.createElement("div");
-      wc.className = "pr-quiet";
-      wc.style.marginTop = "14px";
-      wc.innerHTML = "<b class='pr-h'>重点词</b><p class='pr-hint'>点下面任意一个词，可查释义、听发音、加生词本。</p>" +
-        "<div style='margin-top:8px;'>" + prCur.words.map(function (w) {
-          return "<span class='word-chip w' data-w='" + esc(String(w[0]).toLowerCase()) + "'>" + esc(w[0] + " " + w[1] + (w[2] ? " " + w[2] : "")) + "</span>";
-        }).join("") + "</div>";
-      m.appendChild(wc);
-    }
-    prNavBar(m, false, "", null, null);
+    if (prDone) { prPaint(); prRenderReveal(); }
   }
 
   /* ---------- 题目 ---------- */
@@ -2516,9 +2353,8 @@
     if (!box) return;
     box.innerHTML = "";
     var qs = prCur.qs || [];
-    pr$("prQCount").textContent = qs.length ? "共 " + qs.length + " 题" : "";
     if (!qs.length) {
-      box.innerHTML = "<p class='muted' style='margin-top:10px;'>这份材料没有配题 —— 直接精读/精听即可。</p>";
+      box.innerHTML = "<p class='muted'>这份材料没有配题 —— 直接精读/精听即可。</p>";
       pr$("prSubmit").style.display = "none";
       return;
     }
@@ -2534,7 +2370,6 @@
 
       var byLetter = !(q.options && q.options.length);
       var opts = byLetter ? PLETTERS.split("") : q.options;
-
       var host = d;
       if (byLetter) {
         var tip = document.createElement("p");
@@ -2545,7 +2380,6 @@
         host.className = "pr-match";
         d.appendChild(host);
       }
-
       opts.forEach(function (o, oi) {
         var b = document.createElement("button");
         b.type = "button";
@@ -2617,16 +2451,11 @@
     if (blank) html += "<br><span class='muted'>有 " + blank + " 题没有作答。</span>";
     prScoreHtml = html;
 
-    /* 提交后才放出原文 / 译文 */
-    if (prCur.kind === "listen") {
-      prSteps.push({ kind: "script" });
-    } else if (prCur.trans) {
-      prSteps.push({ kind: "trans" });
-    }
-    prRender();
+    prPaint();
+    prRenderReveal();
     try {
       var r = pr$("prResult");
-      if (r && r.scrollIntoView) r.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      if (r && r.scrollIntoView) r.scrollIntoView({ block: "center", behavior: "smooth" });
     } catch (e) {}
   }
 
@@ -2658,24 +2487,85 @@
       res.innerHTML = prScoreHtml || "";
       res.className = "pr-result" + (prScoreHtml ? " on" : "");
     }
-    pr$("prSubmit").style.display = "none";
-    pr$("prRetry").style.display = "";
+    if (pr$("prSubmit")) pr$("prSubmit").style.display = "none";
+    if (pr$("prRetry")) pr$("prRetry").style.display = "";
+    var tp = pr$("prTip");
+    if (tp) tp.innerHTML = "<span class='muted'>已提交 —— 上方每题都标出了正确答案和依据。</span>";
+  }
+
+  /* ---------- 提交后才出现的内容 ---------- */
+  function prRenderReveal() {
+    var box = pr$("prReveal");
+    if (!box || !prCur) return;
+    box.innerHTML = "";
+    var h = "";
+
+    if (prCur.kind === "listen") {
+      h += "<div class='pr-divider'><span>听力原文与译文</span></div>";
+      h += "<div class='pr-read' style='font-size:16px'>";
+      if (prCur.lines && prCur.lines.length) {
+        h += prCur.lines.map(function (l) {
+          return "<p class='pr-line'><b>" + esc(l[0]) + "：</b>" + clickableText(l[1]) + "</p>";
+        }).join("");
+      } else {
+        h += "<p>" + clickableText(prCur.text || "") + "</p>";
+      }
+      h += "</div>";
+      if (prCur.trans) {
+        h += "<div class='pr-quiet' style='margin-top:12px'><b class='pr-h'>中文译文</b>" +
+          "<p style='margin-top:9px;font-size:13.8px;line-height:2;color:var(--text-2)'>" + esc(prCur.trans) + "</p></div>";
+      }
+      var rec = prCur.audio;
+      if (rec && rec.sents && rec.sents.length) {
+        h += "<div class='pr-sents'><div class='muted' style='margin-bottom:4px'>逐句精听（点左侧小按钮重放某一句）</div>";
+        rec.sents.forEach(function (s, i) {
+          h += "<div class='pr-sent'><button type='button' data-sent='" + i + "'>▶ " + (i + 1) + "</button>" +
+            "<span>" + (s.who ? "<b>" + esc(s.who) + "</b> " : "") + clickableText(s.en) + "</span></div>";
+        });
+        h += "</div>";
+      }
+    } else {
+      if (prCur.trans) {
+        h += "<div class='pr-divider'><span>译文</span></div>";
+        h += "<div class='pr-read' style='font-size:15px'><p>" + esc(prCur.trans) + "</p></div>";
+      }
+      if (prCur.words && prCur.words.length) {
+        h += "<div class='pr-divider'><span>重点词</span></div>";
+        h += "<div>" + prCur.words.map(function (w) {
+          return "<span class='word-chip w' data-w='" + esc(String(w[0]).toLowerCase()) + "'>" +
+            esc(w[0] + " " + w[1] + (w[2] ? " " + w[2] : "")) + "</span>";
+        }).join("") + "</div>";
+      }
+    }
+    /* 底部返回 */
+    h += "<div class='pr-nav'><div class='row'><button class='btn small' id='prBack2'>← 返回列表</button></div></div>";
+    box.innerHTML = h;
+
+    var b2 = pr$("prBack2");
+    if (b2) b2.addEventListener("click", prCloseBox);
+    var sents = box.querySelectorAll("[data-sent]");
+    for (var i = 0; i < sents.length; i++) {
+      sents[i].addEventListener("click", function () {
+        var rec = prCur.audio;
+        if (!rec || !rec.sents) return;
+        var s = rec.sents[parseInt(this.dataset.sent, 10)];
+        if (s) prPlayFile(s.f, s.en);
+      });
+    }
   }
 
   function prRetry() {
     if (!prCur) return;
     prDone = false; prPick = []; prWhyHtml = []; prScoreHtml = "";
     prRender();
+    var box = pr$("practice");
+    if (box) box.scrollTop = 0;
   }
 
   /* ---------- 顶部按钮与快捷键 ---------- */
   pr$("prBack").addEventListener("click", prCloseBox);
-  pr$("prFontUp").addEventListener("click", function () {
-    prFont = Math.min(6, prFont + 1); prRender();
-  });
-  pr$("prFontDown").addEventListener("click", function () {
-    prFont = Math.max(-3, prFont - 1); prRender();
-  });
+  pr$("prFontUp").addEventListener("click", function () { prFont = Math.min(6, prFont + 1); prApplyFont(); });
+  pr$("prFontDown").addEventListener("click", function () { prFont = Math.max(-3, prFont - 1); prApplyFont(); });
   pr$("prAu").addEventListener("error", function () {
     if (prCur && prCur.text) { prMsg("音频加载失败，已自动切换为浏览器朗读"); speak(prCur.text, prRate(), null); }
   });
@@ -2684,8 +2574,6 @@
     var tag = (e.target && e.target.tagName) || "";
     if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
     if (e.key === "Escape") prCloseBox();
-    else if (e.key === "ArrowRight") prGo(prStep + 1);
-    else if (e.key === "ArrowLeft") prGo(prStep - 1);
   });
 
   /* ---------- 三种材料 → 练习对象 ---------- */
@@ -2694,7 +2582,7 @@
       kind: "read",
       title: a.title,
       tags: [[a.theme || "精读", "blue"], [a.level, ""], [a.date || "", "gray"], ["原创精读", "gray"]],
-      sub: "全文 " + ((a.text.match(/\S+/g) || []).length) + " 词 · " + ((a.questions || []).length) + " 道理解题",
+      sub: "全文 " + ((a.text.match(/\S+/g) || []).length) + " 词 · 往下滑读完，题目就在下面",
       text: a.text, trans: a.trans, words: a.words,
       dict: { id: "rd-" + a.id, title: a.title, text: a.text, trans: a.trans },
       qs: (a.questions || []).map(function (q, i) {
@@ -2723,12 +2611,12 @@
     };
   }
 
-  function practiceFromListen(s) {            /* 听力套题（四六级题型） */
+  function practiceFromListen(s) {            /* 听力套题（四六级题型模拟） */
     return {
       kind: "listen",
       title: s.title,
-      tags: [[s.type || "听力", "blue"], [s.lv, ""], [s.date || "", "gray"]],
-      sub: "共 " + s.qs.length + " 题 · 音频为真人语音合成（四六级题型模拟，非原版真题录音）",
+      tags: [[s.type || "听力", "blue"], [s.lv, ""], [s.date || "", "gray"], ["模拟题 · 非真题录音", "gray"]],
+      sub: "共 " + s.qs.length + " 题 · 真人语音合成（四六级题型模拟，非原版真题）",
       text: s.text, lines: s.lines, trans: s.trans,
       audio: audioOf(s.id),
       qs: s.qs.map(function (q) {
@@ -2737,8 +2625,8 @@
     };
   }
 
-  /* ---------- 听力套题列表（四六级题型练习） ---------- */
-  var lsLv = "全部", lsType = "全部";
+  /* ---------- 听力套题列表（四六级题型模拟练习） ---------- */
+  var lsType = "全部";
 
   function listenSets() {
     var out = [];
@@ -2767,8 +2655,9 @@
     list.forEach(function (s) { qn += (s.qs || []).length; });
     pr$("lsInfo").innerHTML = "当前级别 <b>" + esc(db.level) + "</b> 共 <b>" + mine.length + "</b> 套；" +
       "筛选中 <b>" + list.length + "</b> 套、<b>" + qn + "</b> 道题。" +
-      "<br>📌 题型、篇幅、提问都按四六级真题样式编写（短篇新闻 / 长对话 / 听力篇章 / 讲座），" +
-      "音频由真人语音合成，<b>不是原版真题录音</b>；点进去先听完再作答，提交后才给答案与原文。";
+      "<br>⚠️ <b>这些是模拟题，不是真题</b>：真实四六级听力材料只有音频、没有题目文字。" +
+      "这里的题目与选项是按四六级题型自编的，音频也是真人语音合成的练习稿，用来练题型与节奏。" +
+      "<br>📌 点进去：上面一排播放按钮，下面直接是选项；提交答案后才给正确答案、原文和译文。";
 
     ul.innerHTML = "";
     pr$("lsEmpty").style.display = list.length ? "none" : "";
@@ -2780,9 +2669,10 @@
       li.innerHTML = "<span class='tag blue'>" + esc(s.type) + "</span> " +
         "<span class='tag'>" + esc(s.lv) + "</span> " +
         "<span class='tag gray'>" + esc(s.date || "") + "</span>" +
+        "<span class='tag gray'>模拟题</span>" +
         (rec && rec.full ? "<span class='tag gray'>真人音频</span>" : "") +
         "<div class='t' style='margin-top:5px; font-weight:600;'>" + esc(s.title) + "</div>" +
-        "<span class='muted'>" + words + " 词 · " + (s.qs || []).length + " 题 · 点进做题界面 ↓</span>";
+        "<span class='muted'>" + words + " 词 · " + (s.qs || []).length + " 题 · 点进去做题 ↓</span>";
       li.addEventListener("click", function () { openPractice(practiceFromListen(s)); });
       ul.appendChild(li);
     });
@@ -3683,6 +3573,7 @@
   renderLevel(); renderCountdown();
   renderThemeChips(); renderReadings(); renderReadSrcChips(); applyReadSrc();
   renderDictPicker(); renderNews(); renderNewsAudio(); renderLsList();
+  newsApplyCache(); autoNews(false);
   renderGrammar(); renderEssay(); renderQuotes(); renderReal();
   migrateLook();
   applyLook();
@@ -3719,8 +3610,8 @@
     var bar = document.createElement("div");
     bar.style.cssText = "background:#fdf1e2;color:#8a5a17;border:1px solid #f0dcbb;border-radius:10px;" +
       "padding:10px 14px;font-size:13px;line-height:1.7;margin-bottom:14px;";
-    bar.innerHTML = "⚠️ <b>内容包上次更新于 " + (upd || "未知日期") + "</b>，可能不是最新的。" +
-      "打开 WorkBuddy 对我说一句「更新今天的内容」，我马上抓最新新闻并生成新文章。";
+    bar.innerHTML = "ℹ️ <b>精读/听力内容包上次更新于 " + (upd || "未知日期") + "</b>。" +
+        "英语时事新闻会自动在线刷新到最新；想让精读、听力也换新，打开 WorkBuddy 对我说一句「更新今天的内容」即可。";
     var host = document.getElementById("content");
     if (host) host.insertBefore(bar, host.firstChild);
   })();

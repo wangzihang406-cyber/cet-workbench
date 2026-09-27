@@ -171,6 +171,19 @@ def main():
     with open(target, "w", encoding="utf-8") as f:
         f.write(new)
     print(f"已写入 {len(verified)} 条新闻到 {target}，updated = {today}")
+
+    # 另外输出一份 news.json：网页打开时会直接读取它（GitHub Pages 带跨域头，能读到当天新闻）
+    try:
+        import json
+        items = [{"date": date_of(it), "src": it["src"], "title": it["title"], "link": it["link"]}
+                 for it in verified]
+        with open("news.json", "w", encoding="utf-8") as f:
+            json.dump({"updated": today,
+                       "generated": datetime.now(CET).strftime("%Y-%m-%d %H:%M:%S"),
+                       "items": items}, f, ensure_ascii=False, indent=1)
+        print(f"已写出 news.json（{len(items)} 条）")
+    except Exception as e:
+        print("写 news.json 失败（不影响 content.js）：", e)
     return 0
 
 

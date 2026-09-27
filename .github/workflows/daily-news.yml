@@ -18,7 +18,7 @@ name: Daily News Update
 
 on:
   schedule:
-    - cron: '30 22 * * *'   # 北京时间每天 6:30 自动运行
+    - cron: '0 */2 * * *'   # 每 2 小时跑一次（UTC 偶数点整），保证当天新闻随时是最新的
   workflow_dispatch:        # 也可以在网页上手动点「Run workflow」立即运行
 
 permissions:
@@ -46,7 +46,7 @@ jobs:
           if git diff --quiet; then
             echo "内容无变化，跳过提交"
           else
-            git add content.js
+            git add content.js news.json
             git commit -m "chore: 每日更新英语时事新闻 ($(date -u '+%Y-%m-%d'))"
             git push
           fi
