@@ -378,6 +378,22 @@
   .flashcard .word{font-size:36px; font-weight:600; color:var(--accent-2); letter-spacing:.5px; word-break:break-word}
   .flashcard .pos{color:var(--muted); font-size:13.5px; margin-top:6px}
   .flashcard .mean{font-size:19px; margin-top:16px; color:var(--text)}
+  /* 例句 */
+  .eg{
+    margin-top:16px; padding:13px 15px; border-radius:var(--r); text-align:left;
+    background:rgba(255,255,255,.62); border:1px solid var(--line-soft);
+  }
+  html[data-mode="dark"] .eg{background:rgba(255,255,255,.05)}
+  .eg-head{font-size:11.5px; color:var(--muted); letter-spacing:.06em; margin-bottom:6px}
+  .eg-en{font-size:15px; line-height:1.75; color:var(--text)}
+  .eg-en b{color:var(--accent-2)}
+  .eg-zh{font-size:13.5px; line-height:1.75; color:var(--text-2); margin-top:7px; padding-top:7px; border-top:1px dashed var(--line)}
+  .eg-src{font-size:11.5px; color:var(--muted); margin-top:7px}
+  .wp-eg{
+    margin-top:11px; padding-top:10px; border-top:1px dashed var(--line);
+    font-size:13.5px; line-height:1.7; color:var(--text);
+  }
+  .wp-eg .muted{font-size:12.5px}
 
   /* 真题 */
   #realBody p{margin-bottom:12px; line-height:2}
@@ -526,6 +542,47 @@
     #pfPanel{right:10px; left:10px; width:auto; top:auto; bottom:10px; max-height:76vh; overflow:auto}
     #wordPop{bottom:12px}
     .speed-ctl .btn{flex:1 1 auto; justify-content:center; text-align:center}
+
+    /* ---- 手机端细节 ---- */
+    /* 表单控件 16px：小于 16px 时 iOS 聚焦会自动放大整页 */
+    input[type=text], input[type=email], select, textarea{font-size:16px}
+    /* 触控目标够大 */
+    .btn{padding:10px 16px; min-height:42px; font-size:13.5px}
+    .btn.small{padding:7px 13px; min-height:36px; font-size:13px}
+    .btn.primary{font-size:14px}
+    .nav button{min-height:46px; font-size:14px}
+    /* 顶部栏：去掉重复的级别小标，留出按钮位置 */
+    .lv-badge{display:none}
+    .topbar{gap:9px}
+    .page-title{flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+    .tr button{padding:8px 15px; min-height:38px}
+    /* 侧栏抽屉宽度 */
+    .sidebar{width:min(84vw,300px)}
+    /* 底部安全区（iPhone 横条） */
+    .main{padding-bottom:calc(72px + env(safe-area-inset-bottom,0px))}
+    .footer{padding-bottom:env(safe-area-inset-bottom,0px)}
+    /* 背单词：按钮排成整齐的两列，手指好点 */
+    #flashArea .row{display:grid; grid-template-columns:1fr 1fr; gap:8px}
+    #flashArea .row > .btn{width:100%}
+    #flashArea .row > .btn.primary{grid-column:1 / -1}
+    .flashcard{padding:26px 16px; min-height:0}
+    .eg{padding:12px 13px}
+    .eg-en{font-size:14.5px}
+    /* 做题界面：顶栏固定在顶部，随时能返回 */
+    .pr-top{position:sticky; top:0; padding:10px 12px; gap:8px}
+    .pr-top .t{max-width:100%; font-size:12.5px}
+    .pr-main{padding:16px 12px calc(80px + env(safe-area-inset-bottom,0px))}
+    .pr-quiet{padding:16px 14px}
+    .pr-audio{gap:7px}
+    .pr-audio .btn{min-height:40px}
+    .pr-audio select{min-width:120px}
+    .pr-opt{padding:11px 12px; font-size:14px}
+    .pr-q{padding:12px 13px}
+    .pr-match .pr-opt{min-width:44px}
+    #practice{overscroll-behavior:contain; -webkit-overflow-scrolling:touch}
+    /* 新闻/阅读列表字号 */
+    .news-item .t{font-size:14.5px; line-height:1.6}
+    .passage-item .t{font-size:14.5px}
   }
 </style>
 </head>
@@ -764,11 +821,13 @@
           <div class="word" id="fcWord">—</div>
           <div class="pos" id="fcPos"></div>
           <div class="mean" id="fcMean" style="visibility:hidden;">—</div>
+          <div class="eg" id="egBox" style="display:none;"></div>
           <div class="rel" id="relBox"></div>
         </div>
         <div class="row" style="justify-content:center;">
           <button class="btn" id="fcSpeak">🔊 发音</button>
           <button class="btn" id="fcShow">显示释义</button>
+          <button class="btn" id="fcEgZh">例句译文</button>
           <button class="btn" id="fcHard" style="border-color:var(--warn); color:var(--warn);"> 😵 没记住</button>
           <button class="btn primary" id="fcEasy">✓ 记住了</button>
           <button class="btn" id="fcSkip" style="color:var(--muted);">⏭ 跳过</button>
@@ -920,6 +979,7 @@
   <button class="del close" id="wpClose">✕</button>
   <div class="wpw" id="wpWord">word</div>
   <div class="wpm muted" id="wpMean">释义</div>
+  <div class="wp-eg" id="wpEg" style="display:none;"></div>
   <div class="row" style="margin-top:12px;">
     <button class="btn small" id="wpSpeak">🔊 发音</button>
     <button class="btn small primary" id="wpStar">☆ 加入生词本</button>
@@ -941,6 +1001,7 @@
 <audio id="auW" preload="none"></audio>
 
 <script src="words.js"></script>
+<script src="examples.js"></script>
 <script src="grammar.js"></script>
 <script src="essay.js"></script>
 <script src="quotes.js"></script>
@@ -1802,6 +1863,15 @@
     popWord = w.dataset.w;
     document.getElementById("wpWord").textContent = popWord;
     document.getElementById("wpMean").textContent = DICT[popWord] || "词库未收录该词（仍可加入生词本）";
+    var _pe = document.getElementById("wpEg"), _ex = egOf(popWord);
+    if (_pe) {
+      if (_ex) {
+        _pe.style.display = "";
+        _pe.innerHTML = "<b style='color:var(--accent-2);'>例句</b>　" + esc(_ex[0]) +
+          (_ex[1] ? "<br><span class='muted'>" + esc(_ex[1]) + "</span>" : "") +
+          "<br><span class='muted'>" + (_ex[2] ? "—— " + esc(_ex[2]) : "—— 真实例句（Tatoeba 句库）") + "</span>";
+      } else { _pe.style.display = "none"; _pe.innerHTML = ""; }
+    }
     document.getElementById("wpStar").textContent = db.wordbook.some(function (x) { return x.w.toLowerCase() === popWord; })
       ? "★ 已在生词本" : "☆ 加入生词本";
     document.getElementById("wordPop").style.display = "block";
@@ -2699,6 +2769,33 @@
     document.getElementById("stMaster").textContent = mastered;
   }
   var fcWord = null;
+  /* ===== 例句（名著名句 / 真实句库 / 自编例句）===== */
+  var EX = window.CET_EXAMPLES || {};
+  var egZhOpen = false;
+
+  function egOf(w) { return EX[String(w || "").toLowerCase()] || null; }
+
+  function renderEg(w) {
+    var box = document.getElementById("egBox");
+    if (!box) return;
+    var e = egOf(w);
+    if (!e) { box.style.display = "none"; box.innerHTML = ""; return; }
+    egZhOpen = false;
+    box.style.display = "";
+    box.innerHTML =
+      "<div class='eg-head'>例句</div>" +
+      "<div class='eg-en'>" + esc(e[0]) + "</div>" +
+      "<div class='eg-zh' id='egZh' style='display:none;'>" + esc(e[1] || "（暂无译文）") + "</div>" +
+      "<div class='eg-src'>" + (e[2] ? "—— " + esc(e[2]) : "—— 真实例句（Tatoeba 句库）") + "</div>";
+  }
+  function showEgZh(on) {
+    var z = document.getElementById("egZh");
+    if (!z) return;
+    egZhOpen = (on === undefined) ? !egZhOpen : !!on;
+    z.style.display = egZhOpen ? "" : "none";
+  }
+  document.getElementById("fcEgZh").addEventListener("click", function () { showEgZh(); });
+
   function nextCard() {
     var all = bank();
     var pool;
@@ -2714,6 +2811,8 @@
       document.getElementById("fcPos").textContent = "本词库暂无待学/待复习的词";
       document.getElementById("fcMean").textContent = "切换词库或明天再来";
       document.getElementById("fcMean").style.visibility = "visible";
+      var _eb = document.getElementById("egBox");
+      if (_eb) { _eb.style.display = "none"; _eb.innerHTML = ""; }
       fcWord = null; renderGroupPanel(); renderStats(); return;
     }
     var w = pool[Math.floor(Math.random() * pool.length)];
@@ -2722,11 +2821,12 @@
     document.getElementById("fcPos").textContent = (w.p ? "/" + w.p + "/ " : "") + (w.lv ? w.lv + " · " : "") + (db.progress[w.w] ? "复习" : "新词");
     document.getElementById("fcMean").textContent = w.m;
     document.getElementById("fcMean").style.visibility = "hidden";
+    renderEg(w.w);
     renderGroupPanel();
     renderStats();
   }
   document.getElementById("fcShow").addEventListener("click", function () {
-    if (fcWord) { document.getElementById("fcMean").style.visibility = "visible"; shown = true; }
+    if (fcWord) { document.getElementById("fcMean").style.visibility = "visible"; shown = true; showEgZh(true); }
   });
   document.getElementById("fcSpeak").addEventListener("click", function () { if (fcWord) speak(fcWord.w, 0.85); });
   function grade(good) {
@@ -2740,6 +2840,7 @@
     } else {
       p.box = 0; p.due = today();
       document.getElementById("fcMean").style.visibility = "visible";   // 没记住自动给出释义
+      showEgZh(true);
     }
     db.progress[fcWord.w] = p;
     save(); nextCard();
