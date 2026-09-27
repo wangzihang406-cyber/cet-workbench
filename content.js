@@ -1,112 +1,112 @@
 // 四六级备考工作台 · 每日内容包
 // news 由每日自动化真实抓取 CGTN RSS（多个频道，链接已逐条验证 200）；readings/listenings/dialogues 为 AI 原创改写（四六级难度）
 window.CET_CONTENT = {
-  "updated": "2026-09-26",
-  "news": [
+  "updated": "2026-09-27",
+"news": [
     {
       "id": "n01",
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "src": "CGTN·China",
-      "title": "China's mooncakes get a fresh twist",
-      "link": "https://news.cgtn.com/news/2026-09-26/China-s-mooncakes-get-a-fresh-twist-1QJK1Omh5T2/p.html"
+      "title": "China sends pair of giant pandas to Zoo Atlanta",
+      "link": "https://news.cgtn.com/news/2026-09-27/China-sends-pair-of-giant-pandas-to-US-1QLPORaY5wc/p.html"
     },
     {
       "id": "n02",
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "src": "CGTN·China",
-      "title": "2026 Beijing Animation Festival opens",
-      "link": "https://news.cgtn.com/news/2026-09-25/2026-Beijing-Animation-Festival-opens-1QJ5Ny85IqI/p.html"
+      "title": "Mid-Autumn Festival bridges cultures for foreign guests in Chongqing",
+      "link": "https://news.cgtn.com/news/2026-09-26/Mid-Autumn-Festival-bridges-cultures-for-foreign-guests-in-Chongqing-1QKptUV4QWQ/p.html"
     },
     {
       "id": "n03",
       "date": "2026-09-25",
-      "src": "CGTN·World",
-      "title": "Billie Jean King hails global growth of namesake tennis competition",
-      "link": "https://news.cgtn.com/news/2026-09-25/Billie-Jean-King-hails-global-growth-of-namesake-tennis-competition-1QIKGT87qjm/p.html"
+      "src": "CGTN·China",
+      "title": "US-China relations will have \"big impact\" on future",
+      "link": "https://newsus.cgtn.com/news/2026-09-25/US-China-relations-will-have-big-impact-on-future-1QIuTSSorAY/p.html"
     },
     {
       "id": "n04",
-      "date": "2026-09-26",
-      "src": "CGTN·World",
-      "title": "Economists weigh China-US trade tensions amid Xi-Trump talks",
-      "link": "https://newsus.cgtn.com/news/2026-09-26/Economists-weigh-China-US-trade-tensions-amid-Xi-Trump-talks-1QJWh3lZ3DW/p.html"
+      "date": "2026-09-24",
+      "src": "CGTN·Culture",
+      "title": "A grassland of beauty and sacrifice in Sichuan",
+      "link": "https://news.cgtn.com/news/2026-09-24/A-grassland-of-beauty-and-sacrifice-in-Sichuan-1QH5KLUONd6/p.html"
     },
     {
       "id": "n05",
-      "date": "2026-09-25",
+      "date": "2026-09-24",
       "src": "CGTN·Business",
-      "title": "What America's top business bosses think about China",
-      "link": "https://news.cgtn.com/news/2026-09-25/What-America-s-top-business-bosses-think-about-China-1QJguJBiqgo/p.html"
+      "title": "Expert: Rethinking the value of engagement with China",
+      "link": "https://news.cgtn.com/news/2026-09-24/Expert-Rethinking-the-value-of-engagement-with-China-1QHly5s8dNe/p.html"
     },
     {
       "id": "n06",
-      "date": "2026-09-15",
-      "src": "CGTN·Business",
-      "title": "33rd Arabian Travel Market kicks off",
-      "link": "https://news.cgtn.com/news/2026-09-15/33rd-Arabian-Travel-Market-kicks-off--1QsvuZMuPFm/p.html"
+      "date": "2026-09-23",
+      "src": "CGTN·Culture",
+      "title": "The 5th Chinese Documentary Film Festival opens in Guangzhou",
+      "link": "https://news.cgtn.com/news/2026-09-23/The-5th-Chinese-Documentary-Film-Festival-opens-in-Guangzhou-1QFMfRUxKI8/p.html"
     },
     {
       "id": "n07",
       "date": "2026-09-22",
-      "src": "CGTN·Sports",
-      "title": "Liu Dewen returns after 8 years to win Asian Games gold medal in Wushu",
-      "link": "https://news.cgtn.com/news/2026-09-22/Liu-Dewen-returns-after-8-years-to-win-Asian-Games-gold-medal-in-Wushu-1QE0bz7Ky9G/p.html"
+      "src": "CGTN·Travel",
+      "title": "11 ASEAN member states, one expo – What's there to discover?",
+      "link": "https://news.cgtn.com/news/2026-09-22/11-ASEAN-member-states-one-expo-What-s-there-to-discover--1QEvjBhwz8k/p.html"
     },
     {
       "id": "n08",
-      "date": "2026-08-23",
-      "src": "CGTN·Sports",
-      "title": "Humanoid robot takes on tennis, testing AI's next frontier",
-      "link": "https://news.cgtn.com/news/2026-08-23/Humanoid-robot-takes-on-tennis-testing-AI-s-next-frontier-1PQ73bW4mSQ/p.html"
+      "date": "2026-09-18",
+      "src": "CGTN·Culture",
+      "title": "How Black Myth: Wukong is taking its world beyond the screen",
+      "link": "https://news.cgtn.com/news/2026-09-18/How-Black-Myth-Wukong-is-taking-its-world-beyond-the-screen-1QxnhmS4viE/p.html"
     },
     {
       "id": "n09",
-      "date": "2026-09-25",
-      "src": "CGTN·Sports",
-      "title": "Pickleball brings Chinese and US students together",
-      "link": "https://newsus.cgtn.com/news/2026-09-25/Pickleball-brings-Chinese-and-US-students-together-1QIv5wfWkFy/p.html"
+      "date": "2026-09-18",
+      "src": "CGTN·Business",
+      "title": "The Takaichi Fallout: Japan's rate hike can't fix what politics broke",
+      "link": "https://news.cgtn.com/news/2026-09-18/The-Takaichi-Fallout-Japan-s-rate-hike-can-t-fix-what-politics-broke-1QxuesGDiU0/p.html"
     },
     {
       "id": "n10",
-      "date": "2026-09-22",
-      "src": "CGTN·Culture",
-      "title": "Drones light up sky at 2026 Mid-Autumn Gala",
-      "link": "https://news.cgtn.com/news/2026-09-22/Drones-light-up-sky-at-2026-Mid-Autumn-Gala-1QE5UcVAfKM/p.html"
+      "date": "2026-09-17",
+      "src": "CGTN·Sports",
+      "title": "Formula E secures long-term future in China, new team joins the grid",
+      "link": "https://news.cgtn.com/news/2026-09-17/Formula-E-secures-long-term-future-in-China-new-team-joins-the-grid--1QvQi8clngI/p.html"
     },
     {
       "id": "n11",
-      "date": "2026-09-15",
-      "src": "CGTN·Culture",
-      "title": "Xinjiang opens museum dedicated to pterosaurs",
-      "link": "https://news.cgtn.com/news/2026-09-15/Xinjiang-opens-museum-dedicated-to-pterosaurs-1QqTVc0G58c/p.html"
+      "date": "2026-09-16",
+      "src": "CGTN·Business",
+      "title": "China's approach to AI governance offers path for global cooperation",
+      "link": "https://news.cgtn.com/news/2026-09-16/China-s-approach-to-AI-governance-offers-path-for-global-cooperation-1Qu9eoizVFC/p.html"
     },
     {
       "id": "n12",
-      "date": "2026-09-24",
-      "src": "CGTN·Culture",
-      "title": "A night at the Lunar Palace",
-      "link": "https://news.cgtn.com/news/2026-09-24/A-night-at-the-Lunar-Palace-1QHwz0gdyGQ/p.html"
+      "date": "2026-09-12",
+      "src": "CGTN·Sports",
+      "title": "Chen Xingtong survives Hana Goda for WTT Champions Macao quarterfinals",
+      "link": "https://news.cgtn.com/news/2026-09-12/Chen-Xingtong-survives-Hana-Goda-for-WTT-Champions-Macao-quarterfinals-1QnahUlRkbu/p.html"
     },
     {
       "id": "n13",
+      "date": "2026-09-10",
+      "src": "CGTN·Travel",
+      "title": "Red Army heritage old town: A living fossil on stone streets",
+      "link": "https://news.cgtn.com/news/2026-09-10/Red-Army-heritage-old-town-A-living-fossil-on-stone-streets-1Qk48ZjnLji/p.html"
+    },
+    {
+      "id": "n14",
+      "date": "2026-09-04",
+      "src": "CGTN·Sports",
+      "title": "Zheng continues US Open ascent with strong display against Putintseva",
+      "link": "https://news.cgtn.com/news/2026-09-04/Zheng-continues-US-Open-ascent-with-strong-display-against-Putintseva-1Q9VcJeECha/p.html"
+    },
+    {
+      "id": "n15",
       "date": "2026-08-30",
       "src": "CGTN·Travel",
       "title": "Jingmai Mountain: Explore China's living tea heritage site",
       "link": "https://news.cgtn.com/news/2026-08-30/Jingmai-Mountain-Explore-China-s-living-tea-heritage-site-1Q1Kmnx1HDW/p.html"
-    },
-    {
-      "id": "n14",
-      "date": "2026-09-08",
-      "src": "CGTN·Travel",
-      "title": "Porcelain legacy: Jingdezhen's bridge to the world",
-      "link": "https://news.cgtn.com/news/2026-09-08/Porcelain-legacy-Jingdezhen-s-bridge-to-the-world-1QfcBRyRBDy/p.html"
-    },
-    {
-      "id": "n15",
-      "date": "2026-09-18",
-      "src": "CGTN·Travel",
-      "title": "Purple wildflowers brighten Guizhou's mountain landscape",
-      "link": "https://news.cgtn.com/news/2026-09-18/Purple-wildflowers-brighten-Guizhou-s-mountain-landscape-1QxrYymJ1x6/p.html"
     }
   ],
   "readings": [

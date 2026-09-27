@@ -146,31 +146,74 @@ def main():
     heavy = [x for x in verified if priority.get(x["src"], 9) > 3][:3]
     light.sort(key=lambda x: priority[x["src"]])
     verified = (light + heavy)[:15]
-
-    lines = []
-    for i, it in enumerate(verified, 1):
-        title = it["title"].replace("\\", "\\\\").replace('"', '\\"')
-        lines.append(
-            '    { id: "n%02d", date: "%s", src: "%s", title: "%s", link: "%s" }'
-            % (i, date_of(it), it["src"], title, it["link"])
-        )
-    block = "  news: [\n" + ",\n".join(lines) + "\n  ],"
+    # 日期从新到旧排序：今天的最新新闻排在最上面
+    verified.sort(key=lambda x: date_of(x), reverse=True)
 
     target = find_content_file()
     if not target:
         print("没有找到 content.js（仓库根目录或子文件夹里都没有），放弃。请检查文件是否已上传。")
         return 1
 
-    with open(target, encoding="utf-8") as f:
-        src = f.read()
-    new, n = re.subn(r"  news: \[.*?\n  \],", block, src, count=1, flags=re.S)
-    if n == 0:
+    # 读原文，并记住它的换行风格（本机是 CRLF，GitHub 上是 LF），避免整文件 diff
+    with open(target, encoding="utf-8", newline="") as f:
+        src_raw = f.read()
+    nl = "\r\n" if "\r\n" in src_raw else "\n"
+    src = src_raw.replace("\r\n", "\n")
+
+    # 定位 news 数组：兼容 `news: [` 与 `"news": [`，用括号配对找到数组结束位置
+    m = re.search(r'([ \t]*)"?news"?[ \t]*:[ \t]*\[', src)
+    if not m:
         print(f"在 {target} 里没找到 news 数组，放弃写入。")
         return 1
-    new = re.sub(r'updated: "\d{4}-\d{2}-\d{2}"', 'updated: "%s"' % today, new, count=1)
-    with open(target, "w", encoding="utf-8") as f:
-        f.write(new)
-    print(f"已写入 {len(verified)} 条新闻到 {target}，updated = {today}")
+    key_start = m.start()
+    indent = m.group(1) or "  "
+    quoted = '"news"' in src
+    open_idx = m.end() - 1
+    depth, end_idx, instr, esc, i = 0, -1, False, False, open_idx
+    while i < len(src):
+        c = src[i]
+        if instr:
+            if esc:
+                esc = False
+            elif c == "\\":
+                esc = True
+            elif c == '"':
+                instr = False
+        else:
+            if c == '"':
+                instr = True
+            elif c == "[":
+                depth += 1
+            elif c == "]":
+                depth -= 1
+                if depth == 0:
+                    end_idx = i
+                    break
+        i += 1
+    if end_idx < 0:
+        print("news 数组的括号不配对，放弃写入。")
+        return 1
+
+    # 按文件原有风格生成条目（带引号 / 不带引号）
+    items = []
+    for k, it in enumerate(verified, 1):
+        title = it["title"].replace("\\", "\\\\").replace('"', '\\"')
+        if quoted:
+            items.append('    {\n      "id": "n%02d",\n      "date": "%s",\n      "src": "%s",'
+                         '\n      "title": "%s",\n      "link": "%s"\n    }'
+                         % (k, date_of(it), it["src"], title, it["link"]))
+        else:
+            items.append('    { id: "n%02d", date: "%s", src: "%s", title: "%s", link: "%s" }'
+                         % (k, date_of(it), it["src"], title, it["link"]))
+    keyname = '"news"' if quoted else "news"
+    block = keyname + ": [\n" + ",\n".join(items) + "\n" + indent + "]"
+
+    src = src[:key_start] + block + src[end_idx + 1:]
+    src = re.sub(r'"?updated"?[ \t]*:[ \t]*"\d{4}-\d{2}-\d{2}"',
+                 ('"updated": "' if quoted else 'updated: "') + today + '"', src, count=1)
+    with open(target, "w", encoding="utf-8", newline="") as f:
+        f.write(src.replace("\n", nl))
+    print(f"已写入 {len(verified)} 条新闻到 {target}（{'带引号' if quoted else '无引号'}风格），updated = {today}")
 
     # 另外输出一份 news.json：网页打开时会直接读取它（GitHub Pages 带跨域头，能读到当天新闻）
     try:
