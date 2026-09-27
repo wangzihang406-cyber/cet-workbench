@@ -251,7 +251,9 @@
   .quiz .ans-line{font-size:12.5px; color:var(--accent-2); font-weight:600; margin:2px 0 8px 4px}
   /* 背单词：相关词区块 */
   .rel{margin-top:14px; padding-top:12px; border-top:1px dashed var(--line); text-align:left}
-  .rel-head{font-size:12.5px; color:var(--muted); margin-bottom:8px}
+  .rel-head{font-size:12.5px; color:var(--muted); margin-bottom:8px; display:flex; align-items:center; gap:8px; flex-wrap:wrap}
+  .rel-head .rel-back{margin-left:auto}
+  #flashArea.rel-mode .rel-back{display:inline-block}
   .rel-row{display:flex; gap:8px; align-items:flex-start; margin-top:7px}
   .rel-row:first-of-type{margin-top:0}
   .rel-lbl{flex:0 0 74px; font-size:12.5px; color:var(--muted); padding-top:5px}
@@ -260,6 +262,21 @@
     background:var(--surface-2); color:var(--text); cursor:pointer; line-height:1.5}
   .rel-chip:hover{border-color:var(--accent); background:var(--accent-soft); color:var(--accent-2)}
   .rel-chip small{color:var(--muted); margin-left:5px; font-size:11.5px}
+  /* 相关词：一个小胶囊 = 词名（点击跳转）+ 小喇叭（只听发音） */
+  .rel-chip{display:inline-flex; align-items:center; gap:1px; padding:0 5px 0 0; cursor:default}
+  .rel-chip .rc-w{font:inherit; color:inherit; background:none; border:none; padding:4px 4px 4px 11px; cursor:pointer; border-radius:999px 0 0 999px}
+  .rel-chip .rc-s{font:inherit; font-size:12px; line-height:1; background:none; border:none; color:var(--muted); cursor:pointer; padding:4px 8px 4px 3px; border-radius:0 999px 999px 0}
+  .rel-chip .rc-s:hover{color:var(--accent-2)}
+  .rel-chip:hover{border-color:var(--accent); background:var(--accent-soft)}
+  .rel-chip:hover .rc-w, .rel-chip:hover .rc-s{color:var(--accent-2)}
+  /* 例句朗读按钮 */
+  .eg-spk{
+    font:inherit; font-size:13px; background:none; border:1px solid var(--line); color:var(--accent-2);
+    border-radius:8px; padding:1px 8px; margin-left:7px; cursor:pointer; vertical-align:1px;
+  }
+  .eg-spk:hover{background:var(--accent-soft); border-color:var(--accent)}
+  /* 相关词视图：隐藏评分按钮，突出「回到正在背的词」 */
+  #flashArea.rel-mode #fcHard, #flashArea.rel-mode #fcEasy{display:none}
   .rel-empty{font-size:12.5px; color:var(--muted); padding-top:5px}
   .quiz .ans-badge{float:right; font-size:12.5px; font-weight:600; color:var(--accent-2)}
   .quiz.hide-ans .q-opt.ans{background:none; color:var(--text); font-weight:400}
@@ -580,6 +597,9 @@
     .pr-q{padding:12px 13px}
     .pr-match .pr-opt{min-width:44px}
     #practice{overscroll-behavior:contain; -webkit-overflow-scrolling:touch}
+    #flashArea.rel-mode #fcBackRel{grid-column:1 / -1}
+    .rel-head{align-items:flex-start}
+    .rel-head .rel-back{margin-left:0; width:100%}
     /* 新闻/阅读列表字号 */
     .news-item .t{font-size:14.5px; line-height:1.6}
     .passage-item .t{font-size:14.5px}
@@ -828,6 +848,7 @@
           <button class="btn" id="fcSpeak">🔊 发音</button>
           <button class="btn" id="fcShow">显示释义</button>
           <button class="btn" id="fcEgZh">例句译文</button>
+          <button class="btn primary" id="fcBackRel" style="display:none;">↩ 回到正在背的词</button>
           <button class="btn" id="fcHard" style="border-color:var(--warn); color:var(--warn);"> 😵 没记住</button>
           <button class="btn primary" id="fcEasy">✓ 记住了</button>
           <button class="btn" id="fcSkip" style="color:var(--muted);">⏭ 跳过</button>
@@ -1867,7 +1888,8 @@
     if (_pe) {
       if (_ex) {
         _pe.style.display = "";
-        _pe.innerHTML = "<b style='color:var(--accent-2);'>例句</b>　" + esc(_ex[0]) +
+        _pe.innerHTML = "<b style='color:var(--accent-2);'>例句</b>" +
+          "<button class='eg-spk' data-egspk='" + esc(_ex[0]) + "' title='朗读这句例句'>🔊</button>　" + esc(_ex[0]) +
           (_ex[1] ? "<br><span class='muted'>" + esc(_ex[1]) + "</span>" : "") +
           "<br><span class='muted'>" + (_ex[2] ? "—— " + esc(_ex[2]) : "—— 真实例句（Tatoeba 句库）") + "</span>";
       } else { _pe.style.display = "none"; _pe.innerHTML = ""; }
@@ -2784,7 +2806,8 @@
     box.style.display = "";
     box.innerHTML =
       "<div class='eg-head'>例句</div>" +
-      "<div class='eg-en'>" + esc(e[0]) + "</div>" +
+      "<div class='eg-en'>" + esc(e[0]) +
+      "<button class='eg-spk' data-egspk='" + esc(e[0]) + "' title='朗读这句例句'>🔊</button></div>" +
       "<div class='eg-zh' id='egZh' style='display:none;'>" + esc(e[1] || "（暂无译文）") + "</div>" +
       "<div class='eg-src'>" + (e[2] ? "—— " + esc(e[2]) : "—— 真实例句（Tatoeba 句库）") + "</div>";
   }
@@ -2816,7 +2839,7 @@
       fcWord = null; renderGroupPanel(); renderStats(); return;
     }
     var w = pool[Math.floor(Math.random() * pool.length)];
-    fcWord = w; shown = false;
+    fcWord = w; shown = false; relStack = []; setRelatedMode(false);
     document.getElementById("fcWord").textContent = w.w;
     document.getElementById("fcPos").textContent = (w.p ? "/" + w.p + "/ " : "") + (w.lv ? w.lv + " · " : "") + (db.progress[w.w] ? "复习" : "新词");
     document.getElementById("fcMean").textContent = w.m;
@@ -2968,14 +2991,65 @@
     return m.split(/[；;，,、\/]/)[0].slice(0, 9);
   }
 
+  /* ===== 相关词：跳转 / 只听发音 / 一键回到正在背的词 ===== */
+  var relStack = [];
+
+  function setRelatedMode(on) {
+    var a = document.getElementById("flashArea");
+    if (a) a.classList.toggle("rel-mode", !!on);
+    var b = document.getElementById("fcBackRel");
+    if (b) b.style.display = on ? "" : "none";
+  }
+  function cardState() {
+    return {
+      w: fcWord,
+      shown: shown,
+      pos: document.getElementById("fcPos").textContent
+    };
+  }
+  function paintCard(o, posText, revealShown) {
+    fcWord = o;
+    document.getElementById("fcWord").textContent = o.w;
+    document.getElementById("fcPos").textContent = posText;
+    var mean = document.getElementById("fcMean");
+    mean.textContent = o.m;
+    mean.style.visibility = revealShown ? "visible" : "hidden";
+    renderEg(o.w);
+    if (revealShown) showEgZh(true);
+    renderGroupPanel();
+  }
+  function jumpToRelated(w) {
+    var o = ALLMAP[w] || { w: w, p: "", m: DICT[w] || "（本词库未收录释义）" };
+    if (fcWord && fcWord.w !== w) {
+      relStack.push(cardState());
+      if (relStack.length > 20) relStack.shift();
+    }
+    shown = true;
+    setRelatedMode(true);
+    paintCard(o, (o.p ? "/" + o.p + "/ " : "") + "· 相关词（背完记得回到原来的词）", true);
+    speak(w, 0.85, null);
+  }
+  function backToStudied() {
+    var st = relStack.pop();
+    if (!st || !st.w) { setRelatedMode(false); return; }
+    shown = st.shown;
+    setRelatedMode(relStack.length > 0);
+    paintCard(st.w, st.pos, st.shown);
+    speak(st.w.w, 0.85, null);
+  }
+  document.getElementById("fcBackRel").addEventListener("click", backToStudied);
+
   function relChips(words, curWord) {
     var out = [], seen = {};
     words.forEach(function (w) {
       if (w === curWord || seen[w]) return;
       seen[w] = 1;
       var mean = relMean(w);
-      out.push("<button class='rel-chip' data-jump='" + esc(w) + "'>" + esc(w) +
-        (mean ? "<small>" + esc(mean) + "</small>" : "") + "</button>");
+      out.push("<span class='rel-chip'>" +
+        "<button class='rc-w' data-jump='" + esc(w) + "' title='跳到这个词'>" + esc(w) +
+        (mean ? "<small>" + esc(mean) + "</small>" : "") + "</button>" +
+        "<button class='rc-s' data-spk='" + esc(w) + "' title='只听发音，不跳走'>🔊</button>" +
+        "</span>");
     });
     return out.join("");
   }
@@ -3004,28 +3078,30 @@
       ["近义词", sy],
       ["同根词", famWords]
     ];
-    box.innerHTML = "<div class='rel-head'>🔍 相关词 · 点一下就跳到那个词</div>" +
+    var backBtn = relStack.length
+      ? "<button class='btn small rel-back' id='relBack'>↩ 回到「" + esc(relStack[relStack.length - 1].w.w) + "」</button>"
+      : "";
+    box.innerHTML = "<div class='rel-head'><span>🔍 相关词 · <b>点词名</b>跳转 · <b>点 🔊</b>只听发音</span>" + backBtn + "</div>" +
       rows.map(function (r) {
         return "<div class='rel-row'><span class='rel-lbl'>" + r[0] + "</span><span class='rel-chips'>" +
           (r[1].length ? relChips(r[1], w) : "<span class='rel-empty'>暂无</span>") + "</span></div>";
       }).join("");
   }
 
-  /* 相关词的点击：跳到那个词并显示释义 */
+  /* 相关词：点词名跳转 / 点面板里的返回键回到正在背的词 */
   document.addEventListener("click", function (e) {
-    var c = e.target.closest ? e.target.closest("[data-jump]") : null;
-    if (!c) return;
-    var w = c.dataset.jump;
-    var o = ALLMAP[w] || { w: w, p: "", m: DICT[w] || "（本词库未收录释义）" };
-    fcWord = o;
-    shown = true;
-    document.getElementById("fcWord").textContent = w;
-    document.getElementById("fcPos").textContent = (o.p ? "/" + o.p + "/ " : "") + "· 相关词";
-    var mean = document.getElementById("fcMean");
-    mean.textContent = o.m;
-    mean.style.visibility = "visible";
-    renderGroupPanel();
-    speak(w, 0.85, null);
+    if (!e.target || !e.target.closest) return;
+    var b = e.target.closest("#relBack");
+    if (b) { backToStudied(); return; }
+    var c = e.target.closest("[data-jump]");
+    if (c) jumpToRelated(c.dataset.jump);
+  });
+
+  /* 例句朗读（卡片上的例句、点词弹窗里的例句共用一个处理） */
+  document.addEventListener("click", function (e) {
+    if (!e.target || !e.target.closest) return;
+    var b = e.target.closest("[data-egspk]");
+    if (b && b.dataset.egspk) { speak(b.dataset.egspk, 0.9, null); }
   });
 
   /* 面板内的点击（发音 / 加生词本 / 只背这一族 / 一起背 / 退出） */
