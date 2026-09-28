@@ -5,66 +5,66 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
-      "date": "2026-09-27",
+      "date": "2026-09-28",
       "src": "CGTN·China",
-      "title": "China sends pair of giant pandas to Zoo Atlanta",
-      "link": "https://news.cgtn.com/news/2026-09-27/China-sends-pair-of-giant-pandas-to-US-1QLPORaY5wc/p.html"
+      "title": "Two new giant pandas from China arrive in the United States",
+      "link": "https://newsus.cgtn.com/news/2026-09-28/Two-new-giant-pandas-from-China-arrive-in-the-United-States-1QNq8lf6f6M/p.html"
     },
     {
       "id": "n02",
-      "date": "2026-09-26",
-      "src": "CGTN·China",
-      "title": "Mid-Autumn Festival bridges cultures for foreign guests in Chongqing",
-      "link": "https://news.cgtn.com/news/2026-09-26/Mid-Autumn-Festival-bridges-cultures-for-foreign-guests-in-Chongqing-1QKptUV4QWQ/p.html"
+      "date": "2026-09-27",
+      "src": "CGTN·Business",
+      "title": "BizDataDive: China travel made easier",
+      "link": "https://news.cgtn.com/news/2026-09-27/BizDataDive-China-travel-made-easier-1QMFOvqjOKI/p.html"
     },
     {
       "id": "n03",
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "src": "CGTN·China",
-      "title": "US-China relations will have \"big impact\" on future",
-      "link": "https://newsus.cgtn.com/news/2026-09-25/US-China-relations-will-have-big-impact-on-future-1QIuTSSorAY/p.html"
+      "title": "George Lucas opens museum celebrating the art of storytelling",
+      "link": "https://newsus.cgtn.com/news/2026-09-26/George-Lucas-opens-museum-celebrating-the-art-of-storytelling-1QJWP51lle0/p.html"
     },
     {
       "id": "n04",
-      "date": "2026-09-24",
-      "src": "CGTN·Business",
-      "title": "Expert: Rethinking the value of engagement with China",
-      "link": "https://news.cgtn.com/news/2026-09-24/Expert-Rethinking-the-value-of-engagement-with-China-1QHly5s8dNe/p.html"
+      "date": "2026-09-25",
+      "src": "CGTN·China",
+      "title": "IOMed launches Global Series in Hong Kong on dispute resolution",
+      "link": "https://news.cgtn.com/news/2026-09-25/IOMed-launches-Global-Series-in-Hong-Kong-on-dispute-resolution-1QJqvlgYDXq/p.html"
     },
     {
       "id": "n05",
+      "date": "2026-09-24",
+      "src": "CGTN·Business",
+      "title": "China-US trade future in flux",
+      "link": "https://newsus.cgtn.com/news/2026-09-24/China-US-trade-future-in-flux-1QGMcx2abTi/p.html"
+    },
+    {
+      "id": "n06",
       "date": "2026-09-23",
       "src": "CGTN·Culture",
       "title": "China promotes equal voice for all countries at UN",
       "link": "https://newsus.cgtn.com/news/2026-09-23/China-promotes-equal-voice-for-all-countries-at-UN-1QF6W5xRefu/p.html"
     },
     {
-      "id": "n06",
+      "id": "n07",
       "date": "2026-09-22",
       "src": "CGTN·Culture",
       "title": "Drones light up sky at 2026 Mid-Autumn Gala",
       "link": "https://news.cgtn.com/news/2026-09-22/Drones-light-up-sky-at-2026-Mid-Autumn-Gala-1QE5UcVAfKM/p.html"
     },
     {
-      "id": "n07",
+      "id": "n08",
       "date": "2026-09-22",
       "src": "CGTN·Travel",
       "title": "11 ASEAN member states, one expo – What's there to discover?",
       "link": "https://news.cgtn.com/news/2026-09-22/11-ASEAN-member-states-one-expo-What-s-there-to-discover--1QEvjBhwz8k/p.html"
     },
     {
-      "id": "n08",
+      "id": "n09",
       "date": "2026-09-19",
       "src": "CGTN·Sports",
       "title": "Kane breaks record as Bayern Munich thrash Union Berlin 7-0",
       "link": "https://news.cgtn.com/news/2026-09-19/Kane-breaks-record-as-Bayern-Munich-thrash-Union-Berlin-7-0-1QyLm4lw69G/p.html"
-    },
-    {
-      "id": "n09",
-      "date": "2026-09-18",
-      "src": "CGTN·Business",
-      "title": "The Takaichi Fallout: Japan's rate hike can't fix what politics broke",
-      "link": "https://news.cgtn.com/news/2026-09-18/The-Takaichi-Fallout-Japan-s-rate-hike-can-t-fix-what-politics-broke-1QxuesGDiU0/p.html"
     },
     {
       "id": "n10",
@@ -75,10 +75,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n11",
-      "date": "2026-09-16",
+      "date": "2026-09-15",
       "src": "CGTN·Business",
-      "title": "China's approach to AI governance offers path for global cooperation",
-      "link": "https://news.cgtn.com/news/2026-09-16/China-s-approach-to-AI-governance-offers-path-for-global-cooperation-1Qu9eoizVFC/p.html"
+      "title": "33rd Arabian Travel Market kicks off",
+      "link": "https://news.cgtn.com/news/2026-09-15/33rd-Arabian-Travel-Market-kicks-off--1QsvuZMuPFm/p.html"
     },
     {
       "id": "n12",
