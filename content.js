@@ -13,44 +13,44 @@ window.CET_CONTENT = {
     {
       "id": "n02",
       "date": "2026-09-27",
+      "src": "CGTN·Culture",
+      "title": "Various celebrations staged across China to mark Mid-Autumn Festival",
+      "link": "https://news.cgtn.com/news/2026-09-27/Various-celebrations-staged-across-China-to-mark-Mid-Autumn-Festival-1QMnM0IJMI0/p.html"
+    },
+    {
+      "id": "n03",
+      "date": "2026-09-27",
       "src": "CGTN·Business",
       "title": "BizDataDive: China travel made easier",
       "link": "https://news.cgtn.com/news/2026-09-27/BizDataDive-China-travel-made-easier-1QMFOvqjOKI/p.html"
     },
     {
-      "id": "n03",
+      "id": "n04",
       "date": "2026-09-26",
       "src": "CGTN·China",
       "title": "George Lucas opens museum celebrating the art of storytelling",
       "link": "https://newsus.cgtn.com/news/2026-09-26/George-Lucas-opens-museum-celebrating-the-art-of-storytelling-1QJWP51lle0/p.html"
     },
     {
-      "id": "n04",
+      "id": "n05",
+      "date": "2026-09-25",
+      "src": "CGTN·Sports",
+      "title": "Billie Jean King hails global growth of namesake tennis competition",
+      "link": "https://news.cgtn.com/news/2026-09-25/Billie-Jean-King-hails-global-growth-of-namesake-tennis-competition-1QIKGT87qjm/p.html"
+    },
+    {
+      "id": "n06",
       "date": "2026-09-25",
       "src": "CGTN·China",
       "title": "IOMed launches Global Series in Hong Kong on dispute resolution",
       "link": "https://news.cgtn.com/news/2026-09-25/IOMed-launches-Global-Series-in-Hong-Kong-on-dispute-resolution-1QJqvlgYDXq/p.html"
     },
     {
-      "id": "n05",
+      "id": "n07",
       "date": "2026-09-24",
       "src": "CGTN·Business",
       "title": "China-US trade future in flux",
       "link": "https://newsus.cgtn.com/news/2026-09-24/China-US-trade-future-in-flux-1QGMcx2abTi/p.html"
-    },
-    {
-      "id": "n06",
-      "date": "2026-09-23",
-      "src": "CGTN·Culture",
-      "title": "China promotes equal voice for all countries at UN",
-      "link": "https://newsus.cgtn.com/news/2026-09-23/China-promotes-equal-voice-for-all-countries-at-UN-1QF6W5xRefu/p.html"
-    },
-    {
-      "id": "n07",
-      "date": "2026-09-22",
-      "src": "CGTN·Culture",
-      "title": "Drones light up sky at 2026 Mid-Autumn Gala",
-      "link": "https://news.cgtn.com/news/2026-09-22/Drones-light-up-sky-at-2026-Mid-Autumn-Gala-1QE5UcVAfKM/p.html"
     },
     {
       "id": "n08",
@@ -61,17 +61,17 @@ window.CET_CONTENT = {
     },
     {
       "id": "n09",
-      "date": "2026-09-19",
-      "src": "CGTN·Sports",
-      "title": "Kane breaks record as Bayern Munich thrash Union Berlin 7-0",
-      "link": "https://news.cgtn.com/news/2026-09-19/Kane-breaks-record-as-Bayern-Munich-thrash-Union-Berlin-7-0-1QyLm4lw69G/p.html"
+      "date": "2026-09-21",
+      "src": "CGTN·Culture",
+      "title": "Xi'an, where the Silk Road meets the screen",
+      "link": "https://news.cgtn.com/news/2026-09-21/Xi-an-where-the-Silk-Road-meets-the-screen-1QCxEbCvfKo/p.html"
     },
     {
       "id": "n10",
       "date": "2026-09-17",
       "src": "CGTN·Culture",
-      "title": "Equestrian show in Hulunbuir highlights spectacular riding stunts",
-      "link": "https://news.cgtn.com/news/2026-09-17/Equestrian-show-in-Hulunbuir-highlights-spectacular-riding-stunts-1QvJUU739RK/p.html"
+      "title": "Dinner, then a walk: China's evening ritual",
+      "link": "https://news.cgtn.com/news/2026-09-17/Dinner-then-a-walk-China-s-evening-ritual-1QvSe6fud1e/p.html"
     },
     {
       "id": "n11",
@@ -83,16 +83,16 @@ window.CET_CONTENT = {
     {
       "id": "n12",
       "date": "2026-09-10",
-      "src": "CGTN·Travel",
-      "title": "Red Army heritage old town: A living fossil on stone streets",
-      "link": "https://news.cgtn.com/news/2026-09-10/Red-Army-heritage-old-town-A-living-fossil-on-stone-streets-1Qk48ZjnLji/p.html"
+      "src": "CGTN·Sports",
+      "title": "Ping-Pong at Songyue Lake: Shandong’s carnival stop in Rizhao",
+      "link": "https://news.cgtn.com/news/2026-09-10/Ping-Pong-at-Songyue-Lake-Shandong-s-carnival-stop-in-Rizhao-1QicObqvrW0/p.html"
     },
     {
       "id": "n13",
-      "date": "2026-09-09",
-      "src": "CGTN·Sports",
-      "title": "Real Madrid, Manchester City open Champions League campaigns with wins",
-      "link": "https://news.cgtn.com/news/2026-09-09/Real-Madrid-Manchester-City-open-Champions-League-campaigns-with-wins-1Qi9l1fr0lO/p.html"
+      "date": "2026-09-10",
+      "src": "CGTN·Travel",
+      "title": "Red Army heritage old town: A living fossil on stone streets",
+      "link": "https://news.cgtn.com/news/2026-09-10/Red-Army-heritage-old-town-A-living-fossil-on-stone-streets-1Qk48ZjnLji/p.html"
     },
     {
       "id": "n14",
@@ -103,10 +103,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n15",
-      "date": "2026-08-28",
+      "date": "2026-08-27",
       "src": "CGTN·Sports",
-      "title": "Raphinha, Lopez goals help Barcelona beat Athletic Club",
-      "link": "https://news.cgtn.com/news/2026-08-28/Raphinha-Lopez-goals-help-Barcelona-beat-Athletic-Club-1PYheh6QnlK/p.html"
+      "title": "China beats Chinese Taipei, makes Asian Championship quarters unbeaten",
+      "link": "https://news.cgtn.com/news/2026-08-27/China-beats-Chinese-Taipei-makes-Asian-Championship-quarters-unbeaten-1PWvFy0UTGU/p.html"
     }
   ],
   "readings": [
