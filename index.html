@@ -307,6 +307,14 @@
   .pr-step{font-size:12px; color:var(--muted); letter-spacing:.1em}
   .pr-title{font-size:22px; font-weight:650; line-height:1.5; margin:7px 0 6px; letter-spacing:.2px}
   .pr-sub{font-size:12.8px; color:var(--muted); line-height:1.7; margin-bottom:16px}
+  /* 模拟卷：分节（Section A/B/C）*/
+  .pr-sec{margin:26px 0 6px; padding:12px 14px; border-radius:var(--r); background:var(--surface-2); border:1px solid var(--line)}
+  .pr-sec-head{display:flex; align-items:center; gap:10px; flex-wrap:wrap}
+  .pr-sec-no{font-size:13.5px; font-weight:700; letter-spacing:.05em; color:var(--accent-2)}
+  .pr-sec-type{font-size:12.5px; color:var(--muted)}
+  .pr-sec-head .grow{flex:1; min-width:8px}
+  .pr-sec-dir{margin-top:8px; font-size:12.2px; line-height:1.85; color:var(--muted)}
+  .pr-sec-wrap{margin-top:6px}
   .pr-divider{display:flex; align-items:center; gap:12px; margin:28px 0 12px; color:var(--muted); font-size:12.5px; letter-spacing:.08em}
   .pr-divider::before, .pr-divider::after{content:""; height:1px; background:var(--line); flex:1}
   .pr-divider span{flex:0 0 auto}
@@ -2345,10 +2353,78 @@
     prStopAu();
     prCur = null;
   }
+  /* 听力播放队列：一男一女的对话要按句子轮换音色，所以不能播单音色的整段。
+     逐句连播，句间留一点间隔，像真实考试那样一句一句念。 */
+  var prQueue = null, prQIdx = 0, prQTimer = null;
   function prStopAu() {
+    prQueue = null; prQIdx = 0;
+    if (prQTimer) { clearTimeout(prQTimer); prQTimer = null; }
     var au = pr$("prAu");
     if (au) { try { au.pause(); au.currentTime = 0; } catch (e) {} }
     if (window.speechSynthesis) speechSynthesis.cancel();
+  }
+  function prWhoLabel(seg) {
+    if (!seg) return "";
+    var g = seg.g === "M" ? "男" : (seg.g === "F" ? "女" : "");
+    if (seg.who && g) return seg.who + "（" + g + "）";
+    return seg.who || g || "";
+  }
+  function prPlayList(list, doneMsg) {
+    var au = pr$("prAu");
+    if (!au || !list || !list.length) return;
+    prStopAu();
+    prQueue = list; prQIdx = -1; prQueueDone = doneMsg || "";
+    prNextSeg();
+  }
+  var prQueueDone = "";
+  function prNextSeg() {
+    var au = pr$("prAu");
+    if (!au || !prQueue) return;
+    prQIdx++;
+    if (prQIdx >= prQueue.length) {
+      var d = prQueueDone; prQueue = null;
+      prMsg(d || "播放完毕");
+      return;
+    }
+    var seg = prQueue[prQIdx];
+    try {
+      au.pause();
+      au.src = seg.f;
+      au.playbackRate = prRate();
+      au.currentTime = 0;
+      var pr = au.play();
+      if (pr && pr.catch) pr.catch(function () {
+        prQueue = null;
+        prMsg("音频播放失败（可能是网络问题），可稍后重试或改用浏览器朗读");
+      });
+      prMsg("正在播放 " + (prQIdx + 1) + " / " + prQueue.length +
+        (prWhoLabel(seg) ? "　—　" + prWhoLabel(seg) : ""));
+    } catch (e) { prQueue = null; }
+  }
+  pr$("prAu").addEventListener("ended", function () {
+    if (!prQueue) return;
+    var gap = (prQueue[prQIdx] && prQueue[prQIdx].gap) || 320;
+    prQTimer = setTimeout(prNextSeg, gap);
+  });
+  /* 把一个材料的音频拆成可连续播放的队列 */
+  function prSegsOf(item) {
+    var rec = item.audio;
+    if (!rec) return [];
+    if (rec.sents && rec.sents.length && (rec.dialog || !rec.full)) {
+      return rec.sents.map(function (s) { return { f: s.f, en: s.en, who: s.who, g: s.g, gap: 320 }; });
+    }
+    if (rec.full) return [{ f: rec.full, en: item.text || "", gap: 320 }];
+    return [];
+  }
+  /* 整卷 / 某一节的播放列表 */
+  function prPaperList(secIdx) {
+    if (!prCur || !prCur.paper) return [];
+    var out = [];
+    prCur.sections.forEach(function (sec, si) {
+      if (secIdx !== undefined && si !== secIdx) return;
+      sec.items.forEach(function (it) { out = out.concat(prSegsOf(it)); });
+    });
+    return out;
   }
   function prRate() {
     var v = parseFloat((pr$("prRate") || {}).value);
@@ -2398,10 +2474,10 @@
     h += "<p class='pr-sub'>" + prTagHtml() + " " + esc(p.sub || "") + "</p>";
 
     if (isL) {
-      /* 听力：一排播放按钮 */
+      /* 听力：一排播放按钮（模拟卷是分节连播） */
       h += "<div class='pr-quiet'>" +
         "<div class='pr-audio'>" +
-        "  <button class='btn primary' id='prPlay'>▶　播放音频</button>" +
+        "  <button class='btn primary' id='prPlay'>" + (p.paper ? "▶　播放整卷" : "▶　播放音频") + "</button>" +
         "  <button class='btn' id='prStop'>■　停止</button>" +
         "  <span class='lbl'>语速</span>" +
         "  <select id='prRate'>" +
@@ -2410,8 +2486,10 @@
         "    <option value='1.25'>1.25×　偏快</option>" +
         "  </select>" +
         "</div>" +
-        "<p class='pr-hint'>音频可反复听，不限次数；<b>原文要等提交答案后才显示</b>，先盲听。" +
-        (p.audio && p.audio.full ? "" : "（这份材料暂无音频文件，点播放会用浏览器朗读代替）") + "</p>" +
+        "<p class='pr-hint'>" + (p.paper
+          ? "整卷按真题顺序连播；想单练某一节，就点那一节标题右边的「▶ 播放本节」。<b>原文要等提交答案后才显示</b>，先盲听。"
+          : "音频可反复听，不限次数；<b>原文要等提交答案后才显示</b>，先盲听。") +
+        ((p.paper || (p.audio && p.audio.full)) ? "" : "（这份材料暂无音频文件，点播放会用浏览器朗读代替）") + "</p>" +
         "<p class='pr-hint' id='prAudioMsg' style='color:var(--warm)'></p>" +
         "</div>";
     } else {
@@ -2446,11 +2524,12 @@
 
     if (isL) {
       pr$("prPlay").addEventListener("click", function () {
-        var rec = prCur.audio;
-        if (rec && rec.full) prPlayFile(rec.full, prCur.text);
+        if (prCur.paper) { prPlayList(prPaperList(), "整卷播放完毕"); return; }
+        var segs = prSegsOf(prCur);
+        if (segs.length) prPlayList(segs, "播放完毕");
         else speak(prCur.text || "", prRate(), prMsg);
       });
-      pr$("prStop").addEventListener("click", prStopAu);
+      pr$("prStop").addEventListener("click", function () { prStopAu(); prMsg("已停止"); });
       pr$("prRate").addEventListener("change", function () {
         var au = pr$("prAu");
         if (au && !au.paused) au.playbackRate = prRate();
@@ -2485,7 +2564,27 @@
       pr$("prSubmit").style.display = "none";
       return;
     }
+    var lastSec = -1;
     qs.forEach(function (q, qi) {
+      /* 模拟卷：每到新的一节，插一个节标题块（含「播放本节」）*/
+      if (q.sec !== undefined && q.sec !== lastSec && prCur.sections && prCur.sections[q.sec]) {
+        lastSec = q.sec;
+        var sec = prCur.sections[q.sec];
+        var fItem = sec.items[0] || {}, lItem = sec.items[sec.items.length - 1] || {};
+        var fN = ((fItem.qs || [])[0] || {}).n || "";
+        var lN = ((lItem.qs || [])[(lItem.qs || []).length - 1] || {}).n || "";
+        var sd = document.createElement("div");
+        sd.className = "pr-sec";
+        sd.innerHTML = "<div class='pr-sec-head'>" +
+          "<span class='pr-sec-no'>" + esc(sec.no || "") + "</span>" +
+          "<span class='pr-sec-type'>" + esc(sec.type || "") +
+          (fN ? " · 第 " + fN + "~" + lN + " 题" : "") + "</span>" +
+          "<span class='grow'></span>" +
+          "<button type='button' class='btn small' data-sec='" + q.sec + "'>▶ 播放本节</button>" +
+          "</div>" +
+          (sec.dir ? "<p class='pr-sec-dir'>" + esc(sec.dir) + "</p>" : "");
+        box.appendChild(sd);
+      }
       var d = document.createElement("div");
       d.className = "pr-q";
       d.dataset.qi = qi;
@@ -2528,6 +2627,16 @@
       d.appendChild(why);
       box.appendChild(d);
     });
+    /* 「播放本节」：用 onclick 直接赋值，重渲染后不会重复绑定 */
+    box.onclick = function (e) {
+      var t = e.target;
+      while (t && t !== box && !(t.getAttribute && t.getAttribute("data-sec") !== null)) t = t.parentNode;
+      if (!t || t === box || !prCur.sections) return;
+      var si = parseInt(t.getAttribute("data-sec"), 10);
+      var sec = prCur.sections[si];
+      if (!sec) return;
+      prPlayList(prPaperList(si), (sec.no || "本节") + "播放完毕");
+    };
   }
 
   function prSubmit() {
@@ -2621,6 +2730,20 @@
   }
 
   /* ---------- 提交后才出现的内容 ---------- */
+  /* 逐句精听：每个句子一个小按钮，直接带上音频路径，点击即重放该句 */
+  function prSentsHtml(rec) {
+    if (!rec || !rec.sents || !rec.sents.length) return "";
+    var h = "<div class='pr-sents'><div class='muted' style='margin-bottom:4px'>逐句精听（点左侧小按钮重放某一句）</div>";
+    rec.sents.forEach(function (s, i) {
+      var gg = s.g === "M" ? "男" : (s.g === "F" ? "女" : "");
+      h += "<div class='pr-sent'><button type='button' data-play='" + esc(s.f) + "' data-en='" + esc(s.en) + "'>▶ " +
+        (i + 1) + "</button><span>" +
+        (s.who ? "<b>" + esc(s.who) + (gg ? "（" + gg + "）" : "") + "</b> " : "") +
+        clickableText(s.en) + "</span></div>";
+    });
+    return h + "</div>";
+  }
+
   function prRenderReveal() {
     var box = pr$("prReveal");
     if (!box || !prCur) return;
@@ -2628,28 +2751,54 @@
     var h = "";
 
     if (prCur.kind === "listen") {
-      h += "<div class='pr-divider'><span>听力原文与译文</span></div>";
-      h += "<div class='pr-read' style='font-size:16px'>";
-      if (prCur.lines && prCur.lines.length) {
-        h += prCur.lines.map(function (l) {
-          return "<p class='pr-line'><b>" + esc(l[0]) + "：</b>" + clickableText(l[1]) + "</p>";
-        }).join("");
-      } else {
-        h += "<p>" + clickableText(prCur.text || "") + "</p>";
-      }
-      h += "</div>";
-      if (prCur.trans) {
-        h += "<div class='pr-quiet' style='margin-top:12px'><b class='pr-h'>中文译文</b>" +
-          "<p style='margin-top:9px;font-size:13.8px;line-height:2;color:var(--text-2)'>" + esc(prCur.trans) + "</p></div>";
-      }
-      var rec = prCur.audio;
-      if (rec && rec.sents && rec.sents.length) {
-        h += "<div class='pr-sents'><div class='muted' style='margin-bottom:4px'>逐句精听（点左侧小按钮重放某一句）</div>";
-        rec.sents.forEach(function (s, i) {
-          h += "<div class='pr-sent'><button type='button' data-sent='" + i + "'>▶ " + (i + 1) + "</button>" +
-            "<span>" + (s.who ? "<b>" + esc(s.who) + "</b> " : "") + clickableText(s.en) + "</span></div>";
+      if (prCur.paper) {
+        /* 模拟卷：按节列出每一篇的原文、译文与逐句精听 */
+        prCur.sections.forEach(function (sec, si) {
+          h += "<div class='pr-divider'><span>" + esc(sec.no || "") + " · " + esc(sec.type || "") +
+            "　原文与译文</span></div>";
+          sec.items.forEach(function (it, ii) {
+            h += "<div class='pr-sec-wrap'><b class='pr-h'>" + esc(sec.no || "") + " 第 " + (ii + 1) + " 篇" +
+              (it.title ? "　" + esc(it.title) : "") + "</b>";
+            h += "<div class='pr-read' style='font-size:16px'>";
+            if (it.lines && it.lines.length) {
+              h += it.lines.map(function (l) {
+                var gg = (it.spk || {})[l[0]];
+                return "<p class='pr-line'><b>" + esc(l[0]) +
+                  (gg ? "（" + (gg === "F" ? "女" : "男") + "）" : "") + "：</b>" + clickableText(l[1]) + "</p>";
+              }).join("");
+            } else {
+              h += "<p>" + clickableText(it.text || "") + "</p>";
+            }
+            h += "</div>";
+            if (it.trans) {
+              h += "<p style='margin-top:9px;font-size:13.4px;line-height:1.95;color:var(--text-2)'>" + esc(it.trans) + "</p>";
+            }
+            h += prSentsHtml(it.audio);
+            h += "</div>";
+          });
         });
+      } else {
+        h += "<div class='pr-divider'><span>听力原文与译文</span></div>";
+        h += "<div class='pr-read' style='font-size:16px'>";
+        if (prCur.lines && prCur.lines.length) {
+          var gmap = {};
+          if (prCur.audio && prCur.audio.sents) {
+            prCur.audio.sents.forEach(function (sn) { if (sn.who && sn.g) gmap[sn.who] = sn.g; });
+          }
+          h += prCur.lines.map(function (l) {
+            var gg = (prCur.spk || {})[l[0]] || gmap[l[0]];
+            return "<p class='pr-line'><b>" + esc(l[0]) +
+              (gg ? "（" + (gg === "F" ? "女" : "男") + "）" : "") + "：</b>" + clickableText(l[1]) + "</p>";
+          }).join("");
+        } else {
+          h += "<p>" + clickableText(prCur.text || "") + "</p>";
+        }
         h += "</div>";
+        if (prCur.trans) {
+          h += "<div class='pr-quiet' style='margin-top:12px'><b class='pr-h'>中文译文</b>" +
+            "<p style='margin-top:9px;font-size:13.8px;line-height:2;color:var(--text-2)'>" + esc(prCur.trans) + "</p></div>";
+        }
+        h += prSentsHtml(prCur.audio);
       }
     } else {
       if (prCur.trans) {
@@ -2670,13 +2819,10 @@
 
     var b2 = pr$("prBack2");
     if (b2) b2.addEventListener("click", prCloseBox);
-    var sents = box.querySelectorAll("[data-sent]");
+    var sents = box.querySelectorAll("[data-play]");
     for (var i = 0; i < sents.length; i++) {
       sents[i].addEventListener("click", function () {
-        var rec = prCur.audio;
-        if (!rec || !rec.sents) return;
-        var s = rec.sents[parseInt(this.dataset.sent, 10)];
-        if (s) prPlayFile(s.f, s.en);
+        prPlayFile(this.getAttribute("data-play"), this.getAttribute("data-en"));
       });
     }
   }
@@ -2738,17 +2884,43 @@
     };
   }
 
-  function practiceFromListen(s) {            /* 听力套题（四六级题型模拟） */
+  function practiceFromListen(s) {            /* 听力材料 / 完整模拟卷 */
+    if (s.sections) return practiceFromPaper(s);
     return {
       kind: "listen",
       title: s.title,
       tags: [[s.type || "听力", "blue"], [s.lv, ""], [s.date || "", "gray"], ["模拟题 · 非真题录音", "gray"]],
       sub: "共 " + s.qs.length + " 题 · 真人语音合成（四六级题型模拟，非原版真题）",
-      text: s.text, lines: s.lines, trans: s.trans,
+      text: s.text, lines: s.lines, trans: s.trans, spk: s.spk || null,
       audio: audioOf(s.id),
       qs: s.qs.map(function (q) {
         return { n: q.n, q: q.q, options: q.options || [], answer: q.answer || "", why: q.why || "" };
       })
+    };
+  }
+
+  /* 完整模拟卷：按 Section 分节，题号沿用真题顺序 1~25 连排 */
+  function practiceFromPaper(s) {
+    var qs = [], sections = [];
+    (s.sections || []).forEach(function (sec, si) {
+      var items = (sec.items || []).map(function (it) {
+        return {
+          id: it.id, title: it.title || "", text: it.text, lines: it.lines,
+          trans: it.trans, spk: it.spk, audio: audioOf(it.id),
+          qs: (it.qs || []).map(function (q) {
+            return { n: q.n, q: q.q, options: q.options || [], answer: q.answer || "", why: q.why || "", sec: si };
+          })
+        };
+      });
+      items.forEach(function (it) { it.qs.forEach(function (q) { qs.push(q); }); });
+      sections.push({ no: sec.no, type: sec.type, dir: sec.dir, items: items });
+    });
+    return {
+      kind: "listen", paper: true,
+      title: s.title,
+      tags: [[s.type || "模拟卷", "blue"], [s.lv, ""], [s.date || "", "gray"], ["模拟题 · 非真题录音", "gray"]],
+      sub: "共 " + qs.length + " 题 · 分 " + sections.length + " 节（按真题顺序）· 对话一男一女分角色朗读",
+      sections: sections, qs: qs, note: s.note || ""
     };
   }
 
@@ -2757,7 +2929,26 @@
 
   function listenSets() {
     var out = [];
-    ((window.CET_LISTEN && window.CET_LISTEN.sets) || []).forEach(function (s) { out.push(s); });
+    ((window.CET_LISTEN && window.CET_LISTEN.sets) || []).forEach(function (s) {
+      if (s.sections) {
+        /* 模拟卷按篇拆成一条条独立听力材料，做题方式与其它材料完全一样 */
+        s.sections.forEach(function (sec) {
+          (sec.items || []).forEach(function (it, ii) {
+            out.push({
+              id: it.id, lv: s.lv, type: sec.type, date: s.date,
+              title: it.title || (sec.type + " 第 " + (ii + 1) + " 篇"),
+              note: s.title,
+              text: it.text, lines: it.lines, trans: it.trans, spk: it.spk,
+              qs: (it.qs || []).map(function (q, k) {
+                return { n: k + 1, q: q.q, options: q.options, answer: q.answer, why: q.why };
+              })
+            });
+          });
+        });
+        return;
+      }
+      out.push(s);
+    });
     /* 每日自动更新的听力材料：一旦带上题目，也自动进这里 */
     (CONTENT.listenings || []).forEach(function (x) {
       if (x.qs && x.qs.length) out.push({ id: "ls-" + x.id, lv: x.level, type: "每日听力", date: x.date, title: x.title, text: x.text, trans: x.trans, qs: x.qs });
@@ -2766,6 +2957,28 @@
       if (d.qs && d.qs.length) out.push({ id: "dg-" + d.id, lv: d.level, type: "情景对话", date: d.date, title: d.title, lines: d.lines, trans: d.trans, qs: d.qs });
     });
     return out;
+  }
+
+  /* 一套材料的规模统计（模拟卷要按节累加）*/
+  function setStats(s) {
+    var qn = 0, words = 0, items = 0, hasAudio = false;
+    function wc(txt) { return (String(txt || "").match(/\S+/g) || []).length; }
+    function itWords(it) {
+      return wc(it.text) + (it.lines && it.lines.length
+        ? it.lines.map(function (l) { return wc(l[1]); }).reduce(function (a, b) { return a + b; }, 0) : 0);
+    }
+    if (s.sections) {
+      s.sections.forEach(function (sec) {
+        (sec.items || []).forEach(function (it) {
+          items++; qn += (it.qs || []).length; words += itWords(it);
+          if (audioOf(it.id)) hasAudio = true;
+        });
+      });
+      return { qn: qn, words: words, items: items, hasAudio: hasAudio, paper: true, secs: s.sections.length };
+    }
+    var rec = audioOf(s.id);
+    return { qn: (s.qs || []).length, words: itWords(s), items: 1,
+             hasAudio: !!(rec && (rec.full || rec.dialog)), paper: false, secs: 0 };
   }
 
   function renderLsList() {
@@ -2779,27 +2992,29 @@
 
     var list = mine.filter(function (s) { return lsType === "全部" || s.type === lsType; });
     var qn = 0;
-    list.forEach(function (s) { qn += (s.qs || []).length; });
+    list.forEach(function (s) { qn += setStats(s).qn; });
     pr$("lsInfo").innerHTML = "当前级别 <b>" + esc(db.level) + "</b> 共 <b>" + mine.length + "</b> 套；" +
       "筛选中 <b>" + list.length + "</b> 套、<b>" + qn + "</b> 道题。" +
       "<br>⚠️ <b>这些是模拟题，不是真题</b>：真实四六级听力材料只有音频、没有题目文字。" +
       "这里的题目与选项是按四六级题型自编的，音频也是真人语音合成的练习稿，用来练题型与节奏。" +
-      "<br>📌 点进去：上面一排播放按钮，下面直接是选项；提交答案后才给正确答案、原文和译文。";
+      "<br>📌 点进去：上面一排播放按钮，下面直接是选项；提交答案后才给正确答案、原文和译文。" +
+      "<br>🎧 <b>对话都是一男一女分角色朗读</b>，原文里会标出「（男）」「（女）」。";
 
     ul.innerHTML = "";
     pr$("lsEmpty").style.display = list.length ? "none" : "";
     list.forEach(function (s) {
       var li = document.createElement("li");
       li.className = "passage-item";
-      var rec = audioOf(s.id);
-      var words = ((s.text || (s.lines || []).map(function (l) { return l[1]; }).join(" ")).match(/\S+/g) || []).length;
+      var st = setStats(s);
       li.innerHTML = "<span class='tag blue'>" + esc(s.type) + "</span> " +
         "<span class='tag'>" + esc(s.lv) + "</span> " +
         "<span class='tag gray'>" + esc(s.date || "") + "</span>" +
         "<span class='tag gray'>模拟题</span>" +
-        (rec && rec.full ? "<span class='tag gray'>真人音频</span>" : "") +
+        (st.hasAudio ? "<span class='tag gray'>真人音频</span>" : "") +
+        (st.paper ? "<span class='tag gray'>" + st.secs + " 节</span>" : "") +
         "<div class='t' style='margin-top:5px; font-weight:600;'>" + esc(s.title) + "</div>" +
-        "<span class='muted'>" + words + " 词 · " + (s.qs || []).length + " 题 · 点进去做题 ↓</span>";
+        "<span class='muted'>" + (st.paper ? st.items + " 篇 · " : "") + st.words + " 词 · " + st.qn +
+        " 题 · 点进去做题 ↓</span>" + (s.note ? "<span class='muted'>　" + esc(s.note) + "</span>" : "");
       li.addEventListener("click", function () { openPractice(practiceFromListen(s)); });
       ul.appendChild(li);
     });
