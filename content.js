@@ -6,72 +6,72 @@ window.CET_CONTENT = {
     {
       "id": "n01",
       "date": "2026-09-28",
+      "src": "CGTN·Culture",
+      "title": "One step at a time: Retracing the Long March on foot",
+      "link": "https://news.cgtn.com/news/2026-09-28/One-step-at-a-time-Retracing-the-Long-March-on-foot-1QOhtGR2LUQ/p.html"
+    },
+    {
+      "id": "n02",
+      "date": "2026-09-28",
       "src": "CGTN·Business",
       "title": "China's Mid-Autumn Festival sees spike in travel demand",
       "link": "https://news.cgtn.com/news/2026-09-28/China-s-Mid-Autumn-Festival-sees-spike-in-travel-demand-1QObio6QOTC/p.html"
     },
     {
-      "id": "n02",
+      "id": "n03",
       "date": "2026-09-28",
       "src": "CGTN·Business",
       "title": "The Takaichi Fallout: A 'high-pressure economy' is no fix for Japan",
       "link": "https://news.cgtn.com/news/2026-09-28/The-Takaichi-Fallout-A-high-pressure-economy-is-no-fix-for-Japan-1QO3GcnpiDu/p.html"
     },
     {
-      "id": "n03",
+      "id": "n04",
       "date": "2026-09-28",
       "src": "CGTN·China",
       "title": "Are you 'becoming Chinese'? Chinese-European guest unpacks the trend",
       "link": "https://news.cgtn.com/news/2026-09-28/Are-you-becoming-Chinese-Chinese-European-guest-unpacks-the-trend-1QOl0pjYybu/p.html"
     },
     {
-      "id": "n04",
+      "id": "n05",
       "date": "2026-09-27",
-      "src": "CGTN·Culture",
-      "title": "Various celebrations staged across China to mark Mid-Autumn Festival",
-      "link": "https://news.cgtn.com/news/2026-09-27/Various-celebrations-staged-across-China-to-mark-Mid-Autumn-Festival-1QMnM0IJMI0/p.html"
+      "src": "CGTN·Sports",
+      "title": "Asian Games | China wins 100th gold; 36-year-old record falls",
+      "link": "https://news.cgtn.com/news/2026-09-27/Asian-Games-China-wins-100th-gold-36-year-old-record-falls-1QManwC9zUc/p.html"
     },
     {
-      "id": "n05",
+      "id": "n06",
       "date": "2026-09-27",
       "src": "CGTN·China",
       "title": "Guyana official: “Strengths of China and US could be prosperous\"",
       "link": "https://newsus.cgtn.com/news/2026-09-27/Guyana-official-Strengths-of-China-and-US-could-be-prosperous--1QK8DGF3Ire/p.html"
     },
     {
-      "id": "n06",
+      "id": "n07",
       "date": "2026-09-26",
       "src": "CGTN·China",
       "title": "Day hikes, night operas: Mount Fanjing drama season begins",
       "link": "https://news.cgtn.com/news/2026-09-26/Day-hikes-night-operas-Mount-Fanjing-drama-season-begins-1QKNP2CIVWg/p.html"
     },
     {
-      "id": "n07",
-      "date": "2026-09-25",
-      "src": "CGTN·Sports",
-      "title": "Billie Jean King hails global growth of namesake tennis competition",
-      "link": "https://news.cgtn.com/news/2026-09-25/Billie-Jean-King-hails-global-growth-of-namesake-tennis-competition-1QIKGT87qjm/p.html"
+      "id": "n08",
+      "date": "2026-09-22",
+      "src": "CGTN·Culture",
+      "title": "Chinese dance drama 'Mulan' takes center stage in New York",
+      "link": "https://news.cgtn.com/news/2026-09-22/Chinese-dance-drama-Mulan-takes-center-stage-in-New-York-1QE6GxNDzz2/p.html"
     },
     {
-      "id": "n08",
+      "id": "n09",
       "date": "2026-09-22",
       "src": "CGTN·Travel",
       "title": "11 ASEAN member states, one expo – What's there to discover?",
       "link": "https://news.cgtn.com/news/2026-09-22/11-ASEAN-member-states-one-expo-What-s-there-to-discover--1QEvjBhwz8k/p.html"
     },
     {
-      "id": "n09",
-      "date": "2026-09-21",
-      "src": "CGTN·Culture",
-      "title": "Xi'an, where the Silk Road meets the screen",
-      "link": "https://news.cgtn.com/news/2026-09-21/Xi-an-where-the-Silk-Road-meets-the-screen-1QCxEbCvfKo/p.html"
-    },
-    {
       "id": "n10",
       "date": "2026-09-17",
       "src": "CGTN·Culture",
-      "title": "Dinner, then a walk: China's evening ritual",
-      "link": "https://news.cgtn.com/news/2026-09-17/Dinner-then-a-walk-China-s-evening-ritual-1QvSe6fud1e/p.html"
+      "title": "Equestrian show in Hulunbuir highlights spectacular riding stunts",
+      "link": "https://news.cgtn.com/news/2026-09-17/Equestrian-show-in-Hulunbuir-highlights-spectacular-riding-stunts-1QvJUU739RK/p.html"
     },
     {
       "id": "n11",
@@ -83,16 +83,16 @@ window.CET_CONTENT = {
     {
       "id": "n12",
       "date": "2026-09-10",
-      "src": "CGTN·Sports",
-      "title": "Ping-Pong at Songyue Lake: Shandong’s carnival stop in Rizhao",
-      "link": "https://news.cgtn.com/news/2026-09-10/Ping-Pong-at-Songyue-Lake-Shandong-s-carnival-stop-in-Rizhao-1QicObqvrW0/p.html"
-    },
-    {
-      "id": "n13",
-      "date": "2026-09-10",
       "src": "CGTN·Travel",
       "title": "Red Army heritage old town: A living fossil on stone streets",
       "link": "https://news.cgtn.com/news/2026-09-10/Red-Army-heritage-old-town-A-living-fossil-on-stone-streets-1Qk48ZjnLji/p.html"
+    },
+    {
+      "id": "n13",
+      "date": "2026-09-04",
+      "src": "CGTN·Sports",
+      "title": "Kenya, Egypt set for CAVB final",
+      "link": "https://newsaf.cgtn.com/news/2026-09-04/Kenya-Egypt-set-for-CAVB-final-1QazPKPq9XO/p.html"
     },
     {
       "id": "n14",
@@ -103,10 +103,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n15",
-      "date": "2026-08-27",
+      "date": "2026-08-24",
       "src": "CGTN·Sports",
-      "title": "China beats Chinese Taipei, makes Asian Championship quarters unbeaten",
-      "link": "https://news.cgtn.com/news/2026-08-27/China-beats-Chinese-Taipei-makes-Asian-Championship-quarters-unbeaten-1PWvFy0UTGU/p.html"
+      "title": "Liang, Wang win China's only gold, France makes history at BWF Worlds",
+      "link": "https://news.cgtn.com/news/2026-08-24/Liang-Wang-win-China-s-only-gold-France-makes-history-at-BWF-Worlds-1PRzXg0gL6g/p.html"
     }
   ],
   "readings": [
