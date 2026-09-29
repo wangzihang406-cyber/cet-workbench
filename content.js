@@ -6,51 +6,51 @@ window.CET_CONTENT = {
     {
       "id": "n01",
       "date": "2026-09-28",
-      "src": "CGTN·China",
-      "title": "Two new giant pandas from China arrive in the United States",
-      "link": "https://newsus.cgtn.com/news/2026-09-28/Two-new-giant-pandas-from-China-arrive-in-the-United-States-1QNq8lf6f6M/p.html"
+      "src": "CGTN·Business",
+      "title": "China's Mid-Autumn Festival sees spike in travel demand",
+      "link": "https://news.cgtn.com/news/2026-09-28/China-s-Mid-Autumn-Festival-sees-spike-in-travel-demand-1QObio6QOTC/p.html"
     },
     {
       "id": "n02",
+      "date": "2026-09-28",
+      "src": "CGTN·Business",
+      "title": "The Takaichi Fallout: A 'high-pressure economy' is no fix for Japan",
+      "link": "https://news.cgtn.com/news/2026-09-28/The-Takaichi-Fallout-A-high-pressure-economy-is-no-fix-for-Japan-1QO3GcnpiDu/p.html"
+    },
+    {
+      "id": "n03",
+      "date": "2026-09-28",
+      "src": "CGTN·China",
+      "title": "Are you 'becoming Chinese'? Chinese-European guest unpacks the trend",
+      "link": "https://news.cgtn.com/news/2026-09-28/Are-you-becoming-Chinese-Chinese-European-guest-unpacks-the-trend-1QOl0pjYybu/p.html"
+    },
+    {
+      "id": "n04",
       "date": "2026-09-27",
       "src": "CGTN·Culture",
       "title": "Various celebrations staged across China to mark Mid-Autumn Festival",
       "link": "https://news.cgtn.com/news/2026-09-27/Various-celebrations-staged-across-China-to-mark-Mid-Autumn-Festival-1QMnM0IJMI0/p.html"
     },
     {
-      "id": "n03",
+      "id": "n05",
       "date": "2026-09-27",
-      "src": "CGTN·Business",
-      "title": "BizDataDive: China travel made easier",
-      "link": "https://news.cgtn.com/news/2026-09-27/BizDataDive-China-travel-made-easier-1QMFOvqjOKI/p.html"
+      "src": "CGTN·China",
+      "title": "Guyana official: “Strengths of China and US could be prosperous\"",
+      "link": "https://newsus.cgtn.com/news/2026-09-27/Guyana-official-Strengths-of-China-and-US-could-be-prosperous--1QK8DGF3Ire/p.html"
     },
     {
-      "id": "n04",
+      "id": "n06",
       "date": "2026-09-26",
       "src": "CGTN·China",
-      "title": "George Lucas opens museum celebrating the art of storytelling",
-      "link": "https://newsus.cgtn.com/news/2026-09-26/George-Lucas-opens-museum-celebrating-the-art-of-storytelling-1QJWP51lle0/p.html"
+      "title": "Day hikes, night operas: Mount Fanjing drama season begins",
+      "link": "https://news.cgtn.com/news/2026-09-26/Day-hikes-night-operas-Mount-Fanjing-drama-season-begins-1QKNP2CIVWg/p.html"
     },
     {
-      "id": "n05",
+      "id": "n07",
       "date": "2026-09-25",
       "src": "CGTN·Sports",
       "title": "Billie Jean King hails global growth of namesake tennis competition",
       "link": "https://news.cgtn.com/news/2026-09-25/Billie-Jean-King-hails-global-growth-of-namesake-tennis-competition-1QIKGT87qjm/p.html"
-    },
-    {
-      "id": "n06",
-      "date": "2026-09-25",
-      "src": "CGTN·China",
-      "title": "IOMed launches Global Series in Hong Kong on dispute resolution",
-      "link": "https://news.cgtn.com/news/2026-09-25/IOMed-launches-Global-Series-in-Hong-Kong-on-dispute-resolution-1QJqvlgYDXq/p.html"
-    },
-    {
-      "id": "n07",
-      "date": "2026-09-24",
-      "src": "CGTN·Business",
-      "title": "China-US trade future in flux",
-      "link": "https://newsus.cgtn.com/news/2026-09-24/China-US-trade-future-in-flux-1QGMcx2abTi/p.html"
     },
     {
       "id": "n08",
@@ -75,10 +75,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n11",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "src": "CGTN·Business",
-      "title": "33rd Arabian Travel Market kicks off",
-      "link": "https://news.cgtn.com/news/2026-09-15/33rd-Arabian-Travel-Market-kicks-off--1QsvuZMuPFm/p.html"
+      "title": "Graphics: What stood out in China's economy in August?",
+      "link": "https://news.cgtn.com/news/2026-09-16/Graphics-What-stood-out-in-China-s-economy-in-August--1Qu2Ftz4el2/p.html"
     },
     {
       "id": "n12",
