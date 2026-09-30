@@ -1,7 +1,7 @@
 // 四六级备考工作台 · 每日内容包
 // news 由每日自动化真实抓取 CGTN RSS（多个频道，链接已逐条验证 200）；readings/listenings/dialogues 为 AI 原创改写（四六级难度）
 window.CET_CONTENT = {
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
 "news": [
     {
       "id": "n01",
