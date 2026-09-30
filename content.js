@@ -6,37 +6,37 @@ window.CET_CONTENT = {
     {
       "id": "n01",
       "date": "2026-09-29",
+      "src": "CGTN·Culture",
+      "title": "Nishan Forum: Why Confucius still matters",
+      "link": "https://news.cgtn.com/news/2026-09-29/Nishan-Forum-Why-Confucius-still-matters-1QPU2E5yipG/p.html"
+    },
+    {
+      "id": "n02",
+      "date": "2026-09-29",
       "src": "CGTN·Business",
       "title": "PBOC announces adjustments to several monetary policy tools",
       "link": "https://news.cgtn.com/news/2026-09-29/PBOC-announces-adjustments-to-several-monetary-policy-tools-1QPWGj2poxG/p.html"
     },
     {
-      "id": "n02",
+      "id": "n03",
       "date": "2026-09-29",
       "src": "CGTN·Business",
       "title": "CCPIT: China-US summit brings greater certainty to trade and business",
       "link": "https://news.cgtn.com/news/2026-09-29/CCPIT-China-US-summit-brings-greater-certainty-to-trade-and-business-1QPFuNSVXYk/p.html"
     },
     {
-      "id": "n03",
+      "id": "n04",
       "date": "2026-09-29",
       "src": "CGTN·China",
       "title": "Marching On: From Barren to Bountiful",
       "link": "https://news.cgtn.com/news/2026-09-29/Marching-On-From-Barren-to-Bountiful-1QPGCBakJXy/p.html"
     },
     {
-      "id": "n04",
+      "id": "n05",
       "date": "2026-09-29",
       "src": "CGTN·China",
       "title": "Linfen's green transition wins global recognition",
       "link": "https://news.cgtn.com/news/2026-09-29/Linfen-s-green-transition-wins-global-recognition-1QPtqWdAfhS/p.html"
-    },
-    {
-      "id": "n05",
-      "date": "2026-09-28",
-      "src": "CGTN·Culture",
-      "title": "One step at a time: Retracing the Long March on foot",
-      "link": "https://news.cgtn.com/news/2026-09-28/One-step-at-a-time-Retracing-the-Long-March-on-foot-1QOhtGR2LUQ/p.html"
     },
     {
       "id": "n06",
@@ -47,17 +47,17 @@ window.CET_CONTENT = {
     },
     {
       "id": "n07",
-      "date": "2026-09-27",
+      "date": "2026-09-23",
       "src": "CGTN·Sports",
-      "title": "Asian Games | China wins 100th gold; 36-year-old record falls",
-      "link": "https://news.cgtn.com/news/2026-09-27/Asian-Games-China-wins-100th-gold-36-year-old-record-falls-1QManwC9zUc/p.html"
+      "title": "Belgium, Rwanda restore diplomatic ties after 18-month rift",
+      "link": "https://newsaf.cgtn.com/news/2026-09-23/Belgium-Rwanda-restore-diplomatic-ties-after-18-month-rift-1QFIHaKDNHG/p.html"
     },
     {
       "id": "n08",
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "src": "CGTN·Culture",
-      "title": "Chinese dance drama 'Mulan' takes center stage in New York",
-      "link": "https://news.cgtn.com/news/2026-09-22/Chinese-dance-drama-Mulan-takes-center-stage-in-New-York-1QE6GxNDzz2/p.html"
+      "title": "Peter Pau on how films can offer a window into China",
+      "link": "https://news.cgtn.com/news/2026-09-23/Peter-Pau-on-how-films-can-offer-a-window-into-China-1QFNs7NtAg8/p.html"
     },
     {
       "id": "n09",
@@ -69,16 +69,16 @@ window.CET_CONTENT = {
     {
       "id": "n10",
       "date": "2026-09-21",
-      "src": "CGTN·Business",
-      "title": "What Manchester's mayor saw in Wuhan's car factory",
-      "link": "https://news.cgtn.com/news/2026-09-21/What-can-UK-s-Manchester-learn-from-Wuhan--1QCFNpzqZGw/p.html"
+      "src": "CGTN·Culture",
+      "title": "This Beijing bridge hides an underwater walkway",
+      "link": "https://news.cgtn.com/news/2026-09-21/This-Beijing-bridge-hides-an-underwater-walkway-1QCsGzq3i5q/p.html"
     },
     {
       "id": "n11",
-      "date": "2026-09-17",
-      "src": "CGTN·Culture",
-      "title": "Equestrian show in Hulunbuir highlights spectacular riding stunts",
-      "link": "https://news.cgtn.com/news/2026-09-17/Equestrian-show-in-Hulunbuir-highlights-spectacular-riding-stunts-1QvJUU739RK/p.html"
+      "date": "2026-09-21",
+      "src": "CGTN·Business",
+      "title": "What Manchester's mayor saw in Wuhan's car factory",
+      "link": "https://news.cgtn.com/news/2026-09-21/What-can-UK-s-Manchester-learn-from-Wuhan--1QCFNpzqZGw/p.html"
     },
     {
       "id": "n12",
@@ -89,10 +89,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n13",
-      "date": "2026-09-04",
+      "date": "2026-09-08",
       "src": "CGTN·Sports",
-      "title": "Kenya, Egypt set for CAVB final",
-      "link": "https://newsaf.cgtn.com/news/2026-09-04/Kenya-Egypt-set-for-CAVB-final-1QazPKPq9XO/p.html"
+      "title": "Zheng rallies from 5-0 to stun Swiatek and reach US Open quarterfinals",
+      "link": "https://news.cgtn.com/news/2026-09-08/Zheng-rallies-from-5-0-to-stun-Swiatek-and-reach-US-Open-quarterfinals-1Qgt3EUD160/p.html"
     },
     {
       "id": "n14",
@@ -103,10 +103,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n15",
-      "date": "2026-08-24",
+      "date": "2026-08-29",
       "src": "CGTN·Sports",
-      "title": "Liang, Wang win China's only gold, France makes history at BWF Worlds",
-      "link": "https://news.cgtn.com/news/2026-08-24/Liang-Wang-win-China-s-only-gold-France-makes-history-at-BWF-Worlds-1PRzXg0gL6g/p.html"
+      "title": "Unbeaten China sees off Vietnam, Iran awaits in AVC semifinals",
+      "link": "https://news.cgtn.com/news/2026-08-29/Unbeaten-China-sees-off-Vietnam-Iran-awaits-in-AVC-semifinals-1PZUQ7SP6kE/p.html"
     }
   ],
   "readings": [
