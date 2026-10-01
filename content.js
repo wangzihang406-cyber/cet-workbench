@@ -35,8 +35,8 @@ window.CET_CONTENT = {
       "id": "n05",
       "date": "2026-09-29",
       "src": "CGTN·Culture",
-      "title": "Nishan Forum: Why Confucius still matters",
-      "link": "https://news.cgtn.com/news/2026-09-29/Nishan-Forum-Why-Confucius-still-matters-1QPU2E5yipG/p.html"
+      "title": "Traditional Chinese dance moves spark viral imitation trend",
+      "link": "https://news.cgtn.com/news/2026-09-29/Traditional-Chinese-dance-moves-spark-viral-imitation-trend-1QPGRm62xVu/p.html"
     },
     {
       "id": "n06",
@@ -47,38 +47,38 @@ window.CET_CONTENT = {
     },
     {
       "id": "n07",
-      "date": "2026-09-23",
+      "date": "2026-09-25",
       "src": "CGTN·Sports",
-      "title": "Belgium, Rwanda restore diplomatic ties after 18-month rift",
-      "link": "https://newsaf.cgtn.com/news/2026-09-23/Belgium-Rwanda-restore-diplomatic-ties-after-18-month-rift-1QFIHaKDNHG/p.html"
+      "title": "China bags four swimming golds, keeps women's table tennis team title",
+      "link": "https://news.cgtn.com/news/2026-09-25/China-bags-four-swimming-golds-keeps-women-s-table-tennis-team-title-1QIJjbJXb44/p.html"
     },
     {
       "id": "n08",
-      "date": "2026-09-23",
-      "src": "CGTN·Culture",
-      "title": "Peter Pau on how films can offer a window into China",
-      "link": "https://news.cgtn.com/news/2026-09-23/Peter-Pau-on-how-films-can-offer-a-window-into-China-1QFNs7NtAg8/p.html"
-    },
-    {
-      "id": "n09",
       "date": "2026-09-23",
       "src": "CGTN·Business",
       "title": "How can tensions ease for China-US trade?",
       "link": "https://newsus.cgtn.com/news/2026-09-23/How-can-tensions-ease-for-China-US-trade--1QF8wpiLWeI/p.html"
     },
     {
+      "id": "n09",
+      "date": "2026-09-22",
+      "src": "CGTN·Culture",
+      "title": "SRIFF 2026: A shared devotion to art – Italy and China via the lens",
+      "link": "https://news.cgtn.com/news/2026-09-22/SRIFF-2026-A-shared-devotion-to-art-Italy-and-China-via-the-lens-1QEeb8xJ7A4/p.html"
+    },
+    {
       "id": "n10",
+      "date": "2026-09-22",
+      "src": "CGTN·Culture",
+      "title": "Two Sounds. One Moon",
+      "link": "https://news.cgtn.com/news/2026-09-22/Two-Sounds-One-Moon-1QE62eT7bcQ/p.html"
+    },
+    {
+      "id": "n11",
       "date": "2026-09-22",
       "src": "CGTN·Travel",
       "title": "11 ASEAN member states, one expo – What's there to discover?",
       "link": "https://news.cgtn.com/news/2026-09-22/11-ASEAN-member-states-one-expo-What-s-there-to-discover--1QEvjBhwz8k/p.html"
-    },
-    {
-      "id": "n11",
-      "date": "2026-09-21",
-      "src": "CGTN·Culture",
-      "title": "This Beijing bridge hides an underwater walkway",
-      "link": "https://news.cgtn.com/news/2026-09-21/This-Beijing-bridge-hides-an-underwater-walkway-1QCsGzq3i5q/p.html"
     },
     {
       "id": "n12",
@@ -89,10 +89,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n13",
-      "date": "2026-09-08",
+      "date": "2026-09-03",
       "src": "CGTN·Sports",
-      "title": "Zheng rallies from 5-0 to stun Swiatek and reach US Open quarterfinals",
-      "link": "https://news.cgtn.com/news/2026-09-08/Zheng-rallies-from-5-0-to-stun-Swiatek-and-reach-US-Open-quarterfinals-1Qgt3EUD160/p.html"
+      "title": "China outlines new five-year plan for sports powerhouse drive",
+      "link": "https://news.cgtn.com/news/2026-09-03/China-outlines-new-five-year-plan-for-sports-powerhouse-drive-1Q8EZsYNdNS/p.html"
     },
     {
       "id": "n14",
@@ -103,10 +103,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n15",
-      "date": "2026-08-29",
+      "date": "2026-08-28",
       "src": "CGTN·Sports",
-      "title": "Unbeaten China sees off Vietnam, Iran awaits in AVC semifinals",
-      "link": "https://news.cgtn.com/news/2026-08-29/Unbeaten-China-sees-off-Vietnam-Iran-awaits-in-AVC-semifinals-1PZUQ7SP6kE/p.html"
+      "title": "Raphinha, Lopez goals help Barcelona beat Athletic Club",
+      "link": "https://news.cgtn.com/news/2026-08-28/Raphinha-Lopez-goals-help-Barcelona-beat-Athletic-Club-1PYheh6QnlK/p.html"
     }
   ],
   "readings": [
