@@ -5,45 +5,45 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
-      "date": "2026-09-30",
-      "src": "CGTN·Business",
-      "title": "China expands mortgage subsidies to ease homebuying costs",
-      "link": "https://news.cgtn.com/news/2026-09-30/China-expands-mortgage-subsidies-to-ease-homebuying-costs-1QR9evPxYoU/p.html"
+      "date": "2026-10-01",
+      "src": "CGTN·China",
+      "title": "Have Fun in China II | Meshrep: Xinjiang's Improvised Party Tradition",
+      "link": "https://news.cgtn.com/news/2026-10-01/Have-Fun-in-China-II-Meshrep-Xinjiang-s-Improvised-Party-Tradition-1QSUs98mqxG/p.html"
     },
     {
       "id": "n02",
-      "date": "2026-09-30",
-      "src": "CGTN·China",
-      "title": "China launches deep-sea robot for South China Sea exploration",
-      "link": "https://news.cgtn.com/news/2026-09-30/China-launches-deep-sea-robot-for-South-China-Sea-exploration-1QQVfZ0JulW/p.html"
-    },
-    {
-      "id": "n03",
-      "date": "2026-09-30",
-      "src": "CGTN·China",
-      "title": "Xi's article on people's wellbeing to be published",
-      "link": "https://news.cgtn.com/news/2026-09-30/Xi-s-article-on-people-s-wellbeing-to-be-published-1QRnyTUaZwY/p.html"
-    },
-    {
-      "id": "n04",
-      "date": "2026-09-30",
-      "src": "CGTN·China",
-      "title": "China-US strategic stability can preserve continuity in global health",
-      "link": "https://news.cgtn.com/news/2026-09-30/China-US-strategic-stability-can-preserve-continuity-in-global-health-1QQZdX1h30c/p.html"
-    },
-    {
-      "id": "n05",
       "date": "2026-09-29",
       "src": "CGTN·Culture",
       "title": "Traditional Chinese dance moves spark viral imitation trend",
       "link": "https://news.cgtn.com/news/2026-09-29/Traditional-Chinese-dance-moves-spark-viral-imitation-trend-1QPGRm62xVu/p.html"
     },
     {
-      "id": "n06",
-      "date": "2026-09-28",
+      "id": "n03",
+      "date": "2026-09-29",
+      "src": "CGTN·China",
+      "title": "Zhang Zhanshuo: Seven golds on his Asian Games debut",
+      "link": "https://news.cgtn.com/news/2026-09-29/Zhang-Zhanshuo-Seven-golds-on-his-Asian-Games-debut-1QPQ626yQ2A/p.html"
+    },
+    {
+      "id": "n04",
+      "date": "2026-09-29",
+      "src": "CGTN·China",
+      "title": "China urges Japan to seriously reflect on and correct wrongdoings",
+      "link": "https://news.cgtn.com/news/2026-09-29/China-urges-Japan-to-seriously-reflect-on-and-correct-wrongdoings-1QPQyiVRPq0/p.html"
+    },
+    {
+      "id": "n05",
+      "date": "2026-09-27",
       "src": "CGTN·Business",
-      "title": "Somalia tightens coastal security as piracy resurges",
-      "link": "https://newsaf.cgtn.com/news/2026-09-28/Somalia-tightens-coastal-security-as-piracy-resurges-1QOpyUEArKg/p.html"
+      "title": "China-US relations: From tech blockade to AI dialogue",
+      "link": "https://news.cgtn.com/news/2026-09-27/China-US-relations-From-tech-blockade-to-AI-dialogue-1QMnHWJcgmY/p.html"
+    },
+    {
+      "id": "n06",
+      "date": "2026-09-27",
+      "src": "CGTN·Business",
+      "title": "China's botanicals fuel trans-Pacific innovation",
+      "link": "https://news.cgtn.com/news/2026-09-27/China-s-botanicals-fuel-trans-Pacific-innovation-1QM0bsGGJbi/p.html"
     },
     {
       "id": "n07",
@@ -54,31 +54,31 @@ window.CET_CONTENT = {
     },
     {
       "id": "n08",
-      "date": "2026-09-23",
-      "src": "CGTN·Business",
-      "title": "How can tensions ease for China-US trade?",
-      "link": "https://newsus.cgtn.com/news/2026-09-23/How-can-tensions-ease-for-China-US-trade--1QF8wpiLWeI/p.html"
-    },
-    {
-      "id": "n09",
       "date": "2026-09-22",
       "src": "CGTN·Culture",
       "title": "SRIFF 2026: A shared devotion to art – Italy and China via the lens",
       "link": "https://news.cgtn.com/news/2026-09-22/SRIFF-2026-A-shared-devotion-to-art-Italy-and-China-via-the-lens-1QEeb8xJ7A4/p.html"
     },
     {
-      "id": "n10",
+      "id": "n09",
       "date": "2026-09-22",
       "src": "CGTN·Culture",
       "title": "Two Sounds. One Moon",
       "link": "https://news.cgtn.com/news/2026-09-22/Two-Sounds-One-Moon-1QE62eT7bcQ/p.html"
     },
     {
-      "id": "n11",
+      "id": "n10",
       "date": "2026-09-22",
       "src": "CGTN·Travel",
       "title": "11 ASEAN member states, one expo – What's there to discover?",
       "link": "https://news.cgtn.com/news/2026-09-22/11-ASEAN-member-states-one-expo-What-s-there-to-discover--1QEvjBhwz8k/p.html"
+    },
+    {
+      "id": "n11",
+      "date": "2026-09-21",
+      "src": "CGTN·Business",
+      "title": "Pinglu Canal: What does China's new river-sea link mean for ASEAN?",
+      "link": "https://news.cgtn.com/news/2026-09-21/Pinglu-Canal-What-does-China-s-new-river-sea-link-mean-for-ASEAN--1QCKwsdylyM/p.html"
     },
     {
       "id": "n12",
