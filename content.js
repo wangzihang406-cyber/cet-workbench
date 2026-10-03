@@ -40,73 +40,73 @@ window.CET_CONTENT = {
     },
     {
       "id": "n06",
+      "date": "2026-09-29",
+      "src": "CGTN·Culture",
+      "title": "Traditional Chinese dance moves spark viral imitation trend",
+      "link": "https://news.cgtn.com/news/2026-09-29/Traditional-Chinese-dance-moves-spark-viral-imitation-trend-1QPGRm62xVu/p.html"
+    },
+    {
+      "id": "n07",
       "date": "2026-09-28",
       "src": "CGTN·Business",
       "title": "China-US trade talks: A new framework for economic engagement",
       "link": "https://news.cgtn.com/news/2026-09-28/China-US-trade-talks-A-new-framework-for-economic-engagement-1QOgkXG2F4Q/p.html"
     },
     {
-      "id": "n07",
-      "date": "2026-09-24",
-      "src": "CGTN·Culture",
-      "title": "A grassland of beauty and sacrifice in Sichuan",
-      "link": "https://news.cgtn.com/news/2026-09-24/A-grassland-of-beauty-and-sacrifice-in-Sichuan-1QH5KLUONd6/p.html"
-    },
-    {
       "id": "n08",
-      "date": "2026-09-24",
-      "src": "CGTN·Culture",
-      "title": "US student's summer in China bridges cultural divide",
-      "link": "https://newsus.cgtn.com/news/2026-09-24/US-student-s-summer-in-China-bridges-cultural-divide-1QGyaEavL0s/p.html"
-    },
-    {
-      "id": "n09",
       "date": "2026-09-24",
       "src": "CGTN·Travel",
       "title": "Chinese for a Day: The Temple of a Thousand Buddhas | Crossing Paths",
       "link": "https://news.cgtn.com/news/2026-09-24/Chinese-for-a-Day-The-Temple-of-a-Thousand-Buddhas-Crossing-Paths-1QCvyIolyP6/p.html"
     },
     {
-      "id": "n10",
+      "id": "n09",
       "date": "2026-09-24",
       "src": "CGTN·Travel",
       "title": "US student reflects on the power of people-to-people exchange",
       "link": "https://newsus.cgtn.com/news/2026-09-24/US-student-reflects-on-the-power-of-people-to-people-exchange-1QGN9dNNnB6/p.html"
     },
     {
-      "id": "n11",
+      "id": "n10",
       "date": "2026-09-24",
       "src": "CGTN·Business",
       "title": "Expert: Rethinking the value of engagement with China",
       "link": "https://news.cgtn.com/news/2026-09-24/Expert-Rethinking-the-value-of-engagement-with-China-1QHly5s8dNe/p.html"
     },
     {
+      "id": "n11",
+      "date": "2026-09-22",
+      "src": "CGTN·Sports",
+      "title": "Refugee taekwondo athlete Al Hinide targets gold medal at Asian Games",
+      "link": "https://news.cgtn.com/news/2026-09-22/Refugee-taekwondo-athlete-Al-Hinide-targets-gold-medal-at-Asian-Games-1QDSgAyMo24/p.html"
+    },
+    {
       "id": "n12",
-      "date": "2026-09-23",
+      "date": "2026-09-22",
       "src": "CGTN·Culture",
-      "title": "The 5th Chinese Documentary Film Festival opens in Guangzhou",
-      "link": "https://news.cgtn.com/news/2026-09-23/The-5th-Chinese-Documentary-Film-Festival-opens-in-Guangzhou-1QFMfRUxKI8/p.html"
+      "title": "Crossing the snow-capped mountains: Epic of the Long March",
+      "link": "https://news.cgtn.com/news/2026-09-22/Crossing-the-snow-capped-mountains-Epic-of-the-Long-March-1QEmaLGvoys/p.html"
     },
     {
       "id": "n13",
-      "date": "2026-09-21",
-      "src": "CGTN·Sports",
-      "title": "China's athletes stand out at World Climbing Series in Chongqing",
-      "link": "https://news.cgtn.com/news/2026-09-21/China-s-athletes-stand-out-at-World-Climbing-Series-in-Chongqing-1QCqZ65d3Dq/p.html"
+      "date": "2026-09-22",
+      "src": "CGTN·Culture",
+      "title": "SRIFF 2026: A shared devotion to art – Italy and China via the lens",
+      "link": "https://news.cgtn.com/news/2026-09-22/SRIFF-2026-A-shared-devotion-to-art-Italy-and-China-via-the-lens-1QEeb8xJ7A4/p.html"
     },
     {
       "id": "n14",
-      "date": "2026-09-05",
+      "date": "2026-08-30",
       "src": "CGTN·Sports",
-      "title": "Tech powers China's sports upgrade in new five-year plan",
-      "link": "https://news.cgtn.com/news/2026-09-05/Tech-powers-China-s-sports-upgrade-in-new-five-year-plan-1QbLrjivlwA/p.html"
+      "title": "China sweeps Iran to reach Asian Women's Volleyball Championship final",
+      "link": "https://news.cgtn.com/news/2026-08-30/China-sweeps-Iran-to-reach-Asian-Women-s-Volleyball-Championship-final-1Q1AE2ye2Eo/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-09-04",
+      "date": "2026-08-28",
       "src": "CGTN·Sports",
-      "title": "Chinese delegation for 20th Asian Games formed",
-      "link": "https://news.cgtn.com/news/2026-09-04/Chinese-delegation-for-20th-Asian-Games-formed-1Q9PDbUrR3G/p.html"
+      "title": "Raphinha, Lopez goals help Barcelona beat Athletic Club",
+      "link": "https://news.cgtn.com/news/2026-08-28/Raphinha-Lopez-goals-help-Barcelona-beat-Athletic-Club-1PYheh6QnlK/p.html"
     }
   ],
   "readings": [
