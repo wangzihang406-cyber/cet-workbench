@@ -5,45 +5,45 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
+      "date": "2026-10-02",
+      "src": "CGTN·China",
+      "title": "Travel surges on China's National Day holiday as tourists hit the road",
+      "link": "https://news.cgtn.com/news/2026-10-02/Travel-surges-on-China-s-National-Day-holiday-as-tourists-hit-the-road-1QUsGgTeMQE/p.html"
+    },
+    {
+      "id": "n02",
       "date": "2026-10-01",
       "src": "CGTN·Travel",
       "title": "Health Talk | The secret to longevity",
       "link": "https://news.cgtn.com/news/2026-10-01/Health-Talk-The-secret-to-longevity--1QSIcGuue8E/p.html"
     },
     {
-      "id": "n02",
-      "date": "2026-10-01",
-      "src": "CGTN·China",
-      "title": "Have Fun in China II | Meshrep: Xinjiang's Improvised Party Tradition",
-      "link": "https://news.cgtn.com/news/2026-10-01/Have-Fun-in-China-II-Meshrep-Xinjiang-s-Improvised-Party-Tradition-1QSUs98mqxG/p.html"
-    },
-    {
       "id": "n03",
-      "date": "2026-09-29",
-      "src": "CGTN·China",
-      "title": "Zhang Zhanshuo: Seven golds on his Asian Games debut",
-      "link": "https://news.cgtn.com/news/2026-09-29/Zhang-Zhanshuo-Seven-golds-on-his-Asian-Games-debut-1QPQ626yQ2A/p.html"
+      "date": "2026-09-30",
+      "src": "CGTN·Business",
+      "title": "Exclusive: WEF president on navigating global economic change",
+      "link": "https://news.cgtn.com/news/2026-09-30/Exclusive-WEF-president-on-navigating-global-economic-change-1QRm29CVjVK/p.html"
     },
     {
       "id": "n04",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "src": "CGTN·China",
-      "title": "China urges Japan to seriously reflect on and correct wrongdoings",
-      "link": "https://news.cgtn.com/news/2026-09-29/China-urges-Japan-to-seriously-reflect-on-and-correct-wrongdoings-1QPQyiVRPq0/p.html"
+      "title": "Airborne Wind Harvesting, A National R&amp;D Program",
+      "link": "https://news.cgtn.com/news/2026-09-30/Airborne-Wind-Harvesting-A-National-R-D-Program--1QPPOvbDNHW/p.html"
     },
     {
       "id": "n05",
-      "date": "2026-09-27",
-      "src": "CGTN·Business",
-      "title": "China-US relations: From tech blockade to AI dialogue",
-      "link": "https://news.cgtn.com/news/2026-09-27/China-US-relations-From-tech-blockade-to-AI-dialogue-1QMnHWJcgmY/p.html"
+      "date": "2026-09-30",
+      "src": "CGTN·China",
+      "title": "Xi's article on people's wellbeing to be published",
+      "link": "https://news.cgtn.com/news/2026-09-30/Xi-s-article-on-people-s-wellbeing-to-be-published-1QRnyTUaZwY/p.html"
     },
     {
       "id": "n06",
-      "date": "2026-09-27",
+      "date": "2026-09-28",
       "src": "CGTN·Business",
-      "title": "China's botanicals fuel trans-Pacific innovation",
-      "link": "https://news.cgtn.com/news/2026-09-27/China-s-botanicals-fuel-trans-Pacific-innovation-1QM0bsGGJbi/p.html"
+      "title": "China-US trade talks: A new framework for economic engagement",
+      "link": "https://news.cgtn.com/news/2026-09-28/China-US-trade-talks-A-new-framework-for-economic-engagement-1QOgkXG2F4Q/p.html"
     },
     {
       "id": "n07",
@@ -75,24 +75,24 @@ window.CET_CONTENT = {
     },
     {
       "id": "n11",
+      "date": "2026-09-24",
+      "src": "CGTN·Business",
+      "title": "Expert: Rethinking the value of engagement with China",
+      "link": "https://news.cgtn.com/news/2026-09-24/Expert-Rethinking-the-value-of-engagement-with-China-1QHly5s8dNe/p.html"
+    },
+    {
+      "id": "n12",
       "date": "2026-09-23",
       "src": "CGTN·Culture",
       "title": "The 5th Chinese Documentary Film Festival opens in Guangzhou",
       "link": "https://news.cgtn.com/news/2026-09-23/The-5th-Chinese-Documentary-Film-Festival-opens-in-Guangzhou-1QFMfRUxKI8/p.html"
     },
     {
-      "id": "n12",
+      "id": "n13",
       "date": "2026-09-21",
       "src": "CGTN·Sports",
       "title": "China's athletes stand out at World Climbing Series in Chongqing",
       "link": "https://news.cgtn.com/news/2026-09-21/China-s-athletes-stand-out-at-World-Climbing-Series-in-Chongqing-1QCqZ65d3Dq/p.html"
-    },
-    {
-      "id": "n13",
-      "date": "2026-09-21",
-      "src": "CGTN·Business",
-      "title": "Pinglu Canal: What does China's new river-sea link mean for ASEAN?",
-      "link": "https://news.cgtn.com/news/2026-09-21/Pinglu-Canal-What-does-China-s-new-river-sea-link-mean-for-ASEAN--1QCKwsdylyM/p.html"
     },
     {
       "id": "n14",
