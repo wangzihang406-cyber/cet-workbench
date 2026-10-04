@@ -5,10 +5,10 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
-      "date": "2026-10-02",
+      "date": "2026-10-04",
       "src": "CGTN·China",
-      "title": "Travel surges on China's National Day holiday as tourists hit the road",
-      "link": "https://news.cgtn.com/news/2026-10-02/Travel-surges-on-China-s-National-Day-holiday-as-tourists-hit-the-road-1QUsGgTeMQE/p.html"
+      "title": "Chinese scientists begin joint disaster survey in Nepal",
+      "link": "https://news.cgtn.com/news/2026-10-04/Chinese-scientists-begin-joint-disaster-survey-in-Nepal-1QXyVYdGpuo/p.html"
     },
     {
       "id": "n02",
@@ -19,38 +19,38 @@ window.CET_CONTENT = {
     },
     {
       "id": "n03",
-      "date": "2026-09-30",
-      "src": "CGTN·Business",
-      "title": "Exclusive: WEF president on navigating global economic change",
-      "link": "https://news.cgtn.com/news/2026-09-30/Exclusive-WEF-president-on-navigating-global-economic-change-1QRm29CVjVK/p.html"
+      "date": "2026-10-01",
+      "src": "CGTN·China",
+      "title": "Macao SAR marks National Day with flag-raising ceremony, reception",
+      "link": "https://news.cgtn.com/news/2026-10-01/Macao-SAR-marks-National-Day-with-flag-raising-ceremony-reception-1QToXRwGvUA/p.html"
     },
     {
       "id": "n04",
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "src": "CGTN·China",
-      "title": "Airborne Wind Harvesting, A National R&amp;D Program",
-      "link": "https://news.cgtn.com/news/2026-09-30/Airborne-Wind-Harvesting-A-National-R-D-Program--1QPPOvbDNHW/p.html"
+      "title": "Health Talk | The secret to longevity",
+      "link": "https://news.cgtn.com/news/2026-10-01/Health-Talk-The-secret-to-longevity--1QSIcGuue8E/p.html"
     },
     {
       "id": "n05",
-      "date": "2026-09-30",
-      "src": "CGTN·China",
-      "title": "Xi's article on people's wellbeing to be published",
-      "link": "https://news.cgtn.com/news/2026-09-30/Xi-s-article-on-people-s-wellbeing-to-be-published-1QRnyTUaZwY/p.html"
-    },
-    {
-      "id": "n06",
       "date": "2026-09-29",
       "src": "CGTN·Culture",
       "title": "Traditional Chinese dance moves spark viral imitation trend",
       "link": "https://news.cgtn.com/news/2026-09-29/Traditional-Chinese-dance-moves-spark-viral-imitation-trend-1QPGRm62xVu/p.html"
     },
     {
-      "id": "n07",
-      "date": "2026-09-28",
+      "id": "n06",
+      "date": "2026-09-26",
       "src": "CGTN·Business",
-      "title": "China-US trade talks: A new framework for economic engagement",
-      "link": "https://news.cgtn.com/news/2026-09-28/China-US-trade-talks-A-new-framework-for-economic-engagement-1QOgkXG2F4Q/p.html"
+      "title": "New scenarios boost China's consumption",
+      "link": "https://news.cgtn.com/news/2026-09-26/New-scenarios-boost-China-s-consumption-1QJ4X6rDY6A/p.html"
+    },
+    {
+      "id": "n07",
+      "date": "2026-09-25",
+      "src": "CGTN·Business",
+      "title": "US academic: Back-to-back China–US meetings are a big deal",
+      "link": "https://news.cgtn.com/news/2026-09-25/US-academic-Back-to-back-China-US-meetings-are-a-big-deal-1QJdfJ8cX9C/p.html"
     },
     {
       "id": "n08",
@@ -68,31 +68,31 @@ window.CET_CONTENT = {
     },
     {
       "id": "n10",
-      "date": "2026-09-24",
-      "src": "CGTN·Business",
-      "title": "Expert: Rethinking the value of engagement with China",
-      "link": "https://news.cgtn.com/news/2026-09-24/Expert-Rethinking-the-value-of-engagement-with-China-1QHly5s8dNe/p.html"
-    },
-    {
-      "id": "n11",
       "date": "2026-09-22",
       "src": "CGTN·Sports",
       "title": "Refugee taekwondo athlete Al Hinide targets gold medal at Asian Games",
       "link": "https://news.cgtn.com/news/2026-09-22/Refugee-taekwondo-athlete-Al-Hinide-targets-gold-medal-at-Asian-Games-1QDSgAyMo24/p.html"
     },
     {
-      "id": "n12",
+      "id": "n11",
       "date": "2026-09-22",
       "src": "CGTN·Culture",
       "title": "Crossing the snow-capped mountains: Epic of the Long March",
       "link": "https://news.cgtn.com/news/2026-09-22/Crossing-the-snow-capped-mountains-Epic-of-the-Long-March-1QEmaLGvoys/p.html"
     },
     {
-      "id": "n13",
+      "id": "n12",
       "date": "2026-09-22",
       "src": "CGTN·Culture",
       "title": "SRIFF 2026: A shared devotion to art – Italy and China via the lens",
       "link": "https://news.cgtn.com/news/2026-09-22/SRIFF-2026-A-shared-devotion-to-art-Italy-and-China-via-the-lens-1QEeb8xJ7A4/p.html"
+    },
+    {
+      "id": "n13",
+      "date": "2026-09-20",
+      "src": "CGTN·Business",
+      "title": "Explainer: Where do China-US economic and trade ties stand?",
+      "link": "https://news.cgtn.com/news/2026-09-20/Explainer-Where-do-China-US-economic-and-trade-ties-stand--1QAW6R8DWda/p.html"
     },
     {
       "id": "n14",
