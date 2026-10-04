@@ -33,59 +33,59 @@ window.CET_CONTENT = {
     },
     {
       "id": "n05",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "src": "CGTN·Culture",
-      "title": "Traditional Chinese dance moves spark viral imitation trend",
-      "link": "https://news.cgtn.com/news/2026-09-29/Traditional-Chinese-dance-moves-spark-viral-imitation-trend-1QPGRm62xVu/p.html"
+      "title": "Brad Pitt's 'Heart of the Beast' opens in Chinese cinemas today",
+      "link": "https://news.cgtn.com/news/2026-09-30/Brad-Pitt-s-Heart-of-the-Beast-opens-in-Chinese-cinemas-today-1QRmrKQ8I9y/p.html"
     },
     {
       "id": "n06",
+      "date": "2026-09-28",
+      "src": "CGTN·Culture",
+      "title": "Tsinghua team uses AI to revive Chinese Shadow Puppetry",
+      "link": "https://news.cgtn.com/news/2026-09-28/Tsinghua-team-uses-AI-to-revive-Chinese-Shadow-Puppetry-1QO01nfqyhq/p.html"
+    },
+    {
+      "id": "n07",
       "date": "2026-09-26",
       "src": "CGTN·Business",
       "title": "New scenarios boost China's consumption",
       "link": "https://news.cgtn.com/news/2026-09-26/New-scenarios-boost-China-s-consumption-1QJ4X6rDY6A/p.html"
     },
     {
-      "id": "n07",
+      "id": "n08",
       "date": "2026-09-25",
       "src": "CGTN·Business",
       "title": "US academic: Back-to-back China–US meetings are a big deal",
       "link": "https://news.cgtn.com/news/2026-09-25/US-academic-Back-to-back-China-US-meetings-are-a-big-deal-1QJdfJ8cX9C/p.html"
     },
     {
-      "id": "n08",
+      "id": "n09",
       "date": "2026-09-24",
       "src": "CGTN·Travel",
       "title": "Chinese for a Day: The Temple of a Thousand Buddhas | Crossing Paths",
       "link": "https://news.cgtn.com/news/2026-09-24/Chinese-for-a-Day-The-Temple-of-a-Thousand-Buddhas-Crossing-Paths-1QCvyIolyP6/p.html"
     },
     {
-      "id": "n09",
+      "id": "n10",
       "date": "2026-09-24",
       "src": "CGTN·Travel",
       "title": "US student reflects on the power of people-to-people exchange",
       "link": "https://newsus.cgtn.com/news/2026-09-24/US-student-reflects-on-the-power-of-people-to-people-exchange-1QGN9dNNnB6/p.html"
     },
     {
-      "id": "n10",
-      "date": "2026-09-22",
-      "src": "CGTN·Sports",
-      "title": "Refugee taekwondo athlete Al Hinide targets gold medal at Asian Games",
-      "link": "https://news.cgtn.com/news/2026-09-22/Refugee-taekwondo-athlete-Al-Hinide-targets-gold-medal-at-Asian-Games-1QDSgAyMo24/p.html"
-    },
-    {
       "id": "n11",
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "src": "CGTN·Culture",
-      "title": "Crossing the snow-capped mountains: Epic of the Long March",
-      "link": "https://news.cgtn.com/news/2026-09-22/Crossing-the-snow-capped-mountains-Epic-of-the-Long-March-1QEmaLGvoys/p.html"
+      "title": "China promotes equal voice for all countries at UN",
+      "link": "https://newsus.cgtn.com/news/2026-09-23/China-promotes-equal-voice-for-all-countries-at-UN-1QF6W5xRefu/p.html"
     },
     {
       "id": "n12",
-      "date": "2026-09-22",
-      "src": "CGTN·Culture",
-      "title": "SRIFF 2026: A shared devotion to art – Italy and China via the lens",
-      "link": "https://news.cgtn.com/news/2026-09-22/SRIFF-2026-A-shared-devotion-to-art-Italy-and-China-via-the-lens-1QEeb8xJ7A4/p.html"
+      "date": "2026-09-21",
+      "src": "CGTN·Sports",
+      "title": "Exclusive: China's women's pentathlon team on first Asian Games gold",
+      "link": "https://news.cgtn.com/news/2026-09-21/Exclusive-China-s-women-s-pentathlon-team-on-first-Asian-Games-gold-1QC7GBtjWYU/p.html"
     },
     {
       "id": "n13",
@@ -96,17 +96,17 @@ window.CET_CONTENT = {
     },
     {
       "id": "n14",
-      "date": "2026-08-30",
+      "date": "2026-09-14",
       "src": "CGTN·Sports",
-      "title": "China sweeps Iran to reach Asian Women's Volleyball Championship final",
-      "link": "https://news.cgtn.com/news/2026-08-30/China-sweeps-Iran-to-reach-Asian-Women-s-Volleyball-Championship-final-1Q1AE2ye2Eo/p.html"
+      "title": "Maresca makes flawless Man City start to leave Man Utd trailing",
+      "link": "https://news.cgtn.com/news/2026-09-14/Maresca-makes-flawless-Man-City-start-to-leave-Man-Utd-trailing-1QqurubusAo/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-08-28",
+      "date": "2026-08-31",
       "src": "CGTN·Sports",
-      "title": "Raphinha, Lopez goals help Barcelona beat Athletic Club",
-      "link": "https://news.cgtn.com/news/2026-08-28/Raphinha-Lopez-goals-help-Barcelona-beat-Athletic-Club-1PYheh6QnlK/p.html"
+      "title": "China's Wu Yibing, Wang Xinyu advance to second round at US Open",
+      "link": "https://news.cgtn.com/news/2026-08-31/China-s-Wu-Yibing-Wang-Xinyu-advance-to-second-round-at-US-Open-1Q3fqEwP22k/p.html"
     }
   ],
   "readings": [
