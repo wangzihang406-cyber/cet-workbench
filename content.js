@@ -5,108 +5,108 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
+      "date": "2026-10-05",
+      "src": "CGTN·Sports",
+      "title": "China tops medal table as Aichi-Nagoya Asian Games close",
+      "link": "https://news.cgtn.com/news/2026-10-05/China-tops-medal-table-as-Aichi-Nagoya-Asian-Games-close-1QZqhuYBgI0/p.html"
+    },
+    {
+      "id": "n02",
+      "date": "2026-10-05",
+      "src": "CGTN·Culture",
+      "title": "Notional Day Holiday: What are tourists buying in China's Shanxi?",
+      "link": "https://news.cgtn.com/news/2026-10-05/Notional-Day-Holiday-What-are-tourists-buying-in-China-s-Shanxi--1QYoeY8daMw/p.html"
+    },
+    {
+      "id": "n03",
       "date": "2026-10-04",
       "src": "CGTN·China",
       "title": "Finding answers: How foreign youth are living and growing in China",
       "link": "https://news.cgtn.com/news/2026-10-04/Finding-answers-How-foreign-youth-are-living-and-growing-in-China-1QY5pKZAqli/p.html"
     },
     {
-      "id": "n02",
+      "id": "n04",
       "date": "2026-10-02",
       "src": "CGTN·China",
       "title": "A glimpse of autumn in rural China",
       "link": "https://news.cgtn.com/news/2026-10-02/A-glimpse-of-autumn-in-rural-China-1QUMJk2kovu/p.html"
     },
     {
-      "id": "n03",
+      "id": "n05",
+      "date": "2026-10-01",
+      "src": "CGTN·Culture",
+      "title": "Canada honors Indigenous residential school survivors",
+      "link": "https://newsus.cgtn.com/news/2026-10-01/Canada-honors-Indigenous-residential-school-survivors--1QSrwHTIToA/p.html"
+    },
+    {
+      "id": "n06",
       "date": "2026-10-01",
       "src": "CGTN·Travel",
       "title": "Health Talk | The secret to longevity",
       "link": "https://news.cgtn.com/news/2026-10-01/Health-Talk-The-secret-to-longevity--1QSIcGuue8E/p.html"
     },
     {
-      "id": "n04",
-      "date": "2026-09-30",
-      "src": "CGTN·Culture",
-      "title": "Brad Pitt's 'Heart of the Beast' opens in Chinese cinemas today",
-      "link": "https://news.cgtn.com/news/2026-09-30/Brad-Pitt-s-Heart-of-the-Beast-opens-in-Chinese-cinemas-today-1QRmrKQ8I9y/p.html"
-    },
-    {
-      "id": "n05",
+      "id": "n07",
       "date": "2026-09-30",
       "src": "CGTN·Business",
       "title": "Historic landmark and new horizons in China-US trade relations",
       "link": "https://news.cgtn.com/news/2026-09-30/Historic-landmark-and-new-horizons-in-China-US-trade-relations-1QOePHt4jf2/p.html"
     },
     {
-      "id": "n06",
+      "id": "n08",
       "date": "2026-09-30",
       "src": "CGTN·Business",
       "title": "China expands mortgage subsidies to ease homebuying costs",
       "link": "https://news.cgtn.com/news/2026-09-30/China-expands-mortgage-subsidies-to-ease-homebuying-costs-1QR9evPxYoU/p.html"
     },
     {
-      "id": "n07",
+      "id": "n09",
       "date": "2026-09-30",
       "src": "CGTN·China",
       "title": "Shenzhen Airlines launches Bandar Seri Begawan–Shenzhen route",
       "link": "https://news.cgtn.com/news/2026-09-30/Shenzhen-Airlines-launches-Bandar-Seri-Begawan-Shenzhen-route-1QRKvcaZGi4/p.html"
     },
     {
-      "id": "n08",
-      "date": "2026-09-28",
+      "id": "n10",
+      "date": "2026-09-27",
       "src": "CGTN·Culture",
-      "title": "Tsinghua team uses AI to revive Chinese Shadow Puppetry",
-      "link": "https://news.cgtn.com/news/2026-09-28/Tsinghua-team-uses-AI-to-revive-Chinese-Shadow-Puppetry-1QO01nfqyhq/p.html"
+      "title": "Young Americans share views on China's proposed exchange program",
+      "link": "https://news.cgtn.com/news/2026-09-27/Young-Americans-share-views-on-China-s-proposed-exchange-program-1QMgWJOJ7X2/p.html"
     },
     {
-      "id": "n09",
+      "id": "n11",
       "date": "2026-09-24",
       "src": "CGTN·Travel",
       "title": "Chinese for a Day: The Temple of a Thousand Buddhas | Crossing Paths",
       "link": "https://news.cgtn.com/news/2026-09-24/Chinese-for-a-Day-The-Temple-of-a-Thousand-Buddhas-Crossing-Paths-1QCvyIolyP6/p.html"
     },
     {
-      "id": "n10",
+      "id": "n12",
       "date": "2026-09-24",
       "src": "CGTN·Travel",
       "title": "US student reflects on the power of people-to-people exchange",
       "link": "https://newsus.cgtn.com/news/2026-09-24/US-student-reflects-on-the-power-of-people-to-people-exchange-1QGN9dNNnB6/p.html"
     },
     {
-      "id": "n11",
+      "id": "n13",
       "date": "2026-09-24",
       "src": "CGTN·Business",
       "title": "German auto executives call for deeper cooperation with China on NEVs",
       "link": "https://news.cgtn.com/news/2026-09-24/German-auto-executives-call-for-deeper-cooperation-with-China-on-NEVs-1QH3YrNpRbq/p.html"
     },
     {
-      "id": "n12",
-      "date": "2026-09-23",
-      "src": "CGTN·Culture",
-      "title": "China promotes equal voice for all countries at UN",
-      "link": "https://newsus.cgtn.com/news/2026-09-23/China-promotes-equal-voice-for-all-countries-at-UN-1QF6W5xRefu/p.html"
-    },
-    {
-      "id": "n13",
-      "date": "2026-09-21",
-      "src": "CGTN·Sports",
-      "title": "Exclusive: China's women's pentathlon team on first Asian Games gold",
-      "link": "https://news.cgtn.com/news/2026-09-21/Exclusive-China-s-women-s-pentathlon-team-on-first-Asian-Games-gold-1QC7GBtjWYU/p.html"
-    },
-    {
       "id": "n14",
-      "date": "2026-09-14",
+      "date": "2026-09-22",
       "src": "CGTN·Sports",
-      "title": "Maresca makes flawless Man City start to leave Man Utd trailing",
-      "link": "https://news.cgtn.com/news/2026-09-14/Maresca-makes-flawless-Man-City-start-to-leave-Man-Utd-trailing-1QqurubusAo/p.html"
+      "title": "Refugee taekwondo athlete Al Hinide targets gold medal at Asian Games",
+      "link": "https://news.cgtn.com/news/2026-09-22/Refugee-taekwondo-athlete-Al-Hinide-targets-gold-medal-at-Asian-Games-1QDSgAyMo24/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-08-31",
+      "date": "2026-09-07",
       "src": "CGTN·Sports",
-      "title": "China's Wu Yibing, Wang Xinyu advance to second round at US Open",
-      "link": "https://news.cgtn.com/news/2026-08-31/China-s-Wu-Yibing-Wang-Xinyu-advance-to-second-round-at-US-Open-1Q3fqEwP22k/p.html"
+      "title": "China defeats Czech Republic in overtime at FIBA Women's World Cup",
+      "link": "https://news.cgtn.com/news/2026-09-07/China-defeats-Czech-Republic-in-overtime-at-FIBA-Women-s-World-Cup-1QeRUI2IUTe/p.html"
     }
   ],
   "readings": [
