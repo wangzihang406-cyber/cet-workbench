@@ -19,17 +19,17 @@ window.CET_CONTENT = {
     },
     {
       "id": "n03",
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "src": "CGTN·China",
-      "title": "Finding answers: How foreign youth are living and growing in China",
-      "link": "https://news.cgtn.com/news/2026-10-04/Finding-answers-How-foreign-youth-are-living-and-growing-in-China-1QY5pKZAqli/p.html"
+      "title": "How volunteer services connect the world from Sanlitun",
+      "link": "https://news.cgtn.com/news/2026-10-05/How-volunteer-services-connect-the-world-from-Sanlitun-1QZv33FyzT2/p.html"
     },
     {
       "id": "n04",
-      "date": "2026-10-02",
+      "date": "2026-10-03",
       "src": "CGTN·China",
-      "title": "A glimpse of autumn in rural China",
-      "link": "https://news.cgtn.com/news/2026-10-02/A-glimpse-of-autumn-in-rural-China-1QUMJk2kovu/p.html"
+      "title": "Woven together: Chinese and French craft traditions meet in Shanghai",
+      "link": "https://news.cgtn.com/news/2026-10-03/Woven-together-Chinese-and-French-craft-traditions-meet-in-Shanghai-1QWsRgHAYdq/p.html"
     },
     {
       "id": "n05",
@@ -47,31 +47,31 @@ window.CET_CONTENT = {
     },
     {
       "id": "n07",
-      "date": "2026-09-30",
-      "src": "CGTN·Business",
-      "title": "Historic landmark and new horizons in China-US trade relations",
-      "link": "https://news.cgtn.com/news/2026-09-30/Historic-landmark-and-new-horizons-in-China-US-trade-relations-1QOePHt4jf2/p.html"
+      "date": "2026-10-01",
+      "src": "CGTN·China",
+      "title": "Pinglu Canal sees tourism boom during China's National Day holiday",
+      "link": "https://news.cgtn.com/news/2026-10-01/Pinglu-Canal-sees-tourism-boom-during-China-s-National-Day-holiday-1QT2lH1FDsQ/p.html"
     },
     {
       "id": "n08",
-      "date": "2026-09-30",
-      "src": "CGTN·Business",
-      "title": "China expands mortgage subsidies to ease homebuying costs",
-      "link": "https://news.cgtn.com/news/2026-09-30/China-expands-mortgage-subsidies-to-ease-homebuying-costs-1QR9evPxYoU/p.html"
-    },
-    {
-      "id": "n09",
-      "date": "2026-09-30",
-      "src": "CGTN·China",
-      "title": "Shenzhen Airlines launches Bandar Seri Begawan–Shenzhen route",
-      "link": "https://news.cgtn.com/news/2026-09-30/Shenzhen-Airlines-launches-Bandar-Seri-Begawan-Shenzhen-route-1QRKvcaZGi4/p.html"
-    },
-    {
-      "id": "n10",
       "date": "2026-09-27",
       "src": "CGTN·Culture",
       "title": "Young Americans share views on China's proposed exchange program",
       "link": "https://news.cgtn.com/news/2026-09-27/Young-Americans-share-views-on-China-s-proposed-exchange-program-1QMgWJOJ7X2/p.html"
+    },
+    {
+      "id": "n09",
+      "date": "2026-09-25",
+      "src": "CGTN·Business",
+      "title": "US academic: Back-to-back China–US meetings are a big deal",
+      "link": "https://news.cgtn.com/news/2026-09-25/US-academic-Back-to-back-China-US-meetings-are-a-big-deal-1QJdfJ8cX9C/p.html"
+    },
+    {
+      "id": "n10",
+      "date": "2026-09-25",
+      "src": "CGTN·Business",
+      "title": "China-US relationship is an anchor for the global economy",
+      "link": "https://news.cgtn.com/news/2026-09-25/China-US-relationship-is-an-anchor-for-the-global-economy-1QJcE5AJq6I/p.html"
     },
     {
       "id": "n11",
@@ -89,17 +89,17 @@ window.CET_CONTENT = {
     },
     {
       "id": "n13",
-      "date": "2026-09-24",
-      "src": "CGTN·Business",
-      "title": "German auto executives call for deeper cooperation with China on NEVs",
-      "link": "https://news.cgtn.com/news/2026-09-24/German-auto-executives-call-for-deeper-cooperation-with-China-on-NEVs-1QH3YrNpRbq/p.html"
-    },
-    {
-      "id": "n14",
       "date": "2026-09-22",
       "src": "CGTN·Sports",
       "title": "Refugee taekwondo athlete Al Hinide targets gold medal at Asian Games",
       "link": "https://news.cgtn.com/news/2026-09-22/Refugee-taekwondo-athlete-Al-Hinide-targets-gold-medal-at-Asian-Games-1QDSgAyMo24/p.html"
+    },
+    {
+      "id": "n14",
+      "date": "2026-09-21",
+      "src": "CGTN·Business",
+      "title": "China, US have candid and in-depth exchanges on economy and trade",
+      "link": "https://news.cgtn.com/news/2026-09-21/news-1QC2VLp4QzC/p.html"
     },
     {
       "id": "n15",
