@@ -6,30 +6,30 @@ window.CET_CONTENT = {
     {
       "id": "n01",
       "date": "2026-10-06",
+      "src": "CGTN·Culture",
+      "title": "Discover China’s vibrant contemporary glass art scene in Beijing",
+      "link": "https://news.cgtn.com/news/2026-10-06/Discover-China-s-vibrant-contemporary-glass-art-scene-in-Beijing-1R1nAm7oHVm/p.html"
+    },
+    {
+      "id": "n02",
+      "date": "2026-10-06",
       "src": "CGTN·China",
       "title": "Hotline delivers: Road repairs make travel safer for residents",
       "link": "https://news.cgtn.com/news/2026-10-06/Hotline-delivers-Road-repairs-make-travel-safer-for-residents-1R1j6le918k/p.html"
     },
     {
-      "id": "n02",
-      "date": "2026-10-05",
-      "src": "CGTN·Culture",
-      "title": "Tourists enjoy desert fun in Kashi during National Day holiday",
-      "link": "https://news.cgtn.com/news/2026-10-05/Tourists-enjoy-desert-fun-in-Kashi-during-National-Day-holiday-1QZHSnOvq5q/p.html"
-    },
-    {
       "id": "n03",
-      "date": "2026-10-04",
-      "src": "CGTN·Sports",
-      "title": "Puche reflects on China's Asian Games football bronze",
-      "link": "https://news.cgtn.com/news/2026-10-04/Puche-reflects-on-China-s-Asian-Games-football-bronze-1QXQwmq2UmY/p.html"
-    },
-    {
-      "id": "n04",
       "date": "2026-10-04",
       "src": "CGTN·China",
       "title": "Finding answers: How foreign youth are living and growing in China",
       "link": "https://news.cgtn.com/news/2026-10-04/Finding-answers-How-foreign-youth-are-living-and-growing-in-China-1QY5pKZAqli/p.html"
+    },
+    {
+      "id": "n04",
+      "date": "2026-10-02",
+      "src": "CGTN·Culture",
+      "title": "Fireworks light up Urumqi as ethnic groups celebrate national day",
+      "link": "https://news.cgtn.com/news/2026-10-02/Fireworks-light-up-Urumqi-as-ethnic-groups-celebrate-national-day-1QUK1geHjtC/p.html"
     },
     {
       "id": "n05",
@@ -47,66 +47,66 @@ window.CET_CONTENT = {
     },
     {
       "id": "n07",
-      "date": "2026-09-29",
+      "date": "2026-09-28",
       "src": "CGTN·Culture",
-      "title": "Old walls and new flavors keep Kashi feeling fresh",
-      "link": "https://news.cgtn.com/news/2026-09-29/Old-walls-and-new-flavors-keep-Kashi-feeling-fresh-1QPOpbSFLKE/p.html"
+      "title": "Xi's key quotes on cultural diversity, exchanges between civilizations",
+      "link": "https://news.cgtn.com/news/2026-09-28/Xi-s-key-quotes-on-cultural-diversity-exchanges-between-civilizations-1QOj9i6NBq8/p.html"
     },
     {
       "id": "n08",
-      "date": "2026-09-28",
-      "src": "CGTN·Culture",
-      "title": "One step at a time: Retracing the Long March on foot",
-      "link": "https://news.cgtn.com/news/2026-09-28/One-step-at-a-time-Retracing-the-Long-March-on-foot-1QOhtGR2LUQ/p.html"
-    },
-    {
-      "id": "n09",
       "date": "2026-09-28",
       "src": "CGTN·Business",
       "title": "China's Mid-Autumn Festival sees spike in travel demand",
       "link": "https://news.cgtn.com/news/2026-09-28/China-s-Mid-Autumn-Festival-sees-spike-in-travel-demand-1QObio6QOTC/p.html"
     },
     {
-      "id": "n10",
+      "id": "n09",
       "date": "2026-09-28",
       "src": "CGTN·Business",
       "title": "China-US trade talks: A new framework for economic engagement",
       "link": "https://news.cgtn.com/news/2026-09-28/China-US-trade-talks-A-new-framework-for-economic-engagement-1QOgkXG2F4Q/p.html"
     },
     {
-      "id": "n11",
+      "id": "n10",
       "date": "2026-09-24",
       "src": "CGTN·Travel",
       "title": "Chinese for a Day: The Temple of a Thousand Buddhas | Crossing Paths",
       "link": "https://news.cgtn.com/news/2026-09-24/Chinese-for-a-Day-The-Temple-of-a-Thousand-Buddhas-Crossing-Paths-1QCvyIolyP6/p.html"
     },
     {
-      "id": "n12",
+      "id": "n11",
       "date": "2026-09-24",
       "src": "CGTN·Travel",
       "title": "US student reflects on the power of people-to-people exchange",
       "link": "https://newsus.cgtn.com/news/2026-09-24/US-student-reflects-on-the-power-of-people-to-people-exchange-1QGN9dNNnB6/p.html"
     },
     {
-      "id": "n13",
+      "id": "n12",
       "date": "2026-09-24",
       "src": "CGTN·Business",
       "title": "The automobile at 140: From Mannheim to Haikou",
       "link": "https://news.cgtn.com/news/2026-09-24/The-automobile-at-140-From-Mannheim-to-Haikou-1QHo0AmEBoY/p.html"
     },
     {
-      "id": "n14",
-      "date": "2026-09-18",
+      "id": "n13",
+      "date": "2026-09-22",
       "src": "CGTN·Sports",
-      "title": "Yang Shuai header lifts Shanghai Shenhua past Tampines Rovers",
-      "link": "https://news.cgtn.com/news/2026-09-18/Yang-Shuai-header-lifts-Shanghai-Shenhua-past-Tampines-Rovers-1Qx5Ozlc3yE/p.html"
+      "title": "Refugee taekwondo athlete Al Hinide targets gold medal at Asian Games",
+      "link": "https://news.cgtn.com/news/2026-09-22/Refugee-taekwondo-athlete-Al-Hinide-targets-gold-medal-at-Asian-Games-1QDSgAyMo24/p.html"
+    },
+    {
+      "id": "n14",
+      "date": "2026-09-15",
+      "src": "CGTN·Sports",
+      "title": "Wang Shuang powers China to 5-1 Aichi-Nagoya Asian Games opening win",
+      "link": "https://news.cgtn.com/news/2026-09-15/Wang-Shuang-powers-China-to-5-1-Aichi-Nagoya-Asian-Games-opening-win-1Qs8JxHNlGU/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-09-15",
+      "date": "2026-09-08",
       "src": "CGTN·Sports",
-      "title": "President Ruto hails Nairobi's historic 2029 World Athletics win",
-      "link": "https://newsaf.cgtn.com/news/2026-09-15/President-Ruto-hails-Nairobi-s-historic-2029-World-Athletics-win-1QsRTDFlvhu/p.html"
+      "title": "Zheng rallies from 5-0 to stun Swiatek and reach US Open quarterfinals",
+      "link": "https://news.cgtn.com/news/2026-09-08/Zheng-rallies-from-5-0-to-stun-Swiatek-and-reach-US-Open-quarterfinals-1Qgt3EUD160/p.html"
     }
   ],
   "readings": [
