@@ -5,17 +5,17 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
-      "date": "2026-10-05",
-      "src": "CGTN·Culture",
-      "title": "Tourists enjoy desert fun in Kashi during National Day holiday",
-      "link": "https://news.cgtn.com/news/2026-10-05/Tourists-enjoy-desert-fun-in-Kashi-during-National-Day-holiday-1QZHSnOvq5q/p.html"
+      "date": "2026-10-06",
+      "src": "CGTN·China",
+      "title": "Hotline delivers: Road repairs make travel safer for residents",
+      "link": "https://news.cgtn.com/news/2026-10-06/Hotline-delivers-Road-repairs-make-travel-safer-for-residents-1R1j6le918k/p.html"
     },
     {
       "id": "n02",
       "date": "2026-10-05",
-      "src": "CGTN·China",
-      "title": "How volunteer services connect the world from Sanlitun",
-      "link": "https://news.cgtn.com/news/2026-10-05/How-volunteer-services-connect-the-world-from-Sanlitun-1QZv33FyzT2/p.html"
+      "src": "CGTN·Culture",
+      "title": "Tourists enjoy desert fun in Kashi during National Day holiday",
+      "link": "https://news.cgtn.com/news/2026-10-05/Tourists-enjoy-desert-fun-in-Kashi-during-National-Day-holiday-1QZHSnOvq5q/p.html"
     },
     {
       "id": "n03",
@@ -26,24 +26,24 @@ window.CET_CONTENT = {
     },
     {
       "id": "n04",
-      "date": "2026-10-03",
+      "date": "2026-10-04",
       "src": "CGTN·China",
-      "title": "Woven together: Chinese and French craft traditions meet in Shanghai",
-      "link": "https://news.cgtn.com/news/2026-10-03/Woven-together-Chinese-and-French-craft-traditions-meet-in-Shanghai-1QWsRgHAYdq/p.html"
+      "title": "Finding answers: How foreign youth are living and growing in China",
+      "link": "https://news.cgtn.com/news/2026-10-04/Finding-answers-How-foreign-youth-are-living-and-growing-in-China-1QY5pKZAqli/p.html"
     },
     {
       "id": "n05",
-      "date": "2026-10-01",
-      "src": "CGTN·Travel",
-      "title": "Health Talk | The secret to longevity",
-      "link": "https://news.cgtn.com/news/2026-10-01/Health-Talk-The-secret-to-longevity--1QSIcGuue8E/p.html"
+      "date": "2026-10-02",
+      "src": "CGTN·China",
+      "title": "China's domestic holiday travel turns to immersive, local experiences",
+      "link": "https://news.cgtn.com/news/2026-10-02/China-s-domestic-holiday-travel-turns-to-immersive-local-experiences-1QUM2eoBKOk/p.html"
     },
     {
       "id": "n06",
       "date": "2026-10-01",
-      "src": "CGTN·China",
-      "title": "Pinglu Canal sees tourism boom during China's National Day holiday",
-      "link": "https://news.cgtn.com/news/2026-10-01/Pinglu-Canal-sees-tourism-boom-during-China-s-National-Day-holiday-1QT2lH1FDsQ/p.html"
+      "src": "CGTN·Travel",
+      "title": "Health Talk | The secret to longevity",
+      "link": "https://news.cgtn.com/news/2026-10-01/Health-Talk-The-secret-to-longevity--1QSIcGuue8E/p.html"
     },
     {
       "id": "n07",
@@ -61,17 +61,17 @@ window.CET_CONTENT = {
     },
     {
       "id": "n09",
-      "date": "2026-09-25",
+      "date": "2026-09-28",
       "src": "CGTN·Business",
-      "title": "US academic: Back-to-back China–US meetings are a big deal",
-      "link": "https://news.cgtn.com/news/2026-09-25/US-academic-Back-to-back-China-US-meetings-are-a-big-deal-1QJdfJ8cX9C/p.html"
+      "title": "China's Mid-Autumn Festival sees spike in travel demand",
+      "link": "https://news.cgtn.com/news/2026-09-28/China-s-Mid-Autumn-Festival-sees-spike-in-travel-demand-1QObio6QOTC/p.html"
     },
     {
       "id": "n10",
-      "date": "2026-09-25",
+      "date": "2026-09-28",
       "src": "CGTN·Business",
-      "title": "China-US relationship is an anchor for the global economy",
-      "link": "https://news.cgtn.com/news/2026-09-25/China-US-relationship-is-an-anchor-for-the-global-economy-1QJcE5AJq6I/p.html"
+      "title": "China-US trade talks: A new framework for economic engagement",
+      "link": "https://news.cgtn.com/news/2026-09-28/China-US-trade-talks-A-new-framework-for-economic-engagement-1QOgkXG2F4Q/p.html"
     },
     {
       "id": "n11",
@@ -89,10 +89,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n13",
-      "date": "2026-09-21",
+      "date": "2026-09-24",
       "src": "CGTN·Business",
-      "title": "China, US have candid and in-depth exchanges on economy and trade",
-      "link": "https://news.cgtn.com/news/2026-09-21/news-1QC2VLp4QzC/p.html"
+      "title": "The automobile at 140: From Mannheim to Haikou",
+      "link": "https://news.cgtn.com/news/2026-09-24/The-automobile-at-140-From-Mannheim-to-Haikou-1QHo0AmEBoY/p.html"
     },
     {
       "id": "n14",
