@@ -5,66 +5,66 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
+      "date": "2026-10-08",
+      "src": "CGTN·China",
+      "title": "Chancay-Shanghai maritime route is supercharging China-Peru trade",
+      "link": "https://newsus.cgtn.com/news/2026-10-08/Chancay-Shanghai-maritime-route-is-supercharging-China-Peru-trade--1R3XzsJTbB6/p.html"
+    },
+    {
+      "id": "n02",
+      "date": "2026-10-07",
+      "src": "CGTN·Business",
+      "title": "Immersive experiences reshape inbound travel over National Day holiday",
+      "link": "https://news.cgtn.com/news/2026-10-07/Immersive-experiences-reshape-inbound-travel-over-National-Day-holiday-1R38klfjZOU/p.html"
+    },
+    {
+      "id": "n03",
+      "date": "2026-10-07",
+      "src": "CGTN·China",
+      "title": "Russian Presidential Aide Patrushev to visit China October 8-13",
+      "link": "https://news.cgtn.com/news/2026-10-07/Russian-Presidential-Aide-Patrushev-to-visit-China-October-8-13-1R2Z5OVqUWk/p.html"
+    },
+    {
+      "id": "n04",
       "date": "2026-10-06",
       "src": "CGTN·Culture",
       "title": "Discover China’s vibrant contemporary glass art scene in Beijing",
       "link": "https://news.cgtn.com/news/2026-10-06/Discover-China-s-vibrant-contemporary-glass-art-scene-in-Beijing-1R1nAm7oHVm/p.html"
     },
     {
-      "id": "n02",
-      "date": "2026-10-06",
+      "id": "n05",
+      "date": "2026-10-03",
       "src": "CGTN·China",
-      "title": "Hotline delivers: Road repairs make travel safer for residents",
-      "link": "https://news.cgtn.com/news/2026-10-06/Hotline-delivers-Road-repairs-make-travel-safer-for-residents-1R1j6le918k/p.html"
+      "title": "China finishes Asian Games campaign with 169 golds",
+      "link": "https://news.cgtn.com/news/2026-10-03/China-finishes-Asian-Games-campaign-with-169-golds-1QWG7lGV9BK/p.html"
     },
     {
-      "id": "n03",
-      "date": "2026-10-04",
-      "src": "CGTN·China",
-      "title": "Finding answers: How foreign youth are living and growing in China",
-      "link": "https://news.cgtn.com/news/2026-10-04/Finding-answers-How-foreign-youth-are-living-and-growing-in-China-1QY5pKZAqli/p.html"
-    },
-    {
-      "id": "n04",
+      "id": "n06",
       "date": "2026-10-02",
       "src": "CGTN·Culture",
       "title": "Fireworks light up Urumqi as ethnic groups celebrate national day",
       "link": "https://news.cgtn.com/news/2026-10-02/Fireworks-light-up-Urumqi-as-ethnic-groups-celebrate-national-day-1QUK1geHjtC/p.html"
     },
     {
-      "id": "n05",
-      "date": "2026-10-02",
-      "src": "CGTN·China",
-      "title": "China's domestic holiday travel turns to immersive, local experiences",
-      "link": "https://news.cgtn.com/news/2026-10-02/China-s-domestic-holiday-travel-turns-to-immersive-local-experiences-1QUM2eoBKOk/p.html"
-    },
-    {
-      "id": "n06",
+      "id": "n07",
       "date": "2026-10-01",
       "src": "CGTN·Travel",
       "title": "Health Talk | The secret to longevity",
       "link": "https://news.cgtn.com/news/2026-10-01/Health-Talk-The-secret-to-longevity--1QSIcGuue8E/p.html"
     },
     {
-      "id": "n07",
+      "id": "n08",
       "date": "2026-09-28",
       "src": "CGTN·Culture",
       "title": "Xi's key quotes on cultural diversity, exchanges between civilizations",
       "link": "https://news.cgtn.com/news/2026-09-28/Xi-s-key-quotes-on-cultural-diversity-exchanges-between-civilizations-1QOj9i6NBq8/p.html"
     },
     {
-      "id": "n08",
-      "date": "2026-09-28",
-      "src": "CGTN·Business",
-      "title": "China's Mid-Autumn Festival sees spike in travel demand",
-      "link": "https://news.cgtn.com/news/2026-09-28/China-s-Mid-Autumn-Festival-sees-spike-in-travel-demand-1QObio6QOTC/p.html"
-    },
-    {
       "id": "n09",
-      "date": "2026-09-28",
+      "date": "2026-09-26",
       "src": "CGTN·Business",
-      "title": "China-US trade talks: A new framework for economic engagement",
-      "link": "https://news.cgtn.com/news/2026-09-28/China-US-trade-talks-A-new-framework-for-economic-engagement-1QOgkXG2F4Q/p.html"
+      "title": "Economists weigh China-US trade tensions amid Xi-Trump talks",
+      "link": "https://newsus.cgtn.com/news/2026-09-26/Economists-weigh-China-US-trade-tensions-amid-Xi-Trump-talks-1QJWh3lZ3DW/p.html"
     },
     {
       "id": "n10",
@@ -82,10 +82,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n12",
-      "date": "2026-09-24",
+      "date": "2026-09-23",
       "src": "CGTN·Business",
-      "title": "The automobile at 140: From Mannheim to Haikou",
-      "link": "https://news.cgtn.com/news/2026-09-24/The-automobile-at-140-From-Mannheim-to-Haikou-1QHo0AmEBoY/p.html"
+      "title": "How can tensions ease for China-US trade?",
+      "link": "https://newsus.cgtn.com/news/2026-09-23/How-can-tensions-ease-for-China-US-trade--1QF8wpiLWeI/p.html"
     },
     {
       "id": "n13",
