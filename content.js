@@ -5,24 +5,24 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "src": "CGTN·China",
-      "title": "Chancay-Shanghai maritime route is supercharging China-Peru trade",
-      "link": "https://newsus.cgtn.com/news/2026-10-08/Chancay-Shanghai-maritime-route-is-supercharging-China-Peru-trade--1R3XzsJTbB6/p.html"
+      "title": "Chinese aunties show their spin on basketball",
+      "link": "https://newsus.cgtn.com/news/2026-10-09/Chinese-aunties-show-their-spin-on-basketball-1R5vRg6N4zu/p.html"
     },
     {
       "id": "n02",
-      "date": "2026-10-07",
-      "src": "CGTN·Business",
-      "title": "Immersive experiences reshape inbound travel over National Day holiday",
-      "link": "https://news.cgtn.com/news/2026-10-07/Immersive-experiences-reshape-inbound-travel-over-National-Day-holiday-1R38klfjZOU/p.html"
+      "date": "2026-10-08",
+      "src": "CGTN·China",
+      "title": "China's He Lifeng, UK's John Healey hold video call on economic ties",
+      "link": "https://news.cgtn.com/news/2026-10-08/China-s-He-Lifeng-UK-s-John-Healey-hold-video-call-on-economic-ties-1R50w9sh7Es/p.html"
     },
     {
       "id": "n03",
-      "date": "2026-10-07",
+      "date": "2026-10-06",
       "src": "CGTN·China",
-      "title": "Russian Presidential Aide Patrushev to visit China October 8-13",
-      "link": "https://news.cgtn.com/news/2026-10-07/Russian-Presidential-Aide-Patrushev-to-visit-China-October-8-13-1R2Z5OVqUWk/p.html"
+      "title": "Chaka Salt Lake welcomes National Day holiday crowds",
+      "link": "https://news.cgtn.com/news/2026-10-06/Chaka-Salt-Lake-welcomes-National-Day-holiday-crowds-1R1iq1uWzBe/p.html"
     },
     {
       "id": "n04",
@@ -33,10 +33,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n05",
-      "date": "2026-10-03",
-      "src": "CGTN·China",
-      "title": "China finishes Asian Games campaign with 169 golds",
-      "link": "https://news.cgtn.com/news/2026-10-03/China-finishes-Asian-Games-campaign-with-169-golds-1QWG7lGV9BK/p.html"
+      "date": "2026-10-04",
+      "src": "CGTN·Business",
+      "title": "China plays constructive role at G20 trade ministers' meeting",
+      "link": "https://news.cgtn.com/news/2026-10-04/China-plays-constructive-role-at-G20-trade-ministers-meeting-1QXMzLUJSXC/p.html"
     },
     {
       "id": "n06",
@@ -61,17 +61,17 @@ window.CET_CONTENT = {
     },
     {
       "id": "n09",
+      "date": "2026-09-30",
+      "src": "CGTN·Business",
+      "title": "Historic landmark and new horizons in China-US trade relations",
+      "link": "https://news.cgtn.com/news/2026-09-30/Historic-landmark-and-new-horizons-in-China-US-trade-relations-1QOePHt4jf2/p.html"
+    },
+    {
+      "id": "n10",
       "date": "2026-09-29",
       "src": "CGTN·Culture",
       "title": "Nishan Dialogue: The wisdom of the analects on justice",
       "link": "https://news.cgtn.com/news/2026-09-29/Nishan-Dialogue-The-wisdom-of-the-analects-on-justice-1QPv1yJJ8kw/p.html"
-    },
-    {
-      "id": "n10",
-      "date": "2026-09-26",
-      "src": "CGTN·Business",
-      "title": "Economists weigh China-US trade tensions amid Xi-Trump talks",
-      "link": "https://newsus.cgtn.com/news/2026-09-26/Economists-weigh-China-US-trade-tensions-amid-Xi-Trump-talks-1QJWh3lZ3DW/p.html"
     },
     {
       "id": "n11",
@@ -89,10 +89,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n13",
-      "date": "2026-09-23",
+      "date": "2026-09-24",
       "src": "CGTN·Business",
-      "title": "How can tensions ease for China-US trade?",
-      "link": "https://newsus.cgtn.com/news/2026-09-23/How-can-tensions-ease-for-China-US-trade--1QF8wpiLWeI/p.html"
+      "title": "China's central bank pledges accommodative policy to support growth",
+      "link": "https://news.cgtn.com/news/2026-09-24/China-s-central-bank-pledges-accommodative-policy-to-support-growth-1QHDdGUcGB2/p.html"
     },
     {
       "id": "n14",
