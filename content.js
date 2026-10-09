@@ -6,58 +6,58 @@ window.CET_CONTENT = {
     {
       "id": "n01",
       "date": "2026-10-09",
+      "src": "CGTN·Sports",
+      "title": "Buyunchaokete shines on serve to book Shanghai showdown with Ruud",
+      "link": "https://news.cgtn.com/news/2026-10-09/Buyunchaokete-shines-on-serve-to-book-Shanghai-showdown-with-Ruud-1R5YrkX44us/p.html"
+    },
+    {
+      "id": "n02",
+      "date": "2026-10-09",
+      "src": "CGTN·Culture",
+      "title": "2027 Spring/Summer Shanghai Fashion Week kicks off",
+      "link": "https://news.cgtn.com/news/2026-10-09/2027-Spring-Summer-Shanghai-Fashion-Week-kicks-off-1R60vT5iee4/p.html"
+    },
+    {
+      "id": "n03",
+      "date": "2026-10-09",
       "src": "CGTN·China",
       "title": "Chinese aunties show their spin on basketball",
       "link": "https://newsus.cgtn.com/news/2026-10-09/Chinese-aunties-show-their-spin-on-basketball-1R5vRg6N4zu/p.html"
     },
     {
-      "id": "n02",
+      "id": "n04",
       "date": "2026-10-08",
       "src": "CGTN·China",
       "title": "China's He Lifeng, UK's John Healey hold video call on economic ties",
       "link": "https://news.cgtn.com/news/2026-10-08/China-s-He-Lifeng-UK-s-John-Healey-hold-video-call-on-economic-ties-1R50w9sh7Es/p.html"
     },
     {
-      "id": "n03",
+      "id": "n05",
+      "date": "2026-10-06",
+      "src": "CGTN·Culture",
+      "title": "Discover China’s vibrant contemporary glass art scene in Beijing",
+      "link": "https://news.cgtn.com/news/2026-10-06/Discover-China-s-vibrant-contemporary-glass-art-scene-in-Beijing-1R1nAm7oHVm/p.html"
+    },
+    {
+      "id": "n06",
       "date": "2026-10-06",
       "src": "CGTN·China",
       "title": "Chaka Salt Lake welcomes National Day holiday crowds",
       "link": "https://news.cgtn.com/news/2026-10-06/Chaka-Salt-Lake-welcomes-National-Day-holiday-crowds-1R1iq1uWzBe/p.html"
     },
     {
-      "id": "n04",
-      "date": "2026-10-04",
-      "src": "CGTN·Culture",
-      "title": "Beyond ACG: US creators behind NHS find an audience in China",
-      "link": "https://news.cgtn.com/news/2026-10-04/Beyond-ACG-US-creators-behind-NHS-find-an-audience-in-China-1QV2qHoLIWs/p.html"
-    },
-    {
-      "id": "n05",
+      "id": "n07",
       "date": "2026-10-04",
       "src": "CGTN·Business",
       "title": "China plays constructive role at G20 trade ministers' meeting",
       "link": "https://news.cgtn.com/news/2026-10-04/China-plays-constructive-role-at-G20-trade-ministers-meeting-1QXMzLUJSXC/p.html"
     },
     {
-      "id": "n06",
+      "id": "n08",
       "date": "2026-10-01",
       "src": "CGTN·Travel",
       "title": "Health Talk | The secret to longevity",
       "link": "https://news.cgtn.com/news/2026-10-01/Health-Talk-The-secret-to-longevity--1QSIcGuue8E/p.html"
-    },
-    {
-      "id": "n07",
-      "date": "2026-09-30",
-      "src": "CGTN·Sports",
-      "title": "Exclusive: ATP CEO eyes change as China Open celebrates 20th edition",
-      "link": "https://news.cgtn.com/news/2026-09-30/Exclusive-ATP-CEO-eyes-change-as-China-Open-celebrates-20th-edition-1QRdYHLOXII/p.html"
-    },
-    {
-      "id": "n08",
-      "date": "2026-09-30",
-      "src": "CGTN·Culture",
-      "title": "Brad Pitt's 'Heart of the Beast' opens in Chinese cinemas today",
-      "link": "https://news.cgtn.com/news/2026-09-30/Brad-Pitt-s-Heart-of-the-Beast-opens-in-Chinese-cinemas-today-1QRmrKQ8I9y/p.html"
     },
     {
       "id": "n09",
@@ -68,45 +68,45 @@ window.CET_CONTENT = {
     },
     {
       "id": "n10",
-      "date": "2026-09-29",
-      "src": "CGTN·Culture",
-      "title": "Nishan Dialogue: The wisdom of the analects on justice",
-      "link": "https://news.cgtn.com/news/2026-09-29/Nishan-Dialogue-The-wisdom-of-the-analects-on-justice-1QPv1yJJ8kw/p.html"
+      "date": "2026-09-28",
+      "src": "CGTN·Sports",
+      "title": "Zimbabwe beats Uganda to win Rugby Africa Sevens title",
+      "link": "https://newsaf.cgtn.com/news/2026-09-28/Zimbabwe-beats-Uganda-to-win-Rugby-Africa-Sevens-title-1QO8hDL8KrK/p.html"
     },
     {
       "id": "n11",
+      "date": "2026-09-28",
+      "src": "CGTN·Culture",
+      "title": "How about decorating your desk with Confucius figurines?",
+      "link": "https://news.cgtn.com/news/2026-09-28/How-about-decorating-your-desk-with-Confucius-figurines--1QOkJ26fVio/p.html"
+    },
+    {
+      "id": "n12",
       "date": "2026-09-24",
       "src": "CGTN·Travel",
       "title": "Chinese for a Day: The Temple of a Thousand Buddhas | Crossing Paths",
       "link": "https://news.cgtn.com/news/2026-09-24/Chinese-for-a-Day-The-Temple-of-a-Thousand-Buddhas-Crossing-Paths-1QCvyIolyP6/p.html"
     },
     {
-      "id": "n12",
+      "id": "n13",
       "date": "2026-09-24",
       "src": "CGTN·Travel",
       "title": "US student reflects on the power of people-to-people exchange",
       "link": "https://newsus.cgtn.com/news/2026-09-24/US-student-reflects-on-the-power-of-people-to-people-exchange-1QGN9dNNnB6/p.html"
     },
     {
-      "id": "n13",
+      "id": "n14",
       "date": "2026-09-24",
       "src": "CGTN·Business",
       "title": "China's central bank pledges accommodative policy to support growth",
       "link": "https://news.cgtn.com/news/2026-09-24/China-s-central-bank-pledges-accommodative-policy-to-support-growth-1QHDdGUcGB2/p.html"
     },
     {
-      "id": "n14",
-      "date": "2026-09-18",
-      "src": "CGTN·Sports",
-      "title": "Yang Shuai header lifts Shanghai Shenhua past Tampines Rovers",
-      "link": "https://news.cgtn.com/news/2026-09-18/Yang-Shuai-header-lifts-Shanghai-Shenhua-past-Tampines-Rovers-1Qx5Ozlc3yE/p.html"
-    },
-    {
       "id": "n15",
-      "date": "2026-09-10",
+      "date": "2026-09-04",
       "src": "CGTN·Sports",
-      "title": "China's Zheng Qinwen knocked out by Rybakina in US Open quarterfinals",
-      "link": "https://news.cgtn.com/news/2026-09-10/China-s-Zheng-Qinwen-knocked-out-by-Rybakina-in-US-Open-quarterfinals-1QjRmlLgGfC/p.html"
+      "title": "Kenya, Egypt set for CAVB final",
+      "link": "https://newsaf.cgtn.com/news/2026-09-04/Kenya-Egypt-set-for-CAVB-final-1QazPKPq9XO/p.html"
     }
   ],
   "readings": [
