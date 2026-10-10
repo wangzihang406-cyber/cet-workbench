@@ -20,37 +20,37 @@ window.CET_CONTENT = {
     {
       "id": "n03",
       "date": "2026-10-09",
-      "src": "CGTN·China",
-      "title": "Chinese aunties show their spin on basketball",
-      "link": "https://newsus.cgtn.com/news/2026-10-09/Chinese-aunties-show-their-spin-on-basketball-1R5vRg6N4zu/p.html"
+      "src": "CGTN·Business",
+      "title": "BizDataDive: How China's central bank views the RMB exchange rate",
+      "link": "https://news.cgtn.com/news/2026-10-09/BizDataDive-How-China-s-central-bank-views-the-RMB-exchange-rate-1R6CZCOYnbW/p.html"
     },
     {
       "id": "n04",
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "src": "CGTN·China",
-      "title": "China's He Lifeng, UK's John Healey hold video call on economic ties",
-      "link": "https://news.cgtn.com/news/2026-10-08/China-s-He-Lifeng-UK-s-John-Healey-hold-video-call-on-economic-ties-1R50w9sh7Es/p.html"
+      "title": "China issues guidelines on developing new quality productive forces",
+      "link": "https://news.cgtn.com/news/2026-10-09/China-issues-guidelines-on-developing-new-quality-productive-forces-1R6ANt3mNS8/p.html"
     },
     {
       "id": "n05",
+      "date": "2026-10-09",
+      "src": "CGTN·China",
+      "title": "Symposium held to study Xi's works on culture",
+      "link": "https://news.cgtn.com/news/2026-10-09/Symposium-held-to-study-Xi-s-works-on-culture-1R6zQjPACHe/p.html"
+    },
+    {
+      "id": "n06",
+      "date": "2026-10-07",
+      "src": "CGTN·China",
+      "title": "Beijing parks remain busy as National Day holiday ends",
+      "link": "https://news.cgtn.com/news/2026-10-07/Beijing-parks-remain-busy-as-National-Day-holiday-ends-1R2ZEEBSSBi/p.html"
+    },
+    {
+      "id": "n07",
       "date": "2026-10-06",
       "src": "CGTN·Culture",
       "title": "Discover China’s vibrant contemporary glass art scene in Beijing",
       "link": "https://news.cgtn.com/news/2026-10-06/Discover-China-s-vibrant-contemporary-glass-art-scene-in-Beijing-1R1nAm7oHVm/p.html"
-    },
-    {
-      "id": "n06",
-      "date": "2026-10-06",
-      "src": "CGTN·China",
-      "title": "Chaka Salt Lake welcomes National Day holiday crowds",
-      "link": "https://news.cgtn.com/news/2026-10-06/Chaka-Salt-Lake-welcomes-National-Day-holiday-crowds-1R1iq1uWzBe/p.html"
-    },
-    {
-      "id": "n07",
-      "date": "2026-10-04",
-      "src": "CGTN·Business",
-      "title": "China plays constructive role at G20 trade ministers' meeting",
-      "link": "https://news.cgtn.com/news/2026-10-04/China-plays-constructive-role-at-G20-trade-ministers-meeting-1QXMzLUJSXC/p.html"
     },
     {
       "id": "n08",
@@ -61,10 +61,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n09",
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "src": "CGTN·Business",
-      "title": "Historic landmark and new horizons in China-US trade relations",
-      "link": "https://news.cgtn.com/news/2026-09-30/Historic-landmark-and-new-horizons-in-China-US-trade-relations-1QOePHt4jf2/p.html"
+      "title": "Expanding new space for China-US economic and trade cooperation",
+      "link": "https://news.cgtn.com/news/2026-10-01/Expanding-new-space-for-China-US-economic-and-trade-cooperation-1QSWoKCBWQ8/p.html"
     },
     {
       "id": "n10",
@@ -82,24 +82,24 @@ window.CET_CONTENT = {
     },
     {
       "id": "n12",
+      "date": "2026-09-27",
+      "src": "CGTN·Business",
+      "title": "China-US relations: From tech blockade to AI dialogue",
+      "link": "https://news.cgtn.com/news/2026-09-27/China-US-relations-From-tech-blockade-to-AI-dialogue-1QMnHWJcgmY/p.html"
+    },
+    {
+      "id": "n13",
       "date": "2026-09-24",
       "src": "CGTN·Travel",
       "title": "Chinese for a Day: The Temple of a Thousand Buddhas | Crossing Paths",
       "link": "https://news.cgtn.com/news/2026-09-24/Chinese-for-a-Day-The-Temple-of-a-Thousand-Buddhas-Crossing-Paths-1QCvyIolyP6/p.html"
     },
     {
-      "id": "n13",
+      "id": "n14",
       "date": "2026-09-24",
       "src": "CGTN·Travel",
       "title": "US student reflects on the power of people-to-people exchange",
       "link": "https://newsus.cgtn.com/news/2026-09-24/US-student-reflects-on-the-power-of-people-to-people-exchange-1QGN9dNNnB6/p.html"
-    },
-    {
-      "id": "n14",
-      "date": "2026-09-24",
-      "src": "CGTN·Business",
-      "title": "China's central bank pledges accommodative policy to support growth",
-      "link": "https://news.cgtn.com/news/2026-09-24/China-s-central-bank-pledges-accommodative-policy-to-support-growth-1QHDdGUcGB2/p.html"
     },
     {
       "id": "n15",
