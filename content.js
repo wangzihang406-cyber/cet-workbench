@@ -5,17 +5,17 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
-      "date": "2026-10-09",
-      "src": "CGTN·Sports",
-      "title": "Buyunchaokete shines on serve to book Shanghai showdown with Ruud",
-      "link": "https://news.cgtn.com/news/2026-10-09/Buyunchaokete-shines-on-serve-to-book-Shanghai-showdown-with-Ruud-1R5YrkX44us/p.html"
+      "date": "2026-10-10",
+      "src": "CGTN·Culture",
+      "title": "How China uses digital tech to empower women globally",
+      "link": "https://news.cgtn.com/news/2026-10-10/How-China-uses-digital-tech-to-empower-women-globally-1R7KuZ2GTMk/p.html"
     },
     {
       "id": "n02",
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "src": "CGTN·Culture",
-      "title": "2027 Spring/Summer Shanghai Fashion Week kicks off",
-      "link": "https://news.cgtn.com/news/2026-10-09/2027-Spring-Summer-Shanghai-Fashion-Week-kicks-off-1R60vT5iee4/p.html"
+      "title": "Peng Liyuan urges development of digital education access for women",
+      "link": "https://news.cgtn.com/news/2026-10-10/Peng-Liyuan-urges-development-of-digital-education-access-for-women-1R7u8ZefbW0/p.html"
     },
     {
       "id": "n03",
@@ -40,45 +40,45 @@ window.CET_CONTENT = {
     },
     {
       "id": "n06",
+      "date": "2026-10-08",
+      "src": "CGTN·Sports",
+      "title": "WTT China Smash highlighted by string of major early upsets in Beijing",
+      "link": "https://news.cgtn.com/news/2026-10-08/WTT-China-Smash-highlighted-by-string-of-major-early-upsets-in-Beijing-1R4py2V4RKo/p.html"
+    },
+    {
+      "id": "n07",
       "date": "2026-10-07",
       "src": "CGTN·China",
       "title": "Beijing parks remain busy as National Day holiday ends",
       "link": "https://news.cgtn.com/news/2026-10-07/Beijing-parks-remain-busy-as-National-Day-holiday-ends-1R2ZEEBSSBi/p.html"
     },
     {
-      "id": "n07",
-      "date": "2026-10-06",
-      "src": "CGTN·Culture",
-      "title": "Discover China’s vibrant contemporary glass art scene in Beijing",
-      "link": "https://news.cgtn.com/news/2026-10-06/Discover-China-s-vibrant-contemporary-glass-art-scene-in-Beijing-1R1nAm7oHVm/p.html"
+      "id": "n08",
+      "date": "2026-10-05",
+      "src": "CGTN·Sports",
+      "title": "WADA president visits Kenya amid doping concerns",
+      "link": "https://newsaf.cgtn.com/news/2026-10-05/WADA-president-visits-Kenya-amid-doping-concerns-1QZTZOklxg4/p.html"
     },
     {
-      "id": "n08",
+      "id": "n09",
       "date": "2026-10-01",
       "src": "CGTN·Travel",
       "title": "Health Talk | The secret to longevity",
       "link": "https://news.cgtn.com/news/2026-10-01/Health-Talk-The-secret-to-longevity--1QSIcGuue8E/p.html"
     },
     {
-      "id": "n09",
+      "id": "n10",
       "date": "2026-10-01",
       "src": "CGTN·Business",
       "title": "Expanding new space for China-US economic and trade cooperation",
       "link": "https://news.cgtn.com/news/2026-10-01/Expanding-new-space-for-China-US-economic-and-trade-cooperation-1QSWoKCBWQ8/p.html"
     },
     {
-      "id": "n10",
-      "date": "2026-09-28",
-      "src": "CGTN·Sports",
-      "title": "Zimbabwe beats Uganda to win Rugby Africa Sevens title",
-      "link": "https://newsaf.cgtn.com/news/2026-09-28/Zimbabwe-beats-Uganda-to-win-Rugby-Africa-Sevens-title-1QO8hDL8KrK/p.html"
-    },
-    {
       "id": "n11",
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "src": "CGTN·Culture",
-      "title": "How about decorating your desk with Confucius figurines?",
-      "link": "https://news.cgtn.com/news/2026-09-28/How-about-decorating-your-desk-with-Confucius-figurines--1QOkJ26fVio/p.html"
+      "title": "From Nishan to world: 'Ask Confucius' about 'harmony in diversity'",
+      "link": "https://news.cgtn.com/news/2026-09-29/From-Nishan-to-World-Ask-Confucius-cultural-dialogue-1QPsWCBxGKI/p.html"
     },
     {
       "id": "n12",
@@ -103,10 +103,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n15",
-      "date": "2026-09-04",
+      "date": "2026-09-06",
       "src": "CGTN·Sports",
-      "title": "Kenya, Egypt set for CAVB final",
-      "link": "https://newsaf.cgtn.com/news/2026-09-04/Kenya-Egypt-set-for-CAVB-final-1QazPKPq9XO/p.html"
+      "title": "Zheng Qinwen roars into US Open round of 16 after sensational comeback",
+      "link": "https://news.cgtn.com/news/2026-09-06/Zheng-Qinwen-roars-into-US-Open-round-of-16-after-sensational-comeback-1QddfzJSTWo/p.html"
     }
   ],
   "readings": [
