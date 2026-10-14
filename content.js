@@ -26,52 +26,52 @@ window.CET_CONTENT = {
     },
     {
       "id": "n04",
-      "date": "2026-10-12",
-      "src": "CGTN·Culture",
-      "title": "The Long March in Song · Yuguo Band's Ten Farewell",
-      "link": "https://news.cgtn.com/news/2026-10-12/The-Long-March-in-Song-Yuguo-Band-s-Ten-Farewell-1RbjIQaWVLG/p.html"
-    },
-    {
-      "id": "n05",
-      "date": "2026-10-12",
-      "src": "CGTN·Culture",
-      "title": "China's box office passes 31 billion yuan, led by domestic films",
-      "link": "https://news.cgtn.com/news/2026-10-12/China-s-box-office-passes-31-billion-yuan-led-by-domestic-films-1RbgshVWEFi/p.html"
-    },
-    {
-      "id": "n06",
       "date": "2026-10-11",
       "src": "CGTN·Business",
       "title": "EU official: Exchanges with China have reached unprecedented intensity",
       "link": "https://news.cgtn.com/news/2026-10-11/EU-official-Exchanges-with-China-have-reached-unprecedented-intensity-1R8eyVpbBFC/p.html"
     },
     {
+      "id": "n05",
+      "date": "2026-10-10",
+      "src": "CGTN·Culture",
+      "title": "How China uses digital tech to empower women globally",
+      "link": "https://news.cgtn.com/news/2026-10-10/How-China-uses-digital-tech-to-empower-women-globally-1R7KuZ2GTMk/p.html"
+    },
+    {
+      "id": "n06",
+      "date": "2026-10-09",
+      "src": "CGTN·Culture",
+      "title": "Night tour of Longmen: One step, a thousand years",
+      "link": "https://news.cgtn.com/news/2026-10-09/Night-tour-of-Longmen-One-step-a-thousand-years-1R6kNNSdADC/p.html"
+    },
+    {
       "id": "n07",
-      "date": "2026-10-03",
+      "date": "2026-10-04",
       "src": "CGTN·Sports",
-      "title": "Africa Watch: WAC will be held in Nairobi - Why it matters for Kenya?",
-      "link": "https://newsaf.cgtn.com/news/2026-10-03/Africa-Watch-WAC-will-be-held-in-Nairobi-Why-it-matters-for-Kenya--1QWipL084hO/p.html"
+      "title": "China reaches 169 Asian Games gold medals, sets new overseas record",
+      "link": "https://news.cgtn.com/news/2026-10-04/China-reaches-169-Asian-Games-gold-medals-sets-new-overseas-record-1QXM1DaxKiQ/p.html"
     },
     {
       "id": "n08",
-      "date": "2026-10-02",
+      "date": "2026-10-03",
       "src": "CGTN·Culture",
-      "title": "Fireworks light up Urumqi as ethnic groups celebrate national day",
-      "link": "https://news.cgtn.com/news/2026-10-02/Fireworks-light-up-Urumqi-as-ethnic-groups-celebrate-national-day-1QUK1geHjtC/p.html"
+      "title": "'China Haul' trend highlights China's growing global appeal",
+      "link": "https://news.cgtn.com/news/2026-10-03/-China-Haul-trend-highlights-China-s-growing-global-appeal-1QWEIDCf9sc/p.html"
     },
     {
       "id": "n09",
       "date": "2026-10-01",
-      "src": "CGTN·Sports",
-      "title": "China's Li Wenwen completes medal collection with Asian Games gold",
-      "link": "https://news.cgtn.com/news/2026-10-01/China-s-Li-Wenwen-completes-medal-collection-with-Asian-Games-gold-1QSFeOSXjUs/p.html"
-    },
-    {
-      "id": "n10",
-      "date": "2026-10-01",
       "src": "CGTN·Travel",
       "title": "People reflect on the Long March spirit at flag-raising ceremony",
       "link": "https://news.cgtn.com/news/2026-10-01/People-reflect-on-the-Long-March-spirit-at-flag-raising-ceremony-1QSHSf8VDDq/p.html"
+    },
+    {
+      "id": "n10",
+      "date": "2026-09-30",
+      "src": "CGTN·Sports",
+      "title": "Exclusive: ATP CEO eyes change as China Open celebrates 20th edition",
+      "link": "https://news.cgtn.com/news/2026-09-30/Exclusive-ATP-CEO-eyes-change-as-China-Open-celebrates-20th-edition-1QRdYHLOXII/p.html"
     },
     {
       "id": "n11",
@@ -103,10 +103,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n15",
-      "date": "2026-09-07",
+      "date": "2026-09-19",
       "src": "CGTN·Sports",
-      "title": "China defeats Czech Republic in overtime at FIBA Women's World Cup",
-      "link": "https://news.cgtn.com/news/2026-09-07/China-defeats-Czech-Republic-in-overtime-at-FIBA-Women-s-World-Cup-1QeRUI2IUTe/p.html"
+      "title": "2026 Asian Games open with Team China ready to shine",
+      "link": "https://news.cgtn.com/news/2026-09-19/2026-Asian-Games-open-with-Team-China-ready-to-shine-1QzdXd49gL6/p.html"
     }
   ],
   "readings": [
