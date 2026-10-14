@@ -5,87 +5,87 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
+      "date": "2026-10-13",
+      "src": "CGTN·China",
+      "title": "How Beijing's 12345 forum reshapes global talks on urban governance",
+      "link": "https://news.cgtn.com/news/2026-10-13/How-Beijing-s-12345-forum-reshapes-global-talks-on-urban-governance-1RbqM9X9rX2/p.html"
+    },
+    {
+      "id": "n02",
+      "date": "2026-10-13",
+      "src": "CGTN·China",
+      "title": "Botswana's president lays wreath at Monument to People's Heroes",
+      "link": "https://news.cgtn.com/news/2026-10-13/Botswana-s-president-lays-wreath-at-Monument-to-People-s-Heroes-1RcZzKR0rRK/p.html"
+    },
+    {
+      "id": "n03",
+      "date": "2026-10-13",
+      "src": "CGTN·China",
+      "title": "From 50,000 to 100,000: How youth exchanges bridge China-US ties",
+      "link": "https://news.cgtn.com/news/2026-10-13/From-50-000-to-100-000-How-youth-exchanges-bridge-China-US-ties-1RbBESVIGUo/p.html"
+    },
+    {
+      "id": "n04",
       "date": "2026-10-12",
       "src": "CGTN·Culture",
       "title": "The Long March in Song · Yuguo Band's Ten Farewell",
       "link": "https://news.cgtn.com/news/2026-10-12/The-Long-March-in-Song-Yuguo-Band-s-Ten-Farewell-1RbjIQaWVLG/p.html"
     },
     {
-      "id": "n02",
+      "id": "n05",
       "date": "2026-10-12",
       "src": "CGTN·Culture",
       "title": "China's box office passes 31 billion yuan, led by domestic films",
       "link": "https://news.cgtn.com/news/2026-10-12/China-s-box-office-passes-31-billion-yuan-led-by-domestic-films-1RbgshVWEFi/p.html"
     },
     {
-      "id": "n03",
-      "date": "2026-10-12",
-      "src": "CGTN·Business",
-      "title": "IBLAC 2026: Global biz leaders gather in Shanghai for council meeting",
-      "link": "https://news.cgtn.com/news/2026-10-12/IBLAC-2026-Global-biz-leaders-gather-in-Shanghai-for-council-meeting-1RaUJXnSVrO/p.html"
-    },
-    {
-      "id": "n04",
-      "date": "2026-10-12",
-      "src": "CGTN·China",
-      "title": "Documentary film screening draws international audiences",
-      "link": "https://news.cgtn.com/news/2026-10-12/Documentary-film-screening-draws-international-audiences-1Rbc7EDVGG4/p.html"
-    },
-    {
-      "id": "n05",
-      "date": "2026-10-12",
-      "src": "CGTN·China",
-      "title": "China's top diplomat to attend CICA summit, visit four countries",
-      "link": "https://news.cgtn.com/news/2026-10-12/China-s-top-diplomat-to-attend-CICA-summit-visit-four-countries-1RbxFvQ0Zc4/p.html"
-    },
-    {
       "id": "n06",
-      "date": "2026-10-12",
-      "src": "CGTN·China",
-      "title": "Documentary film Hotline Beijing 2 screened in Chinese capital",
-      "link": "https://news.cgtn.com/news/2026-10-12/Documentary-film-Hotline-Beijing-2-screened-in-Chinese-capital-1RaXBx0PU1q/p.html"
+      "date": "2026-10-11",
+      "src": "CGTN·Business",
+      "title": "EU official: Exchanges with China have reached unprecedented intensity",
+      "link": "https://news.cgtn.com/news/2026-10-11/EU-official-Exchanges-with-China-have-reached-unprecedented-intensity-1R8eyVpbBFC/p.html"
     },
     {
       "id": "n07",
-      "date": "2026-10-04",
-      "src": "CGTN·Business",
-      "title": "China responds to US criticism of Starbucks' Xinjiang expansion",
-      "link": "https://news.cgtn.com/news/2026-10-04/China-responds-to-US-group-s-criticism-of-Starbucks-Xinjiang-expansion-1QYuNGquJEI/p.html"
-    },
-    {
-      "id": "n08",
       "date": "2026-10-03",
       "src": "CGTN·Sports",
       "title": "Africa Watch: WAC will be held in Nairobi - Why it matters for Kenya?",
       "link": "https://newsaf.cgtn.com/news/2026-10-03/Africa-Watch-WAC-will-be-held-in-Nairobi-Why-it-matters-for-Kenya--1QWipL084hO/p.html"
     },
     {
-      "id": "n09",
+      "id": "n08",
       "date": "2026-10-02",
       "src": "CGTN·Culture",
       "title": "Fireworks light up Urumqi as ethnic groups celebrate national day",
       "link": "https://news.cgtn.com/news/2026-10-02/Fireworks-light-up-Urumqi-as-ethnic-groups-celebrate-national-day-1QUK1geHjtC/p.html"
     },
     {
-      "id": "n10",
-      "date": "2026-10-02",
-      "src": "CGTN·Business",
-      "title": "Heads of State head to Egypt for inaugural Alamein Africa Forum",
-      "link": "https://newsaf.cgtn.com/news/2026-10-02/Heads-of-State-head-to-Egypt-for-inaugural-Alamein-Africa-Forum-1QV7X8klu0M/p.html"
-    },
-    {
-      "id": "n11",
+      "id": "n09",
       "date": "2026-10-01",
       "src": "CGTN·Sports",
       "title": "China's Li Wenwen completes medal collection with Asian Games gold",
       "link": "https://news.cgtn.com/news/2026-10-01/China-s-Li-Wenwen-completes-medal-collection-with-Asian-Games-gold-1QSFeOSXjUs/p.html"
     },
     {
-      "id": "n12",
+      "id": "n10",
       "date": "2026-10-01",
       "src": "CGTN·Travel",
       "title": "People reflect on the Long March spirit at flag-raising ceremony",
       "link": "https://news.cgtn.com/news/2026-10-01/People-reflect-on-the-Long-March-spirit-at-flag-raising-ceremony-1QSHSf8VDDq/p.html"
+    },
+    {
+      "id": "n11",
+      "date": "2026-09-30",
+      "src": "CGTN·Business",
+      "title": "Explore new destinations and see more of China",
+      "link": "https://news.cgtn.com/news/2026-09-30/Explore-new-destinations-and-see-more-of-China-1QRGj3AOXu0/p.html"
+    },
+    {
+      "id": "n12",
+      "date": "2026-09-29",
+      "src": "CGTN·Business",
+      "title": "China-US economic and trade consultations deliver 10 major outcomes",
+      "link": "https://news.cgtn.com/news/2026-09-29/China-US-economic-and-trade-consultations-deliver-10-major-outcomes-1QPLCmVCB8s/p.html"
     },
     {
       "id": "n13",
