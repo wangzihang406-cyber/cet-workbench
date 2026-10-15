@@ -5,31 +5,31 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
-      "date": "2026-10-13",
-      "src": "CGTN·China",
-      "title": "How Beijing's 12345 forum reshapes global talks on urban governance",
-      "link": "https://news.cgtn.com/news/2026-10-13/How-Beijing-s-12345-forum-reshapes-global-talks-on-urban-governance-1RbqM9X9rX2/p.html"
+      "date": "2026-10-14",
+      "src": "CGTN·Business",
+      "title": "China's foreign trade tops 5 trillion yuan in September, up 27.5%",
+      "link": "https://news.cgtn.com/news/2026-10-14/China-s-foreign-trade-tops-5-trillion-yuan-in-September-up-27-5--1Rej2mT0sRa/p.html"
     },
     {
       "id": "n02",
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "src": "CGTN·China",
-      "title": "Botswana's president lays wreath at Monument to People's Heroes",
-      "link": "https://news.cgtn.com/news/2026-10-13/Botswana-s-president-lays-wreath-at-Monument-to-People-s-Heroes-1RcZzKR0rRK/p.html"
+      "title": "I remember seeing the moon",
+      "link": "https://news.cgtn.com/news/2026-10-14/I-remember-seeing-the-moon-1ReqvNah41W/p.html"
     },
     {
       "id": "n03",
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "src": "CGTN·China",
-      "title": "From 50,000 to 100,000: How youth exchanges bridge China-US ties",
-      "link": "https://news.cgtn.com/news/2026-10-13/From-50-000-to-100-000-How-youth-exchanges-bridge-China-US-ties-1RbBESVIGUo/p.html"
+      "title": "Premier Li: Canton Fair offers window into China's economic vitality",
+      "link": "https://news.cgtn.com/news/2026-10-14/Li-Qiang-Canton-Fair-offers-window-into-China-s-economic-vitality-1ReKfi007Qc/p.html"
     },
     {
       "id": "n04",
-      "date": "2026-10-11",
-      "src": "CGTN·Business",
-      "title": "EU official: Exchanges with China have reached unprecedented intensity",
-      "link": "https://news.cgtn.com/news/2026-10-11/EU-official-Exchanges-with-China-have-reached-unprecedented-intensity-1R8eyVpbBFC/p.html"
+      "date": "2026-10-13",
+      "src": "CGTN·China",
+      "title": "Paris Motor Show opens with record number of Chinese brands",
+      "link": "https://news.cgtn.com/news/2026-10-13/Paris-Motor-Show-opens-with-record-number-of-Chinese-brands-1Rctww7PkCA/p.html"
     },
     {
       "id": "n05",
@@ -47,52 +47,52 @@ window.CET_CONTENT = {
     },
     {
       "id": "n07",
-      "date": "2026-10-04",
-      "src": "CGTN·Sports",
-      "title": "China reaches 169 Asian Games gold medals, sets new overseas record",
-      "link": "https://news.cgtn.com/news/2026-10-04/China-reaches-169-Asian-Games-gold-medals-sets-new-overseas-record-1QXM1DaxKiQ/p.html"
+      "date": "2026-10-06",
+      "src": "CGTN·Business",
+      "title": "What's new in China's urban renewal plan?",
+      "link": "https://news.cgtn.com/news/2026-10-06/What-s-new-in-China-s-urban-renewal-plan--1R1CoEzbHuU/p.html"
     },
     {
       "id": "n08",
+      "date": "2026-10-04",
+      "src": "CGTN·Business",
+      "title": "China plays constructive role at G20 trade ministers' meeting",
+      "link": "https://news.cgtn.com/news/2026-10-04/China-plays-constructive-role-at-G20-trade-ministers-meeting-1QXMzLUJSXC/p.html"
+    },
+    {
+      "id": "n09",
       "date": "2026-10-03",
       "src": "CGTN·Culture",
       "title": "'China Haul' trend highlights China's growing global appeal",
       "link": "https://news.cgtn.com/news/2026-10-03/-China-Haul-trend-highlights-China-s-growing-global-appeal-1QWEIDCf9sc/p.html"
     },
     {
-      "id": "n09",
+      "id": "n10",
+      "date": "2026-10-01",
+      "src": "CGTN·Sports",
+      "title": "Lian Junjie wins China's 100th diving gold in history of Asian Games",
+      "link": "https://news.cgtn.com/news/2026-10-01/Lian-Junjie-wins-China-s-100th-diving-gold-in-history-of-Asian-Games-1QSFI9HqR7W/p.html"
+    },
+    {
+      "id": "n11",
       "date": "2026-10-01",
       "src": "CGTN·Travel",
       "title": "People reflect on the Long March spirit at flag-raising ceremony",
       "link": "https://news.cgtn.com/news/2026-10-01/People-reflect-on-the-Long-March-spirit-at-flag-raising-ceremony-1QSHSf8VDDq/p.html"
     },
     {
-      "id": "n10",
-      "date": "2026-09-30",
-      "src": "CGTN·Sports",
-      "title": "Exclusive: ATP CEO eyes change as China Open celebrates 20th edition",
-      "link": "https://news.cgtn.com/news/2026-09-30/Exclusive-ATP-CEO-eyes-change-as-China-Open-celebrates-20th-edition-1QRdYHLOXII/p.html"
-    },
-    {
-      "id": "n11",
-      "date": "2026-09-30",
-      "src": "CGTN·Business",
-      "title": "Explore new destinations and see more of China",
-      "link": "https://news.cgtn.com/news/2026-09-30/Explore-new-destinations-and-see-more-of-China-1QRGj3AOXu0/p.html"
-    },
-    {
       "id": "n12",
-      "date": "2026-09-29",
-      "src": "CGTN·Business",
-      "title": "China-US economic and trade consultations deliver 10 major outcomes",
-      "link": "https://news.cgtn.com/news/2026-09-29/China-US-economic-and-trade-consultations-deliver-10-major-outcomes-1QPLCmVCB8s/p.html"
-    },
-    {
-      "id": "n13",
       "date": "2026-09-28",
       "src": "CGTN·Travel",
       "title": "The Long March memory: Straw sandals and Xiao Nandou's family craft",
       "link": "https://news.cgtn.com/news/2026-09-28/The-Long-March-memory-Straw-sandals-and-Xiao-Nandou-s-family-craft-1QMF0hvQVI4/p.html"
+    },
+    {
+      "id": "n13",
+      "date": "2026-09-27",
+      "src": "CGTN·Sports",
+      "title": "Asian Games | China wins 100th gold; 36-year-old record falls",
+      "link": "https://news.cgtn.com/news/2026-09-27/Asian-Games-China-wins-100th-gold-36-year-old-record-falls-1QManwC9zUc/p.html"
     },
     {
       "id": "n14",
@@ -103,10 +103,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n15",
-      "date": "2026-09-19",
+      "date": "2026-09-15",
       "src": "CGTN·Sports",
-      "title": "2026 Asian Games open with Team China ready to shine",
-      "link": "https://news.cgtn.com/news/2026-09-19/2026-Asian-Games-open-with-Team-China-ready-to-shine-1QzdXd49gL6/p.html"
+      "title": "China routs defending champion Philippines to finish top in Group C",
+      "link": "https://news.cgtn.com/news/2026-09-15/China-routs-defending-champion-Philippines-to-finish-top-in-Group-C-1Qs9WzgueGI/p.html"
     }
   ],
   "readings": [
