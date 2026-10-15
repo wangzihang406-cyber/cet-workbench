@@ -33,38 +33,38 @@ window.CET_CONTENT = {
     },
     {
       "id": "n05",
-      "date": "2026-10-10",
+      "date": "2026-10-12",
       "src": "CGTN·Culture",
-      "title": "How China uses digital tech to empower women globally",
-      "link": "https://news.cgtn.com/news/2026-10-10/How-China-uses-digital-tech-to-empower-women-globally-1R7KuZ2GTMk/p.html"
+      "title": "The long march in song: from farewell to a new voice",
+      "link": "https://news.cgtn.com/news/2026-10-12/The-long-march-in-song-from-farewell-to-a-new-voice-1Rbj73L5bBS/p.html"
     },
     {
       "id": "n06",
-      "date": "2026-10-09",
+      "date": "2026-10-12",
       "src": "CGTN·Culture",
-      "title": "Night tour of Longmen: One step, a thousand years",
-      "link": "https://news.cgtn.com/news/2026-10-09/Night-tour-of-Longmen-One-step-a-thousand-years-1R6kNNSdADC/p.html"
+      "title": "A journey in Beijing through history, culture and music",
+      "link": "https://news.cgtn.com/news/2026-10-12/A-journey-in-Beijing-through-history-culture-and-music-1Rbk3zHp2I8/p.html"
     },
     {
       "id": "n07",
+      "date": "2026-10-07",
+      "src": "CGTN·Culture",
+      "title": "Atlanta zoo to debut new pandas and habitat",
+      "link": "https://newsus.cgtn.com/news/2026-10-07/Atlanta-zoo-to-debut-new-pandas-and-habitat--1R2e8bQYiNq/p.html"
+    },
+    {
+      "id": "n08",
       "date": "2026-10-06",
       "src": "CGTN·Business",
       "title": "What's new in China's urban renewal plan?",
       "link": "https://news.cgtn.com/news/2026-10-06/What-s-new-in-China-s-urban-renewal-plan--1R1CoEzbHuU/p.html"
     },
     {
-      "id": "n08",
+      "id": "n09",
       "date": "2026-10-04",
       "src": "CGTN·Business",
       "title": "China plays constructive role at G20 trade ministers' meeting",
       "link": "https://news.cgtn.com/news/2026-10-04/China-plays-constructive-role-at-G20-trade-ministers-meeting-1QXMzLUJSXC/p.html"
-    },
-    {
-      "id": "n09",
-      "date": "2026-10-03",
-      "src": "CGTN·Culture",
-      "title": "'China Haul' trend highlights China's growing global appeal",
-      "link": "https://news.cgtn.com/news/2026-10-03/-China-Haul-trend-highlights-China-s-growing-global-appeal-1QWEIDCf9sc/p.html"
     },
     {
       "id": "n10",
