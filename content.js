@@ -34,79 +34,79 @@ window.CET_CONTENT = {
     {
       "id": "n05",
       "date": "2026-10-12",
-      "src": "CGTN·Culture",
-      "title": "The long march in song: from farewell to a new voice",
-      "link": "https://news.cgtn.com/news/2026-10-12/The-long-march-in-song-from-farewell-to-a-new-voice-1Rbj73L5bBS/p.html"
+      "src": "CGTN·Travel",
+      "title": "The Ming dynasty, still alive",
+      "link": "https://news.cgtn.com/news/2026-10-12/The-Ming-dynasty-still-alive-1RaPGiXSlZC/p.html"
     },
     {
       "id": "n06",
-      "date": "2026-10-12",
+      "date": "2026-10-10",
       "src": "CGTN·Culture",
-      "title": "A journey in Beijing through history, culture and music",
-      "link": "https://news.cgtn.com/news/2026-10-12/A-journey-in-Beijing-through-history-culture-and-music-1Rbk3zHp2I8/p.html"
+      "title": "The Queen's Sword Ep. 5 | From princess to slave",
+      "link": "https://news.cgtn.com/news/2026-10-10/The-Queen-s-Sword-Ep-5-From-princess-to-slave-1R7BnBFh6mI/p.html"
     },
     {
       "id": "n07",
-      "date": "2026-10-07",
+      "date": "2026-10-09",
       "src": "CGTN·Culture",
-      "title": "Atlanta zoo to debut new pandas and habitat",
-      "link": "https://newsus.cgtn.com/news/2026-10-07/Atlanta-zoo-to-debut-new-pandas-and-habitat--1R2e8bQYiNq/p.html"
+      "title": "Symposium held to study Xi's works on culture",
+      "link": "https://news.cgtn.com/news/2026-10-09/Symposium-held-to-study-Xi-s-works-on-culture-1R6zQjPACHe/p.html"
     },
     {
       "id": "n08",
+      "date": "2026-10-08",
+      "src": "CGTN·Travel",
+      "title": "Admire exquisite Ming-era Buddhist statues at Beijing's Zhihua Temple",
+      "link": "https://news.cgtn.com/news/2026-10-08/Admire-exquisite-Ming-era-Buddhist-statues-at-Beijing-s-Zhihua-Temple-1R4HhDrPFi8/p.html"
+    },
+    {
+      "id": "n09",
       "date": "2026-10-07",
       "src": "CGTN·Business",
       "title": "BizFocus Ep.146: When AI steps onto the factory floor",
       "link": "https://news.cgtn.com/news/2026-10-07/BizFocus-Ep-146-When-AI-steps-onto-the-factory-floor-1R3eMpvZsEU/p.html"
     },
     {
-      "id": "n09",
+      "id": "n10",
+      "date": "2026-10-05",
+      "src": "CGTN·Culture",
+      "title": "Tourists enjoy desert fun in Kashi during National Day holiday",
+      "link": "https://news.cgtn.com/news/2026-10-05/Tourists-enjoy-desert-fun-in-Kashi-during-National-Day-holiday-1QZHSnOvq5q/p.html"
+    },
+    {
+      "id": "n11",
+      "date": "2026-10-05",
+      "src": "CGTN·Travel",
+      "title": "Richer, immersive experiences fuel China's holiday consumption",
+      "link": "https://news.cgtn.com/news/2026-10-05/Richer-immersive-experiences-fuel-China-s-holiday-consumption--1QZEqF34WJ2/p.html"
+    },
+    {
+      "id": "n12",
       "date": "2026-10-05",
       "src": "CGTN·Business",
       "title": "Libya bans exports of farm produce, locally made food products",
       "link": "https://newsaf.cgtn.com/news/2026-10-05/Libya-bans-exports-of-farm-produce-locally-made-food-products-1QZTodCzHMc/p.html"
     },
     {
-      "id": "n10",
-      "date": "2026-10-01",
-      "src": "CGTN·Sports",
-      "title": "Lian Junjie wins China's 100th diving gold in history of Asian Games",
-      "link": "https://news.cgtn.com/news/2026-10-01/Lian-Junjie-wins-China-s-100th-diving-gold-in-history-of-Asian-Games-1QSFI9HqR7W/p.html"
-    },
-    {
-      "id": "n11",
-      "date": "2026-10-01",
-      "src": "CGTN·Travel",
-      "title": "People reflect on the Long March spirit at flag-raising ceremony",
-      "link": "https://news.cgtn.com/news/2026-10-01/People-reflect-on-the-Long-March-spirit-at-flag-raising-ceremony-1QSHSf8VDDq/p.html"
-    },
-    {
-      "id": "n12",
-      "date": "2026-09-28",
-      "src": "CGTN·Travel",
-      "title": "The Long March memory: Straw sandals and Xiao Nandou's family craft",
-      "link": "https://news.cgtn.com/news/2026-09-28/The-Long-March-memory-Straw-sandals-and-Xiao-Nandou-s-family-craft-1QMF0hvQVI4/p.html"
-    },
-    {
       "id": "n13",
-      "date": "2026-09-27",
+      "date": "2026-10-02",
       "src": "CGTN·Sports",
-      "title": "Asian Games | China wins 100th gold; 36-year-old record falls",
-      "link": "https://news.cgtn.com/news/2026-09-27/Asian-Games-China-wins-100th-gold-36-year-old-record-falls-1QManwC9zUc/p.html"
+      "title": "How Chinese technology supports esports competition at the Asian Games",
+      "link": "https://news.cgtn.com/news/2026-10-02/How-Chinese-technology-supports-esports-competition-at-the-Asian-Games-1QUjFV0bj5S/p.html"
     },
     {
       "id": "n14",
-      "date": "2026-09-24",
-      "src": "CGTN·Travel",
-      "title": "Chinese for a Day: The best mooncake | Crossing Paths",
-      "link": "https://news.cgtn.com/news/2026-09-24/Chinese-for-a-Day-The-best-mooncake-Crossing-Paths-1QCvNzmaGha/p.html"
+      "date": "2026-09-30",
+      "src": "CGTN·Sports",
+      "title": "Exclusive: ATP CEO eyes change as China Open celebrates 20th edition",
+      "link": "https://news.cgtn.com/news/2026-09-30/Exclusive-ATP-CEO-eyes-change-as-China-Open-celebrates-20th-edition-1QRdYHLOXII/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-09-15",
+      "date": "2026-09-20",
       "src": "CGTN·Sports",
-      "title": "China routs defending champion Philippines to finish top in Group C",
-      "link": "https://news.cgtn.com/news/2026-09-15/China-routs-defending-champion-Philippines-to-finish-top-in-Group-C-1Qs9WzgueGI/p.html"
+      "title": "Asian Games open in Aichi-Nagoya with celebration of sport and culture",
+      "link": "https://news.cgtn.com/news/2026-09-20/Asian-Games-open-in-Aichi-Nagoya-with-celebration-of-sport-and-culture-1QAjvgHquGY/p.html"
     }
   ],
   "readings": [
