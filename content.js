@@ -5,31 +5,31 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "src": "CGTN·Business",
-      "title": "China's foreign trade tops 5 trillion yuan in September, up 27.5%",
-      "link": "https://news.cgtn.com/news/2026-10-14/China-s-foreign-trade-tops-5-trillion-yuan-in-September-up-27-5--1Rej2mT0sRa/p.html"
+      "title": "How has China's economy performed in 2026?",
+      "link": "https://news.cgtn.com/news/2026-10-15/How-has-China-s-economy-performed-in-2026--1Rg1j24iK7C/p.html"
     },
     {
       "id": "n02",
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "src": "CGTN·China",
-      "title": "I remember seeing the moon",
-      "link": "https://news.cgtn.com/news/2026-10-14/I-remember-seeing-the-moon-1ReqvNah41W/p.html"
+      "title": "Overseas guests applaud Chinese President's message at Canton Fair",
+      "link": "https://news.cgtn.com/news/2026-10-15/Overseas-guests-applaud-Chinese-President-s-message-at-Canton-Fair-1RgquVFTbQ4/p.html"
     },
     {
       "id": "n03",
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "src": "CGTN·China",
-      "title": "Premier Li: Canton Fair offers window into China's economic vitality",
-      "link": "https://news.cgtn.com/news/2026-10-14/Li-Qiang-Canton-Fair-offers-window-into-China-s-economic-vitality-1ReKfi007Qc/p.html"
+      "title": "Zhaoxing Dong Village: Youth on a new Long March",
+      "link": "https://news.cgtn.com/news/2026-10-15/Zhaoxing-Dong-Village-Youth-on-a-new-Long-March-1RggunCs4NO/p.html"
     },
     {
       "id": "n04",
-      "date": "2026-10-13",
+      "date": "2026-10-15",
       "src": "CGTN·China",
-      "title": "Paris Motor Show opens with record number of Chinese brands",
-      "link": "https://news.cgtn.com/news/2026-10-13/Paris-Motor-Show-opens-with-record-number-of-Chinese-brands-1Rctww7PkCA/p.html"
+      "title": "Why the Long March Still Matters to China and the World",
+      "link": "https://news.cgtn.com/news/2026-10-15/Why-the-Long-March-Still-Matters-to-China-and-the-World-1RgdVzFdees/p.html"
     },
     {
       "id": "n05",
@@ -54,17 +54,17 @@ window.CET_CONTENT = {
     },
     {
       "id": "n08",
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "src": "CGTN·Business",
-      "title": "What's new in China's urban renewal plan?",
-      "link": "https://news.cgtn.com/news/2026-10-06/What-s-new-in-China-s-urban-renewal-plan--1R1CoEzbHuU/p.html"
+      "title": "BizFocus Ep.146: When AI steps onto the factory floor",
+      "link": "https://news.cgtn.com/news/2026-10-07/BizFocus-Ep-146-When-AI-steps-onto-the-factory-floor-1R3eMpvZsEU/p.html"
     },
     {
       "id": "n09",
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "src": "CGTN·Business",
-      "title": "China plays constructive role at G20 trade ministers' meeting",
-      "link": "https://news.cgtn.com/news/2026-10-04/China-plays-constructive-role-at-G20-trade-ministers-meeting-1QXMzLUJSXC/p.html"
+      "title": "Libya bans exports of farm produce, locally made food products",
+      "link": "https://newsaf.cgtn.com/news/2026-10-05/Libya-bans-exports-of-farm-produce-locally-made-food-products-1QZTodCzHMc/p.html"
     },
     {
       "id": "n10",
