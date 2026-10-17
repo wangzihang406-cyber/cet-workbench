@@ -1,7 +1,7 @@
 // 四六级备考工作台 · 每日内容包
 // news 由每日自动化真实抓取 CGTN RSS（多个频道，链接已逐条验证 200）；readings/listenings/dialogues 为 AI 原创改写（四六级难度）
 window.CET_CONTENT = {
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
 "news": [
     {
       "id": "n01",
@@ -27,30 +27,30 @@ window.CET_CONTENT = {
     {
       "id": "n04",
       "date": "2026-10-13",
-      "src": "CGTN·Travel",
-      "title": "Xinjiang's Tongba Scenic Area dazzles with golden autumn forests",
-      "link": "https://news.cgtn.com/news/2026-10-13/Xinjiang-s-Tongba-Scenic-Area-dazzles-with-golden-autumn-forests-1RcWKiniLpm/p.html"
-    },
-    {
-      "id": "n05",
-      "date": "2026-10-13",
       "src": "CGTN·Business",
       "title": "Chinese vice premier meets with Apple executive chairman",
       "link": "https://news.cgtn.com/news/2026-10-13/Chinese-vice-premier-meets-with-Apple-executive-chairman-1RcoeYcFN04/p.html"
     },
     {
-      "id": "n06",
+      "id": "n05",
       "date": "2026-10-12",
       "src": "CGTN·Culture",
       "title": "Listening to the people, building trust",
       "link": "https://news.cgtn.com/news/2026-10-12/Listening-to-the-people-building-trust-1RbmdZwTBnO/p.html"
     },
     {
-      "id": "n07",
+      "id": "n06",
       "date": "2026-10-12",
       "src": "CGTN·Culture",
       "title": "Documentary film screening draws international audience",
       "link": "https://news.cgtn.com/news/2026-10-12/Documentary-film-screening-draws-international-audience-1Rbmk9K3QnS/p.html"
+    },
+    {
+      "id": "n07",
+      "date": "2026-10-09",
+      "src": "CGTN·Travel",
+      "title": "Macao draws record National Day crowds",
+      "link": "https://news.cgtn.com/news/2026-10-09/Macao-draws-record-National-Day-crowds-1R6lurnnz0s/p.html"
     },
     {
       "id": "n08",
@@ -75,31 +75,31 @@ window.CET_CONTENT = {
     },
     {
       "id": "n11",
+      "date": "2026-10-02",
+      "src": "CGTN·Travel",
+      "title": "A glimpse of autumn in rural China",
+      "link": "https://news.cgtn.com/news/2026-10-02/A-glimpse-of-autumn-in-rural-China-1QUMJk2kovu/p.html"
+    },
+    {
+      "id": "n12",
       "date": "2026-09-28",
       "src": "CGTN·Sports",
       "title": "Zimbabwe beats Uganda to win Rugby Africa Sevens title",
       "link": "https://newsaf.cgtn.com/news/2026-09-28/Zimbabwe-beats-Uganda-to-win-Rugby-Africa-Sevens-title-1QO8hDL8KrK/p.html"
     },
     {
-      "id": "n12",
+      "id": "n13",
       "date": "2026-09-27",
       "src": "CGTN·Sports",
       "title": "Exclusive: Mutaz Essa Barshim eyes his fifth Asian Games and beyond",
       "link": "https://news.cgtn.com/news/2026-09-27/Exclusive-Mutaz-Essa-Barshim-eyes-his-fifth-Asian-Games-and-beyond-1QM7HWZgw4U/p.html"
     },
     {
-      "id": "n13",
-      "date": "2026-09-24",
-      "src": "CGTN·Travel",
-      "title": "Ningxia: Sand and water together fuel cultural tourism growth",
-      "link": "https://news.cgtn.com/news/2026-09-24/Ningxia-Sand-and-water-together-fuel-cultural-tourism-growth-1QHnquY5nZ6/p.html"
-    },
-    {
       "id": "n14",
-      "date": "2026-09-24",
+      "date": "2026-09-25",
       "src": "CGTN·Travel",
-      "title": "Virginia logger amazed by China",
-      "link": "https://newsus.cgtn.com/news/2026-09-24/Virginia-logger-amazed-by-China-1QGN3c4TrLG/p.html"
+      "title": "China braces for surge in travel ahead of the upcoming holidays",
+      "link": "https://news.cgtn.com/news/2026-09-25/China-braces-for-surge-in-travel-ahead-of-the-upcoming-holidays-1QHpMuDHUdy/p.html"
     },
     {
       "id": "n15",
