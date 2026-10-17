@@ -5,31 +5,31 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
-      "date": "2026-10-15",
-      "src": "CGTN·Business",
-      "title": "How has China's economy performed in 2026?",
-      "link": "https://news.cgtn.com/news/2026-10-15/How-has-China-s-economy-performed-in-2026--1Rg1j24iK7C/p.html"
+      "date": "2026-10-16",
+      "src": "CGTN·China",
+      "title": "Foreign ministers of Djibouti, Republic of Congo to visit China",
+      "link": "https://news.cgtn.com/news/2026-10-16/Foreign-ministers-of-Djibouti-Republic-of-Congo-to-visit-China-1Ri2FvJGZuE/p.html"
     },
     {
       "id": "n02",
-      "date": "2026-10-15",
+      "date": "2026-10-16",
       "src": "CGTN·China",
-      "title": "Overseas guests applaud Chinese President's message at Canton Fair",
-      "link": "https://news.cgtn.com/news/2026-10-15/Overseas-guests-applaud-Chinese-President-s-message-at-Canton-Fair-1RgquVFTbQ4/p.html"
+      "title": "Foreign diplomats explore Ningxia's specialty industries",
+      "link": "https://news.cgtn.com/news/2026-10-16/Foreign-diplomats-explore-Ningxia-s-specialty-industries-1RhVzlSvQL6/p.html"
     },
     {
       "id": "n03",
-      "date": "2026-10-15",
+      "date": "2026-10-16",
       "src": "CGTN·China",
-      "title": "Zhaoxing Dong Village: Youth on a new Long March",
-      "link": "https://news.cgtn.com/news/2026-10-15/Zhaoxing-Dong-Village-Youth-on-a-new-Long-March-1RggunCs4NO/p.html"
+      "title": "How AI is redefining precision farming in China",
+      "link": "https://news.cgtn.com/news/2026-10-16/How-AI-is-redefining-precision-farming-in-China-1RhsBvUDm12/p.html"
     },
     {
       "id": "n04",
-      "date": "2026-10-15",
-      "src": "CGTN·China",
-      "title": "Why the Long March Still Matters to China and the World",
-      "link": "https://news.cgtn.com/news/2026-10-15/Why-the-Long-March-Still-Matters-to-China-and-the-World-1RgdVzFdees/p.html"
+      "date": "2026-10-13",
+      "src": "CGTN·Business",
+      "title": "Chinese vice premier meets with Apple executive chairman",
+      "link": "https://news.cgtn.com/news/2026-10-13/Chinese-vice-premier-meets-with-Apple-executive-chairman-1RcoeYcFN04/p.html"
     },
     {
       "id": "n05",
@@ -61,31 +61,31 @@ window.CET_CONTENT = {
     },
     {
       "id": "n09",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "src": "CGTN·Business",
-      "title": "BizFocus Ep.146: When AI steps onto the factory floor",
-      "link": "https://news.cgtn.com/news/2026-10-07/BizFocus-Ep-146-When-AI-steps-onto-the-factory-floor-1R3eMpvZsEU/p.html"
+      "title": "IEA backs faster release of 100 million barrels as fuel prices climb",
+      "link": "https://news.cgtn.com/news/2026-10-08/IEA-backs-faster-release-of-100-million-barrels-as-fuel-prices-climb-1R4j38DGLg4/p.html"
     },
     {
       "id": "n10",
+      "date": "2026-10-06",
+      "src": "CGTN·Business",
+      "title": "What's new in China's urban renewal plan?",
+      "link": "https://news.cgtn.com/news/2026-10-06/What-s-new-in-China-s-urban-renewal-plan--1R1CoEzbHuU/p.html"
+    },
+    {
+      "id": "n11",
       "date": "2026-10-05",
       "src": "CGTN·Culture",
       "title": "Tourists enjoy desert fun in Kashi during National Day holiday",
       "link": "https://news.cgtn.com/news/2026-10-05/Tourists-enjoy-desert-fun-in-Kashi-during-National-Day-holiday-1QZHSnOvq5q/p.html"
     },
     {
-      "id": "n11",
+      "id": "n12",
       "date": "2026-10-05",
       "src": "CGTN·Travel",
       "title": "Richer, immersive experiences fuel China's holiday consumption",
       "link": "https://news.cgtn.com/news/2026-10-05/Richer-immersive-experiences-fuel-China-s-holiday-consumption--1QZEqF34WJ2/p.html"
-    },
-    {
-      "id": "n12",
-      "date": "2026-10-05",
-      "src": "CGTN·Business",
-      "title": "Libya bans exports of farm produce, locally made food products",
-      "link": "https://newsaf.cgtn.com/news/2026-10-05/Libya-bans-exports-of-farm-produce-locally-made-food-products-1QZTodCzHMc/p.html"
     },
     {
       "id": "n13",
