@@ -27,79 +27,79 @@ window.CET_CONTENT = {
     {
       "id": "n04",
       "date": "2026-10-13",
+      "src": "CGTN·Travel",
+      "title": "Xinjiang's Tongba Scenic Area dazzles with golden autumn forests",
+      "link": "https://news.cgtn.com/news/2026-10-13/Xinjiang-s-Tongba-Scenic-Area-dazzles-with-golden-autumn-forests-1RcWKiniLpm/p.html"
+    },
+    {
+      "id": "n05",
+      "date": "2026-10-13",
       "src": "CGTN·Business",
       "title": "Chinese vice premier meets with Apple executive chairman",
       "link": "https://news.cgtn.com/news/2026-10-13/Chinese-vice-premier-meets-with-Apple-executive-chairman-1RcoeYcFN04/p.html"
     },
     {
-      "id": "n05",
+      "id": "n06",
       "date": "2026-10-12",
       "src": "CGTN·Culture",
       "title": "Listening to the people, building trust",
       "link": "https://news.cgtn.com/news/2026-10-12/Listening-to-the-people-building-trust-1RbmdZwTBnO/p.html"
     },
     {
-      "id": "n06",
+      "id": "n07",
       "date": "2026-10-12",
       "src": "CGTN·Culture",
       "title": "Documentary film screening draws international audience",
       "link": "https://news.cgtn.com/news/2026-10-12/Documentary-film-screening-draws-international-audience-1Rbmk9K3QnS/p.html"
     },
     {
-      "id": "n07",
-      "date": "2026-10-12",
-      "src": "CGTN·Travel",
-      "title": "The Ming dynasty, still alive",
-      "link": "https://news.cgtn.com/news/2026-10-12/The-Ming-dynasty-still-alive-1RaPGiXSlZC/p.html"
-    },
-    {
       "id": "n08",
-      "date": "2026-10-08",
-      "src": "CGTN·Travel",
-      "title": "Admire exquisite Ming-era Buddhist statues at Beijing's Zhihua Temple",
-      "link": "https://news.cgtn.com/news/2026-10-08/Admire-exquisite-Ming-era-Buddhist-statues-at-Beijing-s-Zhihua-Temple-1R4HhDrPFi8/p.html"
-    },
-    {
-      "id": "n09",
       "date": "2026-10-08",
       "src": "CGTN·Business",
       "title": "IEA backs faster release of 100 million barrels as fuel prices climb",
       "link": "https://news.cgtn.com/news/2026-10-08/IEA-backs-faster-release-of-100-million-barrels-as-fuel-prices-climb-1R4j38DGLg4/p.html"
     },
     {
-      "id": "n10",
+      "id": "n09",
       "date": "2026-10-07",
       "src": "CGTN·Culture",
       "title": "The Drum and Bell Towers and the rhythms of Old Beijing",
       "link": "https://news.cgtn.com/news/2026-10-07/The-Drum-and-Bell-Towers-and-the-rhythms-of-Old-Beijing-1R2Wid9nnhe/p.html"
     },
     {
-      "id": "n11",
+      "id": "n10",
       "date": "2026-10-06",
       "src": "CGTN·Business",
       "title": "What's new in China's urban renewal plan?",
       "link": "https://news.cgtn.com/news/2026-10-06/What-s-new-in-China-s-urban-renewal-plan--1R1CoEzbHuU/p.html"
     },
     {
-      "id": "n12",
-      "date": "2026-10-05",
-      "src": "CGTN·Travel",
-      "title": "Richer, immersive experiences fuel China's holiday consumption",
-      "link": "https://news.cgtn.com/news/2026-10-05/Richer-immersive-experiences-fuel-China-s-holiday-consumption--1QZEqF34WJ2/p.html"
-    },
-    {
-      "id": "n13",
+      "id": "n11",
       "date": "2026-09-28",
       "src": "CGTN·Sports",
       "title": "Zimbabwe beats Uganda to win Rugby Africa Sevens title",
       "link": "https://newsaf.cgtn.com/news/2026-09-28/Zimbabwe-beats-Uganda-to-win-Rugby-Africa-Sevens-title-1QO8hDL8KrK/p.html"
     },
     {
-      "id": "n14",
+      "id": "n12",
       "date": "2026-09-27",
       "src": "CGTN·Sports",
       "title": "Exclusive: Mutaz Essa Barshim eyes his fifth Asian Games and beyond",
       "link": "https://news.cgtn.com/news/2026-09-27/Exclusive-Mutaz-Essa-Barshim-eyes-his-fifth-Asian-Games-and-beyond-1QM7HWZgw4U/p.html"
+    },
+    {
+      "id": "n13",
+      "date": "2026-09-24",
+      "src": "CGTN·Travel",
+      "title": "Ningxia: Sand and water together fuel cultural tourism growth",
+      "link": "https://news.cgtn.com/news/2026-09-24/Ningxia-Sand-and-water-together-fuel-cultural-tourism-growth-1QHnquY5nZ6/p.html"
+    },
+    {
+      "id": "n14",
+      "date": "2026-09-24",
+      "src": "CGTN·Travel",
+      "title": "Virginia logger amazed by China",
+      "link": "https://newsus.cgtn.com/news/2026-09-24/Virginia-logger-amazed-by-China-1QGN3c4TrLG/p.html"
     },
     {
       "id": "n15",
