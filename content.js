@@ -34,23 +34,23 @@ window.CET_CONTENT = {
     {
       "id": "n05",
       "date": "2026-10-12",
-      "src": "CGTN·Travel",
-      "title": "The Ming dynasty, still alive",
-      "link": "https://news.cgtn.com/news/2026-10-12/The-Ming-dynasty-still-alive-1RaPGiXSlZC/p.html"
+      "src": "CGTN·Culture",
+      "title": "Listening to the people, building trust",
+      "link": "https://news.cgtn.com/news/2026-10-12/Listening-to-the-people-building-trust-1RbmdZwTBnO/p.html"
     },
     {
       "id": "n06",
-      "date": "2026-10-10",
+      "date": "2026-10-12",
       "src": "CGTN·Culture",
-      "title": "The Queen's Sword Ep. 5 | From princess to slave",
-      "link": "https://news.cgtn.com/news/2026-10-10/The-Queen-s-Sword-Ep-5-From-princess-to-slave-1R7BnBFh6mI/p.html"
+      "title": "Documentary film screening draws international audience",
+      "link": "https://news.cgtn.com/news/2026-10-12/Documentary-film-screening-draws-international-audience-1Rbmk9K3QnS/p.html"
     },
     {
       "id": "n07",
-      "date": "2026-10-09",
-      "src": "CGTN·Culture",
-      "title": "Symposium held to study Xi's works on culture",
-      "link": "https://news.cgtn.com/news/2026-10-09/Symposium-held-to-study-Xi-s-works-on-culture-1R6zQjPACHe/p.html"
+      "date": "2026-10-12",
+      "src": "CGTN·Travel",
+      "title": "The Ming dynasty, still alive",
+      "link": "https://news.cgtn.com/news/2026-10-12/The-Ming-dynasty-still-alive-1RaPGiXSlZC/p.html"
     },
     {
       "id": "n08",
@@ -68,17 +68,17 @@ window.CET_CONTENT = {
     },
     {
       "id": "n10",
+      "date": "2026-10-07",
+      "src": "CGTN·Culture",
+      "title": "The Drum and Bell Towers and the rhythms of Old Beijing",
+      "link": "https://news.cgtn.com/news/2026-10-07/The-Drum-and-Bell-Towers-and-the-rhythms-of-Old-Beijing-1R2Wid9nnhe/p.html"
+    },
+    {
+      "id": "n11",
       "date": "2026-10-06",
       "src": "CGTN·Business",
       "title": "What's new in China's urban renewal plan?",
       "link": "https://news.cgtn.com/news/2026-10-06/What-s-new-in-China-s-urban-renewal-plan--1R1CoEzbHuU/p.html"
-    },
-    {
-      "id": "n11",
-      "date": "2026-10-05",
-      "src": "CGTN·Culture",
-      "title": "Tourists enjoy desert fun in Kashi during National Day holiday",
-      "link": "https://news.cgtn.com/news/2026-10-05/Tourists-enjoy-desert-fun-in-Kashi-during-National-Day-holiday-1QZHSnOvq5q/p.html"
     },
     {
       "id": "n12",
@@ -89,24 +89,24 @@ window.CET_CONTENT = {
     },
     {
       "id": "n13",
-      "date": "2026-10-02",
+      "date": "2026-09-28",
       "src": "CGTN·Sports",
-      "title": "How Chinese technology supports esports competition at the Asian Games",
-      "link": "https://news.cgtn.com/news/2026-10-02/How-Chinese-technology-supports-esports-competition-at-the-Asian-Games-1QUjFV0bj5S/p.html"
+      "title": "Zimbabwe beats Uganda to win Rugby Africa Sevens title",
+      "link": "https://newsaf.cgtn.com/news/2026-09-28/Zimbabwe-beats-Uganda-to-win-Rugby-Africa-Sevens-title-1QO8hDL8KrK/p.html"
     },
     {
       "id": "n14",
-      "date": "2026-09-30",
+      "date": "2026-09-27",
       "src": "CGTN·Sports",
-      "title": "Exclusive: ATP CEO eyes change as China Open celebrates 20th edition",
-      "link": "https://news.cgtn.com/news/2026-09-30/Exclusive-ATP-CEO-eyes-change-as-China-Open-celebrates-20th-edition-1QRdYHLOXII/p.html"
+      "title": "Exclusive: Mutaz Essa Barshim eyes his fifth Asian Games and beyond",
+      "link": "https://news.cgtn.com/news/2026-09-27/Exclusive-Mutaz-Essa-Barshim-eyes-his-fifth-Asian-Games-and-beyond-1QM7HWZgw4U/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-09-20",
+      "date": "2026-09-17",
       "src": "CGTN·Sports",
-      "title": "Asian Games open in Aichi-Nagoya with celebration of sport and culture",
-      "link": "https://news.cgtn.com/news/2026-09-20/Asian-Games-open-in-Aichi-Nagoya-with-celebration-of-sport-and-culture-1QAjvgHquGY/p.html"
+      "title": "A look at some of China's standout Guinness World Records",
+      "link": "https://news.cgtn.com/news/2026-09-17/A-look-at-some-of-China-s-standout-Guinness-World-Records-1QvTNtWA1uo/p.html"
     }
   ],
   "readings": [
