@@ -47,10 +47,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n07",
-      "date": "2026-10-09",
+      "date": "2026-10-08",
       "src": "CGTN·Travel",
-      "title": "Macao draws record National Day crowds",
-      "link": "https://news.cgtn.com/news/2026-10-09/Macao-draws-record-National-Day-crowds-1R6lurnnz0s/p.html"
+      "title": "Taicang South Garden: Private garden of a Ming Dynasty chief minister",
+      "link": "https://news.cgtn.com/news/2026-10-08/Taicang-South-Garden-Private-garden-of-a-Ming-Dynasty-chief-minister-1R4AVhoQW8E/p.html"
     },
     {
       "id": "n08",
@@ -68,38 +68,38 @@ window.CET_CONTENT = {
     },
     {
       "id": "n10",
+      "date": "2026-10-07",
+      "src": "CGTN·Travel",
+      "title": "Overseas tourists embrace immersive China travel during holiday season",
+      "link": "https://news.cgtn.com/news/2026-10-07/Overseas-tourists-embrace-immersive-China-travel-during-holiday-season-1R31AZxISsg/p.html"
+    },
+    {
+      "id": "n11",
       "date": "2026-10-06",
       "src": "CGTN·Business",
       "title": "What's new in China's urban renewal plan?",
       "link": "https://news.cgtn.com/news/2026-10-06/What-s-new-in-China-s-urban-renewal-plan--1R1CoEzbHuU/p.html"
     },
     {
-      "id": "n11",
-      "date": "2026-10-02",
+      "id": "n12",
+      "date": "2026-10-04",
       "src": "CGTN·Travel",
-      "title": "A glimpse of autumn in rural China",
-      "link": "https://news.cgtn.com/news/2026-10-02/A-glimpse-of-autumn-in-rural-China-1QUMJk2kovu/p.html"
+      "title": "Beyond the tourist trail: China's holiday travel takes new turns",
+      "link": "https://news.cgtn.com/news/2026-10-04/Beyond-the-tourist-trail-China-s-holiday-travel-takes-new-turns-1QY8eiWyPTi/p.html"
     },
     {
-      "id": "n12",
+      "id": "n13",
       "date": "2026-09-28",
       "src": "CGTN·Sports",
       "title": "Zimbabwe beats Uganda to win Rugby Africa Sevens title",
       "link": "https://newsaf.cgtn.com/news/2026-09-28/Zimbabwe-beats-Uganda-to-win-Rugby-Africa-Sevens-title-1QO8hDL8KrK/p.html"
     },
     {
-      "id": "n13",
+      "id": "n14",
       "date": "2026-09-27",
       "src": "CGTN·Sports",
       "title": "Exclusive: Mutaz Essa Barshim eyes his fifth Asian Games and beyond",
       "link": "https://news.cgtn.com/news/2026-09-27/Exclusive-Mutaz-Essa-Barshim-eyes-his-fifth-Asian-Games-and-beyond-1QM7HWZgw4U/p.html"
-    },
-    {
-      "id": "n14",
-      "date": "2026-09-25",
-      "src": "CGTN·Travel",
-      "title": "China braces for surge in travel ahead of the upcoming holidays",
-      "link": "https://news.cgtn.com/news/2026-09-25/China-braces-for-surge-in-travel-ahead-of-the-upcoming-holidays-1QHpMuDHUdy/p.html"
     },
     {
       "id": "n15",
