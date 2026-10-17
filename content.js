@@ -6,51 +6,51 @@ window.CET_CONTENT = {
     {
       "id": "n01",
       "date": "2026-10-16",
+      "src": "CGTN·Travel",
+      "title": "Explore the stunning landscapes of NE China's Jilin Province",
+      "link": "https://news.cgtn.com/news/2026-10-16/Explore-the-stunning-landscapes-of-NE-China-s-Jilin-Province-1RgHGIkx6CY/p.html"
+    },
+    {
+      "id": "n02",
+      "date": "2026-10-16",
       "src": "CGTN·China",
       "title": "Foreign ministers of Djibouti, Republic of Congo to visit China",
       "link": "https://news.cgtn.com/news/2026-10-16/Foreign-ministers-of-Djibouti-Republic-of-Congo-to-visit-China-1Ri2FvJGZuE/p.html"
     },
     {
-      "id": "n02",
+      "id": "n03",
       "date": "2026-10-16",
       "src": "CGTN·China",
       "title": "Foreign diplomats explore Ningxia's specialty industries",
       "link": "https://news.cgtn.com/news/2026-10-16/Foreign-diplomats-explore-Ningxia-s-specialty-industries-1RhVzlSvQL6/p.html"
     },
     {
-      "id": "n03",
+      "id": "n04",
       "date": "2026-10-16",
       "src": "CGTN·China",
       "title": "How AI is redefining precision farming in China",
       "link": "https://news.cgtn.com/news/2026-10-16/How-AI-is-redefining-precision-farming-in-China-1RhsBvUDm12/p.html"
     },
     {
-      "id": "n04",
+      "id": "n05",
       "date": "2026-10-13",
       "src": "CGTN·Business",
       "title": "Chinese vice premier meets with Apple executive chairman",
       "link": "https://news.cgtn.com/news/2026-10-13/Chinese-vice-premier-meets-with-Apple-executive-chairman-1RcoeYcFN04/p.html"
     },
     {
-      "id": "n05",
+      "id": "n06",
       "date": "2026-10-12",
       "src": "CGTN·Culture",
       "title": "Listening to the people, building trust",
       "link": "https://news.cgtn.com/news/2026-10-12/Listening-to-the-people-building-trust-1RbmdZwTBnO/p.html"
     },
     {
-      "id": "n06",
+      "id": "n07",
       "date": "2026-10-12",
       "src": "CGTN·Culture",
       "title": "Documentary film screening draws international audience",
       "link": "https://news.cgtn.com/news/2026-10-12/Documentary-film-screening-draws-international-audience-1Rbmk9K3QnS/p.html"
-    },
-    {
-      "id": "n07",
-      "date": "2026-10-08",
-      "src": "CGTN·Travel",
-      "title": "Taicang South Garden: Private garden of a Ming Dynasty chief minister",
-      "link": "https://news.cgtn.com/news/2026-10-08/Taicang-South-Garden-Private-garden-of-a-Ming-Dynasty-chief-minister-1R4AVhoQW8E/p.html"
     },
     {
       "id": "n08",
@@ -68,38 +68,38 @@ window.CET_CONTENT = {
     },
     {
       "id": "n10",
-      "date": "2026-10-07",
-      "src": "CGTN·Travel",
-      "title": "Overseas tourists embrace immersive China travel during holiday season",
-      "link": "https://news.cgtn.com/news/2026-10-07/Overseas-tourists-embrace-immersive-China-travel-during-holiday-season-1R31AZxISsg/p.html"
-    },
-    {
-      "id": "n11",
       "date": "2026-10-06",
       "src": "CGTN·Business",
       "title": "What's new in China's urban renewal plan?",
       "link": "https://news.cgtn.com/news/2026-10-06/What-s-new-in-China-s-urban-renewal-plan--1R1CoEzbHuU/p.html"
     },
     {
-      "id": "n12",
-      "date": "2026-10-04",
+      "id": "n11",
+      "date": "2026-09-29",
       "src": "CGTN·Travel",
-      "title": "Beyond the tourist trail: China's holiday travel takes new turns",
-      "link": "https://news.cgtn.com/news/2026-10-04/Beyond-the-tourist-trail-China-s-holiday-travel-takes-new-turns-1QY8eiWyPTi/p.html"
+      "title": "Old walls and new flavors keep Kashi feeling fresh",
+      "link": "https://news.cgtn.com/news/2026-09-29/Old-walls-and-new-flavors-keep-Kashi-feeling-fresh-1QPOpbSFLKE/p.html"
     },
     {
-      "id": "n13",
+      "id": "n12",
       "date": "2026-09-28",
       "src": "CGTN·Sports",
       "title": "Zimbabwe beats Uganda to win Rugby Africa Sevens title",
       "link": "https://newsaf.cgtn.com/news/2026-09-28/Zimbabwe-beats-Uganda-to-win-Rugby-Africa-Sevens-title-1QO8hDL8KrK/p.html"
     },
     {
-      "id": "n14",
+      "id": "n13",
       "date": "2026-09-27",
       "src": "CGTN·Sports",
       "title": "Exclusive: Mutaz Essa Barshim eyes his fifth Asian Games and beyond",
       "link": "https://news.cgtn.com/news/2026-09-27/Exclusive-Mutaz-Essa-Barshim-eyes-his-fifth-Asian-Games-and-beyond-1QM7HWZgw4U/p.html"
+    },
+    {
+      "id": "n14",
+      "date": "2026-09-24",
+      "src": "CGTN·Travel",
+      "title": "Virginia logger amazed by China",
+      "link": "https://newsus.cgtn.com/news/2026-09-24/Virginia-logger-amazed-by-China-1QGN3c4TrLG/p.html"
     },
     {
       "id": "n15",
