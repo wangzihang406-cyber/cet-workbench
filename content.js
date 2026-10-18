@@ -33,80 +33,80 @@ window.CET_CONTENT = {
     },
     {
       "id": "n05",
-      "date": "2026-10-13",
-      "src": "CGTN·Travel",
-      "title": "Xinjiang's Tongba Scenic Area dazzles with golden autumn forests",
-      "link": "https://news.cgtn.com/news/2026-10-13/Xinjiang-s-Tongba-Scenic-Area-dazzles-with-golden-autumn-forests-1RcWKiniLpm/p.html"
+      "date": "2026-10-09",
+      "src": "CGTN·Culture",
+      "title": "2027 Spring/Summer Shanghai Fashion Week kicks off",
+      "link": "https://news.cgtn.com/news/2026-10-09/2027-Spring-Summer-Shanghai-Fashion-Week-kicks-off-1R60vT5iee4/p.html"
     },
     {
       "id": "n06",
-      "date": "2026-10-12",
+      "date": "2026-10-08",
       "src": "CGTN·Culture",
-      "title": "Listening to the people, building trust",
-      "link": "https://news.cgtn.com/news/2026-10-12/Listening-to-the-people-building-trust-1RbmdZwTBnO/p.html"
+      "title": "Crafting heritage: Art trio reveals the ideas behind their creations",
+      "link": "https://news.cgtn.com/news/2026-10-08/Crafting-heritage-Art-trio-reveals-the-ideas-behind-their-creations-1R4E08JKc1O/p.html"
     },
     {
       "id": "n07",
-      "date": "2026-10-12",
-      "src": "CGTN·Culture",
-      "title": "Documentary film screening draws international audience",
-      "link": "https://news.cgtn.com/news/2026-10-12/Documentary-film-screening-draws-international-audience-1Rbmk9K3QnS/p.html"
-    },
-    {
-      "id": "n08",
       "date": "2026-10-08",
       "src": "CGTN·Business",
       "title": "PBOC: China committed to market-driven exchange rate",
       "link": "https://news.cgtn.com/news/2026-10-08/PBOC-China-committed-to-market-driven-exchange-rate-1R4SMyVnqx2/p.html"
     },
     {
-      "id": "n09",
-      "date": "2026-10-07",
-      "src": "CGTN·Culture",
-      "title": "The Drum and Bell Towers and the rhythms of Old Beijing",
-      "link": "https://news.cgtn.com/news/2026-10-07/The-Drum-and-Bell-Towers-and-the-rhythms-of-Old-Beijing-1R2Wid9nnhe/p.html"
-    },
-    {
-      "id": "n10",
+      "id": "n08",
       "date": "2026-10-07",
       "src": "CGTN·Business",
       "title": "Hong Kong retains position as world's freest economy, report finds",
       "link": "https://news.cgtn.com/news/2026-10-07/Hong-Kong-retains-position-as-world-s-freest-economy-report-finds-1R2q2CZHCxO/p.html"
     },
     {
+      "id": "n09",
+      "date": "2026-10-04",
+      "src": "CGTN·Culture",
+      "title": "'China in the Classics' kicks off its new season",
+      "link": "https://news.cgtn.com/news/2026-10-04/-China-in-the-Classics-kicks-off-its-new-season--1QY6T0FcfZe/p.html"
+    },
+    {
+      "id": "n10",
+      "date": "2026-09-29",
+      "src": "CGTN·Sports",
+      "title": "IOC launches Trustworthy AI Framework",
+      "link": "https://news.cgtn.com/news/2026-09-29/IOC-launches-Trustworthy-AI-Framework-1QPAzDjp3fa/p.html"
+    },
+    {
       "id": "n11",
-      "date": "2026-10-02",
-      "src": "CGTN·Travel",
-      "title": "A flight over Jilin's golden mountains",
-      "link": "https://news.cgtn.com/news/2026-10-02/A-flight-over-Jilin-s-golden-mountains-1QUHMIWvhOU/p.html"
+      "date": "2026-09-29",
+      "src": "CGTN·Sports",
+      "title": "China’s young Asian Games squad makes a splash: Launchpad for LA 28?",
+      "link": "https://news.cgtn.com/news/2026-09-29/China-s-young-Asian-Games-squad-makes-a-splash-Launchpad-for-LA-28--1QPCQFhQzuw/p.html"
     },
     {
       "id": "n12",
       "date": "2026-09-28",
-      "src": "CGTN·Sports",
-      "title": "Zimbabwe beats Uganda to win Rugby Africa Sevens title",
-      "link": "https://newsaf.cgtn.com/news/2026-09-28/Zimbabwe-beats-Uganda-to-win-Rugby-Africa-Sevens-title-1QO8hDL8KrK/p.html"
+      "src": "CGTN·Travel",
+      "title": "China's civil aviation sector prepares for National Day travel rush",
+      "link": "https://news.cgtn.com/news/2026-09-28/China-s-civil-aviation-sector-prepares-for-National-Day-travel-rush-1QObVVBNidG/p.html"
     },
     {
       "id": "n13",
-      "date": "2026-09-27",
-      "src": "CGTN·Sports",
-      "title": "Exclusive: Mutaz Essa Barshim eyes his fifth Asian Games and beyond",
-      "link": "https://news.cgtn.com/news/2026-09-27/Exclusive-Mutaz-Essa-Barshim-eyes-his-fifth-Asian-Games-and-beyond-1QM7HWZgw4U/p.html"
+      "date": "2026-09-28",
+      "src": "CGTN·Travel",
+      "title": "How about decorating your desk with Confucius figurines?",
+      "link": "https://news.cgtn.com/news/2026-09-28/How-about-decorating-your-desk-with-Confucius-figurines--1QOkJ26fVio/p.html"
     },
     {
       "id": "n14",
-      "date": "2026-09-26",
+      "date": "2026-09-24",
       "src": "CGTN·Travel",
-      "title": "A taste of Hefei's morning routine",
-      "link": "https://news.cgtn.com/news/2026-09-26/A-taste-of-Hefei-s-morning-routine-1QDYVhT3KgM/p.html"
+      "title": "Market Days With Movies light up grassland tourism in Ordos",
+      "link": "https://news.cgtn.com/news/2026-09-24/Market-Days-With-Movies-light-up-grassland-tourism-in-Ordos-1QH2PhB7cys/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "src": "CGTN·Sports",
-      "title": "A look at some of China's standout Guinness World Records",
-      "link": "https://news.cgtn.com/news/2026-09-17/A-look-at-some-of-China-s-standout-Guinness-World-Records-1QvTNtWA1uo/p.html"
+      "title": "Yang Shuai header lifts Shanghai Shenhua past Tampines Rovers",
+      "link": "https://news.cgtn.com/news/2026-09-18/Yang-Shuai-header-lifts-Shanghai-Shenhua-past-Tampines-Rovers-1Qx5Ozlc3yE/p.html"
     }
   ],
   "readings": [
