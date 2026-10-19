@@ -33,31 +33,31 @@ window.CET_CONTENT = {
     },
     {
       "id": "n05",
+      "date": "2026-10-13",
+      "src": "CGTN·Culture",
+      "title": "Foreign diplomats embrace China's livestream commerce",
+      "link": "https://news.cgtn.com/news/2026-10-13/Foreign-diplomats-embrace-China-s-livestream-commerce-1RbBlwFJYxG/p.html"
+    },
+    {
+      "id": "n06",
+      "date": "2026-10-12",
+      "src": "CGTN·Culture",
+      "title": "Documentary film screening draws international audience",
+      "link": "https://news.cgtn.com/news/2026-10-12/Documentary-film-screening-draws-international-audience-1Rbmk9K3QnS/p.html"
+    },
+    {
+      "id": "n07",
       "date": "2026-10-12",
       "src": "CGTN·Business",
       "title": "China, EU reach multiple consensus outcomes on auto trade",
       "link": "https://news.cgtn.com/news/2026-10-12/China-EU-reach-multiple-consensus-outcomes-on-auto-trade-1RberZFzuG4/p.html"
     },
     {
-      "id": "n06",
-      "date": "2026-10-09",
-      "src": "CGTN·Culture",
-      "title": "2027 Spring/Summer Shanghai Fashion Week kicks off",
-      "link": "https://news.cgtn.com/news/2026-10-09/2027-Spring-Summer-Shanghai-Fashion-Week-kicks-off-1R60vT5iee4/p.html"
-    },
-    {
-      "id": "n07",
+      "id": "n08",
       "date": "2026-10-09",
       "src": "CGTN·Travel",
       "title": "China sees service consumption growth during National Day holiday",
       "link": "https://news.cgtn.com/news/2026-10-09/China-sees-service-consumption-growth-during-National-Day-holiday-1R5UNomUhVe/p.html"
-    },
-    {
-      "id": "n08",
-      "date": "2026-10-08",
-      "src": "CGTN·Culture",
-      "title": "Crafting heritage: Art trio reveals the ideas behind their creations",
-      "link": "https://news.cgtn.com/news/2026-10-08/Crafting-heritage-Art-trio-reveals-the-ideas-behind-their-creations-1R4E08JKc1O/p.html"
     },
     {
       "id": "n09",
@@ -69,16 +69,16 @@ window.CET_CONTENT = {
     {
       "id": "n10",
       "date": "2026-10-07",
-      "src": "CGTN·Business",
-      "title": "China's countryside is having a moment",
-      "link": "https://news.cgtn.com/news/2026-10-07/China-s-countryside-is-having-a-moment-1R3dxaUJxbW/p.html"
+      "src": "CGTN·Culture",
+      "title": "Domestic hits push China's National Day box office past 1 billion yuan",
+      "link": "https://news.cgtn.com/news/2026-10-07/Domestic-hits-push-China-s-National-Day-box-office-past-1-billion-yuan-1R2TXOZRxug/p.html"
     },
     {
       "id": "n11",
-      "date": "2026-10-04",
-      "src": "CGTN·Culture",
-      "title": "'China in the Classics' kicks off its new season",
-      "link": "https://news.cgtn.com/news/2026-10-04/-China-in-the-Classics-kicks-off-its-new-season--1QY6T0FcfZe/p.html"
+      "date": "2026-10-07",
+      "src": "CGTN·Business",
+      "title": "China's countryside is having a moment",
+      "link": "https://news.cgtn.com/news/2026-10-07/China-s-countryside-is-having-a-moment-1R3dxaUJxbW/p.html"
     },
     {
       "id": "n12",
