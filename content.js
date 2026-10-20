@@ -41,37 +41,37 @@ window.CET_CONTENT = {
     {
       "id": "n06",
       "date": "2026-10-15",
+      "src": "CGTN·Culture",
+      "title": "'The Long March: A Road Without End' set for global release",
+      "link": "https://news.cgtn.com/news/2026-10-15/-The-Long-March-A-Road-Without-End-set-for-global-release-1Rgdagq927K/p.html"
+    },
+    {
+      "id": "n07",
+      "date": "2026-10-15",
       "src": "CGTN·Business",
       "title": "China's FDI stock ranks second globally at 26.8 trillion yuan",
       "link": "https://news.cgtn.com/news/2026-10-15/China-s-FDI-equity-stock-ranks-second-globally-at-26-8-trillion-yuan-1RgkTTptk8U/p.html"
     },
     {
-      "id": "n07",
+      "id": "n08",
       "date": "2026-10-15",
       "src": "CGTN·Business",
       "title": "Hot US inflation, rising AI costs spark global chip stock rout",
       "link": "https://news.cgtn.com/news/2026-10-15/Hot-US-inflation-rising-AI-costs-spark-global-chip-stock-rout-1RgbacuNxwA/p.html"
     },
     {
-      "id": "n08",
-      "date": "2026-10-13",
-      "src": "CGTN·Culture",
-      "title": "Foreign diplomats embrace China's livestream commerce",
-      "link": "https://news.cgtn.com/news/2026-10-13/Foreign-diplomats-embrace-China-s-livestream-commerce-1RbBlwFJYxG/p.html"
-    },
-    {
       "id": "n09",
-      "date": "2026-10-12",
+      "date": "2026-10-10",
       "src": "CGTN·Culture",
-      "title": "Documentary film screening draws international audience",
-      "link": "https://news.cgtn.com/news/2026-10-12/Documentary-film-screening-draws-international-audience-1Rbmk9K3QnS/p.html"
+      "title": "Beijing Music Festival opens with Mozart extravaganza",
+      "link": "https://news.cgtn.com/news/2026-10-10/Beijing-Music-Festival-opens-with-Mozart-extravaganza-1R7SHhV8pfa/p.html"
     },
     {
       "id": "n10",
-      "date": "2026-10-07",
+      "date": "2026-10-06",
       "src": "CGTN·Culture",
-      "title": "Domestic hits push China's National Day box office past 1 billion yuan",
-      "link": "https://news.cgtn.com/news/2026-10-07/Domestic-hits-push-China-s-National-Day-box-office-past-1-billion-yuan-1R2TXOZRxug/p.html"
+      "title": "Chaka Salt Lake welcomes National Day holiday crowds",
+      "link": "https://news.cgtn.com/news/2026-10-06/Chaka-Salt-Lake-welcomes-National-Day-holiday-crowds-1R1iq1uWzBe/p.html"
     },
     {
       "id": "n11",
