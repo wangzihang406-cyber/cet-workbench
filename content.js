@@ -6,30 +6,30 @@ window.CET_CONTENT = {
     {
       "id": "n01",
       "date": "2026-10-20",
-      "src": "CGTN·China",
-      "title": "UN biodiversity conference begins formal sessions in Armenia",
-      "link": "https://news.cgtn.com/news/2026-10-20/UN-biodiversity-conference-begins-formal-sessions-in-Armenia-1Ro3iUxLEjK/p.html"
+      "src": "CGTN·Business",
+      "title": "AI reshapes global economy, bringing both opportunities and challenges",
+      "link": "https://news.cgtn.com/news/2026-10-20/AI-reshapes-global-economy-bringing-both-opportunities-and-challenges-1RouBzvvfos/p.html"
     },
     {
       "id": "n02",
-      "date": "2026-10-19",
-      "src": "CGTN·Business",
-      "title": "CGTN Poll: China's financial opening-up eases global governance woes",
-      "link": "https://news.cgtn.com/news/2026-10-19/CGTN-Poll-China-s-financial-opening-up-eases-global-governance-woes-1Rn3xmNyYX6/p.html"
+      "date": "2026-10-20",
+      "src": "CGTN·China",
+      "title": "Chinese central bank to employ 3-part AI strategy, says governor",
+      "link": "https://news.cgtn.com/news/2026-10-20/Chinese-central-bank-to-employ-3-part-AI-strategy-says-governor-1Rp01zM009O/p.html"
     },
     {
       "id": "n03",
-      "date": "2026-10-19",
+      "date": "2026-10-20",
       "src": "CGTN·China",
-      "title": "CGTN launches immersive multilingual experience on the Long March",
-      "link": "https://news.cgtn.com/news/2026-10-19/CGTN-launches-immersive-multilingual-experience-on-the-Long-March-1RmZwnqlA4w/p.html"
+      "title": "Chasing autumn colors in Beijing",
+      "link": "https://news.cgtn.com/news/2026-10-20/Chasing-autumn-colors-in-Beijing-1Roxzg2otVu/p.html"
     },
     {
       "id": "n04",
-      "date": "2026-10-19",
+      "date": "2026-10-20",
       "src": "CGTN·China",
-      "title": "Stunning! First snow hits Xinjiang's Tianchi Lake",
-      "link": "https://news.cgtn.com/news/2026-10-19/Stunning-First-snow-hits-Xinjiang-s-Tianchi-Lake-1RmExISwbIc/p.html"
+      "title": "Xi calls for high-quality growth with high-level protection",
+      "link": "https://news.cgtn.com/news/2026-10-20/Xi-calls-for-high-quality-growth-with-high-level-protection-1Rn16Yk0t7q/p.html"
     },
     {
       "id": "n05",
@@ -40,24 +40,24 @@ window.CET_CONTENT = {
     },
     {
       "id": "n06",
+      "date": "2026-10-16",
+      "src": "CGTN·Business",
+      "title": "BizDataDive: China steps up talent training and skills development",
+      "link": "https://news.cgtn.com/news/2026-10-16/BizDataDive-China-steps-up-talent-training-and-skills-development-1Ri1b7U2rAc/p.html"
+    },
+    {
+      "id": "n07",
       "date": "2026-10-15",
       "src": "CGTN·Culture",
       "title": "'The Long March: A Road Without End' set for global release",
       "link": "https://news.cgtn.com/news/2026-10-15/-The-Long-March-A-Road-Without-End-set-for-global-release-1Rgdagq927K/p.html"
     },
     {
-      "id": "n07",
-      "date": "2026-10-15",
-      "src": "CGTN·Business",
-      "title": "China's FDI stock ranks second globally at 26.8 trillion yuan",
-      "link": "https://news.cgtn.com/news/2026-10-15/China-s-FDI-equity-stock-ranks-second-globally-at-26-8-trillion-yuan-1RgkTTptk8U/p.html"
-    },
-    {
       "id": "n08",
-      "date": "2026-10-15",
+      "date": "2026-10-12",
       "src": "CGTN·Business",
-      "title": "Hot US inflation, rising AI costs spark global chip stock rout",
-      "link": "https://news.cgtn.com/news/2026-10-15/Hot-US-inflation-rising-AI-costs-spark-global-chip-stock-rout-1RgbacuNxwA/p.html"
+      "title": "China, EU reach multiple consensus outcomes on auto trade",
+      "link": "https://news.cgtn.com/news/2026-10-12/China-EU-reach-multiple-consensus-outcomes-on-auto-trade-1RberZFzuG4/p.html"
     },
     {
       "id": "n09",
