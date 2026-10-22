@@ -13,44 +13,44 @@ window.CET_CONTENT = {
     {
       "id": "n02",
       "date": "2026-10-21",
+      "src": "CGTN·Culture",
+      "title": "Yunnan snub-nosed monkeys enjoy bamboo feast in southwest China",
+      "link": "https://news.cgtn.com/news/2026-10-21/Yunnan-snub-nosed-monkeys-enjoy-bamboo-feast-in-southwest-China-1RqhLqn9w1q/p.html"
+    },
+    {
+      "id": "n03",
+      "date": "2026-10-21",
       "src": "CGTN·China",
       "title": "Young musicians bring fresh energy to Beijing Music Festival finale",
       "link": "https://news.cgtn.com/news/2026-10-21/Young-musicians-bring-fresh-energy-to-Beijing-Music-Festival-finale-1RqgBUMYwP6/p.html"
     },
     {
-      "id": "n03",
+      "id": "n04",
       "date": "2026-10-21",
       "src": "CGTN·China",
       "title": "China's Belt and Road partnership fuels inclusive global governance",
       "link": "https://news.cgtn.com/news/2026-10-21/China-s-Belt-and-Road-partnership-fuels-inclusive-global-governance-1RpRv6wSNuE/p.html"
     },
     {
-      "id": "n04",
-      "date": "2026-10-20",
-      "src": "CGTN·Culture",
-      "title": "Who's learning Mandarin? 210 million learners, celebrity kids and more",
-      "link": "https://news.cgtn.com/news/2026-10-20/Who-s-learning-Mandarin-200-million-learners-celebrity-kids-and-more-1RoQsZO3Hgc/p.html"
-    },
-    {
       "id": "n05",
-      "date": "2026-10-20",
-      "src": "CGTN·Travel",
-      "title": "Chasing autumn colors in Beijing",
-      "link": "https://news.cgtn.com/news/2026-10-20/Chasing-autumn-colors-in-Beijing-1Roxzg2otVu/p.html"
-    },
-    {
-      "id": "n06",
-      "date": "2026-10-19",
-      "src": "CGTN·Sports",
-      "title": "Fifth Asian Para Games open in Aichi-Nagoya with nearly 3,000 athletes",
-      "link": "https://news.cgtn.com/news/2026-10-19/Fifth-Asian-Para-Games-open-in-Aichi-Nagoya-with-nearly-3-000-athletes-1RmxTuya5j2/p.html"
-    },
-    {
-      "id": "n07",
       "date": "2026-10-19",
       "src": "CGTN·Business",
       "title": "China-EU hybrid car understanding: What it means for automakers",
       "link": "https://news.cgtn.com/news/2026-10-19/China-EU-hybrid-car-understanding-What-it-means-for-automakers-1RmGy714HAc/p.html"
+    },
+    {
+      "id": "n06",
+      "date": "2026-10-17",
+      "src": "CGTN·Sports",
+      "title": "How Zheng Qinwen transformed her game and mindset in two months",
+      "link": "https://news.cgtn.com/news/2026-10-17/How-Zheng-Qinwen-transformed-her-game-and-mindset-in-two-months-1RjbdSFXKwg/p.html"
+    },
+    {
+      "id": "n07",
+      "date": "2026-10-17",
+      "src": "CGTN·Travel",
+      "title": "Poll on Japanese PM Sanae Takaichi's offering to Yasukuni Shrine",
+      "link": "https://news.cgtn.com/news/2026-10-17/Poll-on-Japanese-PM-Sanae-Takaichi-s-offering-to-Yasukuni-Shrine-1RjDDngddBu/p.html"
     },
     {
       "id": "n08",
@@ -61,10 +61,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n09",
-      "date": "2026-10-15",
+      "date": "2026-10-16",
       "src": "CGTN·Culture",
-      "title": "Grasslands in N China's Inner Mongolia ablaze with autumn hues",
-      "link": "https://news.cgtn.com/news/2026-10-15/Grasslands-in-N-China-s-Inner-Mongolia-ablaze-with-autumn-hues-1RfQJmHipC8/p.html"
+      "title": "The Long March, reimagined through seal art",
+      "link": "https://news.cgtn.com/news/2026-10-16/The-Long-March-reimagined-through-seal-art-1RhQlvWq3gA/p.html"
     },
     {
       "id": "n10",
@@ -75,38 +75,38 @@ window.CET_CONTENT = {
     },
     {
       "id": "n11",
-      "date": "2026-10-12",
-      "src": "CGTN·Travel",
-      "title": "The Ming dynasty, still alive",
-      "link": "https://news.cgtn.com/news/2026-10-12/The-Ming-dynasty-still-alive-1RaPGiXSlZC/p.html"
+      "date": "2026-10-09",
+      "src": "CGTN·Culture",
+      "title": "Symposium held to study Xi's works on culture",
+      "link": "https://news.cgtn.com/news/2026-10-09/Symposium-held-to-study-Xi-s-works-on-culture-1R6zQjPACHe/p.html"
     },
     {
       "id": "n12",
-      "date": "2026-10-08",
-      "src": "CGTN·Culture",
-      "title": "Canadian Anne Carson wins 2026 Nobel Prize in Literature",
-      "link": "https://news.cgtn.com/news/2026-10-08/news-1R4UMOJTbVK/p.html"
+      "date": "2026-10-02",
+      "src": "CGTN·Sports",
+      "title": "Xie Zhenye backs China's young sprinters to shine on world stage",
+      "link": "https://news.cgtn.com/news/2026-10-02/Xie-Zhenye-backs-China-s-young-sprinters-to-shine-on-world-stage-1QUkbCV8cDe/p.html"
     },
     {
       "id": "n13",
-      "date": "2026-10-03",
-      "src": "CGTN·Sports",
-      "title": "Beyond the Medal Table: Asian Games, Esports, Asia's sporting powers",
-      "link": "https://news.cgtn.com/news/2026-10-03/Beyond-the-Medal-Table-Asian-Games-Esports-Asia-s-sporting-powers-1QVVqv8fpmw/p.html"
+      "date": "2026-10-02",
+      "src": "CGTN·Travel",
+      "title": "China's railway passenger trips hit record single-day high",
+      "link": "https://news.cgtn.com/news/2026-10-02/China-s-railway-passenger-trips-hit-record-single-day-high-1QUIZPVheVi/p.html"
     },
     {
       "id": "n14",
-      "date": "2026-10-03",
+      "date": "2026-09-25",
       "src": "CGTN·Travel",
-      "title": "'China Haul' trend highlights China's growing global appeal",
-      "link": "https://news.cgtn.com/news/2026-10-03/-China-Haul-trend-highlights-China-s-growing-global-appeal-1QWEIDCf9sc/p.html"
+      "title": "2026 Beijing Animation Festival opens",
+      "link": "https://news.cgtn.com/news/2026-09-25/2026-Beijing-Animation-Festival-opens-1QJ5Ny85IqI/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-09-15",
+      "date": "2026-09-18",
       "src": "CGTN·Sports",
-      "title": "China routs defending champion Philippines to finish top in Group C",
-      "link": "https://news.cgtn.com/news/2026-09-15/China-routs-defending-champion-Philippines-to-finish-top-in-Group-C-1Qs9WzgueGI/p.html"
+      "title": "Yang Shuai header lifts Shanghai Shenhua past Tampines Rovers",
+      "link": "https://news.cgtn.com/news/2026-09-18/Yang-Shuai-header-lifts-Shanghai-Shenhua-past-Tampines-Rovers-1Qx5Ozlc3yE/p.html"
     }
   ],
   "readings": [
