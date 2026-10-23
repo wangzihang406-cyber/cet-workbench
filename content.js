@@ -19,59 +19,59 @@ window.CET_CONTENT = {
     },
     {
       "id": "n03",
-      "date": "2026-10-21",
-      "src": "CGTN·Culture",
-      "title": "Yunnan snub-nosed monkeys enjoy bamboo feast in southwest China",
-      "link": "https://news.cgtn.com/news/2026-10-21/Yunnan-snub-nosed-monkeys-enjoy-bamboo-feast-in-southwest-China-1RqhLqn9w1q/p.html"
-    },
-    {
-      "id": "n04",
       "date": "2026-10-20",
       "src": "CGTN·Business",
       "title": "AI reshapes global economy, bringing both opportunities and challenges",
       "link": "https://news.cgtn.com/news/2026-10-20/AI-reshapes-global-economy-bringing-both-opportunities-and-challenges-1RouBzvvfos/p.html"
     },
     {
-      "id": "n05",
+      "id": "n04",
       "date": "2026-10-20",
       "src": "CGTN·China",
       "title": "China establishes new state-owned enterprise focused on data",
       "link": "https://news.cgtn.com/news/2026-10-20/China-establishes-new-state-owned-enterprise-focused-on-data-1RoS8QSf1Ze/p.html"
     },
     {
-      "id": "n06",
+      "id": "n05",
       "date": "2026-10-20",
       "src": "CGTN·China",
       "title": "Chinese Embassy in UK urges citizens to be vigilant over border checks",
       "link": "https://news.cgtn.com/news/2026-10-20/Chinese-Embassy-in-UK-urges-citizens-to-be-vigilant-over-border-checks-1RoD8L8mANy/p.html"
     },
     {
-      "id": "n07",
+      "id": "n06",
       "date": "2026-10-19",
       "src": "CGTN·Sports",
       "title": "Fifth Asian Para Games open in Aichi-Nagoya with nearly 3,000 athletes",
       "link": "https://news.cgtn.com/news/2026-10-19/Fifth-Asian-Para-Games-open-in-Aichi-Nagoya-with-nearly-3-000-athletes-1RmxTuya5j2/p.html"
     },
     {
-      "id": "n08",
-      "date": "2026-10-16",
-      "src": "CGTN·Culture",
-      "title": "The Long March, reimagined through seal art",
-      "link": "https://news.cgtn.com/news/2026-10-16/The-Long-March-reimagined-through-seal-art-1RhQlvWq3gA/p.html"
-    },
-    {
-      "id": "n09",
+      "id": "n07",
       "date": "2026-10-16",
       "src": "CGTN·Business",
       "title": "BizDataDive: China steps up talent training and skills development",
       "link": "https://news.cgtn.com/news/2026-10-16/BizDataDive-China-steps-up-talent-training-and-skills-development-1Ri1b7U2rAc/p.html"
     },
     {
-      "id": "n10",
+      "id": "n08",
+      "date": "2026-10-15",
+      "src": "CGTN·Culture",
+      "title": "Grasslands in N China's Inner Mongolia ablaze with autumn hues",
+      "link": "https://news.cgtn.com/news/2026-10-15/Grasslands-in-N-China-s-Inner-Mongolia-ablaze-with-autumn-hues-1RfQJmHipC8/p.html"
+    },
+    {
+      "id": "n09",
       "date": "2026-10-14",
       "src": "CGTN·Business",
       "title": "China's foreign trade tops 5 trillion yuan in September, up 27.5%",
       "link": "https://news.cgtn.com/news/2026-10-14/China-s-foreign-trade-tops-5-trillion-yuan-in-September-up-27-5--1Rej2mT0sRa/p.html"
+    },
+    {
+      "id": "n10",
+      "date": "2026-10-13",
+      "src": "CGTN·Culture",
+      "title": "From 50,000 to 100,000: How youth exchanges bridge China-US ties",
+      "link": "https://news.cgtn.com/news/2026-10-13/From-50-000-to-100-000-How-youth-exchanges-bridge-China-US-ties-1RbBESVIGUo/p.html"
     },
     {
       "id": "n11",
@@ -84,8 +84,8 @@ window.CET_CONTENT = {
       "id": "n12",
       "date": "2026-10-09",
       "src": "CGTN·Culture",
-      "title": "Symposium held to study Xi's works on culture",
-      "link": "https://news.cgtn.com/news/2026-10-09/Symposium-held-to-study-Xi-s-works-on-culture-1R6zQjPACHe/p.html"
+      "title": "Spring/Summer 2027 Shanghai Fashion Week kicks off",
+      "link": "https://news.cgtn.com/news/2026-10-09/Spring-Summer-2027-Shanghai-Fashion-Week-kicks-off--1R6bkJ10QTK/p.html"
     },
     {
       "id": "n13",
