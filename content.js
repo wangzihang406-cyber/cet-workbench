@@ -6,30 +6,30 @@ window.CET_CONTENT = {
     {
       "id": "n01",
       "date": "2026-10-23",
+      "src": "CGTN·Culture",
+      "title": "Wind chants at the Altar: A father-son musical dialogue",
+      "link": "https://news.cgtn.com/news/2026-10-23/Wind-chants-at-the-Altar-A-father-son-musical-dialogue-1RtuU3udvmo/p.html"
+    },
+    {
+      "id": "n02",
+      "date": "2026-10-23",
       "src": "CGTN·Business",
       "title": "What happens after people are lifted out of poverty in China?",
       "link": "https://news.cgtn.com/news/2026-10-23/What-happens-after-people-are-lifted-out-of-poverty-in-China--1RtIwXf9XEs/p.html"
     },
     {
-      "id": "n02",
+      "id": "n03",
       "date": "2026-10-23",
       "src": "CGTN·China",
       "title": "Ethiopian expert calls for dialogue, cooperation on global governance",
       "link": "https://news.cgtn.com/news/2026-10-23/Ethiopian-expert-calls-for-dialogue-cooperation-on-global-governance-1RtUTGl1ANa/p.html"
     },
     {
-      "id": "n03",
+      "id": "n04",
       "date": "2026-10-23",
       "src": "CGTN·China",
       "title": "Rescue efforts underway after M7.0 quake hits southwest China's Xizang",
       "link": "https://news.cgtn.com/news/2026-10-23/Rescue-efforts-underway-after-M7-0-quake-hits-southwest-China-s-Xizang-1Rt7k6aFoY0/p.html"
-    },
-    {
-      "id": "n04",
-      "date": "2026-10-22",
-      "src": "CGTN·Travel",
-      "title": "Documentary brings Yunnan’s Asian elephant stories to global screens",
-      "link": "https://news.cgtn.com/news/2026-10-22/Documentary-brings-Yunnan-s-Asian-elephant-stories-to-global-screens-1RrULxCWA5a/p.html"
     },
     {
       "id": "n05",
@@ -40,73 +40,73 @@ window.CET_CONTENT = {
     },
     {
       "id": "n06",
-      "date": "2026-10-19",
-      "src": "CGTN·Sports",
-      "title": "Fifth Asian Para Games open in Aichi-Nagoya with nearly 3,000 athletes",
-      "link": "https://news.cgtn.com/news/2026-10-19/Fifth-Asian-Para-Games-open-in-Aichi-Nagoya-with-nearly-3-000-athletes-1RmxTuya5j2/p.html"
+      "date": "2026-10-21",
+      "src": "CGTN·Travel",
+      "title": "Where water leaves its mark: Bouyei tradition in Guizhou",
+      "link": "https://news.cgtn.com/news/2026-10-21/Where-water-leaves-its-mark-Bouyei-tradition-in-Guizhou-1RluiIMbWrC/p.html"
     },
     {
       "id": "n07",
+      "date": "2026-10-18",
+      "src": "CGTN·Sports",
+      "title": "Li,Yan named China's flagbearers for Asian Para Games opening ceremony",
+      "link": "https://news.cgtn.com/news/2026-10-18/Li-Yan-named-China-s-flagbearers-for-Asian-Para-Games-opening-ceremony-1RkVyZsIc5q/p.html"
+    },
+    {
+      "id": "n08",
+      "date": "2026-10-18",
+      "src": "CGTN·Culture",
+      "title": "2026 Yangtze River Delta International Youth Film Festival opens",
+      "link": "https://news.cgtn.com/news/2026-10-18/2026-Yangtze-River-Delta-International-Youth-Film-Festival-opens-1Rld9kPWbOo/p.html"
+    },
+    {
+      "id": "n09",
+      "date": "2026-10-18",
+      "src": "CGTN·Culture",
+      "title": "Chinese artists tell Xiongan's story through high-tech theater",
+      "link": "https://news.cgtn.com/news/2026-10-18/Chinese-artists-tell-Xiongan-s-story-through-high-tech-theater-1Rk7R9XYmWI/p.html"
+    },
+    {
+      "id": "n10",
       "date": "2026-10-17",
       "src": "CGTN·Business",
       "title": "Angola's fuel subsidies spending projected to hit $4 billion in 2026",
       "link": "https://newsaf.cgtn.com/news/2026-10-17/Angola-s-fuel-subsidies-spending-projected-to-hit-4-billion-in-2026-1RjSf12bUWI/p.html"
     },
     {
-      "id": "n08",
-      "date": "2026-10-15",
-      "src": "CGTN·Culture",
-      "title": "Grasslands in N China's Inner Mongolia ablaze with autumn hues",
-      "link": "https://news.cgtn.com/news/2026-10-15/Grasslands-in-N-China-s-Inner-Mongolia-ablaze-with-autumn-hues-1RfQJmHipC8/p.html"
-    },
-    {
-      "id": "n09",
+      "id": "n11",
       "date": "2026-10-15",
       "src": "CGTN·Business",
       "title": "Hot US inflation, rising AI costs spark global chip stock rout",
       "link": "https://news.cgtn.com/news/2026-10-15/Hot-US-inflation-rising-AI-costs-spark-global-chip-stock-rout-1RgbacuNxwA/p.html"
     },
     {
-      "id": "n10",
-      "date": "2026-10-13",
-      "src": "CGTN·Culture",
-      "title": "From 50,000 to 100,000: How youth exchanges bridge China-US ties",
-      "link": "https://news.cgtn.com/news/2026-10-13/From-50-000-to-100-000-How-youth-exchanges-bridge-China-US-ties-1RbBESVIGUo/p.html"
-    },
-    {
-      "id": "n11",
-      "date": "2026-10-10",
-      "src": "CGTN·Travel",
-      "title": "A historic capital reborn, a heritage reawakened",
-      "link": "https://news.cgtn.com/news/2026-10-10/A-historic-capital-reborn-a-heritage-reawakened-1R7ZMkTsUQU/p.html"
-    },
-    {
       "id": "n12",
-      "date": "2026-10-09",
-      "src": "CGTN·Culture",
-      "title": "Spring/Summer 2027 Shanghai Fashion Week kicks off",
-      "link": "https://news.cgtn.com/news/2026-10-09/Spring-Summer-2027-Shanghai-Fashion-Week-kicks-off--1R6bkJ10QTK/p.html"
+      "date": "2026-10-02",
+      "src": "CGTN·Travel",
+      "title": "A glimpse of autumn in rural China",
+      "link": "https://news.cgtn.com/news/2026-10-02/A-glimpse-of-autumn-in-rural-China-1QUMJk2kovu/p.html"
     },
     {
       "id": "n13",
-      "date": "2026-10-03",
+      "date": "2026-10-02",
       "src": "CGTN·Travel",
-      "title": "AI and new ideas reshape China's animation industry",
-      "link": "https://news.cgtn.com/news/2026-10-03/AI-and-new-ideas-reshape-China-s-animation-industry-1QWjkl4kEBG/p.html"
+      "title": "China's railway passenger trips hit record single-day high",
+      "link": "https://news.cgtn.com/news/2026-10-02/China-s-railway-passenger-trips-hit-record-single-day-high-1QUIZPVheVi/p.html"
     },
     {
       "id": "n14",
-      "date": "2026-09-28",
+      "date": "2026-09-30",
       "src": "CGTN·Sports",
-      "title": "Zimbabwe beats Uganda to win Rugby Africa Sevens title",
-      "link": "https://newsaf.cgtn.com/news/2026-09-28/Zimbabwe-beats-Uganda-to-win-Rugby-Africa-Sevens-title-1QO8hDL8KrK/p.html"
+      "title": "China closes athletics with three golds at Asian Games",
+      "link": "https://news.cgtn.com/news/2026-09-30/China-closes-athletics-with-three-golds-at-Asian-Games-1QR6uHtLDlm/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-09-15",
+      "date": "2026-09-30",
       "src": "CGTN·Sports",
-      "title": "Four African athletes among first-ever World Ultimate champions",
-      "link": "https://newsaf.cgtn.com/news/2026-09-15/Four-African-athletes-among-first-ever-World-Ultimate-champions-1QrdEOZWJDq/p.html"
+      "title": "China's Wei &amp; Jiang reflect on winning badminton gold at Asian Games",
+      "link": "https://news.cgtn.com/news/2026-09-30/China-s-Wei-Jiang-reflect-on-winning-badminton-gold-at-Asian-Games-1QR5Tr8hZio/p.html"
     }
   ],
   "readings": [
