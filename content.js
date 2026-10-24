@@ -5,38 +5,38 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
+      "date": "2026-10-23",
+      "src": "CGTN·Business",
+      "title": "What happens after people are lifted out of poverty in China?",
+      "link": "https://news.cgtn.com/news/2026-10-23/What-happens-after-people-are-lifted-out-of-poverty-in-China--1RtIwXf9XEs/p.html"
+    },
+    {
+      "id": "n02",
+      "date": "2026-10-23",
+      "src": "CGTN·China",
+      "title": "Ethiopian expert calls for dialogue, cooperation on global governance",
+      "link": "https://news.cgtn.com/news/2026-10-23/Ethiopian-expert-calls-for-dialogue-cooperation-on-global-governance-1RtUTGl1ANa/p.html"
+    },
+    {
+      "id": "n03",
+      "date": "2026-10-23",
+      "src": "CGTN·China",
+      "title": "Rescue efforts underway after M7.0 quake hits southwest China's Xizang",
+      "link": "https://news.cgtn.com/news/2026-10-23/Rescue-efforts-underway-after-M7-0-quake-hits-southwest-China-s-Xizang-1Rt7k6aFoY0/p.html"
+    },
+    {
+      "id": "n04",
       "date": "2026-10-22",
       "src": "CGTN·Travel",
       "title": "Documentary brings Yunnan’s Asian elephant stories to global screens",
       "link": "https://news.cgtn.com/news/2026-10-22/Documentary-brings-Yunnan-s-Asian-elephant-stories-to-global-screens-1RrULxCWA5a/p.html"
     },
     {
-      "id": "n02",
+      "id": "n05",
       "date": "2026-10-22",
       "src": "CGTN·China",
-      "title": "Thriving Amur tigers reflect conservation efforts in northeast China",
-      "link": "https://news.cgtn.com/news/2026-10-22/Thriving-Amur-tigers-reflect-conservation-efforts-in-northeast-China-1RrQ7LD9yH6/p.html"
-    },
-    {
-      "id": "n03",
-      "date": "2026-10-20",
-      "src": "CGTN·Business",
-      "title": "AI reshapes global economy, bringing both opportunities and challenges",
-      "link": "https://news.cgtn.com/news/2026-10-20/AI-reshapes-global-economy-bringing-both-opportunities-and-challenges-1RouBzvvfos/p.html"
-    },
-    {
-      "id": "n04",
-      "date": "2026-10-20",
-      "src": "CGTN·China",
-      "title": "China establishes new state-owned enterprise focused on data",
-      "link": "https://news.cgtn.com/news/2026-10-20/China-establishes-new-state-owned-enterprise-focused-on-data-1RoS8QSf1Ze/p.html"
-    },
-    {
-      "id": "n05",
-      "date": "2026-10-20",
-      "src": "CGTN·China",
-      "title": "Chinese Embassy in UK urges citizens to be vigilant over border checks",
-      "link": "https://news.cgtn.com/news/2026-10-20/Chinese-Embassy-in-UK-urges-citizens-to-be-vigilant-over-border-checks-1RoD8L8mANy/p.html"
+      "title": "Chinese FM meets Djibouti's counterpart",
+      "link": "https://news.cgtn.com/news/2026-10-22/Chinese-FM-meets-Djibouti-s-counterpart-1RrjSMlD7t6/p.html"
     },
     {
       "id": "n06",
@@ -47,10 +47,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n07",
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "src": "CGTN·Business",
-      "title": "BizDataDive: China steps up talent training and skills development",
-      "link": "https://news.cgtn.com/news/2026-10-16/BizDataDive-China-steps-up-talent-training-and-skills-development-1Ri1b7U2rAc/p.html"
+      "title": "Angola's fuel subsidies spending projected to hit $4 billion in 2026",
+      "link": "https://newsaf.cgtn.com/news/2026-10-17/Angola-s-fuel-subsidies-spending-projected-to-hit-4-billion-in-2026-1RjSf12bUWI/p.html"
     },
     {
       "id": "n08",
@@ -61,10 +61,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n09",
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "src": "CGTN·Business",
-      "title": "China's foreign trade tops 5 trillion yuan in September, up 27.5%",
-      "link": "https://news.cgtn.com/news/2026-10-14/China-s-foreign-trade-tops-5-trillion-yuan-in-September-up-27-5--1Rej2mT0sRa/p.html"
+      "title": "Hot US inflation, rising AI costs spark global chip stock rout",
+      "link": "https://news.cgtn.com/news/2026-10-15/Hot-US-inflation-rising-AI-costs-spark-global-chip-stock-rout-1RgbacuNxwA/p.html"
     },
     {
       "id": "n10",
