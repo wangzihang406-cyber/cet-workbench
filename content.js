@@ -5,80 +5,80 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
-      "date": "2026-10-24",
-      "src": "CGTN·Business",
-      "title": "China-Europe freight train trips on eastern corridor hit record high",
-      "link": "https://news.cgtn.com/news/2026-10-24/China-Europe-freight-train-trips-on-eastern-corridor-hit-record-high-1RuVWtuSDFC/p.html"
+      "date": "2026-10-25",
+      "src": "CGTN·China",
+      "title": "China’s rural revival: How a cliffside village defies isolation",
+      "link": "https://newsaf.cgtn.com/news/2026-10-25/China-s-rural-revival-How-a-cliffside-village-defies-isolation-1RwUE5Gi9qw/p.html"
     },
     {
       "id": "n02",
-      "date": "2026-10-24",
-      "src": "CGTN·China",
-      "title": "Kimi K3.1 Pro: an open-weight model within 3 points of the frontier",
-      "link": "https://news.cgtn.com/news/2026-10-24/Kimi-K3-1-Pro-an-open-weight-model-within-3-points-of-the-frontier-1Rvpycrxw2s/p.html"
+      "date": "2026-10-23",
+      "src": "CGTN·Business",
+      "title": "What happens after people are lifted out of poverty in China?",
+      "link": "https://news.cgtn.com/news/2026-10-23/What-happens-after-people-are-lifted-out-of-poverty-in-China--1RtIwXf9XEs/p.html"
     },
     {
       "id": "n03",
+      "date": "2026-10-23",
+      "src": "CGTN·China",
+      "title": "Ethiopian expert calls for dialogue, cooperation on global governance",
+      "link": "https://news.cgtn.com/news/2026-10-23/Ethiopian-expert-calls-for-dialogue-cooperation-on-global-governance-1RtUTGl1ANa/p.html"
+    },
+    {
+      "id": "n04",
+      "date": "2026-10-23",
+      "src": "CGTN·China",
+      "title": "Wang Yi holds talks with Foreign Minister of Congo on bilateral ties",
+      "link": "https://news.cgtn.com/news/2026-10-23/Wang-Yi-holds-talks-with-Foreign-Minister-of-Congo-on-bilateral-ties-1RtawnyMVj2/p.html"
+    },
+    {
+      "id": "n05",
       "date": "2026-10-22",
       "src": "CGTN·Travel",
       "title": "Kenya launches $160 million initiative to fund wildlife conservation",
       "link": "https://news.cgtn.com/news/2026-10-22/Kenya-launches-160-million-initiative-to-fund-wildlife-conservation-1Rs6WIyhQbK/p.html"
     },
     {
-      "id": "n04",
-      "date": "2026-10-22",
-      "src": "CGTN·Business",
-      "title": "China outlines progress in high-quality trade &amp; investment development",
-      "link": "https://news.cgtn.com/news/2026-10-22/China-outlines-progress-in-high-quality-trade-investment-development-1Rs36sgVNiE/p.html"
-    },
-    {
-      "id": "n05",
-      "date": "2026-10-22",
-      "src": "CGTN·China",
-      "title": "What does 'Half a Quilt' tell us about China's new Long March?",
-      "link": "https://news.cgtn.com/news/2026-10-22/What-does-Half-a-Quilt-tell-us-about-China-s-new-Long-March--1Rs8bRay2Hu/p.html"
-    },
-    {
       "id": "n06",
-      "date": "2026-10-22",
-      "src": "CGTN·China",
-      "title": "A Long March of her own: Growing roses at Jiajin Mountain",
-      "link": "https://news.cgtn.com/news/2026-10-22/A-Long-March-of-her-own-Growing-roses-at-Jiajin-Mountain-1RqAMLgYgDe/p.html"
-    },
-    {
-      "id": "n07",
       "date": "2026-10-20",
       "src": "CGTN·Culture",
       "title": "Who's learning Mandarin? 210 million learners, celebrity kids and more",
       "link": "https://news.cgtn.com/news/2026-10-20/Who-s-learning-Mandarin-200-million-learners-celebrity-kids-and-more-1RoQsZO3Hgc/p.html"
     },
     {
+      "id": "n07",
+      "date": "2026-10-17",
+      "src": "CGTN·Business",
+      "title": "China's export controls on PV: Precision, balance, and rules-based",
+      "link": "https://news.cgtn.com/news/2026-10-17/China-s-export-controls-on-PV-Precision-balance-and-rules-based-1Rjpz3TKF20/p.html"
+    },
+    {
       "id": "n08",
+      "date": "2026-10-15",
+      "src": "CGTN·Business",
+      "title": "Full text: Premier Li Qiang speaks at Canton Fair opening ceremony",
+      "link": "https://news.cgtn.com/news/2026-10-15/Full-text-Premier-Li-Qiang-speaks-at-Canton-Fair-opening-ceremony-1RghO7yHADm/p.html"
+    },
+    {
+      "id": "n09",
       "date": "2026-10-14",
       "src": "CGTN·Culture",
       "title": "The Long March in paint: Retracing the journey through art",
       "link": "https://news.cgtn.com/news/2026-10-14/The-Long-March-in-paint-Retracing-the-journey-through-art-1ReljFspTFu/p.html"
     },
     {
-      "id": "n09",
+      "id": "n10",
       "date": "2026-10-13",
       "src": "CGTN·Sports",
       "title": "CBA unveils 2026-27 schedule as promotion and relegation returns",
       "link": "https://news.cgtn.com/news/2026-10-13/CBA-unveils-2026-27-schedule-as-promotion-and-relegation-returns-1RcA2ofJTtm/p.html"
     },
     {
-      "id": "n10",
+      "id": "n11",
       "date": "2026-10-13",
       "src": "CGTN·Culture",
       "title": "'Fabulous Beasts' comic brings Chinese mythical creatures to life",
       "link": "https://news.cgtn.com/news/2026-10-13/-Fabulous-Beasts-comic-brings-Chinese-mythical-creatures-to-life-1RcYjgBk3ew/p.html"
-    },
-    {
-      "id": "n11",
-      "date": "2026-10-13",
-      "src": "CGTN·Business",
-      "title": "Think tank expert: China offers the world an alternative",
-      "link": "https://news.cgtn.com/news/2026-10-13/Think-tank-expert-China-offers-the-world-an-alternative-1Rd495ovJle/p.html"
     },
     {
       "id": "n12",
