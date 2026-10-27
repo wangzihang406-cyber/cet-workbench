@@ -5,38 +5,38 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
-      "date": "2026-10-25",
+      "date": "2026-10-26",
       "src": "CGTN·China",
-      "title": "China’s rural revival: How a cliffside village defies isolation",
-      "link": "https://newsaf.cgtn.com/news/2026-10-25/China-s-rural-revival-How-a-cliffside-village-defies-isolation-1RwUE5Gi9qw/p.html"
+      "title": "Hong Kong to host 94th Interpol General Assembly",
+      "link": "https://news.cgtn.com/news/2026-10-26/Hong-Kong-to-host-94th-Interpol-General-Assembly-1RysNMAV16g/p.html"
     },
     {
       "id": "n02",
+      "date": "2026-10-24",
+      "src": "CGTN·China",
+      "title": "Xi sends message to 2026 Global Governance Forum",
+      "link": "https://news.cgtn.com/news/2026-10-24/Xi-sends-message-to-2026-Global-Governance-Forum--1Rvb9SMO6yY/p.html"
+    },
+    {
+      "id": "n03",
+      "date": "2026-10-24",
+      "src": "CGTN·China",
+      "title": "Courtyard meetings give villagers a say in local spending",
+      "link": "https://news.cgtn.com/news/2026-10-24/Courtyard-meetings-give-villagers-a-say-in-local-spending-1RuUft5HG9i/p.html"
+    },
+    {
+      "id": "n04",
       "date": "2026-10-23",
       "src": "CGTN·Culture",
       "title": "Beijing's central axis: Yandaixiejie Street and Wanning Bridge",
       "link": "https://news.cgtn.com/news/2026-10-23/Beijing-s-central-axis-Yandaixiejie-Street-and-Wanning-Bridge-1RtBYQSjscw/p.html"
     },
     {
-      "id": "n03",
-      "date": "2026-10-23",
-      "src": "CGTN·Business",
-      "title": "What happens after people are lifted out of poverty in China?",
-      "link": "https://news.cgtn.com/news/2026-10-23/What-happens-after-people-are-lifted-out-of-poverty-in-China--1RtIwXf9XEs/p.html"
-    },
-    {
-      "id": "n04",
-      "date": "2026-10-23",
-      "src": "CGTN·China",
-      "title": "Ethiopian expert calls for dialogue, cooperation on global governance",
-      "link": "https://news.cgtn.com/news/2026-10-23/Ethiopian-expert-calls-for-dialogue-cooperation-on-global-governance-1RtUTGl1ANa/p.html"
-    },
-    {
       "id": "n05",
-      "date": "2026-10-23",
-      "src": "CGTN·China",
-      "title": "Wang Yi holds talks with Foreign Minister of Congo on bilateral ties",
-      "link": "https://news.cgtn.com/news/2026-10-23/Wang-Yi-holds-talks-with-Foreign-Minister-of-Congo-on-bilateral-ties-1RtawnyMVj2/p.html"
+      "date": "2026-10-22",
+      "src": "CGTN·Business",
+      "title": "China upgrades digital yuan to expand payments, smart contracts",
+      "link": "https://news.cgtn.com/news/2026-10-22/China-upgrades-digital-yuan-to-expand-payments-smart-contracts-1RrVufoO9Bm/p.html"
     },
     {
       "id": "n06",
@@ -61,24 +61,24 @@ window.CET_CONTENT = {
     },
     {
       "id": "n09",
-      "date": "2026-10-17",
-      "src": "CGTN·Business",
-      "title": "China's export controls on PV: Precision, balance, and rules-based",
-      "link": "https://news.cgtn.com/news/2026-10-17/China-s-export-controls-on-PV-Precision-balance-and-rules-based-1Rjpz3TKF20/p.html"
-    },
-    {
-      "id": "n10",
       "date": "2026-10-16",
       "src": "CGTN·Culture",
       "title": "Retracing the Long March through screen stories",
       "link": "https://news.cgtn.com/news/2026-10-16/Retracing-the-Long-March-through-screen-stories-1RhQtYKsLw4/p.html"
     },
     {
-      "id": "n11",
-      "date": "2026-10-15",
+      "id": "n10",
+      "date": "2026-10-14",
       "src": "CGTN·Business",
-      "title": "Full text: Premier Li Qiang speaks at Canton Fair opening ceremony",
-      "link": "https://news.cgtn.com/news/2026-10-15/Full-text-Premier-Li-Qiang-speaks-at-Canton-Fair-opening-ceremony-1RghO7yHADm/p.html"
+      "title": "Wall Street firms tie bonuses, promotions to AI skills, survey finds",
+      "link": "https://news.cgtn.com/news/2026-10-14/Wall-Street-firms-tie-bonuses-promotions-to-AI-skills-survey-finds-1ReXdxQoa88/p.html"
+    },
+    {
+      "id": "n11",
+      "date": "2026-10-14",
+      "src": "CGTN·Business",
+      "title": "Premier Li calls on cooperation in global industrial and supply chains",
+      "link": "https://news.cgtn.com/news/2026-10-14/Premier-Li-calls-on-cooperation-in-global-industrial-and-supply-chains-1ReSzCVW8us/p.html"
     },
     {
       "id": "n12",
