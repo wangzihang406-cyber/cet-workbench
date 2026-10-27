@@ -13,23 +13,23 @@ window.CET_CONTENT = {
     {
       "id": "n02",
       "date": "2026-10-24",
-      "src": "CGTN·China",
-      "title": "Xi sends message to 2026 Global Governance Forum",
-      "link": "https://news.cgtn.com/news/2026-10-24/Xi-sends-message-to-2026-Global-Governance-Forum--1Rvb9SMO6yY/p.html"
+      "src": "CGTN·Travel",
+      "title": "Discover the She Culture in Anhui",
+      "link": "https://news.cgtn.com/news/2026-10-24/Discover-the-She-Culture-in-Anhui-1RrPT7aOyyc/p.html"
     },
     {
       "id": "n03",
       "date": "2026-10-24",
       "src": "CGTN·China",
-      "title": "Courtyard meetings give villagers a say in local spending",
-      "link": "https://news.cgtn.com/news/2026-10-24/Courtyard-meetings-give-villagers-a-say-in-local-spending-1RuUft5HG9i/p.html"
+      "title": "Xi sends message to 2026 Global Governance Forum",
+      "link": "https://news.cgtn.com/news/2026-10-24/Xi-sends-message-to-2026-Global-Governance-Forum--1Rvb9SMO6yY/p.html"
     },
     {
       "id": "n04",
-      "date": "2026-10-23",
-      "src": "CGTN·Culture",
-      "title": "Beijing's central axis: Yandaixiejie Street and Wanning Bridge",
-      "link": "https://news.cgtn.com/news/2026-10-23/Beijing-s-central-axis-Yandaixiejie-Street-and-Wanning-Bridge-1RtBYQSjscw/p.html"
+      "date": "2026-10-24",
+      "src": "CGTN·China",
+      "title": "Courtyard meetings give villagers a say in local spending",
+      "link": "https://news.cgtn.com/news/2026-10-24/Courtyard-meetings-give-villagers-a-say-in-local-spending-1RuUft5HG9i/p.html"
     },
     {
       "id": "n05",
@@ -40,31 +40,31 @@ window.CET_CONTENT = {
     },
     {
       "id": "n06",
-      "date": "2026-10-19",
-      "src": "CGTN·Travel",
-      "title": "Good omens in Anhui architecture",
-      "link": "https://news.cgtn.com/news/2026-10-19/Good-omens-in-Anhui-architecture-1RkbuPU2ECs/p.html"
+      "date": "2026-10-15",
+      "src": "CGTN·Culture",
+      "title": "Grasslands in N China's Inner Mongolia ablaze with autumn hues",
+      "link": "https://news.cgtn.com/news/2026-10-15/Grasslands-in-N-China-s-Inner-Mongolia-ablaze-with-autumn-hues-1RfQJmHipC8/p.html"
     },
     {
       "id": "n07",
-      "date": "2026-10-18",
-      "src": "CGTN·Sports",
-      "title": "Zverev, Medvedev ousted with Spanish duo to clash for Shanghai title",
-      "link": "https://news.cgtn.com/news/2026-10-18/Zverev-Medvedev-ousted-with-Spanish-duo-to-clash-for-Shanghai-title-1RkV2SW3mpi/p.html"
+      "date": "2026-10-14",
+      "src": "CGTN·Culture",
+      "title": "Creative program: This Is Kung Fu",
+      "link": "https://news.cgtn.com/news/2026-10-14/Creative-program-This-Is-Kung-Fu-1ReGVtLpBVm/p.html"
     },
     {
       "id": "n08",
-      "date": "2026-10-18",
+      "date": "2026-10-14",
       "src": "CGTN·Culture",
-      "title": "2026 Yangtze River Delta International Youth Film Festival opens",
-      "link": "https://news.cgtn.com/news/2026-10-18/2026-Yangtze-River-Delta-International-Youth-Film-Festival-opens-1Rld9kPWbOo/p.html"
+      "title": "The Long March in paint: Retracing the journey through art",
+      "link": "https://news.cgtn.com/news/2026-10-14/The-Long-March-in-paint-Retracing-the-journey-through-art-1ReljFspTFu/p.html"
     },
     {
       "id": "n09",
-      "date": "2026-10-16",
-      "src": "CGTN·Culture",
-      "title": "Retracing the Long March through screen stories",
-      "link": "https://news.cgtn.com/news/2026-10-16/Retracing-the-Long-March-through-screen-stories-1RhQtYKsLw4/p.html"
+      "date": "2026-10-14",
+      "src": "CGTN·Travel",
+      "title": "VR recreates historical scene of Red Army's capture of Luding Bridge",
+      "link": "https://news.cgtn.com/news/2026-10-14/VR-recreates-historical-scene-of-Red-Army-s-capture-of-Luding-Bridge--1ReE9eOzYiI/p.html"
     },
     {
       "id": "n10",
@@ -82,31 +82,31 @@ window.CET_CONTENT = {
     },
     {
       "id": "n12",
-      "date": "2026-10-06",
-      "src": "CGTN·Travel",
-      "title": "Bronze statue and twin pagodas reveal Hainan’s hidden cultural depth",
-      "link": "https://news.cgtn.com/news/2026-10-06/Bronze-statue-and-twin-pagodas-reveal-Hainan-s-hidden-cultural-depth-1R1kzWvP7KE/p.html"
+      "date": "2026-10-13",
+      "src": "CGTN·Sports",
+      "title": "Alcaraz exits Shanghai Masters in straight-sets loss",
+      "link": "https://news.cgtn.com/news/2026-10-13/Alcaraz-exits-Shanghai-Masters-in-straight-sets-loss-1RcAQwKYvQI/p.html"
     },
     {
       "id": "n13",
-      "date": "2026-10-05",
+      "date": "2026-10-12",
       "src": "CGTN·Travel",
-      "title": "Tourists enjoy desert fun in Kashi during National Day holiday",
-      "link": "https://news.cgtn.com/news/2026-10-05/Tourists-enjoy-desert-fun-in-Kashi-during-National-Day-holiday-1QZHSnOvq5q/p.html"
+      "title": "A journey in Beijing through history, culture and music",
+      "link": "https://news.cgtn.com/news/2026-10-12/A-journey-in-Beijing-through-history-culture-and-music-1Rbk3zHp2I8/p.html"
     },
     {
       "id": "n14",
-      "date": "2026-09-30",
+      "date": "2026-09-25",
       "src": "CGTN·Sports",
-      "title": "China closes athletics with three golds at Asian Games",
-      "link": "https://news.cgtn.com/news/2026-09-30/China-closes-athletics-with-three-golds-at-Asian-Games-1QR6uHtLDlm/p.html"
+      "title": "NBA G League United's visits to China strengthen basketball exchanges",
+      "link": "https://news.cgtn.com/news/2026-09-25/NBA-G-League-United-s-visits-to-China-strengthen-basketball-exchanges-1QILJoPQTAs/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-09-29",
+      "date": "2026-09-24",
       "src": "CGTN·Sports",
-      "title": "IOC launches Trustworthy AI Framework",
-      "link": "https://news.cgtn.com/news/2026-09-29/IOC-launches-Trustworthy-AI-Framework-1QPAzDjp3fa/p.html"
+      "title": "Tong Xin retains Asian Games Taijiquan and Taijijian titles",
+      "link": "https://news.cgtn.com/news/2026-09-24/Tong-Xin-retains-Asian-Games-Taijiquan-and-Taijijian-titles-1QHgpAskTza/p.html"
     }
   ],
   "readings": [
