@@ -1,7 +1,7 @@
 // 四六级备考工作台 · 每日内容包
 // news 由每日自动化真实抓取 CGTN RSS（多个频道，链接已逐条验证 200）；readings/listenings/dialogues 为 AI 原创改写（四六级难度）
 window.CET_CONTENT = {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
 "news": [
     {
       "id": "n01",
@@ -33,45 +33,45 @@ window.CET_CONTENT = {
     },
     {
       "id": "n05",
+      "date": "2026-10-22",
+      "src": "CGTN·Culture",
+      "title": "Rare photographs offer visual records of Chinese Red Army's Long March",
+      "link": "https://news.cgtn.com/news/2026-10-22/Rare-photographs-offer-visual-records-of-Chinese-Red-Army-s-Long-March-1RrGsvE7E52/p.html"
+    },
+    {
+      "id": "n06",
       "date": "2026-10-17",
       "src": "CGTN·Travel",
       "title": "Whoosh at three: 18 million passengers and a changing Java",
       "link": "https://news.cgtn.com/news/2026-10-17/Whoosh-at-three-18-million-passengers-and-a-changing-Java-1RjfRq57amI/p.html"
     },
     {
-      "id": "n06",
+      "id": "n07",
       "date": "2026-10-17",
       "src": "CGTN·Business",
       "title": "Discover China's latest tech at the Canton Fair",
       "link": "https://news.cgtn.com/news/2026-10-17/Discover-China-s-latest-tech-at-the-Canton-Fair-1RjwLucHHSo/p.html"
     },
     {
-      "id": "n07",
+      "id": "n08",
+      "date": "2026-10-16",
+      "src": "CGTN·Culture",
+      "title": "Retracing the Long March through screen stories",
+      "link": "https://news.cgtn.com/news/2026-10-16/Retracing-the-Long-March-through-screen-stories-1RhQtYKsLw4/p.html"
+    },
+    {
+      "id": "n09",
       "date": "2026-10-16",
       "src": "CGTN·Business",
       "title": "BizDataDive: China steps up talent training and skills development",
       "link": "https://news.cgtn.com/news/2026-10-16/BizDataDive-China-steps-up-talent-training-and-skills-development-1Ri1b7U2rAc/p.html"
     },
     {
-      "id": "n08",
+      "id": "n10",
       "date": "2026-10-15",
       "src": "CGTN·Culture",
-      "title": "Grasslands in N China's Inner Mongolia ablaze with autumn hues",
-      "link": "https://news.cgtn.com/news/2026-10-15/Grasslands-in-N-China-s-Inner-Mongolia-ablaze-with-autumn-hues-1RfQJmHipC8/p.html"
-    },
-    {
-      "id": "n09",
-      "date": "2026-10-14",
-      "src": "CGTN·Culture",
-      "title": "Creative program: This Is Kung Fu",
-      "link": "https://news.cgtn.com/news/2026-10-14/Creative-program-This-Is-Kung-Fu-1ReGVtLpBVm/p.html"
-    },
-    {
-      "id": "n10",
-      "date": "2026-10-14",
-      "src": "CGTN·Culture",
-      "title": "The Long March in paint: Retracing the journey through art",
-      "link": "https://news.cgtn.com/news/2026-10-14/The-Long-March-in-paint-Retracing-the-journey-through-art-1ReljFspTFu/p.html"
+      "title": "'The Long March: A Road Without End' set for global release",
+      "link": "https://news.cgtn.com/news/2026-10-15/-The-Long-March-A-Road-Without-End-set-for-global-release-1Rgdagq927K/p.html"
     },
     {
       "id": "n11",
