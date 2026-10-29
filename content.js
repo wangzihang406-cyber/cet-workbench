@@ -35,8 +35,8 @@ window.CET_CONTENT = {
       "id": "n05",
       "date": "2026-10-22",
       "src": "CGTN·Culture",
-      "title": "Rare photographs offer visual records of Chinese Red Army's Long March",
-      "link": "https://news.cgtn.com/news/2026-10-22/Rare-photographs-offer-visual-records-of-Chinese-Red-Army-s-Long-March-1RrGsvE7E52/p.html"
+      "title": "China Post issues stamps for 90th anniversary of Long March victory",
+      "link": "https://news.cgtn.com/news/2026-10-22/China-Post-issues-stamps-for-90th-anniversary-of-Long-March-victory-1RrPHRJOLM4/p.html"
     },
     {
       "id": "n06",
@@ -47,45 +47,45 @@ window.CET_CONTENT = {
     },
     {
       "id": "n07",
-      "date": "2026-10-16",
-      "src": "CGTN·Culture",
-      "title": "Retracing the Long March through screen stories",
-      "link": "https://news.cgtn.com/news/2026-10-16/Retracing-the-Long-March-through-screen-stories-1RhQtYKsLw4/p.html"
-    },
-    {
-      "id": "n08",
-      "date": "2026-10-15",
-      "src": "CGTN·Culture",
-      "title": "'The Long March: A Road Without End' set for global release",
-      "link": "https://news.cgtn.com/news/2026-10-15/-The-Long-March-A-Road-Without-End-set-for-global-release-1Rgdagq927K/p.html"
-    },
-    {
-      "id": "n09",
       "date": "2026-10-15",
       "src": "CGTN·Business",
       "title": "China's FDI stock ranks second globally at 26.8 trillion yuan",
       "link": "https://news.cgtn.com/news/2026-10-15/China-s-FDI-equity-stock-ranks-second-globally-at-26-8-trillion-yuan-1RgkTTptk8U/p.html"
     },
     {
-      "id": "n10",
+      "id": "n08",
       "date": "2026-10-15",
       "src": "CGTN·Business",
       "title": "China-Europe EV cooperation: Building a greener future together",
       "link": "https://news.cgtn.com/news/2026-10-15/China-Europe-EV-cooperation-Building-a-greener-future-together-1RgeMiAmJkA/p.html"
     },
     {
-      "id": "n11",
+      "id": "n09",
+      "date": "2026-10-14",
+      "src": "CGTN·Culture",
+      "title": "The Long March in paint: Retracing the journey through art",
+      "link": "https://news.cgtn.com/news/2026-10-14/The-Long-March-in-paint-Retracing-the-journey-through-art-1ReljFspTFu/p.html"
+    },
+    {
+      "id": "n10",
       "date": "2026-10-14",
       "src": "CGTN·Travel",
       "title": "VR recreates historical scene of Red Army's capture of Luding Bridge",
       "link": "https://news.cgtn.com/news/2026-10-14/VR-recreates-historical-scene-of-Red-Army-s-capture-of-Luding-Bridge--1ReE9eOzYiI/p.html"
     },
     {
+      "id": "n11",
+      "date": "2026-10-13",
+      "src": "CGTN·Culture",
+      "title": "Ming-era gold crown showcases exquisite craftsmanship",
+      "link": "https://news.cgtn.com/news/2026-10-13/Ming-era-gold-crown-showcases-exquisite-craftsmanship-1Rd3Mb6QOHK/p.html"
+    },
+    {
       "id": "n12",
-      "date": "2026-10-12",
+      "date": "2026-10-09",
       "src": "CGTN·Sports",
-      "title": "China Open draws record crowds, Zheng Qinwen makes history in Beijing",
-      "link": "https://news.cgtn.com/news/2026-10-12/China-Open-draws-record-crowds-Zheng-Qinwen-makes-history-in-Beijing-1RaUH1tyWju/p.html"
+      "title": "One name per category: Football's ultimate debate",
+      "link": "https://news.cgtn.com/news/2026-10-09/One-name-per-category-Football-s-ultimate-debate-1R5XIbZGoy4/p.html"
     },
     {
       "id": "n13",
@@ -96,17 +96,17 @@ window.CET_CONTENT = {
     },
     {
       "id": "n14",
-      "date": "2026-09-25",
+      "date": "2026-09-24",
       "src": "CGTN·Sports",
-      "title": "China bags four swimming golds, keeps women's table tennis team title",
-      "link": "https://news.cgtn.com/news/2026-09-25/China-bags-four-swimming-golds-keeps-women-s-table-tennis-team-title-1QIJjbJXb44/p.html"
+      "title": "China claims 16 golds on Wednesday as swimmers and gymnasts shine",
+      "link": "https://news.cgtn.com/news/2026-09-24/China-claims-16-golds-on-Wednesday-as-swimmers-and-gymnasts-shine-1QHh09UXUgU/p.html"
     },
     {
       "id": "n15",
       "date": "2026-09-22",
       "src": "CGTN·Sports",
-      "title": "Refugee taekwondo athlete Al Hinide targets gold medal at Asian Games",
-      "link": "https://news.cgtn.com/news/2026-09-22/Refugee-taekwondo-athlete-Al-Hinide-targets-gold-medal-at-Asian-Games-1QDSgAyMo24/p.html"
+      "title": "China collects 12 golds as records fall on Day 2 at 2026 Asian Games",
+      "link": "https://news.cgtn.com/news/2026-09-22/China-collects-12-golds-as-records-fall-on-Day-2-at-2026-Asian-Games-1QDHxqMrOfK/p.html"
     }
   ],
   "readings": [
