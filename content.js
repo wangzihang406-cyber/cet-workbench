@@ -5,87 +5,87 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
+      "date": "2026-10-30",
+      "src": "CGTN·Culture",
+      "title": "Beyond the stage: Young musicians make a difference",
+      "link": "https://news.cgtn.com/news/2026-10-30/Beyond-the-stage-Young-musicians-make-a-difference-1RERz2Rx7aM/p.html"
+    },
+    {
+      "id": "n02",
+      "date": "2026-10-29",
+      "src": "CGTN·Sports",
+      "title": "Africa Watch: Dakar 2026: Africa’s Olympic Moment?",
+      "link": "https://newsaf.cgtn.com/news/2026-10-29/Africa-Watch-Dakar-2026-Africa-s-Olympic-Moment--1RDXFpWviko/p.html"
+    },
+    {
+      "id": "n03",
       "date": "2026-10-29",
       "src": "CGTN·Travel",
       "title": "Dreamy clouds wrap UNESCO Mount Fanjing",
       "link": "https://news.cgtn.com/news/2026-10-29/Dreamy-clouds-wrap-UNESCO-Mount-Fanjing-1RDt61pNprG/p.html"
     },
     {
-      "id": "n02",
+      "id": "n04",
       "date": "2026-10-29",
       "src": "CGTN·China",
       "title": "Communique of the Fifth Plenary Session of 20th CPC Central Committee",
       "link": "https://news.cgtn.com/news/2026-10-29/Communique-of-the-Fifth-Plenary-Session-of-20th-CPC-Central-Committee-1RDN23bl4ze/p.html"
     },
     {
-      "id": "n03",
+      "id": "n05",
       "date": "2026-10-28",
       "src": "CGTN·China",
       "title": "HKSAR suspends import of poultry products from areas in Denmark, US",
       "link": "https://news.cgtn.com/news/2026-10-28/HKSAR-suspends-import-of-poultry-products-from-areas-in-Denmark-US-1RBmBkW4yuQ/p.html"
     },
     {
-      "id": "n04",
+      "id": "n06",
       "date": "2026-10-27",
       "src": "CGTN·China",
       "title": "Full, rigorous party self-governance: How the CPC stays accountable",
       "link": "https://news.cgtn.com/news/2026-10-27/Full-rigorous-party-self-governance-How-the-CPC-stays-accountable-1RAd24nngIw/p.html"
     },
     {
-      "id": "n05",
+      "id": "n07",
       "date": "2026-10-25",
       "src": "CGTN·Business",
       "title": "UAE's Ras Al Khaimah signs friendship agreement with Fujian Province",
       "link": "https://news.cgtn.com/news/2026-10-25/UAE-s-Ras-Al-Khaimah-signs-friendship-agreement-with-Fujian-Province-1RwBpebJbDq/p.html"
     },
     {
-      "id": "n06",
-      "date": "2026-10-22",
+      "id": "n08",
+      "date": "2026-10-21",
       "src": "CGTN·Culture",
-      "title": "China Post issues stamps for 90th anniversary of Long March victory",
-      "link": "https://news.cgtn.com/news/2026-10-22/China-Post-issues-stamps-for-90th-anniversary-of-Long-March-victory-1RrPHRJOLM4/p.html"
+      "title": "BMF walk capturing: Beijing's raw sonic notes",
+      "link": "https://news.cgtn.com/news/2026-10-21/BMF-walk-capturing-Beijing-s-raw-sonic-notes-1RqiXryUY5q/p.html"
     },
     {
-      "id": "n07",
+      "id": "n09",
       "date": "2026-10-19",
       "src": "CGTN·Business",
       "title": "China's economy grows 4.6% as output, demand reinforce each other",
       "link": "https://news.cgtn.com/news/2026-10-19/China-s-economy-grows-4-6-as-output-demand-reinforce-each-other-1RngAuqXtqU/p.html"
     },
     {
-      "id": "n08",
+      "id": "n10",
+      "date": "2026-10-16",
+      "src": "CGTN·Culture",
+      "title": "A lifetime of care: The doctor who never left a remote Chinese county",
+      "link": "https://news.cgtn.com/news/2026-10-16/A-lifetime-of-care-The-doctor-who-never-left-a-remote-Chinese-county-1RhGgBBJwqI/p.html"
+    },
+    {
+      "id": "n11",
       "date": "2026-10-15",
       "src": "CGTN·Business",
       "title": "China's foreign trade at 70: From 'mutual exchange' to global lynchpin",
       "link": "https://news.cgtn.com/news/2026-10-15/China-s-foreign-trade-at-70-From-mutual-exchange-to-global-lynchpin-1Rgj6b8Opu8/p.html"
     },
     {
-      "id": "n09",
-      "date": "2026-10-14",
-      "src": "CGTN·Culture",
-      "title": "The Long March in paint: Retracing the journey through art",
-      "link": "https://news.cgtn.com/news/2026-10-14/The-Long-March-in-paint-Retracing-the-journey-through-art-1ReljFspTFu/p.html"
-    },
-    {
-      "id": "n10",
-      "date": "2026-10-13",
-      "src": "CGTN·Culture",
-      "title": "Ming-era gold crown showcases exquisite craftsmanship",
-      "link": "https://news.cgtn.com/news/2026-10-13/Ming-era-gold-crown-showcases-exquisite-craftsmanship-1Rd3Mb6QOHK/p.html"
-    },
-    {
-      "id": "n11",
+      "id": "n12",
       "date": "2026-10-13",
       "src": "CGTN·Travel",
       "title": "Ming-era gold crown showcases exquisite craftsmanship",
       "link": "https://news.cgtn.com/news/2026-10-13/Ming-era-gold-crown-showcases-exquisite-craftsmanship-1Rd3Mb6QOHK/p.html"
-    },
-    {
-      "id": "n12",
-      "date": "2026-10-09",
-      "src": "CGTN·Sports",
-      "title": "One name per category: Football's ultimate debate",
-      "link": "https://news.cgtn.com/news/2026-10-09/One-name-per-category-Football-s-ultimate-debate-1R5XIbZGoy4/p.html"
     },
     {
       "id": "n13",
@@ -96,17 +96,17 @@ window.CET_CONTENT = {
     },
     {
       "id": "n14",
-      "date": "2026-09-24",
+      "date": "2026-10-06",
       "src": "CGTN·Sports",
-      "title": "China claims 16 golds on Wednesday as swimmers and gymnasts shine",
-      "link": "https://news.cgtn.com/news/2026-09-24/China-claims-16-golds-on-Wednesday-as-swimmers-and-gymnasts-shine-1QHh09UXUgU/p.html"
+      "title": "Sun Yingsha reaches second round at WTT China Smash",
+      "link": "https://news.cgtn.com/news/2026-10-06/Sun-Yingsha-reaches-second-round-at-WTT-China-Smash-1R0Y6nJvXUc/p.html"
     },
     {
       "id": "n15",
       "date": "2026-09-22",
       "src": "CGTN·Sports",
-      "title": "China collects 12 golds as records fall on Day 2 at 2026 Asian Games",
-      "link": "https://news.cgtn.com/news/2026-09-22/China-collects-12-golds-as-records-fall-on-Day-2-at-2026-Asian-Games-1QDHxqMrOfK/p.html"
+      "title": "Refugee taekwondo athlete Al Hinide targets gold medal at Asian Games",
+      "link": "https://news.cgtn.com/news/2026-09-22/Refugee-taekwondo-athlete-Al-Hinide-targets-gold-medal-at-Asian-Games-1QDSgAyMo24/p.html"
     }
   ],
   "readings": [
