@@ -13,37 +13,37 @@ window.CET_CONTENT = {
     {
       "id": "n02",
       "date": "2026-10-30",
-      "src": "CGTN·Culture",
-      "title": "Beyond the stage: Young musicians make a difference",
-      "link": "https://news.cgtn.com/news/2026-10-30/Beyond-the-stage-Young-musicians-make-a-difference-1RERz2Rx7aM/p.html"
-    },
-    {
-      "id": "n03",
-      "date": "2026-10-30",
       "src": "CGTN·China",
       "title": "Golden autumn transforms desert-edge landscape in NW China",
       "link": "https://news.cgtn.com/news/2026-10-30/Golden-autumn-transforms-desert-edge-landscape-in-NW-China-1RF9L9v5Whi/p.html"
     },
     {
-      "id": "n04",
+      "id": "n03",
       "date": "2026-10-30",
       "src": "CGTN·China",
       "title": "PLA conducts combat readiness patrols around China's Huangyan Dao",
       "link": "https://news.cgtn.com/news/2026-10-30/PLA-conducts-combat-readiness-patrols-around-China-s-Huangyan-Dao-1RFrfA3bv4Q/p.html"
     },
     {
-      "id": "n05",
-      "date": "2026-10-29",
+      "id": "n04",
+      "date": "2026-10-28",
       "src": "CGTN·Sports",
-      "title": "Africa Watch: Dakar 2026: Africa’s Olympic Moment?",
-      "link": "https://newsaf.cgtn.com/news/2026-10-29/Africa-Watch-Dakar-2026-Africa-s-Olympic-Moment--1RDXFpWviko/p.html"
+      "title": "China says it takes note of Mbappe's apology over China remarks",
+      "link": "https://news.cgtn.com/news/2026-10-28/China-says-it-takes-note-of-Mbappe-s-apology-over-China-remarks-1RBUuLd1e9O/p.html"
+    },
+    {
+      "id": "n05",
+      "date": "2026-10-28",
+      "src": "CGTN·Culture",
+      "title": "Chinese small manufactured goods, a highlight at Canton Fair",
+      "link": "https://news.cgtn.com/news/2026-10-28/Chinese-small-manufactured-goods-a-highlight-at-Canton-Fair-1RBVDNEbNde/p.html"
     },
     {
       "id": "n06",
-      "date": "2026-10-29",
+      "date": "2026-10-28",
       "src": "CGTN·Travel",
-      "title": "Dreamy clouds wrap UNESCO Mount Fanjing",
-      "link": "https://news.cgtn.com/news/2026-10-29/Dreamy-clouds-wrap-UNESCO-Mount-Fanjing-1RDt61pNprG/p.html"
+      "title": "Southern Anhui: A perfect picture of ancient village life",
+      "link": "https://news.cgtn.com/news/2026-10-28/Southern-Anhui-A-Perfect-Picture-of-Ancient-Village-Life-1RyJSoEU3Ha/p.html"
     },
     {
       "id": "n07",
@@ -54,59 +54,59 @@ window.CET_CONTENT = {
     },
     {
       "id": "n08",
+      "date": "2026-10-24",
+      "src": "CGTN·Travel",
+      "title": "Meet the Yangtze Finless Porpoise",
+      "link": "https://news.cgtn.com/news/2026-10-24/Meet-the-Yangtze-Finless-Porpoise-1RmUXyIKRaM/p.html"
+    },
+    {
+      "id": "n09",
       "date": "2026-10-22",
       "src": "CGTN·Business",
       "title": "China is in a good position to develop its pension framework",
       "link": "https://news.cgtn.com/news/2026-10-22/China-is-in-a-good-position-to-develop-its-pension-framework-1Rs0j8boH3G/p.html"
     },
     {
-      "id": "n09",
-      "date": "2026-10-21",
+      "id": "n10",
+      "date": "2026-10-20",
       "src": "CGTN·Culture",
-      "title": "BMF walk capturing: Beijing's raw sonic notes",
-      "link": "https://news.cgtn.com/news/2026-10-21/BMF-walk-capturing-Beijing-s-raw-sonic-notes-1RqiXryUY5q/p.html"
+      "title": "Chasing autumn colors in Beijing",
+      "link": "https://news.cgtn.com/news/2026-10-20/Chasing-autumn-colors-in-Beijing-1Roxzg2otVu/p.html"
     },
     {
-      "id": "n10",
+      "id": "n11",
       "date": "2026-10-20",
       "src": "CGTN·Business",
       "title": "What does China's next economic chapter mean for the world?",
       "link": "https://news.cgtn.com/news/2026-10-20/What-does-China-s-next-economic-chapter-mean-for-the-world--1RooegF0cIo/p.html"
     },
     {
-      "id": "n11",
-      "date": "2026-10-16",
-      "src": "CGTN·Culture",
-      "title": "A lifetime of care: The doctor who never left a remote Chinese county",
-      "link": "https://news.cgtn.com/news/2026-10-16/A-lifetime-of-care-The-doctor-who-never-left-a-remote-Chinese-county-1RhGgBBJwqI/p.html"
-    },
-    {
       "id": "n12",
-      "date": "2026-10-13",
-      "src": "CGTN·Travel",
-      "title": "Ming-era gold crown showcases exquisite craftsmanship",
-      "link": "https://news.cgtn.com/news/2026-10-13/Ming-era-gold-crown-showcases-exquisite-craftsmanship-1Rd3Mb6QOHK/p.html"
+      "date": "2026-10-15",
+      "src": "CGTN·Culture",
+      "title": "'The Long March: A Road Without End' set for global release",
+      "link": "https://news.cgtn.com/news/2026-10-15/-The-Long-March-A-Road-Without-End-set-for-global-release-1Rgdagq927K/p.html"
     },
     {
       "id": "n13",
-      "date": "2026-10-07",
+      "date": "2026-10-15",
       "src": "CGTN·Travel",
-      "title": "China's railways hit the return peak as holidaymakers head home",
-      "link": "https://news.cgtn.com/news/2026-10-07/China-s-railways-hit-the-return-peak-as-holidaymakers-head-home-1R3dtnYPpsc/p.html"
+      "title": "OIV Congress debuts in Asia, exploring Ningxia wine and tea culture",
+      "link": "https://news.cgtn.com/news/2026-10-15/OIV-Congress-debuts-in-Asia-exploring-Ningxia-wine-and-tea-culture-1Rg9k8WDCmI/p.html"
     },
     {
       "id": "n14",
-      "date": "2026-10-06",
+      "date": "2026-10-05",
       "src": "CGTN·Sports",
-      "title": "Sun Yingsha reaches second round at WTT China Smash",
-      "link": "https://news.cgtn.com/news/2026-10-06/Sun-Yingsha-reaches-second-round-at-WTT-China-Smash-1R0Y6nJvXUc/p.html"
+      "title": "China tops medal table as Aichi-Nagoya Asian Games close",
+      "link": "https://news.cgtn.com/news/2026-10-05/China-tops-medal-table-as-Aichi-Nagoya-Asian-Games-close-1QZqhuYBgI0/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-09-22",
+      "date": "2026-09-25",
       "src": "CGTN·Sports",
-      "title": "Refugee taekwondo athlete Al Hinide targets gold medal at Asian Games",
-      "link": "https://news.cgtn.com/news/2026-09-22/Refugee-taekwondo-athlete-Al-Hinide-targets-gold-medal-at-Asian-Games-1QDSgAyMo24/p.html"
+      "title": "Billie Jean King hails global growth of namesake tennis competition",
+      "link": "https://news.cgtn.com/news/2026-09-25/Billie-Jean-King-hails-global-growth-of-namesake-tennis-competition-1QIKGT87qjm/p.html"
     }
   ],
   "readings": [
