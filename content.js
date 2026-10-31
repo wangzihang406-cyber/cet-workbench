@@ -5,80 +5,80 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
+      "date": "2026-10-31",
+      "src": "CGTN·Business",
+      "title": "Hainan's digital reporting system streamlines grassroots governance",
+      "link": "https://news.cgtn.com/news/2026-10-31/Hainan-s-digital-reporting-system-streamlines-grassroots-governance-1RFtRmFlg3u/p.html"
+    },
+    {
+      "id": "n02",
       "date": "2026-10-30",
       "src": "CGTN·Culture",
       "title": "Beyond the stage: Young musicians make a difference",
       "link": "https://news.cgtn.com/news/2026-10-30/Beyond-the-stage-Young-musicians-make-a-difference-1RERz2Rx7aM/p.html"
     },
     {
-      "id": "n02",
+      "id": "n03",
+      "date": "2026-10-30",
+      "src": "CGTN·China",
+      "title": "Golden autumn transforms desert-edge landscape in NW China",
+      "link": "https://news.cgtn.com/news/2026-10-30/Golden-autumn-transforms-desert-edge-landscape-in-NW-China-1RF9L9v5Whi/p.html"
+    },
+    {
+      "id": "n04",
+      "date": "2026-10-30",
+      "src": "CGTN·China",
+      "title": "PLA conducts combat readiness patrols around China's Huangyan Dao",
+      "link": "https://news.cgtn.com/news/2026-10-30/PLA-conducts-combat-readiness-patrols-around-China-s-Huangyan-Dao-1RFrfA3bv4Q/p.html"
+    },
+    {
+      "id": "n05",
       "date": "2026-10-29",
       "src": "CGTN·Sports",
       "title": "Africa Watch: Dakar 2026: Africa’s Olympic Moment?",
       "link": "https://newsaf.cgtn.com/news/2026-10-29/Africa-Watch-Dakar-2026-Africa-s-Olympic-Moment--1RDXFpWviko/p.html"
     },
     {
-      "id": "n03",
+      "id": "n06",
       "date": "2026-10-29",
       "src": "CGTN·Travel",
       "title": "Dreamy clouds wrap UNESCO Mount Fanjing",
       "link": "https://news.cgtn.com/news/2026-10-29/Dreamy-clouds-wrap-UNESCO-Mount-Fanjing-1RDt61pNprG/p.html"
     },
     {
-      "id": "n04",
-      "date": "2026-10-29",
-      "src": "CGTN·China",
-      "title": "Communique of the Fifth Plenary Session of 20th CPC Central Committee",
-      "link": "https://news.cgtn.com/news/2026-10-29/Communique-of-the-Fifth-Plenary-Session-of-20th-CPC-Central-Committee-1RDN23bl4ze/p.html"
-    },
-    {
-      "id": "n05",
+      "id": "n07",
       "date": "2026-10-28",
       "src": "CGTN·China",
-      "title": "HKSAR suspends import of poultry products from areas in Denmark, US",
-      "link": "https://news.cgtn.com/news/2026-10-28/HKSAR-suspends-import-of-poultry-products-from-areas-in-Denmark-US-1RBmBkW4yuQ/p.html"
-    },
-    {
-      "id": "n06",
-      "date": "2026-10-27",
-      "src": "CGTN·China",
-      "title": "Full, rigorous party self-governance: How the CPC stays accountable",
-      "link": "https://news.cgtn.com/news/2026-10-27/Full-rigorous-party-self-governance-How-the-CPC-stays-accountable-1RAd24nngIw/p.html"
-    },
-    {
-      "id": "n07",
-      "date": "2026-10-25",
-      "src": "CGTN·Business",
-      "title": "UAE's Ras Al Khaimah signs friendship agreement with Fujian Province",
-      "link": "https://news.cgtn.com/news/2026-10-25/UAE-s-Ras-Al-Khaimah-signs-friendship-agreement-with-Fujian-Province-1RwBpebJbDq/p.html"
+      "title": "Former Chinese Vice Premier Liu Yandong passes away at 81",
+      "link": "https://news.cgtn.com/news/2026-10-28/Former-Chinese-Vice-Premier-Liu-Yandong-passes-away-at-81-1RC2EQshrgY/p.html"
     },
     {
       "id": "n08",
+      "date": "2026-10-22",
+      "src": "CGTN·Business",
+      "title": "China is in a good position to develop its pension framework",
+      "link": "https://news.cgtn.com/news/2026-10-22/China-is-in-a-good-position-to-develop-its-pension-framework-1Rs0j8boH3G/p.html"
+    },
+    {
+      "id": "n09",
       "date": "2026-10-21",
       "src": "CGTN·Culture",
       "title": "BMF walk capturing: Beijing's raw sonic notes",
       "link": "https://news.cgtn.com/news/2026-10-21/BMF-walk-capturing-Beijing-s-raw-sonic-notes-1RqiXryUY5q/p.html"
     },
     {
-      "id": "n09",
-      "date": "2026-10-19",
+      "id": "n10",
+      "date": "2026-10-20",
       "src": "CGTN·Business",
-      "title": "China's economy grows 4.6% as output, demand reinforce each other",
-      "link": "https://news.cgtn.com/news/2026-10-19/China-s-economy-grows-4-6-as-output-demand-reinforce-each-other-1RngAuqXtqU/p.html"
+      "title": "What does China's next economic chapter mean for the world?",
+      "link": "https://news.cgtn.com/news/2026-10-20/What-does-China-s-next-economic-chapter-mean-for-the-world--1RooegF0cIo/p.html"
     },
     {
-      "id": "n10",
+      "id": "n11",
       "date": "2026-10-16",
       "src": "CGTN·Culture",
       "title": "A lifetime of care: The doctor who never left a remote Chinese county",
       "link": "https://news.cgtn.com/news/2026-10-16/A-lifetime-of-care-The-doctor-who-never-left-a-remote-Chinese-county-1RhGgBBJwqI/p.html"
-    },
-    {
-      "id": "n11",
-      "date": "2026-10-15",
-      "src": "CGTN·Business",
-      "title": "China's foreign trade at 70: From 'mutual exchange' to global lynchpin",
-      "link": "https://news.cgtn.com/news/2026-10-15/China-s-foreign-trade-at-70-From-mutual-exchange-to-global-lynchpin-1Rgj6b8Opu8/p.html"
     },
     {
       "id": "n12",
