@@ -5,108 +5,108 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "src": "CGTN·China",
-      "title": "China's central bank to raise forex reserve requirement ratio for financial institutions",
-      "link": "https://news.cgtn.com/news/2026-11-03/China-s-central-bank-to-raise-forex-reserve-requirement-ratio-for-financial-institutions-1RLp2n0i3vy/p.html"
+      "title": "UN Peacekeeping Workshop Concludes: Interview with UN Medical Director",
+      "link": "https://news.cgtn.com/news/2026-11-04/UN-Peacekeeping-Workshop-Concludes-Interview-with-UN-Medical-Director-1RMiXETJHZ6/p.html"
     },
     {
       "id": "n02",
-      "date": "2026-11-02",
-      "src": "CGTN·China",
-      "title": "Remembering Israel Epstein and the Spanish edition of China Today",
-      "link": "https://news.cgtn.com/news/2026-11-02/Remembering-Israel-Epstein-and-the-Spanish-edition-of-China-Today-1RK7hjhGfvy/p.html"
+      "date": "2026-11-03",
+      "src": "CGTN·Culture",
+      "title": "Immersive drama draws crowds of visitors in Dunhuang",
+      "link": "https://news.cgtn.com/news/2026-11-03/Immersive-drama-draws-crowds-of-visitors-in-Dunhuang-1RLRNmTz46A/p.html"
     },
     {
       "id": "n03",
-      "date": "2026-10-31",
-      "src": "CGTN·China",
-      "title": "From Karakoram to Arabian Sea, Ep. 3: A Friendship Across Generations",
-      "link": "https://news.cgtn.com/news/2026-10-31/From-Karakoram-to-Arabian-Sea-Ep-3-A-Friendship-Across-Generations-1RGUKVssuCk/p.html"
+      "date": "2026-11-03",
+      "src": "CGTN·Travel",
+      "title": "Embroidered Traditions: Dong dress in daily life",
+      "link": "https://news.cgtn.com/news/2026-11-03/Embroidered-Traditions-Dong-dress-in-daily-life-1RLtNbe8OuQ/p.html"
     },
     {
       "id": "n04",
-      "date": "2026-10-29",
+      "date": "2026-11-03",
       "src": "CGTN·Business",
-      "title": "El Nino returns: How will it disrupt global coal supplies?",
-      "link": "https://news.cgtn.com/news/2026-10-29/El-Nino-returns-How-will-it-disrupt-global-coal-supplies--1RDCWl5K09i/p.html"
+      "title": "IMF projects 4.5% growth for sub-Saharan Africa amid rising risks",
+      "link": "https://newsaf.cgtn.com/news/2026-11-03/IMF-projects-4-5-growth-for-sub-Saharan-Africa-amid-rising-risks-1RLVa7aqkQE/p.html"
     },
     {
       "id": "n05",
-      "date": "2026-10-28",
-      "src": "CGTN·Culture",
-      "title": "Social media, China travel fuel global interest in learning Chinese",
-      "link": "https://news.cgtn.com/news/2026-10-28/Social-media-China-travel-fuel-global-interest-in-learning-Chinese-1RBjGURIE5W/p.html"
+      "date": "2026-11-01",
+      "src": "CGTN·China",
+      "title": "Chinese, German auto companies boost cooperation amid industry shift",
+      "link": "https://news.cgtn.com/news/2026-11-01/Chinese-German-auto-companies-boost-cooperation-amid-industry-shift-1RIJ83dHRZe/p.html"
     },
     {
       "id": "n06",
-      "date": "2026-10-25",
-      "src": "CGTN·Travel",
-      "title": "A green running team at the 2026 Baoji Marathon",
-      "link": "https://news.cgtn.com/news/2026-10-25/A-green-running-team-at-the-2026-Baoji-Marathon-1RwGMBhaXde/p.html"
+      "date": "2026-11-01",
+      "src": "CGTN·China",
+      "title": "Political party leaders worldwide praise successful CPC plenum",
+      "link": "https://news.cgtn.com/news/2026-11-01/Political-party-leaders-worldwide-praise-successful-CPC-plenum-1RI1pUIFjag/p.html"
     },
     {
       "id": "n07",
-      "date": "2026-10-24",
-      "src": "CGTN·Culture",
-      "title": "The Long March: History that shaped my understanding of China",
-      "link": "https://news.cgtn.com/news/2026-10-24/The-Long-March-History-that-shaped-my-understanding-of-China-1RuWtW16nFm/p.html"
+      "date": "2026-10-31",
+      "src": "CGTN·Business",
+      "title": "Hainan's digital reporting system streamlines grassroots governance",
+      "link": "https://news.cgtn.com/news/2026-10-31/Hainan-s-digital-reporting-system-streamlines-grassroots-governance-1RFtRmFlg3u/p.html"
     },
     {
       "id": "n08",
-      "date": "2026-10-23",
-      "src": "CGTN·Business",
-      "title": "China is best bond market of 2026, offers good diversification",
-      "link": "https://news.cgtn.com/news/2026-10-23/China-is-best-bond-market-of-2026-offers-good-diversification--1RtJ1gaCGFW/p.html"
+      "date": "2026-10-30",
+      "src": "CGTN·Sports",
+      "title": "Xi's special envoy to attend 4th Youth Olympic Games opening",
+      "link": "https://news.cgtn.com/news/2026-10-30/Xi-s-special-envoy-to-attend-4th-Youth-Olympic-Games-opening-1RFelwev0sg/p.html"
     },
     {
       "id": "n09",
-      "date": "2026-10-22",
-      "src": "CGTN·Culture",
-      "title": "Rare photographs offer visual records of Chinese Red Army's Long March",
-      "link": "https://news.cgtn.com/news/2026-10-22/Rare-photographs-offer-visual-records-of-Chinese-Red-Army-s-Long-March-1RrGsvE7E52/p.html"
+      "date": "2026-10-24",
+      "src": "CGTN·Travel",
+      "title": "Tracing the vision: Preserving Culture",
+      "link": "https://news.cgtn.com/news/2026-10-24/Tracing-the-vision-Preserving-Culture-1RtS8yT4PCM/p.html"
     },
     {
       "id": "n10",
-      "date": "2026-10-20",
-      "src": "CGTN·Sports",
-      "title": "Zhang Zhenlin shines as Shanghai Sharks start CBA season with win",
-      "link": "https://news.cgtn.com/news/2026-10-20/Zhang-Zhenlin-shines-as-Shanghai-Sharks-start-CBA-season-with-win--1RoggfnU84o/p.html"
+      "date": "2026-10-22",
+      "src": "CGTN·Culture",
+      "title": "CMG gala pays tribute to Red Army's crossing of Jiajin Mountain",
+      "link": "https://news.cgtn.com/news/2026-10-22/CMG-gala-pays-tribute-to-Red-Army-s-crossing-of-Jiajin-Mountain-1RsgYW8cEqQ/p.html"
     },
     {
       "id": "n11",
-      "date": "2026-10-19",
+      "date": "2026-10-22",
       "src": "CGTN·Travel",
-      "title": "Bridging horizons: From mountain crossings to modern marvels",
-      "link": "https://news.cgtn.com/news/2026-10-19/Bridging-horizons-From-mountain-crossings-to-modern-marvels-1RlviMtJgdO/p.html"
+      "title": "Kenya launches $160 million initiative to fund wildlife conservation",
+      "link": "https://news.cgtn.com/news/2026-10-22/Kenya-launches-160-million-initiative-to-fund-wildlife-conservation-1Rs6WIyhQbK/p.html"
     },
     {
       "id": "n12",
-      "date": "2026-10-19",
+      "date": "2026-10-20",
       "src": "CGTN·Business",
-      "title": "China's economy grows 4.6% as output, demand reinforce each other",
-      "link": "https://news.cgtn.com/news/2026-10-19/China-s-economy-grows-4-6-as-output-demand-reinforce-each-other-1RngAuqXtqU/p.html"
+      "title": "China vows fresh policy measures to support growth: NDRC",
+      "link": "https://news.cgtn.com/news/2026-10-20/China-vows-fresh-policy-measures-to-support-growth-NDRC-1RowyKEGnMk/p.html"
     },
     {
       "id": "n13",
-      "date": "2026-10-17",
-      "src": "CGTN·Travel",
-      "title": "Behind the masks: A spirit that endures",
-      "link": "https://news.cgtn.com/news/2026-10-17/Behind-the-masks-A-spirit-that-endures-1RaQmYpXrFK/p.html"
+      "date": "2026-10-19",
+      "src": "CGTN·Culture",
+      "title": "CMG hosts short and medium-length drama conference in Shanghai",
+      "link": "https://news.cgtn.com/news/2026-10-19/CMG-hosts-short-and-medium-length-drama-conference-in-Shanghai-1RmKck0QrsI/p.html"
     },
     {
       "id": "n14",
-      "date": "2026-10-10",
+      "date": "2026-10-09",
       "src": "CGTN·Sports",
-      "title": "Zheng Qinwen reaches China Open semifinals with straight-set win",
-      "link": "https://news.cgtn.com/news/2026-10-10/Zheng-Qinwen-reaches-China-Open-semifinals-with-straight-set-win-1R7KP2weY8g/p.html"
+      "title": "Buyunchaokete shines on serve to book Shanghai showdown with Ruud",
+      "link": "https://news.cgtn.com/news/2026-10-09/Buyunchaokete-shines-on-serve-to-book-Shanghai-showdown-with-Ruud-1R5YrkX44us/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-10-04",
+      "date": "2026-09-30",
       "src": "CGTN·Sports",
-      "title": "China reaches 169 Asian Games gold medals, sets new overseas record",
-      "link": "https://news.cgtn.com/news/2026-10-04/China-reaches-169-Asian-Games-gold-medals-sets-new-overseas-record-1QXM1DaxKiQ/p.html"
+      "title": "China's Wei &amp; Jiang reflect on winning badminton gold at Asian Games",
+      "link": "https://news.cgtn.com/news/2026-09-30/China-s-Wei-Jiang-reflect-on-winning-badminton-gold-at-Asian-Games-1QR5Tr8hZio/p.html"
     }
   ],
   "readings": [
