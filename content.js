@@ -5,108 +5,108 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
+      "date": "2026-11-05",
+      "src": "CGTN·Culture",
+      "title": "International fans explore C-pop content in Puyuan",
+      "link": "https://news.cgtn.com/news/2026-11-05/International-fans-explore-C-pop-content-in-Puyuan-1ROOlm2Rt7y/p.html"
+    },
+    {
+      "id": "n02",
       "date": "2026-11-04",
       "src": "CGTN·Travel",
       "title": "What does Beijing look like in golden autumn?",
       "link": "https://news.cgtn.com/news/2026-11-04/What-does-Beijing-look-like-in-golden-autumn--1RNv2wTOKqs/p.html"
     },
     {
-      "id": "n02",
+      "id": "n03",
       "date": "2026-11-04",
       "src": "CGTN·Business",
       "title": "Macao advances urban governance through green tourism transition",
       "link": "https://news.cgtn.com/news/2026-11-04/Macao-advances-urban-governance-through-green-tourism-transition-1RNocqrlbRS/p.html"
     },
     {
-      "id": "n03",
+      "id": "n04",
       "date": "2026-11-04",
       "src": "CGTN·Business",
       "title": "Canada returns to CIIE as guest country of honor, boosting trade",
       "link": "https://news.cgtn.com/news/2026-11-04/Canada-returns-to-CIIE-as-guest-country-of-honor-boosting-trade-1RNrcs4ntKw/p.html"
     },
     {
-      "id": "n04",
+      "id": "n05",
       "date": "2026-11-04",
       "src": "CGTN·China",
       "title": "Global stories and voices: Hainan film festival set for December",
       "link": "https://news.cgtn.com/news/2026-11-04/Global-stories-and-voices-Hainan-film-festival-set-for-December-1RNuFpo6H0A/p.html"
     },
     {
-      "id": "n05",
+      "id": "n06",
       "date": "2026-11-04",
       "src": "CGTN·China",
       "title": "China's services trade maintains growth amid push for new drivers",
       "link": "https://news.cgtn.com/news/2026-11-04/China-s-services-trade-maintains-growth-amid-push-for-new-drivers-1RNTCQ8VhmM/p.html"
     },
     {
-      "id": "n06",
+      "id": "n07",
       "date": "2026-11-04",
       "src": "CGTN·China",
       "title": "One Blue World | A Green Sea Turtle's Journey Home",
       "link": "https://news.cgtn.com/news/2026-11-04/One-Blue-World-A-Green-Sea-Turtle-s-Journey-Home--1RNbngBD0AM/p.html"
     },
     {
-      "id": "n07",
-      "date": "2026-11-03",
-      "src": "CGTN·Culture",
-      "title": "Immersive drama draws crowds of visitors in Dunhuang",
-      "link": "https://news.cgtn.com/news/2026-11-03/Immersive-drama-draws-crowds-of-visitors-in-Dunhuang-1RLRNmTz46A/p.html"
-    },
-    {
       "id": "n08",
-      "date": "2026-10-30",
+      "date": "2026-10-29",
       "src": "CGTN·Sports",
-      "title": "Xi's special envoy to attend 4th Youth Olympic Games opening",
-      "link": "https://news.cgtn.com/news/2026-10-30/Xi-s-special-envoy-to-attend-4th-Youth-Olympic-Games-opening-1RFelwev0sg/p.html"
+      "title": "South Africa bids to make Durban host city for 2036 or 2040 Olympics",
+      "link": "https://newsaf.cgtn.com/news/2026-10-29/South-Africa-bids-to-make-Durban-host-city-for-2036-or-2040-Olympics-1RDSAFFeeQM/p.html"
     },
     {
       "id": "n09",
+      "date": "2026-10-29",
+      "src": "CGTN·Culture",
+      "title": "China's subway stations offer more than just a ride",
+      "link": "https://news.cgtn.com/news/2026-10-29/China-s-subway-stations-offer-more-than-just-a-ride-1RDCB73H0s0/p.html"
+    },
+    {
+      "id": "n10",
+      "date": "2026-10-28",
+      "src": "CGTN·Culture",
+      "title": "Social media, China travel fuel global interest in learning Chinese",
+      "link": "https://news.cgtn.com/news/2026-10-28/Social-media-China-travel-fuel-global-interest-in-learning-Chinese-1RBjGURIE5W/p.html"
+    },
+    {
+      "id": "n11",
       "date": "2026-10-23",
       "src": "CGTN·Travel",
       "title": "China, the 'golden thread' of fashion friendship",
       "link": "https://news.cgtn.com/news/2026-10-23/China-the-golden-thread-of-fashion-friendship-1RttdW0Zpx6/p.html"
     },
     {
-      "id": "n10",
+      "id": "n12",
       "date": "2026-10-23",
       "src": "CGTN·Travel",
       "title": "Golden Avenue dazzles in Xinjiang's autumn splendor",
       "link": "https://news.cgtn.com/news/2026-10-23/Golden-Avenue-dazzles-in-Xinjiang-s-autumn-splendor-1Rtryo1kYDK/p.html"
     },
     {
-      "id": "n11",
+      "id": "n13",
       "date": "2026-10-23",
       "src": "CGTN·Business",
       "title": "BizTalk | Inside China's Q3 economy",
       "link": "https://news.cgtn.com/news/2026-10-23/BizTalk-Inside-China-s-Q3-economy-1RtkZG0W8Uw/p.html"
     },
     {
-      "id": "n12",
-      "date": "2026-10-22",
-      "src": "CGTN·Culture",
-      "title": "CMG gala pays tribute to Red Army's crossing of Jiajin Mountain",
-      "link": "https://news.cgtn.com/news/2026-10-22/CMG-gala-pays-tribute-to-Red-Army-s-crossing-of-Jiajin-Mountain-1RsgYW8cEqQ/p.html"
-    },
-    {
-      "id": "n13",
-      "date": "2026-10-19",
-      "src": "CGTN·Culture",
-      "title": "CMG hosts short and medium-length drama conference in Shanghai",
-      "link": "https://news.cgtn.com/news/2026-10-19/CMG-hosts-short-and-medium-length-drama-conference-in-Shanghai-1RmKck0QrsI/p.html"
-    },
-    {
       "id": "n14",
-      "date": "2026-10-09",
+      "date": "2026-10-06",
       "src": "CGTN·Sports",
-      "title": "Buyunchaokete shines on serve to book Shanghai showdown with Ruud",
-      "link": "https://news.cgtn.com/news/2026-10-09/Buyunchaokete-shines-on-serve-to-book-Shanghai-showdown-with-Ruud-1R5YrkX44us/p.html"
+      "title": "China Open: Djokovic meets De Minaur in final, Zheng into round of 16",
+      "link": "https://news.cgtn.com/news/2026-10-06/China-Open-Djokovic-meets-De-Minaur-in-final-Zheng-into-round-of-16-1R0XF7G76Ug/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-09-30",
+      "date": "2026-10-04",
       "src": "CGTN·Sports",
-      "title": "China's Wei &amp; Jiang reflect on winning badminton gold at Asian Games",
-      "link": "https://news.cgtn.com/news/2026-09-30/China-s-Wei-Jiang-reflect-on-winning-badminton-gold-at-Asian-Games-1QR5Tr8hZio/p.html"
+      "title": "China reaches 169 Asian Games gold medals, sets new overseas record",
+      "link": "https://news.cgtn.com/news/2026-10-04/China-reaches-169-Asian-Games-gold-medals-sets-new-overseas-record-1QXM1DaxKiQ/p.html"
     }
   ],
   "readings": [
