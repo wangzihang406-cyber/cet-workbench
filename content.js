@@ -42,8 +42,8 @@ window.CET_CONTENT = {
       "id": "n06",
       "date": "2026-11-05",
       "src": "CGTN·Culture",
-      "title": "How Ningbo Zhoushan Port connects China with the world",
-      "link": "https://news.cgtn.com/news/2026-11-05/How-Ningbo-Zhoushan-Port-connects-China-with-the-world-1RPbpM7GQr6/p.html"
+      "title": "Immersive hubs revitalize Dunhuang's ancient legacy",
+      "link": "https://news.cgtn.com/news/2026-11-05/Immersive-hubs-revitalize-Dunhuang-s-ancient-legacy-1RNMMWib11S/p.html"
     },
     {
       "id": "n07",
@@ -54,10 +54,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n08",
-      "date": "2026-10-27",
-      "src": "CGTN·Sports",
-      "title": "More than a match: How ping-pong connects people beyond the table",
-      "link": "https://news.cgtn.com/news/2026-10-27/More-than-a-Match-How-ping-pong-connects-people-beyond-the-table-1RzVMvY3JKw/p.html"
+      "date": "2026-10-28",
+      "src": "CGTN·Culture",
+      "title": "Australia returns two cultural relics to China",
+      "link": "https://news.cgtn.com/news/2026-10-28/Australia-returns-two-cultural-relics-to-China-1RBBuEhs9Vu/p.html"
     },
     {
       "id": "n09",
@@ -68,10 +68,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n10",
-      "date": "2026-10-23",
+      "date": "2026-10-25",
       "src": "CGTN·Culture",
-      "title": "China's 1st AI hyper-realistic film 'Sanxingdui' hits theaters",
-      "link": "https://news.cgtn.com/news/2026-10-23/China-s-1st-AI-hyper-realistic-film-Sanxingdui-hits-theaters-1RtsLfSgfSM/p.html"
+      "title": "Global creators revitalize Jingdezhen’s millennia-old craft",
+      "link": "https://news.cgtn.com/news/2026-10-25/Global-creators-revitalize-Jingdezhen-s-millennia-old-craft-1Rx8Xgn08Ja/p.html"
     },
     {
       "id": "n11",
@@ -82,31 +82,31 @@ window.CET_CONTENT = {
     },
     {
       "id": "n12",
-      "date": "2026-10-22",
-      "src": "CGTN·Culture",
-      "title": "CMG gala pays tribute to Red Army's crossing of Jiajin Mountain",
-      "link": "https://news.cgtn.com/news/2026-10-22/CMG-gala-pays-tribute-to-Red-Army-s-crossing-of-Jiajin-Mountain-1RsgYW8cEqQ/p.html"
-    },
-    {
-      "id": "n13",
       "date": "2026-10-21",
       "src": "CGTN·Travel",
       "title": "Where water leaves its mark: Bouyei tradition in Guizhou",
       "link": "https://news.cgtn.com/news/2026-10-21/Where-water-leaves-its-mark-Bouyei-tradition-in-Guizhou-1RluiIMbWrC/p.html"
     },
     {
-      "id": "n14",
-      "date": "2026-10-03",
+      "id": "n13",
+      "date": "2026-10-02",
       "src": "CGTN·Sports",
-      "title": "Beyond the Medal Table: Asian Games, Esports, Asia's sporting powers",
-      "link": "https://news.cgtn.com/news/2026-10-03/Beyond-the-Medal-Table-Asian-Games-Esports-Asia-s-sporting-powers-1QVVqv8fpmw/p.html"
+      "title": "Xie Zhenye backs China's young sprinters to shine on world stage",
+      "link": "https://news.cgtn.com/news/2026-10-02/Xie-Zhenye-backs-China-s-young-sprinters-to-shine-on-world-stage-1QUkbCV8cDe/p.html"
+    },
+    {
+      "id": "n14",
+      "date": "2026-09-29",
+      "src": "CGTN·Sports",
+      "title": "Zhang Zhanshuo: Seven golds on his Asian Games debut",
+      "link": "https://news.cgtn.com/news/2026-09-29/Zhang-Zhanshuo-Seven-golds-on-his-Asian-Games-debut-1QPQ626yQ2A/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-09-30",
+      "date": "2026-09-27",
       "src": "CGTN·Sports",
-      "title": "Exclusive: ATP CEO eyes change as China Open celebrates 20th edition",
-      "link": "https://news.cgtn.com/news/2026-09-30/Exclusive-ATP-CEO-eyes-change-as-China-Open-celebrates-20th-edition-1QRdYHLOXII/p.html"
+      "title": "Exclusive: Mutaz Essa Barshim eyes his fifth Asian Games and beyond",
+      "link": "https://news.cgtn.com/news/2026-09-27/Exclusive-Mutaz-Essa-Barshim-eyes-his-fifth-Asian-Games-and-beyond-1QM7HWZgw4U/p.html"
     }
   ],
   "readings": [
