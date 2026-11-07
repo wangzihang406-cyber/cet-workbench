@@ -6,51 +6,51 @@ window.CET_CONTENT = {
     {
       "id": "n01",
       "date": "2026-11-06",
-      "src": "CGTN·China",
-      "title": "One Blue World | Xiapu: Life Among the Seaweed Farms",
-      "link": "https://news.cgtn.com/news/2026-11-06/One-Blue-World-Xiapu-Life-Among-the-Seaweed-Farms-1RPf28w3CqQ/p.html"
+      "src": "CGTN·Business",
+      "title": "Bvlgari CEO: Creating immersive experiences for Chinese consumers",
+      "link": "https://news.cgtn.com/news/2026-11-06/-Bvlgari-CEO-Creating-immersive-experiences-for-Chinese-consumers-1RQHZiwMIU0/p.html"
     },
     {
       "id": "n02",
+      "date": "2026-11-06",
+      "src": "CGTN·Business",
+      "title": "BizTalk | CIIE special: China's evolving role in the global market",
+      "link": "https://news.cgtn.com/news/2026-11-06/BizTalk-CIIE-special-China-s-evolving-role-in-the-global-market-1RQHp4dgU3m/p.html"
+    },
+    {
+      "id": "n03",
+      "date": "2026-11-06",
+      "src": "CGTN·China",
+      "title": "American Food &amp; Agriculture Pavilion launches at 9th CIIE",
+      "link": "https://news.cgtn.com/news/2026-11-06/American-Food-Agriculture-Pavilion-launches-at-9th-CIIE-1RR7ACGuMNO/p.html"
+    },
+    {
+      "id": "n04",
+      "date": "2026-11-06",
+      "src": "CGTN·China",
+      "title": "Dunhuang: Balancing heritage protection and tourism boom",
+      "link": "https://news.cgtn.com/news/2026-11-06/Dunhuang-Balancing-heritage-protection-and-tourism-boom-1RQH5m5Tzxu/p.html"
+    },
+    {
+      "id": "n05",
+      "date": "2026-11-06",
+      "src": "CGTN·China",
+      "title": "Report highlights China's growing role as global import market",
+      "link": "https://news.cgtn.com/news/2026-11-06/Report-highlights-China-s-growing-role-as-global-import-market-1RQpSVXAA8g/p.html"
+    },
+    {
+      "id": "n06",
       "date": "2026-11-05",
       "src": "CGTN·Culture",
       "title": "How Ningbo Zhoushan Port connects China with the world",
       "link": "https://news.cgtn.com/news/2026-11-05/How-Ningbo-Zhoushan-Port-connects-China-with-the-world-1RPbpM7GQr6/p.html"
     },
     {
-      "id": "n03",
-      "date": "2026-11-05",
-      "src": "CGTN·Travel",
-      "title": "Swans rest ahead of migration as snow graces Daqing's wetland",
-      "link": "https://news.cgtn.com/news/2026-11-05/Swans-rest-ahead-of-migration-as-snow-graces-Daqing-s-wetland-1RP3p3oG1nq/p.html"
-    },
-    {
-      "id": "n04",
-      "date": "2026-11-05",
-      "src": "CGTN·Business",
-      "title": "China's opening up creates new opportunities for the world",
-      "link": "https://news.cgtn.com/news/2026-11-05/China-s-opening-up-creates-new-opportunities-for-the-world-1RPcyfgDHOg/p.html"
-    },
-    {
-      "id": "n05",
-      "date": "2026-11-05",
-      "src": "CGTN·Business",
-      "title": "Namibia launches $2.5 billion fuel storage, regional pipeline project",
-      "link": "https://newsaf.cgtn.com/news/2026-11-05/Namibia-launches-2-5-billion-fuel-storage-regional-pipeline-project-1RPknybJiwM/p.html"
-    },
-    {
-      "id": "n06",
-      "date": "2026-11-05",
-      "src": "CGTN·China",
-      "title": "China, Canada hold first ministerial-level economic and trade talks",
-      "link": "https://news.cgtn.com/news/2026-11-05/China-Canada-hold-first-ministerial-level-economic-and-trade-talks-1RP3xN0KcaQ/p.html"
-    },
-    {
       "id": "n07",
-      "date": "2026-11-05",
-      "src": "CGTN·China",
-      "title": "International scholar praises Dunhuang's digital heritage resources",
-      "link": "https://news.cgtn.com/news/2026-11-05/International-scholar-praises-Dunhuang-s-digital-heritage-resources-1RNYEwLSEFO/p.html"
+      "date": "2026-11-04",
+      "src": "CGTN·Travel",
+      "title": "Would you spend a day by the sea?",
+      "link": "https://news.cgtn.com/news/2026-11-04/Would-you-spend-a-day-by-the-sea--1RNuUQavN4s/p.html"
     },
     {
       "id": "n08",
@@ -61,38 +61,38 @@ window.CET_CONTENT = {
     },
     {
       "id": "n09",
-      "date": "2026-10-25",
+      "date": "2026-10-27",
       "src": "CGTN·Business",
-      "title": "Schroders: China's capital market opening deepens two-way connectivity",
-      "link": "https://news.cgtn.com/news/2026-10-25/Schroders-China-s-capital-market-opening-deepens-two-way-connectivity-1RwXyDYJeCs/p.html"
+      "title": "China's industrial profits up 15.5% in first nine months of 2026",
+      "link": "https://news.cgtn.com/news/2026-10-27/China-s-industrial-profits-up-15-5-in-first-nine-months-of-2026-1RzS2nBETHa/p.html"
     },
     {
       "id": "n10",
-      "date": "2026-10-24",
-      "src": "CGTN·Travel",
-      "title": "Baoji Marathon draws 31,000 runners, highlights ancient culture",
-      "link": "https://news.cgtn.com/news/2026-10-24/Baoji-Marathon-draws-31-000-runners-highlights-ancient-culture-1RvD06t6jHG/p.html"
-    },
-    {
-      "id": "n11",
-      "date": "2026-10-24",
-      "src": "CGTN·Travel",
-      "title": "Could this flying 119 tackle high-rise fire challenges?",
-      "link": "https://news.cgtn.com/news/2026-10-24/Could-this-flying-119-tackle-high-rise-fire-challenges--1RrOMPvDwic/p.html"
-    },
-    {
-      "id": "n12",
       "date": "2026-10-23",
       "src": "CGTN·Culture",
       "title": "China's 1st AI hyper-realistic film 'Sanxingdui' hits theaters",
       "link": "https://news.cgtn.com/news/2026-10-23/China-s-1st-AI-hyper-realistic-film-Sanxingdui-hits-theaters-1RtsLfSgfSM/p.html"
     },
     {
-      "id": "n13",
+      "id": "n11",
+      "date": "2026-10-23",
+      "src": "CGTN·Travel",
+      "title": "International youths' reflections along a Long March route",
+      "link": "https://news.cgtn.com/news/2026-10-23/International-youths-reflections-along-a-Long-March-route-1RtDalCpHuo/p.html"
+    },
+    {
+      "id": "n12",
       "date": "2026-10-22",
       "src": "CGTN·Culture",
       "title": "CMG gala pays tribute to Red Army's crossing of Jiajin Mountain",
       "link": "https://news.cgtn.com/news/2026-10-22/CMG-gala-pays-tribute-to-Red-Army-s-crossing-of-Jiajin-Mountain-1RsgYW8cEqQ/p.html"
+    },
+    {
+      "id": "n13",
+      "date": "2026-10-21",
+      "src": "CGTN·Travel",
+      "title": "Where water leaves its mark: Bouyei tradition in Guizhou",
+      "link": "https://news.cgtn.com/news/2026-10-21/Where-water-leaves-its-mark-Bouyei-tradition-in-Guizhou-1RluiIMbWrC/p.html"
     },
     {
       "id": "n14",
