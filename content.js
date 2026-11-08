@@ -13,7 +13,7 @@ window.CET_CONTENT = {
     {
       "id": "n02",
       "date": "2026-11-06",
-      "src": "CGTN·China",
+      "src": "CGTN·Culture",
       "title": "Atlanta is ready for pandas",
       "link": "https://newsus.cgtn.com/news/2026-11-06/Atlanta-is-ready-for-pandas-1RQ6U6psLaE/p.html"
     },
@@ -21,15 +21,15 @@ window.CET_CONTENT = {
       "id": "n03",
       "date": "2026-11-06",
       "src": "CGTN·China",
-      "title": "One Blue World | Xiapu: Life Among the Seaweed Farms",
-      "link": "https://news.cgtn.com/news/2026-11-06/One-Blue-World-Xiapu-Life-Among-the-Seaweed-Farms-1RPf28w3CqQ/p.html"
+      "title": "Atlanta is ready for pandas",
+      "link": "https://newsus.cgtn.com/news/2026-11-06/Atlanta-is-ready-for-pandas-1RQ6U6psLaE/p.html"
     },
     {
       "id": "n04",
-      "date": "2026-11-05",
-      "src": "CGTN·Culture",
-      "title": "Immersive hubs revitalize Dunhuang's ancient legacy",
-      "link": "https://news.cgtn.com/news/2026-11-05/Immersive-hubs-revitalize-Dunhuang-s-ancient-legacy-1RNMMWib11S/p.html"
+      "date": "2026-11-06",
+      "src": "CGTN·China",
+      "title": "One Blue World | Xiapu: Life Among the Seaweed Farms",
+      "link": "https://news.cgtn.com/news/2026-11-06/One-Blue-World-Xiapu-Life-Among-the-Seaweed-Farms-1RPf28w3CqQ/p.html"
     },
     {
       "id": "n05",
@@ -55,23 +55,23 @@ window.CET_CONTENT = {
     {
       "id": "n08",
       "date": "2026-10-28",
-      "src": "CGTN·Culture",
-      "title": "Australia returns two cultural relics to China",
-      "link": "https://news.cgtn.com/news/2026-10-28/Australia-returns-two-cultural-relics-to-China-1RBBuEhs9Vu/p.html"
-    },
-    {
-      "id": "n09",
-      "date": "2026-10-28",
       "src": "CGTN·Business",
       "title": "BizDataDive: 76 years of China-Finland diplomatic ties",
       "link": "https://news.cgtn.com/news/2026-10-28/BizDataDive-76-years-of-China-Finland-diplomatic-ties-1RBTKEVKXOo/p.html"
     },
     {
-      "id": "n10",
+      "id": "n09",
       "date": "2026-10-25",
+      "src": "CGTN·Sports",
+      "title": "Aichi-Nagoya bids farewell to Asian Para Games in closing ceremony",
+      "link": "https://news.cgtn.com/news/2026-10-25/Aichi-Nagoya-bids-farewell-to-Asian-Para-Games-in-closing-ceremony-1Rwv6rZYcGk/p.html"
+    },
+    {
+      "id": "n10",
+      "date": "2026-10-24",
       "src": "CGTN·Culture",
-      "title": "Global creators revitalize Jingdezhen’s millennia-old craft",
-      "link": "https://news.cgtn.com/news/2026-10-25/Global-creators-revitalize-Jingdezhen-s-millennia-old-craft-1Rx8Xgn08Ja/p.html"
+      "title": "Tracing the vision: Preserving Culture",
+      "link": "https://news.cgtn.com/news/2026-10-24/Tracing-the-vision-Preserving-Culture-1RtS8yT4PCM/p.html"
     },
     {
       "id": "n11",
@@ -89,24 +89,24 @@ window.CET_CONTENT = {
     },
     {
       "id": "n13",
-      "date": "2026-10-02",
-      "src": "CGTN·Sports",
-      "title": "Xie Zhenye backs China's young sprinters to shine on world stage",
-      "link": "https://news.cgtn.com/news/2026-10-02/Xie-Zhenye-backs-China-s-young-sprinters-to-shine-on-world-stage-1QUkbCV8cDe/p.html"
+      "date": "2026-10-23",
+      "src": "CGTN·Culture",
+      "title": "Beijing's central axis: Yandaixiejie Street and Wanning Bridge",
+      "link": "https://news.cgtn.com/news/2026-10-23/Beijing-s-central-axis-Yandaixiejie-Street-and-Wanning-Bridge-1RtBYQSjscw/p.html"
     },
     {
       "id": "n14",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "src": "CGTN·Sports",
-      "title": "Zhang Zhanshuo: Seven golds on his Asian Games debut",
-      "link": "https://news.cgtn.com/news/2026-09-29/Zhang-Zhanshuo-Seven-golds-on-his-Asian-Games-debut-1QPQ626yQ2A/p.html"
+      "title": "Exclusive: ATP CEO eyes change as China Open celebrates 20th edition",
+      "link": "https://news.cgtn.com/news/2026-09-30/Exclusive-ATP-CEO-eyes-change-as-China-Open-celebrates-20th-edition-1QRdYHLOXII/p.html"
     },
     {
       "id": "n15",
       "date": "2026-09-27",
       "src": "CGTN·Sports",
-      "title": "Exclusive: Mutaz Essa Barshim eyes his fifth Asian Games and beyond",
-      "link": "https://news.cgtn.com/news/2026-09-27/Exclusive-Mutaz-Essa-Barshim-eyes-his-fifth-Asian-Games-and-beyond-1QM7HWZgw4U/p.html"
+      "title": "Su Wen breaks 36-year triple jump record for first Asian Games gold",
+      "link": "https://news.cgtn.com/news/2026-09-27/Su-Wen-breaks-36-year-triple-jump-record-for-first-Asian-Games-gold-1QM5vmDkiqs/p.html"
     }
   ],
   "readings": [
