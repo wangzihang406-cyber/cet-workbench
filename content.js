@@ -20,30 +20,30 @@ window.CET_CONTENT = {
     {
       "id": "n03",
       "date": "2026-11-06",
-      "src": "CGTN·Culture",
-      "title": "Atlanta is ready for pandas",
-      "link": "https://newsus.cgtn.com/news/2026-11-06/Atlanta-is-ready-for-pandas-1RQ6U6psLaE/p.html"
-    },
-    {
-      "id": "n04",
-      "date": "2026-11-06",
       "src": "CGTN·Business",
       "title": "A CIIE moment for China-Canada trade",
       "link": "https://news.cgtn.com/news/2026-11-06/A-CIIE-moment-for-China-Canada-trade-1RQJsZVpkdy/p.html"
     },
     {
-      "id": "n05",
+      "id": "n04",
       "date": "2026-11-06",
       "src": "CGTN·China",
       "title": "Zenless Zone Zero's global playbook: Game, art, offline",
       "link": "https://news.cgtn.com/news/2026-11-06/Zenless-Zone-Zero-s-global-playbook-Game-art-offline-1RQKA1Fz0I0/p.html"
     },
     {
-      "id": "n06",
+      "id": "n05",
       "date": "2026-11-06",
       "src": "CGTN·China",
       "title": "Chinese premier meets Gabonese president",
       "link": "https://news.cgtn.com/news/2026-11-06/Chinese-premier-meets-Gabonese-president-1RRfSCThfDG/p.html"
+    },
+    {
+      "id": "n06",
+      "date": "2026-11-04",
+      "src": "CGTN·Culture",
+      "title": "90 Seconds at CIIE | Things that caught my eye",
+      "link": "https://news.cgtn.com/news/2026-11-04/90-Seconds-at-CIIE-Things-that-caught-my-eye-1RNyKzKj5QI/p.html"
     },
     {
       "id": "n07",
@@ -62,51 +62,51 @@ window.CET_CONTENT = {
     {
       "id": "n09",
       "date": "2026-10-25",
-      "src": "CGTN·Sports",
-      "title": "Aichi-Nagoya bids farewell to Asian Para Games in closing ceremony",
-      "link": "https://news.cgtn.com/news/2026-10-25/Aichi-Nagoya-bids-farewell-to-Asian-Para-Games-in-closing-ceremony-1Rwv6rZYcGk/p.html"
+      "src": "CGTN·Culture",
+      "title": "ASEAN media partners share their Hainan wish list",
+      "link": "https://news.cgtn.com/news/2026-10-25/ASEAN-media-partners-share-their-Hainan-wish-list-1RwSfxQGZEc/p.html"
     },
     {
       "id": "n10",
       "date": "2026-10-24",
       "src": "CGTN·Culture",
-      "title": "Tracing the vision: Preserving Culture",
-      "link": "https://news.cgtn.com/news/2026-10-24/Tracing-the-vision-Preserving-Culture-1RtS8yT4PCM/p.html"
+      "title": "AI recreates Long March history in anniversary TV gala",
+      "link": "https://news.cgtn.com/news/2026-10-24/AI-recreates-Long-March-history-in-anniversary-TV-gala-1RvjqCDah1u/p.html"
     },
     {
       "id": "n11",
-      "date": "2026-10-23",
-      "src": "CGTN·Culture",
-      "title": "Beijing's central axis: Yandaixiejie Street and Wanning Bridge",
-      "link": "https://news.cgtn.com/news/2026-10-23/Beijing-s-central-axis-Yandaixiejie-Street-and-Wanning-Bridge-1RtBYQSjscw/p.html"
-    },
-    {
-      "id": "n12",
       "date": "2026-10-23",
       "src": "CGTN·Travel",
       "title": "International youths' reflections along a Long March route",
       "link": "https://news.cgtn.com/news/2026-10-23/International-youths-reflections-along-a-Long-March-route-1RtDalCpHuo/p.html"
     },
     {
-      "id": "n13",
+      "id": "n12",
       "date": "2026-10-23",
       "src": "CGTN·Travel",
       "title": "Golden Avenue dazzles in Xinjiang's autumn splendor",
       "link": "https://news.cgtn.com/news/2026-10-23/Golden-Avenue-dazzles-in-Xinjiang-s-autumn-splendor-1Rtryo1kYDK/p.html"
     },
     {
-      "id": "n14",
-      "date": "2026-09-30",
+      "id": "n13",
+      "date": "2026-10-17",
       "src": "CGTN·Sports",
-      "title": "Exclusive: ATP CEO eyes change as China Open celebrates 20th edition",
-      "link": "https://news.cgtn.com/news/2026-09-30/Exclusive-ATP-CEO-eyes-change-as-China-Open-celebrates-20th-edition-1QRdYHLOXII/p.html"
+      "title": "How Zheng Qinwen transformed her game and mindset in two months",
+      "link": "https://news.cgtn.com/news/2026-10-17/How-Zheng-Qinwen-transformed-her-game-and-mindset-in-two-months-1RjbdSFXKwg/p.html"
+    },
+    {
+      "id": "n14",
+      "date": "2026-09-29",
+      "src": "CGTN·Sports",
+      "title": "Zhang Zhanshuo: Seven golds on his Asian Games debut",
+      "link": "https://news.cgtn.com/news/2026-09-29/Zhang-Zhanshuo-Seven-golds-on-his-Asian-Games-debut-1QPQ626yQ2A/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-09-27",
+      "date": "2026-09-29",
       "src": "CGTN·Sports",
-      "title": "Su Wen breaks 36-year triple jump record for first Asian Games gold",
-      "link": "https://news.cgtn.com/news/2026-09-27/Su-Wen-breaks-36-year-triple-jump-record-for-first-Asian-Games-gold-1QM5vmDkiqs/p.html"
+      "title": "IOC launches Trustworthy AI Framework",
+      "link": "https://news.cgtn.com/news/2026-09-29/IOC-launches-Trustworthy-AI-Framework-1QPAzDjp3fa/p.html"
     }
   ],
   "readings": [
