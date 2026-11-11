@@ -6,51 +6,51 @@ window.CET_CONTENT = {
     {
       "id": "n01",
       "date": "2026-11-11",
-      "src": "CGTN·Travel",
+      "src": "CGTN·Culture",
       "title": "China Popcast: Shenzhen's got global talent",
       "link": "https://news.cgtn.com/news/2026-11-11/China-Popcast-Shenzhen-s-got-global-talent-1RYLp8T0sTe/p.html"
     },
     {
       "id": "n02",
       "date": "2026-11-11",
+      "src": "CGTN·Travel",
+      "title": "China Popcast: Shenzhen's got global talent",
+      "link": "https://news.cgtn.com/news/2026-11-11/China-Popcast-Shenzhen-s-got-global-talent-1RYLp8T0sTe/p.html"
+    },
+    {
+      "id": "n03",
+      "date": "2026-11-11",
       "src": "CGTN·China",
       "title": "China hands over remains of US airmen found along WWII Hump Route",
       "link": "https://news.cgtn.com/news/2026-11-11/China-hands-over-remains-of-US-airmen-found-along-WWII-Hump-Route-1RYylqTxkyc/p.html"
     },
     {
-      "id": "n03",
+      "id": "n04",
       "date": "2026-11-10",
       "src": "CGTN·China",
       "title": "Bert Hofman: APEC can boost trust and confidence in cooperation",
       "link": "https://news.cgtn.com/news/2026-11-10/Bert-Hofman-APEC-can-boost-trust-and-confidence-in-cooperation-1RX31a6IkqA/p.html"
     },
     {
-      "id": "n04",
+      "id": "n05",
       "date": "2026-11-10",
       "src": "CGTN·China",
       "title": "95-year-old American's enduring bond with his hometown in NW China",
       "link": "https://news.cgtn.com/news/2026-11-10/95-year-old-American-s-enduring-bond-with-his-hometown-in-NW-China-1RXarzAMWGc/p.html"
     },
     {
-      "id": "n05",
+      "id": "n06",
       "date": "2026-11-08",
       "src": "CGTN·Business",
       "title": "LEGO Group: CIIE offers a window onto China's consumer market",
       "link": "https://news.cgtn.com/news/2026-11-08/LEGO-Group-CIIE-offers-a-window-onto-China-s-consumer-market-1RUcqPfM02Q/p.html"
     },
     {
-      "id": "n06",
+      "id": "n07",
       "date": "2026-11-08",
       "src": "CGTN·Business",
       "title": "China's market direction closely aligns with Volkswagen's priorities",
       "link": "https://news.cgtn.com/news/2026-11-08/China-s-market-direction-closely-aligns-with-Volkswagen-s-priorities-1RU68NmU0Hm/p.html"
-    },
-    {
-      "id": "n07",
-      "date": "2026-11-06",
-      "src": "CGTN·Culture",
-      "title": "Artwork roots and genre blending of 'Phantom Blade Zero'",
-      "link": "https://news.cgtn.com/news/2026-11-06/Artwork-roots-and-genre-blending-of-Phantom-Blade-Zero--1RQKGwQuuju/p.html"
     },
     {
       "id": "n08",
@@ -61,24 +61,24 @@ window.CET_CONTENT = {
     },
     {
       "id": "n09",
+      "date": "2026-11-05",
+      "src": "CGTN·Culture",
+      "title": "Dunhuang Expo: First-time visitor wowed by Mogao Caves",
+      "link": "https://news.cgtn.com/news/2026-11-05/Dunhuang-Expo-First-time-visitor-wowed-by-Mogao-Caves-1RNKpJ3hvLq/p.html"
+    },
+    {
+      "id": "n10",
       "date": "2026-11-04",
       "src": "CGTN·Travel",
       "title": "Climbing the Great Wall in Mandarin",
       "link": "https://news.cgtn.com/news/2026-11-04/Climbing-the-Great-Wall-in-Mandarin-1RNjaAGWRsk/p.html"
     },
     {
-      "id": "n10",
-      "date": "2026-10-27",
-      "src": "CGTN·Culture",
-      "title": "The rule of law: Where governance begins",
-      "link": "https://news.cgtn.com/news/2026-10-27/The-rule-of-law-Where-governance-begins-1RA6f6u4A2Q/p.html"
-    },
-    {
       "id": "n11",
-      "date": "2026-10-25",
-      "src": "CGTN·Sports",
-      "title": "Aichi-Nagoya bids farewell to Asian Para Games in closing ceremony",
-      "link": "https://news.cgtn.com/news/2026-10-25/Aichi-Nagoya-bids-farewell-to-Asian-Para-Games-in-closing-ceremony-1Rwv6rZYcGk/p.html"
+      "date": "2026-10-31",
+      "src": "CGTN·Culture",
+      "title": "APEC \"China Year\" meets arts as Greater Bay Area festival opens",
+      "link": "https://news.cgtn.com/news/2026-10-31/APEC-China-Year-meets-arts-as-Greater-Bay-Area-festival-opens-1RGNhS8ZPQ4/p.html"
     },
     {
       "id": "n12",
@@ -89,24 +89,24 @@ window.CET_CONTENT = {
     },
     {
       "id": "n13",
-      "date": "2026-10-24",
-      "src": "CGTN·Culture",
-      "title": "Baoji Marathon draws 31,000 runners, highlights ancient culture",
-      "link": "https://news.cgtn.com/news/2026-10-24/Baoji-Marathon-draws-31-000-runners-highlights-ancient-culture-1RvD06t6jHG/p.html"
+      "date": "2026-10-16",
+      "src": "CGTN·Sports",
+      "title": "Choi takes early lead at Buick LPGA Shanghai, Yin tied for third",
+      "link": "https://news.cgtn.com/news/2026-10-16/Choi-takes-early-lead-at-Buick-LPGA-Shanghai-Yin-tied-for-third-1RhC2ZqwaiY/p.html"
     },
     {
       "id": "n14",
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "src": "CGTN·Sports",
-      "title": "Exclusive: ATP CEO eyes change as China Open celebrates 20th edition",
-      "link": "https://news.cgtn.com/news/2026-09-30/Exclusive-ATP-CEO-eyes-change-as-China-Open-celebrates-20th-edition-1QRdYHLOXII/p.html"
+      "title": "Lian Junjie wins China's 100th diving gold in history of Asian Games",
+      "link": "https://news.cgtn.com/news/2026-10-01/Lian-Junjie-wins-China-s-100th-diving-gold-in-history-of-Asian-Games-1QSFI9HqR7W/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-09-27",
+      "date": "2026-09-29",
       "src": "CGTN·Sports",
-      "title": "Su Wen breaks 36-year triple jump record for first Asian Games gold",
-      "link": "https://news.cgtn.com/news/2026-09-27/Su-Wen-breaks-36-year-triple-jump-record-for-first-Asian-Games-gold-1QM5vmDkiqs/p.html"
+      "title": "IOC launches Trustworthy AI Framework",
+      "link": "https://news.cgtn.com/news/2026-09-29/IOC-launches-Trustworthy-AI-Framework-1QPAzDjp3fa/p.html"
     }
   ],
   "readings": [
