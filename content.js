@@ -5,73 +5,73 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
-      "date": "2026-11-09",
-      "src": "CGTN·China",
-      "title": "Cuba's special envoy to pay an official visit to China this week",
-      "link": "https://news.cgtn.com/news/2026-11-09/Cuba-s-special-envoy-to-pay-an-official-visit-to-China-this-week-1RVKsWAtlAs/p.html"
+      "date": "2026-11-11",
+      "src": "CGTN·Travel",
+      "title": "China Popcast: Shenzhen's got global talent",
+      "link": "https://news.cgtn.com/news/2026-11-11/China-Popcast-Shenzhen-s-got-global-talent-1RYLp8T0sTe/p.html"
     },
     {
       "id": "n02",
-      "date": "2026-11-09",
+      "date": "2026-11-11",
       "src": "CGTN·China",
-      "title": "BRICS youth gather in China to explore innovation and cooperation",
-      "link": "https://news.cgtn.com/news/2026-11-09/BRICS-youth-gather-in-China-to-explore-innovation-and-cooperation-1RVBiO4DI3e/p.html"
+      "title": "China hands over remains of US airmen found along WWII Hump Route",
+      "link": "https://news.cgtn.com/news/2026-11-11/China-hands-over-remains-of-US-airmen-found-along-WWII-Hump-Route-1RYylqTxkyc/p.html"
     },
     {
       "id": "n03",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "src": "CGTN·China",
-      "title": "President Xi congratulates Iotova on election as Bulgarian president",
-      "link": "https://news.cgtn.com/news/2026-11-09/Xi-congratulates-Iliana-Iotova-on-election-as-Bulgarian-president-1RVDMiS02U8/p.html"
+      "title": "Bert Hofman: APEC can boost trust and confidence in cooperation",
+      "link": "https://news.cgtn.com/news/2026-11-10/Bert-Hofman-APEC-can-boost-trust-and-confidence-in-cooperation-1RX31a6IkqA/p.html"
     },
     {
       "id": "n04",
-      "date": "2026-11-07",
-      "src": "CGTN·Business",
-      "title": "Adidas executive: Made for China, now a global hit",
-      "link": "https://news.cgtn.com/news/2026-11-07/Adidas-executive-Made-for-China-now-a-global-hit-1RSuErlKQYE/p.html"
+      "date": "2026-11-10",
+      "src": "CGTN·China",
+      "title": "95-year-old American's enduring bond with his hometown in NW China",
+      "link": "https://news.cgtn.com/news/2026-11-10/95-year-old-American-s-enduring-bond-with-his-hometown-in-NW-China-1RXarzAMWGc/p.html"
     },
     {
       "id": "n05",
+      "date": "2026-11-08",
+      "src": "CGTN·Business",
+      "title": "LEGO Group: CIIE offers a window onto China's consumer market",
+      "link": "https://news.cgtn.com/news/2026-11-08/LEGO-Group-CIIE-offers-a-window-onto-China-s-consumer-market-1RUcqPfM02Q/p.html"
+    },
+    {
+      "id": "n06",
+      "date": "2026-11-08",
+      "src": "CGTN·Business",
+      "title": "China's market direction closely aligns with Volkswagen's priorities",
+      "link": "https://news.cgtn.com/news/2026-11-08/China-s-market-direction-closely-aligns-with-Volkswagen-s-priorities-1RU68NmU0Hm/p.html"
+    },
+    {
+      "id": "n07",
       "date": "2026-11-06",
       "src": "CGTN·Culture",
       "title": "Artwork roots and genre blending of 'Phantom Blade Zero'",
       "link": "https://news.cgtn.com/news/2026-11-06/Artwork-roots-and-genre-blending-of-Phantom-Blade-Zero--1RQKGwQuuju/p.html"
     },
     {
-      "id": "n06",
+      "id": "n08",
       "date": "2026-11-06",
       "src": "CGTN·Business",
-      "title": "How to win big: betting on the US midterms",
-      "link": "https://newsus.cgtn.com/news/2026-11-06/How-to-win-big-betting-on-the-US-midterms-1RPNr2qCiTS/p.html"
-    },
-    {
-      "id": "n07",
-      "date": "2026-11-05",
-      "src": "CGTN·Travel",
-      "title": "Xiatang Shaobing: Baked in an upside-down wok",
-      "link": "https://news.cgtn.com/news/2026-11-05/Xiatang-Shaobing-Baked-in-an-upside-down-wok-1RLzPYI93B6/p.html"
-    },
-    {
-      "id": "n08",
-      "date": "2026-11-03",
-      "src": "CGTN·Business",
-      "title": "China's central bank to raise forex reserve requirement ratio for financial institutions",
-      "link": "https://news.cgtn.com/news/2026-11-03/China-s-central-bank-to-raise-forex-reserve-requirement-ratio-for-financial-institutions-1RLp2n0i3vy/p.html"
+      "title": "What does the future of money look like in a multipolar world?",
+      "link": "https://news.cgtn.com/news/2026-11-06/What-does-the-future-of-money-look-like-in-a-multipolar-world--1RQJbVxK3G8/p.html"
     },
     {
       "id": "n09",
+      "date": "2026-11-04",
+      "src": "CGTN·Travel",
+      "title": "Climbing the Great Wall in Mandarin",
+      "link": "https://news.cgtn.com/news/2026-11-04/Climbing-the-Great-Wall-in-Mandarin-1RNjaAGWRsk/p.html"
+    },
+    {
+      "id": "n10",
       "date": "2026-10-27",
       "src": "CGTN·Culture",
       "title": "The rule of law: Where governance begins",
       "link": "https://news.cgtn.com/news/2026-10-27/The-rule-of-law-Where-governance-begins-1RA6f6u4A2Q/p.html"
-    },
-    {
-      "id": "n10",
-      "date": "2026-10-26",
-      "src": "CGTN·Travel",
-      "title": "What did the world look like 3,000 years ago?",
-      "link": "https://news.cgtn.com/news/2026-10-26/What-did-the-world-look-like-3-000-years-ago--1RtBW5PRbRm/p.html"
     },
     {
       "id": "n11",
@@ -82,17 +82,17 @@ window.CET_CONTENT = {
     },
     {
       "id": "n12",
-      "date": "2026-10-24",
-      "src": "CGTN·Culture",
-      "title": "Baoji Marathon draws 31,000 runners, highlights ancient culture",
-      "link": "https://news.cgtn.com/news/2026-10-24/Baoji-Marathon-draws-31-000-runners-highlights-ancient-culture-1RvD06t6jHG/p.html"
+      "date": "2026-10-25",
+      "src": "CGTN·Travel",
+      "title": "A Perfect Day in Huangshan’s Villages",
+      "link": "https://news.cgtn.com/news/2026-10-25/A-Perfect-Day-in-Huangshan-s-Villages-1RvoQ4eVA0o/p.html"
     },
     {
       "id": "n13",
       "date": "2026-10-24",
-      "src": "CGTN·Travel",
-      "title": "Finding Time’s Slow Rhythm on China’s “Jiangnan Sky Road”",
-      "link": "https://news.cgtn.com/news/2026-10-24/Finding-Time-s-Slow-Rhythm-on-China-s-Jiangnan-Sky-Road--1RohVnPWshO/p.html"
+      "src": "CGTN·Culture",
+      "title": "Baoji Marathon draws 31,000 runners, highlights ancient culture",
+      "link": "https://news.cgtn.com/news/2026-10-24/Baoji-Marathon-draws-31-000-runners-highlights-ancient-culture-1RvD06t6jHG/p.html"
     },
     {
       "id": "n14",
