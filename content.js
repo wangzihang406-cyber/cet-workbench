@@ -5,108 +5,108 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
-      "date": "2026-11-12",
+      "date": "2026-11-14",
       "src": "CGTN·China",
-      "title": "China flags six problems with Belgium-Chile BBNJ secretariat bid",
-      "link": "https://news.cgtn.com/news/2026-11-12/China-flags-six-problems-with-Belgium-Chile-BBNJ-secretariat-bid-1S0Q5Ek3uCI/p.html"
+      "title": "Fishing on a Single Breath",
+      "link": "https://news.cgtn.com/news/2026-11-14/Fishing-on-a-Single-Breath-1S2vjUGrKdq/p.html"
     },
     {
       "id": "n02",
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "src": "CGTN·China",
-      "title": "China's multi-pronged approach to respiratory health protection",
-      "link": "https://news.cgtn.com/news/2026-11-12/China-s-multi-pronged-approach-to-respiratory-health-protection-1S0vsQemPu0/p.html"
+      "title": "Inside Suzhou: Where innovation comes to life",
+      "link": "https://news.cgtn.com/news/2026-11-13/Inside-Suzhou-Where-innovation-comes-to-life-1S2FXidRLXi/p.html"
     },
     {
       "id": "n03",
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "src": "CGTN·China",
-      "title": "How hand-drawn art connects military attachés to the Long March",
-      "link": "https://news.cgtn.com/news/2026-11-11/How-hand-drawn-art-connects-military-attach-s-to-the-Long-March-1RYFM8WUYko/p.html"
+      "title": "Chinese vice president attends COP31 Antalya Leaders' Summit",
+      "link": "https://news.cgtn.com/news/2026-11-12/Chinese-vice-president-attends-COP31-Antalya-Leaders-Summit-1S0cUC9R3IA/p.html"
     },
     {
       "id": "n04",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "src": "CGTN·Culture",
-      "title": "Tongan student explains why healthy coastlines matter",
-      "link": "https://news.cgtn.com/news/2026-11-10/Tongan-student-explains-why-healthy-coastlines-matter-1RXnkqAKFKE/p.html"
+      "title": "2.3kg of royal splendor: The legendary Ming Empress’s phoenix crown",
+      "link": "https://news.cgtn.com/news/2026-11-11/2-3kg-of-royal-splendor-The-legendary-Ming-Empress-s-phoenix-crown-1RYYpBFqLEQ/p.html"
     },
     {
       "id": "n05",
-      "date": "2026-11-08",
-      "src": "CGTN·Business",
-      "title": "Sony: CIIE a key platform for partnerships and co‑creation in China",
-      "link": "https://news.cgtn.com/news/2026-11-08/Sony-CIIE-a-key-platform-for-partnerships-and-co-creation-in-China-1RUe3WbHEbu/p.html"
+      "date": "2026-11-09",
+      "src": "CGTN·Travel",
+      "title": "What was in his hands?",
+      "link": "https://news.cgtn.com/news/2026-11-09/What-was-in-his-hands--1RVDZurzPYk/p.html"
     },
     {
       "id": "n06",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "src": "CGTN·Business",
-      "title": "CIIE a showcase for Iranian businesses",
-      "link": "https://news.cgtn.com/news/2026-11-08/CIIE-a-showcase-for-Iranian-businesses-1RUg9qrJ5ni/p.html"
+      "title": "Diplomat: Finland hopes for mutually beneficial EU-China trade",
+      "link": "https://news.cgtn.com/news/2026-11-09/Diplomat-Finland-hopes-for-mutually-beneficial-EU-China-trade-1RVP3JopZwQ/p.html"
     },
     {
       "id": "n07",
-      "date": "2026-11-06",
+      "date": "2026-11-09",
       "src": "CGTN·Business",
-      "title": "Chinese lawmakers flag market stability, opening-up fixes",
-      "link": "https://news.cgtn.com/news/2026-11-06/Chinese-lawmakers-flag-market-stability-opening-up-fixes-1RQKzOw3rXy/p.html"
+      "title": "China extends suspension of special port fees on US ships to Jan. 2027",
+      "link": "https://news.cgtn.com/news/2026-11-09/China-extends-suspension-of-special-port-fees-on-US-ships-to-Jan-2027-1RVGqrFRoeQ/p.html"
     },
     {
       "id": "n08",
-      "date": "2026-11-05",
+      "date": "2026-11-07",
       "src": "CGTN·Culture",
-      "title": "Dunhuang Expo: First-time visitor wowed by Mogao Caves",
-      "link": "https://news.cgtn.com/news/2026-11-05/Dunhuang-Expo-First-time-visitor-wowed-by-Mogao-Caves-1RNKpJ3hvLq/p.html"
+      "title": "What global mayors want to learn from manufacturing powerhouse Ningbo",
+      "link": "https://news.cgtn.com/news/2026-11-07/What-global-mayors-want-to-learn-from-manufacturing-powerhouse-Ningbo-1RSx3TM3Fxm/p.html"
     },
     {
       "id": "n09",
-      "date": "2026-11-04",
+      "date": "2026-11-06",
       "src": "CGTN·Culture",
-      "title": "CPOPwave 2026 explores global reach of Chinese pop culture",
-      "link": "https://news.cgtn.com/news/2026-11-04/CPOPwave-2026-explores-global-reach-of-Chinese-pop-culture-1RNEEDsSoXC/p.html"
+      "title": "Let's play video games in class",
+      "link": "https://news.cgtn.com/news/2026-11-06/Let-s-play-video-games-in-class-1RQJv7lGy8E/p.html"
     },
     {
       "id": "n10",
-      "date": "2026-11-04",
+      "date": "2026-11-05",
       "src": "CGTN·Travel",
-      "title": "Want to experience authentic Huangmei Opera",
-      "link": "https://news.cgtn.com/news/2026-11-04/Want-to-experience-authentic-Huangmei-Opera-1RN6LLYDXDW/p.html"
+      "title": "How Ningbo Zhoushan Port connects China with the world",
+      "link": "https://news.cgtn.com/news/2026-11-05/How-Ningbo-Zhoushan-Port-connects-China-with-the-world-1RPbpM7GQr6/p.html"
     },
     {
       "id": "n11",
-      "date": "2026-11-03",
-      "src": "CGTN·Travel",
-      "title": "Precision and Skill at Wuhu Port: Loading Cars into Containers",
-      "link": "https://news.cgtn.com/news/2026-11-03/Precision-and-Skill-at-Wuhu-Port-Loading-Cars-into-Containers-1RKdDnrmAhO/p.html"
+      "date": "2026-11-05",
+      "src": "CGTN·Business",
+      "title": "China's opening up creates new opportunities for the world",
+      "link": "https://news.cgtn.com/news/2026-11-05/China-s-opening-up-creates-new-opportunities-for-the-world-1RPcyfgDHOg/p.html"
     },
     {
       "id": "n12",
-      "date": "2026-11-03",
+      "date": "2026-11-02",
       "src": "CGTN·Travel",
-      "title": "Shanghai Disney Resort to open third themed hotel in December",
-      "link": "https://news.cgtn.com/news/2026-11-03/Shanghai-Disney-Resort-to-open-third-themed-hotel-in-December-1RLgCWGS8I8/p.html"
+      "title": "Autumn foliage draws visitors to Beijing's Xiangshan Park",
+      "link": "https://news.cgtn.com/news/2026-11-02/Autumn-foliage-draws-visitors-to-Beijing-s-Xiangshan-Park-1RKbXelEupG/p.html"
     },
     {
       "id": "n13",
       "date": "2026-11-01",
       "src": "CGTN·Sports",
-      "title": "Dakar 2026 Youth Olympics opens in historic first for Africa",
-      "link": "https://news.cgtn.com/news/2026-11-01/Dakar-2026-Youth-Olympics-opens-in-historic-first-for-Africa-1RI7RVnWsDu/p.html"
+      "title": "Xi's special envoy attends opening ceremony of 4th Youth Olympic Games",
+      "link": "https://news.cgtn.com/news/2026-11-01/Xi-s-special-envoy-attends-opening-ceremony-of-4th-Youth-Olympic-Games-1RIxwbKqre0/p.html"
     },
     {
       "id": "n14",
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "src": "CGTN·Sports",
-      "title": "Choi takes early lead at Buick LPGA Shanghai, Yin tied for third",
-      "link": "https://news.cgtn.com/news/2026-10-16/Choi-takes-early-lead-at-Buick-LPGA-Shanghai-Yin-tied-for-third-1RhC2ZqwaiY/p.html"
+      "title": "Yang Shuyu, Wang Siyu score 11 points each on WNBL debuts in Australia",
+      "link": "https://news.cgtn.com/news/2026-10-17/Yang-Shuyu-Wang-Siyu-score-11-points-each-on-WNBL-debuts-in-Australia-1Rjd9h2tns4/p.html"
     },
     {
       "id": "n15",
       "date": "2026-10-09",
       "src": "CGTN·Sports",
-      "title": "Africa Watch: AFCON 2025 — Who’s the Champion?",
-      "link": "https://newsaf.cgtn.com/news/2026-10-09/Africa-Watch-AFCON-2025-Who-s-the-Champion--1R6i6S4YRBm/p.html"
+      "title": "Buyunchaokete shines on serve to book Shanghai showdown with Ruud",
+      "link": "https://news.cgtn.com/news/2026-10-09/Buyunchaokete-shines-on-serve-to-book-Shanghai-showdown-with-Ruud-1R5YrkX44us/p.html"
     }
   ],
   "readings": [
