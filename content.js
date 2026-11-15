@@ -5,52 +5,52 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
-      "date": "2026-11-14",
-      "src": "CGTN·China",
-      "title": "Fishing on a Single Breath",
-      "link": "https://news.cgtn.com/news/2026-11-14/Fishing-on-a-Single-Breath-1S2vjUGrKdq/p.html"
+      "date": "2026-11-15",
+      "src": "CGTN·Travel",
+      "title": "Navigating a Chinese Gym? Master These Essential Workout Terms",
+      "link": "https://news.cgtn.com/news/2026-11-15/Navigating-a-Chinese-Gym-Master-These-Essential-Workout-Terms-1S5jWxtj2Wk/p.html"
     },
     {
       "id": "n02",
-      "date": "2026-11-13",
+      "date": "2026-11-15",
       "src": "CGTN·China",
-      "title": "Inside Suzhou: Where innovation comes to life",
-      "link": "https://news.cgtn.com/news/2026-11-13/Inside-Suzhou-Where-innovation-comes-to-life-1S2FXidRLXi/p.html"
+      "title": "Bert Hofman revisits Shenzhen: Exploring the forces behind its rise",
+      "link": "https://news.cgtn.com/news/2026-11-15/Bert-Hofman-revisits-Shenzhen-Exploring-the-forces-behind-its-rise-1S4jrdaG3Ju/p.html"
     },
     {
       "id": "n03",
-      "date": "2026-11-12",
+      "date": "2026-11-15",
       "src": "CGTN·China",
-      "title": "Chinese vice president attends COP31 Antalya Leaders' Summit",
-      "link": "https://news.cgtn.com/news/2026-11-12/Chinese-vice-president-attends-COP31-Antalya-Leaders-Summit-1S0cUC9R3IA/p.html"
+      "title": "Big Boats, Small Boats, Farther Seas",
+      "link": "https://news.cgtn.com/news/2026-11-15/Big-Boats-Small-Boats-Farther-Seas-1S4mEDn9kUo/p.html"
     },
     {
       "id": "n04",
+      "date": "2026-11-12",
+      "src": "CGTN·Business",
+      "title": "When a robot steals the spotlight mid-shoot",
+      "link": "https://news.cgtn.com/news/2026-11-12/When-a-robot-steals-the-spotlight-mid-shoot-1S0PooAIWcg/p.html"
+    },
+    {
+      "id": "n05",
+      "date": "2026-11-12",
+      "src": "CGTN·China",
+      "title": "Xi Jinping's key quotes on building a greener, sustainable future",
+      "link": "https://news.cgtn.com/news/2026-11-12/Xi-Jinping-s-key-quotes-on-building-a-greener-sustainable-future-1S0KftQP9FC/p.html"
+    },
+    {
+      "id": "n06",
       "date": "2026-11-11",
       "src": "CGTN·Culture",
       "title": "2.3kg of royal splendor: The legendary Ming Empress’s phoenix crown",
       "link": "https://news.cgtn.com/news/2026-11-11/2-3kg-of-royal-splendor-The-legendary-Ming-Empress-s-phoenix-crown-1RYYpBFqLEQ/p.html"
     },
     {
-      "id": "n05",
-      "date": "2026-11-09",
-      "src": "CGTN·Travel",
-      "title": "What was in his hands?",
-      "link": "https://news.cgtn.com/news/2026-11-09/What-was-in-his-hands--1RVDZurzPYk/p.html"
-    },
-    {
-      "id": "n06",
-      "date": "2026-11-09",
-      "src": "CGTN·Business",
-      "title": "Diplomat: Finland hopes for mutually beneficial EU-China trade",
-      "link": "https://news.cgtn.com/news/2026-11-09/Diplomat-Finland-hopes-for-mutually-beneficial-EU-China-trade-1RVP3JopZwQ/p.html"
-    },
-    {
       "id": "n07",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "src": "CGTN·Business",
-      "title": "China extends suspension of special port fees on US ships to Jan. 2027",
-      "link": "https://news.cgtn.com/news/2026-11-09/China-extends-suspension-of-special-port-fees-on-US-ships-to-Jan-2027-1RVGqrFRoeQ/p.html"
+      "title": "Bert Hofman: APEC can boost trust and confidence in cooperation",
+      "link": "https://news.cgtn.com/news/2026-11-10/Bert-Hofman-APEC-can-boost-trust-and-confidence-in-cooperation-1RX31a6IkqA/p.html"
     },
     {
       "id": "n08",
@@ -68,24 +68,24 @@ window.CET_CONTENT = {
     },
     {
       "id": "n10",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "src": "CGTN·Travel",
-      "title": "How Ningbo Zhoushan Port connects China with the world",
-      "link": "https://news.cgtn.com/news/2026-11-05/How-Ningbo-Zhoushan-Port-connects-China-with-the-world-1RPbpM7GQr6/p.html"
+      "title": "Xiatang shaobing and the upside-down wok",
+      "link": "https://news.cgtn.com/news/2026-11-06/Xiatang-shaobing-and-the-upside-down-wok-1RQWLwfcD5u/p.html"
     },
     {
       "id": "n11",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "src": "CGTN·Business",
-      "title": "China's opening up creates new opportunities for the world",
-      "link": "https://news.cgtn.com/news/2026-11-05/China-s-opening-up-creates-new-opportunities-for-the-world-1RPcyfgDHOg/p.html"
+      "title": "What are global CEOs' top picks at the CIIE?",
+      "link": "https://news.cgtn.com/news/2026-11-06/What-are-global-CEOs-top-picks-at-the-CIIE--1RRe6mjRrq0/p.html"
     },
     {
       "id": "n12",
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "src": "CGTN·Travel",
-      "title": "Autumn foliage draws visitors to Beijing's Xiangshan Park",
-      "link": "https://news.cgtn.com/news/2026-11-02/Autumn-foliage-draws-visitors-to-Beijing-s-Xiangshan-Park-1RKbXelEupG/p.html"
+      "title": "Precision and Skill at Wuhu Port: Loading Cars into Containers",
+      "link": "https://news.cgtn.com/news/2026-11-03/Precision-and-Skill-at-Wuhu-Port-Loading-Cars-into-Containers-1RKdDnrmAhO/p.html"
     },
     {
       "id": "n13",
