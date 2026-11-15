@@ -6,65 +6,65 @@ window.CET_CONTENT = {
     {
       "id": "n01",
       "date": "2026-11-15",
+      "src": "CGTN·Sports",
+      "title": "Ning, Lian strike gold for China at Speed Skating World Cup in Beijing",
+      "link": "https://news.cgtn.com/news/2026-11-15/Ning-Lian-strike-gold-for-China-at-Speed-Skating-World-Cup-in-Beijing-1S5kuLkz7Ta/p.html"
+    },
+    {
+      "id": "n02",
+      "date": "2026-11-15",
+      "src": "CGTN·Culture",
+      "title": "Discover Foshan: where Lingnan traditions come alive",
+      "link": "https://news.cgtn.com/news/2026-11-15/Discover-Foshan-where-Lingnan-traditions-come-alive--1S5zziK4scE/p.html"
+    },
+    {
+      "id": "n03",
+      "date": "2026-11-15",
       "src": "CGTN·Travel",
       "title": "Navigating a Chinese Gym? Master These Essential Workout Terms",
       "link": "https://news.cgtn.com/news/2026-11-15/Navigating-a-Chinese-Gym-Master-These-Essential-Workout-Terms-1S5jWxtj2Wk/p.html"
     },
     {
-      "id": "n02",
+      "id": "n04",
       "date": "2026-11-15",
       "src": "CGTN·China",
       "title": "Bert Hofman revisits Shenzhen: Exploring the forces behind its rise",
       "link": "https://news.cgtn.com/news/2026-11-15/Bert-Hofman-revisits-Shenzhen-Exploring-the-forces-behind-its-rise-1S4jrdaG3Ju/p.html"
     },
     {
-      "id": "n03",
+      "id": "n05",
       "date": "2026-11-15",
       "src": "CGTN·China",
       "title": "Big Boats, Small Boats, Farther Seas",
       "link": "https://news.cgtn.com/news/2026-11-15/Big-Boats-Small-Boats-Farther-Seas-1S4mEDn9kUo/p.html"
     },
     {
-      "id": "n04",
+      "id": "n06",
       "date": "2026-11-12",
       "src": "CGTN·Business",
       "title": "When a robot steals the spotlight mid-shoot",
       "link": "https://news.cgtn.com/news/2026-11-12/When-a-robot-steals-the-spotlight-mid-shoot-1S0PooAIWcg/p.html"
     },
     {
-      "id": "n05",
+      "id": "n07",
       "date": "2026-11-12",
       "src": "CGTN·China",
       "title": "Xi Jinping's key quotes on building a greener, sustainable future",
       "link": "https://news.cgtn.com/news/2026-11-12/Xi-Jinping-s-key-quotes-on-building-a-greener-sustainable-future-1S0KftQP9FC/p.html"
     },
     {
-      "id": "n06",
-      "date": "2026-11-11",
+      "id": "n08",
+      "date": "2026-11-10",
       "src": "CGTN·Culture",
-      "title": "2.3kg of royal splendor: The legendary Ming Empress’s phoenix crown",
-      "link": "https://news.cgtn.com/news/2026-11-11/2-3kg-of-royal-splendor-The-legendary-Ming-Empress-s-phoenix-crown-1RYYpBFqLEQ/p.html"
+      "title": "Shenzhen's giant waste grab powers a greener city",
+      "link": "https://news.cgtn.com/news/2026-11-10/Shenzhen-s-giant-waste-grab-powers-a-greener-city-1RXf3NXKkhO/p.html"
     },
     {
-      "id": "n07",
+      "id": "n09",
       "date": "2026-11-10",
       "src": "CGTN·Business",
       "title": "Bert Hofman: APEC can boost trust and confidence in cooperation",
       "link": "https://news.cgtn.com/news/2026-11-10/Bert-Hofman-APEC-can-boost-trust-and-confidence-in-cooperation-1RX31a6IkqA/p.html"
-    },
-    {
-      "id": "n08",
-      "date": "2026-11-07",
-      "src": "CGTN·Culture",
-      "title": "What global mayors want to learn from manufacturing powerhouse Ningbo",
-      "link": "https://news.cgtn.com/news/2026-11-07/What-global-mayors-want-to-learn-from-manufacturing-powerhouse-Ningbo-1RSx3TM3Fxm/p.html"
-    },
-    {
-      "id": "n09",
-      "date": "2026-11-06",
-      "src": "CGTN·Culture",
-      "title": "Let's play video games in class",
-      "link": "https://news.cgtn.com/news/2026-11-06/Let-s-play-video-games-in-class-1RQJv7lGy8E/p.html"
     },
     {
       "id": "n10",
@@ -82,31 +82,31 @@ window.CET_CONTENT = {
     },
     {
       "id": "n12",
+      "date": "2026-11-05",
+      "src": "CGTN·Culture",
+      "title": "Military attachés trace Long March history through calligraphy",
+      "link": "https://news.cgtn.com/news/2026-11-05/Military-attach-s-trace-Long-March-history-through-calligraphy-1RO1jTzpFZe/p.html"
+    },
+    {
+      "id": "n13",
       "date": "2026-11-03",
       "src": "CGTN·Travel",
       "title": "Precision and Skill at Wuhu Port: Loading Cars into Containers",
       "link": "https://news.cgtn.com/news/2026-11-03/Precision-and-Skill-at-Wuhu-Port-Loading-Cars-into-Containers-1RKdDnrmAhO/p.html"
     },
     {
-      "id": "n13",
-      "date": "2026-11-01",
-      "src": "CGTN·Sports",
-      "title": "Xi's special envoy attends opening ceremony of 4th Youth Olympic Games",
-      "link": "https://news.cgtn.com/news/2026-11-01/Xi-s-special-envoy-attends-opening-ceremony-of-4th-Youth-Olympic-Games-1RIxwbKqre0/p.html"
-    },
-    {
       "id": "n14",
-      "date": "2026-10-17",
+      "date": "2026-10-26",
       "src": "CGTN·Sports",
-      "title": "Yang Shuyu, Wang Siyu score 11 points each on WNBL debuts in Australia",
-      "link": "https://news.cgtn.com/news/2026-10-17/Yang-Shuyu-Wang-Siyu-score-11-points-each-on-WNBL-debuts-in-Australia-1Rjd9h2tns4/p.html"
+      "title": "Zou Jingyuan wins parallel bars gold as gymnastics worlds conclude",
+      "link": "https://news.cgtn.com/news/2026-10-26/Zou-Jingyuan-wins-parallel-bars-gold-as-gymnastics-worlds-conclude-1Ryd2B15SBG/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "src": "CGTN·Sports",
-      "title": "Buyunchaokete shines on serve to book Shanghai showdown with Ruud",
-      "link": "https://news.cgtn.com/news/2026-10-09/Buyunchaokete-shines-on-serve-to-book-Shanghai-showdown-with-Ruud-1R5YrkX44us/p.html"
+      "title": "Zheng Qinwen reaches China Open semifinals with straight-set win",
+      "link": "https://news.cgtn.com/news/2026-10-10/Zheng-Qinwen-reaches-China-Open-semifinals-with-straight-set-win-1R7KP2weY8g/p.html"
     }
   ],
   "readings": [
