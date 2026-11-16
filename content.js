@@ -5,80 +5,80 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
+      "date": "2026-11-16",
+      "src": "CGTN·Business",
+      "title": "Brazil's International Coffee Week expected to generate $35 million",
+      "link": "https://newsus.cgtn.com/news/2026-11-16/Brazil-s-International-Coffee-Week-expected-to-generate-35-million-1S6xkqSBmXC/p.html"
+    },
+    {
+      "id": "n02",
+      "date": "2026-11-16",
+      "src": "CGTN·China",
+      "title": "The Captains Who Shaped a Fishing Tradition",
+      "link": "https://news.cgtn.com/news/2026-11-16/The-Captains-Who-Shaped-a-Fishing-Tradition-1S6cE9TIrzG/p.html"
+    },
+    {
+      "id": "n03",
       "date": "2026-11-15",
       "src": "CGTN·Sports",
       "title": "Ning, Lian strike gold for China at Speed Skating World Cup in Beijing",
       "link": "https://news.cgtn.com/news/2026-11-15/Ning-Lian-strike-gold-for-China-at-Speed-Skating-World-Cup-in-Beijing-1S5kuLkz7Ta/p.html"
     },
     {
-      "id": "n02",
+      "id": "n04",
       "date": "2026-11-15",
       "src": "CGTN·Culture",
       "title": "Discover Foshan: where Lingnan traditions come alive",
       "link": "https://news.cgtn.com/news/2026-11-15/Discover-Foshan-where-Lingnan-traditions-come-alive--1S5zziK4scE/p.html"
     },
     {
-      "id": "n03",
-      "date": "2026-11-15",
-      "src": "CGTN·Travel",
-      "title": "Navigating a Chinese Gym? Master These Essential Workout Terms",
-      "link": "https://news.cgtn.com/news/2026-11-15/Navigating-a-Chinese-Gym-Master-These-Essential-Workout-Terms-1S5jWxtj2Wk/p.html"
-    },
-    {
-      "id": "n04",
-      "date": "2026-11-15",
-      "src": "CGTN·China",
-      "title": "Bert Hofman revisits Shenzhen: Exploring the forces behind its rise",
-      "link": "https://news.cgtn.com/news/2026-11-15/Bert-Hofman-revisits-Shenzhen-Exploring-the-forces-behind-its-rise-1S4jrdaG3Ju/p.html"
-    },
-    {
       "id": "n05",
       "date": "2026-11-15",
       "src": "CGTN·China",
-      "title": "Big Boats, Small Boats, Farther Seas",
-      "link": "https://news.cgtn.com/news/2026-11-15/Big-Boats-Small-Boats-Farther-Seas-1S4mEDn9kUo/p.html"
+      "title": "Study finds global cryosphere degradation accelerating",
+      "link": "https://news.cgtn.com/news/2026-11-15/Study-finds-global-cryosphere-degradation-accelerating-1S69jKGaeVG/p.html"
     },
     {
       "id": "n06",
-      "date": "2026-11-12",
-      "src": "CGTN·Business",
-      "title": "When a robot steals the spotlight mid-shoot",
-      "link": "https://news.cgtn.com/news/2026-11-12/When-a-robot-steals-the-spotlight-mid-shoot-1S0PooAIWcg/p.html"
+      "date": "2026-11-13",
+      "src": "CGTN·Travel",
+      "title": "Hidden salt sinkhole reveals rare geological wonder",
+      "link": "https://news.cgtn.com/news/2026-11-13/Hidden-salt-sinkhole-reveals-rare-geological-wonder-1S2m1JqPn44/p.html"
     },
     {
       "id": "n07",
-      "date": "2026-11-12",
-      "src": "CGTN·China",
-      "title": "Xi Jinping's key quotes on building a greener, sustainable future",
-      "link": "https://news.cgtn.com/news/2026-11-12/Xi-Jinping-s-key-quotes-on-building-a-greener-sustainable-future-1S0KftQP9FC/p.html"
+      "date": "2026-11-13",
+      "src": "CGTN·Business",
+      "title": "China's trade surplus: A misunderstood narrative",
+      "link": "https://news.cgtn.com/news/2026-11-13/China-s-trade-surplus-A-misunderstood-narrative-1S2hXaeF11C/p.html"
     },
     {
       "id": "n08",
+      "date": "2026-11-13",
+      "src": "CGTN·China",
+      "title": "“Twenty Two” to “Five” – Voices That Will Never Fade",
+      "link": "https://news.cgtn.com/news/2026-11-13/-Twenty-Two-to-Five-Voices-That-Will-Never-Fade-1S2sgG2TGhi/p.html"
+    },
+    {
+      "id": "n09",
+      "date": "2026-11-12",
+      "src": "CGTN·Travel",
+      "title": "Shenzhen Parks Are Putting My Workout in the Cloud",
+      "link": "https://news.cgtn.com/news/2026-11-12/Shenzhen-Parks-Are-Putting-My-Workout-in-the-Cloud-1S0uG80642A/p.html"
+    },
+    {
+      "id": "n10",
       "date": "2026-11-10",
       "src": "CGTN·Culture",
       "title": "Shenzhen's giant waste grab powers a greener city",
       "link": "https://news.cgtn.com/news/2026-11-10/Shenzhen-s-giant-waste-grab-powers-a-greener-city-1RXf3NXKkhO/p.html"
     },
     {
-      "id": "n09",
-      "date": "2026-11-10",
-      "src": "CGTN·Business",
-      "title": "Bert Hofman: APEC can boost trust and confidence in cooperation",
-      "link": "https://news.cgtn.com/news/2026-11-10/Bert-Hofman-APEC-can-boost-trust-and-confidence-in-cooperation-1RX31a6IkqA/p.html"
-    },
-    {
-      "id": "n10",
-      "date": "2026-11-06",
-      "src": "CGTN·Travel",
-      "title": "Xiatang shaobing and the upside-down wok",
-      "link": "https://news.cgtn.com/news/2026-11-06/Xiatang-shaobing-and-the-upside-down-wok-1RQWLwfcD5u/p.html"
-    },
-    {
       "id": "n11",
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "src": "CGTN·Business",
-      "title": "What are global CEOs' top picks at the CIIE?",
-      "link": "https://news.cgtn.com/news/2026-11-06/What-are-global-CEOs-top-picks-at-the-CIIE--1RRe6mjRrq0/p.html"
+      "title": "CIIE 2026: Major names in semiconductor industry deepen links",
+      "link": "https://news.cgtn.com/news/2026-11-07/CIIE-2026-Major-names-in-semiconductor-industry-deepen-links-1RSx6Zb5IuA/p.html"
     },
     {
       "id": "n12",
@@ -89,10 +89,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n13",
-      "date": "2026-11-03",
+      "date": "2026-11-02",
       "src": "CGTN·Travel",
-      "title": "Precision and Skill at Wuhu Port: Loading Cars into Containers",
-      "link": "https://news.cgtn.com/news/2026-11-03/Precision-and-Skill-at-Wuhu-Port-Loading-Cars-into-Containers-1RKdDnrmAhO/p.html"
+      "title": "Autumn foliage draws visitors to Beijing's Xiangshan Park",
+      "link": "https://news.cgtn.com/news/2026-11-02/Autumn-foliage-draws-visitors-to-Beijing-s-Xiangshan-Park-1RKbXelEupG/p.html"
     },
     {
       "id": "n14",
