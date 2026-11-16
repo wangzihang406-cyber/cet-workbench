@@ -20,23 +20,23 @@ window.CET_CONTENT = {
     {
       "id": "n03",
       "date": "2026-11-15",
-      "src": "CGTN·Sports",
-      "title": "Ning, Lian strike gold for China at Speed Skating World Cup in Beijing",
-      "link": "https://news.cgtn.com/news/2026-11-15/Ning-Lian-strike-gold-for-China-at-Speed-Skating-World-Cup-in-Beijing-1S5kuLkz7Ta/p.html"
+      "src": "CGTN·Culture",
+      "title": "Goryeo Buddhist paintings reflect China-Korea artistic ties",
+      "link": "https://news.cgtn.com/news/2026-11-15/Goryeo-Buddhist-paintings-reflect-China-Korea-artistic-ties-1S5O0NH9F5u/p.html"
     },
     {
       "id": "n04",
       "date": "2026-11-15",
-      "src": "CGTN·Culture",
-      "title": "Discover Foshan: where Lingnan traditions come alive",
-      "link": "https://news.cgtn.com/news/2026-11-15/Discover-Foshan-where-Lingnan-traditions-come-alive--1S5zziK4scE/p.html"
-    },
-    {
-      "id": "n05",
-      "date": "2026-11-15",
       "src": "CGTN·China",
       "title": "Study finds global cryosphere degradation accelerating",
       "link": "https://news.cgtn.com/news/2026-11-15/Study-finds-global-cryosphere-degradation-accelerating-1S69jKGaeVG/p.html"
+    },
+    {
+      "id": "n05",
+      "date": "2026-11-14",
+      "src": "CGTN·Culture",
+      "title": "Fujian holds grand tribute to Mazu, China's beloved sea goddess",
+      "link": "https://news.cgtn.com/news/2026-11-14/Fujian-holds-grand-tribute-to-Mazu-China-s-beloved-sea-goddess-1S41yYO4RDW/p.html"
     },
     {
       "id": "n06",
@@ -68,10 +68,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n10",
-      "date": "2026-11-10",
-      "src": "CGTN·Culture",
-      "title": "Shenzhen's giant waste grab powers a greener city",
-      "link": "https://news.cgtn.com/news/2026-11-10/Shenzhen-s-giant-waste-grab-powers-a-greener-city-1RXf3NXKkhO/p.html"
+      "date": "2026-11-09",
+      "src": "CGTN·Sports",
+      "title": "Nigeria sweeps 100m golds as Kenya, Senegal and Egypt shine at Dakar",
+      "link": "https://newsaf.cgtn.com/news/2026-11-09/Nigeria-sweeps-100m-golds-as-Kenya-Senegal-and-Egypt-shine-at-Dakar-1RVL3t4SGSk/p.html"
     },
     {
       "id": "n11",
@@ -82,10 +82,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n12",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "src": "CGTN·Culture",
-      "title": "Military attachés trace Long March history through calligraphy",
-      "link": "https://news.cgtn.com/news/2026-11-05/Military-attach-s-trace-Long-March-history-through-calligraphy-1RO1jTzpFZe/p.html"
+      "title": "Let's play video games in class",
+      "link": "https://news.cgtn.com/news/2026-11-06/Let-s-play-video-games-in-class-1RQJv7lGy8E/p.html"
     },
     {
       "id": "n13",
@@ -96,17 +96,17 @@ window.CET_CONTENT = {
     },
     {
       "id": "n14",
-      "date": "2026-10-26",
+      "date": "2026-10-25",
       "src": "CGTN·Sports",
-      "title": "Zou Jingyuan wins parallel bars gold as gymnastics worlds conclude",
-      "link": "https://news.cgtn.com/news/2026-10-26/Zou-Jingyuan-wins-parallel-bars-gold-as-gymnastics-worlds-conclude-1Ryd2B15SBG/p.html"
+      "title": "Chengdu's title hopes suffer setback as Dalian wins 1-0 in CSL",
+      "link": "https://news.cgtn.com/news/2026-10-25/Chengdu-s-title-hopes-suffer-setback-as-Dalian-wins-1-0-in-CSL-1RwxpnoFB5u/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-10-10",
+      "date": "2026-10-07",
       "src": "CGTN·Sports",
-      "title": "Zheng Qinwen reaches China Open semifinals with straight-set win",
-      "link": "https://news.cgtn.com/news/2026-10-10/Zheng-Qinwen-reaches-China-Open-semifinals-with-straight-set-win-1R7KP2weY8g/p.html"
+      "title": "Pickleball gains momentum in China as participation and events surge",
+      "link": "https://news.cgtn.com/news/2026-10-07/Pickleball-gains-momentum-in-China-as-participation-and-events-surge-1R2ARS2DEKk/p.html"
     }
   ],
   "readings": [
