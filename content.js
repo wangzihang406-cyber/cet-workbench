@@ -6,107 +6,107 @@ window.CET_CONTENT = {
     {
       "id": "n01",
       "date": "2026-11-18",
-      "src": "CGTN·China",
-      "title": "Sultan of Brunei arrives in Shenzhen for APEC meeting",
-      "link": "https://news.cgtn.com/news/2026-11-18/Sultan-of-Brunei-arrives-in-Shenzhen-for-APEC-meeting-1S9DrSrHsRy/p.html"
+      "src": "CGTN·Business",
+      "title": "Anti-corruption: Why it matters to everyone",
+      "link": "https://news.cgtn.com/news/2026-11-18/Anti-corruption-Why-it-matters-to-everyone-1Sax271B5bW/p.html"
     },
     {
       "id": "n02",
-      "date": "2026-11-17",
-      "src": "CGTN·Business",
-      "title": "BYD: APEC guests amazed by Shenzhen's remarkable transformation",
-      "link": "https://news.cgtn.com/news/2026-11-17/BYD-APEC-guests-amazed-by-Shenzhen-s-remarkable-transformation-1S9lGbq0pP2/p.html"
+      "date": "2026-11-18",
+      "src": "CGTN·China",
+      "title": "Xi Jinping's key quotes at APEC CEO Summit in Shenzhen",
+      "link": "https://news.cgtn.com/news/2026-11-18/Xi-Jinping-s-key-quotes-at-APEC-CEO-Summit-in-Shenzhen-1Sb0BfFr3bO/p.html"
     },
     {
       "id": "n03",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "src": "CGTN·China",
-      "title": "How Chinese Are You? Take the China Quiz Challenge!",
-      "link": "https://news.cgtn.com/news/2026-11-17/How-Chinese-Are-You-Take-the-China-Quiz-Challenge--1S9vuaIEzG8/p.html"
+      "title": "Full text: Xi Jinping's toast remarks at 33rd APEC's welcome dinner",
+      "link": "https://news.cgtn.com/news/2026-11-18/Full-text-Xi-Jinping-s-toast-remarks-at-33rd-APEC-s-welcome-dinner-1Sbc97wP58Q/p.html"
     },
     {
       "id": "n04",
-      "date": "2026-11-16",
+      "date": "2026-11-18",
       "src": "CGTN·China",
-      "title": "SCIO holds press conference on China's economic performance in October",
-      "link": "https://news.cgtn.com/news/2026-11-16/SCIO-holds-press-conference-on-China-s-economic-performance-in-October-1S6Zc2WUHtK/p.html"
+      "title": "Xi, Putin and Trump: What to expect from historic trilateral meeting",
+      "link": "https://news.cgtn.com/news/2026-11-18/Xi-Putin-and-Trump-What-to-expect-from-historic-trilateral-meeting-1Satv5TGiKk/p.html"
     },
     {
       "id": "n05",
-      "date": "2026-11-15",
+      "date": "2026-11-16",
       "src": "CGTN·Culture",
-      "title": "Goryeo Buddhist paintings reflect China-Korea artistic ties",
-      "link": "https://news.cgtn.com/news/2026-11-15/Goryeo-Buddhist-paintings-reflect-China-Korea-artistic-ties-1S5O0NH9F5u/p.html"
+      "title": "Brothers in Art: Peking Opera meets Kung Fu | Episode 1",
+      "link": "https://news.cgtn.com/news/2026-11-16/Brothers-in-Art-Peking-Opera-meets-Kung-Fu-Episode-1-1S7QurPJ2RW/p.html"
     },
     {
       "id": "n06",
-      "date": "2026-11-15",
+      "date": "2026-11-16",
       "src": "CGTN·Culture",
-      "title": "Inside Suzhou: Where history meets modern charm",
-      "link": "https://news.cgtn.com/news/2026-11-15/Inside-Suzhou-Where-history-meets-modern-charm-1S5O7vPnWQE/p.html"
+      "title": "Shenzhen International Museum of Art, a window into an open Shenzhen",
+      "link": "https://news.cgtn.com/news/2026-11-16/Shenzhen-International-Museum-of-Art-a-window-into-an-open-Shenzhen--1S7qmUT2TlK/p.html"
     },
     {
       "id": "n07",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "src": "CGTN·Business",
-      "title": "China looks to APEC leaders' declaration at Shenzhen meeting",
-      "link": "https://news.cgtn.com/news/2026-11-13/China-looks-to-APEC-leaders-declaration-at-Shenzhen-meeting-1S2u2xsPhSw/p.html"
+      "title": "China, US pledge to stabilize trade ties in first council meeting",
+      "link": "https://news.cgtn.com/news/2026-11-14/China-US-pledge-to-stabilize-trade-ties-in-first-council-meeting-1S42eJ7XDc4/p.html"
     },
     {
       "id": "n08",
-      "date": "2026-11-12",
-      "src": "CGTN·Travel",
-      "title": "This bus has no driver. We got on anyway.",
-      "link": "https://news.cgtn.com/news/2026-11-12/This-bus-has-no-driver-We-got-on-anyway--1RVxKVFOs80/p.html"
+      "date": "2026-11-14",
+      "src": "CGTN·Business",
+      "title": "APEC Business Advisory Council opened in Shenzhen",
+      "link": "https://news.cgtn.com/news/2026-11-14/APEC-Business-Advisory-Council-opened-in-Shenzhen-1S4fVmAYByg/p.html"
     },
     {
       "id": "n09",
-      "date": "2026-11-11",
+      "date": "2026-11-10",
       "src": "CGTN·Travel",
-      "title": "Hongcun: A village designed around water",
-      "link": "https://news.cgtn.com/news/2026-11-11/Hongcun-A-village-designed-around-water-1RW06ab9ntS/p.html"
+      "title": "Every fragment holds a clue",
+      "link": "https://news.cgtn.com/news/2026-11-10/Every-fragment-holds-a-clue-1RVCu0W0Le0/p.html"
     },
     {
       "id": "n10",
       "date": "2026-11-09",
-      "src": "CGTN·Business",
-      "title": "Global firms leverage China as bridge to connect other markets",
-      "link": "https://news.cgtn.com/news/2026-11-09/Global-firms-leverage-China-as-bridge-to-connect-other-markets--1RVrsy5LpmM/p.html"
+      "src": "CGTN·Travel",
+      "title": "HKSAR financial chief: Hong Kong strives to bolster high-value tourism",
+      "link": "https://news.cgtn.com/news/2026-11-09/HKSAR-financial-chief-Hong-Kong-strives-to-bolster-high-value-tourism-1RVhOgkOERq/p.html"
     },
     {
       "id": "n11",
-      "date": "2026-11-08",
+      "date": "2026-11-05",
       "src": "CGTN·Sports",
-      "title": "China retains women's trampoline team world title in Nanjing",
-      "link": "https://news.cgtn.com/news/2026-11-08/China-retains-women-s-trampoline-team-world-title-in-Nanjing-1RTHJuAjm48/p.html"
+      "title": "Sheng Lihao, Wang Zifei retain title at ISSF World Championships",
+      "link": "https://news.cgtn.com/news/2026-11-05/Sheng-Lihao-Wang-Zifei-retain-title-at-ISSF-World-Championships-1ROJnZ73KlW/p.html"
     },
     {
       "id": "n12",
-      "date": "2026-11-08",
-      "src": "CGTN·Sports",
-      "title": "China's Liao sweeps women's 86kg gold medals, breaks two world records",
-      "link": "https://news.cgtn.com/news/2026-11-08/China-s-Liao-sweeps-women-s-86kg-gold-medals-breaks-two-world-records-1RTGV4B2DTi/p.html"
+      "date": "2026-11-05",
+      "src": "CGTN·Culture",
+      "title": "TV Drama 'I See You' begins filming in Ningbo",
+      "link": "https://news.cgtn.com/news/2026-11-05/TV-Drama-I-See-You-begins-filming-in-Ningbo-1RP5wJkXDm8/p.html"
     },
     {
       "id": "n13",
-      "date": "2026-11-06",
-      "src": "CGTN·Culture",
-      "title": "Zenless Zone Zero's global playbook: Game, art, offline",
-      "link": "https://news.cgtn.com/news/2026-11-06/Zenless-Zone-Zero-s-global-playbook-Game-art-offline-1RQKA1Fz0I0/p.html"
+      "date": "2026-11-01",
+      "src": "CGTN·Sports",
+      "title": "Dakar 2026 Youth Olympics opens in historic first for Africa",
+      "link": "https://news.cgtn.com/news/2026-11-01/Dakar-2026-Youth-Olympics-opens-in-historic-first-for-Africa-1RI7RVnWsDu/p.html"
     },
     {
       "id": "n14",
       "date": "2026-10-28",
       "src": "CGTN·Travel",
-      "title": "the timeless wontons of Ningguo",
-      "link": "https://news.cgtn.com/news/2026-10-28/The-Timeless-Wontons-of-Ningguo-1RyshzzbMIw/p.html"
+      "title": "\"The future is here!\" US student explores Shenzhen before APEC 2026",
+      "link": "https://news.cgtn.com/news/2026-10-28/-The-future-is-here-US-student-explores-Shenzhen-before-APEC-2026-1RBONzxowiQ/p.html"
     },
     {
       "id": "n15",
       "date": "2026-10-03",
       "src": "CGTN·Sports",
-      "title": "Africa Watch: WAC will be held in Nairobi - Why it matters for Kenya?",
-      "link": "https://newsaf.cgtn.com/news/2026-10-03/Africa-Watch-WAC-will-be-held-in-Nairobi-Why-it-matters-for-Kenya--1QWipL084hO/p.html"
+      "title": "China finishes Asian Games campaign with 169 golds",
+      "link": "https://news.cgtn.com/news/2026-10-03/China-finishes-Asian-Games-campaign-with-169-golds-1QWG7lGV9BK/p.html"
     }
   ],
   "readings": [
