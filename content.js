@@ -1,7 +1,7 @@
 // 四六级备考工作台 · 每日内容包
 // news 由每日自动化真实抓取 CGTN RSS（多个频道，链接已逐条验证 200）；readings/listenings/dialogues 为 AI 原创改写（四六级难度）
 window.CET_CONTENT = {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
 "news": [
     {
       "id": "n01",
@@ -33,80 +33,80 @@ window.CET_CONTENT = {
     },
     {
       "id": "n05",
-      "date": "2026-11-16",
+      "date": "2026-11-15",
       "src": "CGTN·Culture",
-      "title": "Brothers in Art: Peking Opera meets Kung Fu | Episode 1",
-      "link": "https://news.cgtn.com/news/2026-11-16/Brothers-in-Art-Peking-Opera-meets-Kung-Fu-Episode-1-1S7QurPJ2RW/p.html"
+      "title": "'Eyes of the GBA' takes global journalists on a Shenzhen city tour",
+      "link": "https://news.cgtn.com/news/2026-11-15/-Eyes-of-the-GBA-takes-global-journalists-on-a-Shenzhen-city-tour-1S5MW8Flr0I/p.html"
     },
     {
       "id": "n06",
-      "date": "2026-11-16",
-      "src": "CGTN·Culture",
-      "title": "Shenzhen International Museum of Art, a window into an open Shenzhen",
-      "link": "https://news.cgtn.com/news/2026-11-16/Shenzhen-International-Museum-of-Art-a-window-into-an-open-Shenzhen--1S7qmUT2TlK/p.html"
-    },
-    {
-      "id": "n07",
       "date": "2026-11-13",
       "src": "CGTN·Business",
       "title": "How Shenzhen is shaping the future of the Asia-Pacific",
       "link": "https://news.cgtn.com/news/2026-11-13/How-Shenzhen-is-shaping-the-future-of-the-Asia-Pacific-1S2v9t9rFbq/p.html"
     },
     {
-      "id": "n08",
+      "id": "n07",
       "date": "2026-11-13",
       "src": "CGTN·Business",
       "title": "China-Vietnam cooperation: A pharma company's 23-year journey",
       "link": "https://news.cgtn.com/news/2026-11-13/China-Vietnam-cooperation-A-pharma-company-s-23-year-journey-1S2q1tQtJq8/p.html"
     },
     {
-      "id": "n09",
+      "id": "n08",
       "date": "2026-11-12",
       "src": "CGTN·Travel",
       "title": "This bus has no driver. We got on anyway.",
       "link": "https://news.cgtn.com/news/2026-11-12/This-bus-has-no-driver-We-got-on-anyway--1RVxKVFOs80/p.html"
     },
     {
-      "id": "n10",
+      "id": "n09",
       "date": "2026-11-10",
       "src": "CGTN·Travel",
       "title": "Dining Out in Mandarin",
       "link": "https://news.cgtn.com/news/2026-11-10/Dining-Out-in-Mandarin-1RWgBr5cdgs/p.html"
     },
     {
+      "id": "n10",
+      "date": "2026-11-08",
+      "src": "CGTN·Culture",
+      "title": "From viral TikTok trend to real-life adventure",
+      "link": "https://news.cgtn.com/news/2026-11-08/From-viral-TikTok-trend-to-real-life-adventure-1RSxrV7lY8U/p.html"
+    },
+    {
       "id": "n11",
-      "date": "2026-11-05",
-      "src": "CGTN·Sports",
-      "title": "Sheng Lihao, Wang Zifei retain title at ISSF World Championships",
-      "link": "https://news.cgtn.com/news/2026-11-05/Sheng-Lihao-Wang-Zifei-retain-title-at-ISSF-World-Championships-1ROJnZ73KlW/p.html"
+      "date": "2026-11-08",
+      "src": "CGTN·Culture",
+      "title": "Chinese intangible cultural heritage expo reimagines tradition",
+      "link": "https://news.cgtn.com/news/2026-11-08/Chinese-intangible-cultural-heritage-expo-reimagines-tradition-1RU2uaGIB3O/p.html"
     },
     {
       "id": "n12",
-      "date": "2026-11-05",
-      "src": "CGTN·Culture",
-      "title": "TV Drama 'I See You' begins filming in Ningbo",
-      "link": "https://news.cgtn.com/news/2026-11-05/TV-Drama-I-See-You-begins-filming-in-Ningbo-1RP5wJkXDm8/p.html"
+      "date": "2026-11-07",
+      "src": "CGTN·Sports",
+      "title": "Two races, two golds in one day for China's Chang Mohan at Dakar 2026",
+      "link": "https://news.cgtn.com/news/2026-11-07/Two-races-two-golds-in-one-day-for-China-s-Chang-Mohan-at-Dakar-2026-1RS7olCiWXu/p.html"
     },
     {
       "id": "n13",
-      "date": "2026-11-01",
-      "src": "CGTN·Sports",
-      "title": "Dakar 2026 Youth Olympics opens in historic first for Africa",
-      "link": "https://news.cgtn.com/news/2026-11-01/Dakar-2026-Youth-Olympics-opens-in-historic-first-for-Africa-1RI7RVnWsDu/p.html"
-    },
-    {
-      "id": "n14",
       "date": "2026-10-31",
       "src": "CGTN·Travel",
       "title": "Autumn in Beijing, with more than leaves on the agenda",
       "link": "https://news.cgtn.com/news/2026-10-31/Autumn-in-Beijing-with-more-than-leaves-on-the-agenda-1RGuPL0YI6s/p.html"
     },
     {
-      "id": "n15",
-      "date": "2026-10-03",
+      "id": "n14",
+      "date": "2026-10-30",
       "src": "CGTN·Sports",
-      "title": "China finishes Asian Games campaign with 169 golds",
-      "link": "https://news.cgtn.com/news/2026-10-03/China-finishes-Asian-Games-campaign-with-169-golds-1QWG7lGV9BK/p.html"
+      "title": "Xi's special envoy to attend 4th Youth Olympic Games opening",
+      "link": "https://news.cgtn.com/news/2026-10-30/Xi-s-special-envoy-to-attend-4th-Youth-Olympic-Games-opening-1RFelwev0sg/p.html"
+    },
+    {
+      "id": "n15",
+      "date": "2026-10-05",
+      "src": "CGTN·Sports",
+      "title": "China tops medal table as Aichi-Nagoya Asian Games close",
+      "link": "https://news.cgtn.com/news/2026-10-05/China-tops-medal-table-as-Aichi-Nagoya-Asian-Games-close-1QZqhuYBgI0/p.html"
     }
   ],
   "readings": [
