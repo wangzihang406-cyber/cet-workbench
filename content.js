@@ -5,31 +5,31 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "src": "CGTN·China",
-      "title": "Xi's vision for Asia-Pacific development wins support at APEC meeting",
-      "link": "https://news.cgtn.com/news/2026-11-19/Xi-s-vision-for-Asia-Pacific-development-wins-support-at-APEC-meeting-1Scy00AGorC/p.html"
+      "title": "China-ASEAN Legal Cooperation Forum opens in SW China's Chongqing",
+      "link": "https://news.cgtn.com/news/2026-11-20/China-ASEAN-Legal-Cooperation-Forum-opens-in-SW-China-s-Chongqing-1Se9NMXzERO/p.html"
     },
     {
       "id": "n02",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "src": "CGTN·China",
-      "title": "The Shenzhen Miracle: From fishing village to global tech hub",
-      "link": "https://news.cgtn.com/news/2026-11-19/The-Shenzhen-Miracle-From-fishing-village-to-global-tech-hub-1ScIA9Zc7V6/p.html"
+      "title": "APEC leaders' spouses visit cultural exhibition in Shenzhen",
+      "link": "https://news.cgtn.com/news/2026-11-20/APEC-leaders-spouses-visit-cultural-exhibition-in-Shenzhen-1SeaH01tZcY/p.html"
     },
     {
       "id": "n03",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "src": "CGTN·China",
-      "title": "Xi, Trump conclude meeting in Shenzhen",
-      "link": "https://news.cgtn.com/news/2026-11-19/Xi-Trump-conclude-meeting-in-Shenzhen-1SbT1vQRYIM/p.html"
+      "title": "President Xi Jinping meets Thai PM Anutin Charnvirakul in Shenzhen",
+      "link": "https://news.cgtn.com/news/2026-11-20/Xi-Jinping-meets-Thai-PM-in-Shenzhen-1SdJCTBlE7C/p.html"
     },
     {
       "id": "n04",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "src": "CGTN·Business",
-      "title": "From Antalya to Shenzhen: China promotes greener cooperation",
-      "link": "https://news.cgtn.com/news/2026-11-17/From-Antalya-to-Shenzhen-China-promotes-greener-cooperation-1S9elOQlQ3u/p.html"
+      "title": "China, Canada sign terms of reference for financial working group",
+      "link": "https://news.cgtn.com/news/2026-11-18/China-Canada-sign-terms-of-reference-for-financial-working-group-1SaY85CdcHe/p.html"
     },
     {
       "id": "n05",
@@ -40,59 +40,59 @@ window.CET_CONTENT = {
     },
     {
       "id": "n06",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "src": "CGTN·Business",
-      "title": "How Shenzhen is shaping the future of the Asia-Pacific",
-      "link": "https://news.cgtn.com/news/2026-11-13/How-Shenzhen-is-shaping-the-future-of-the-Asia-Pacific-1S2v9t9rFbq/p.html"
+      "title": "Ex-World Bank official: APEC's key outcome — stronger mutual trust",
+      "link": "https://news.cgtn.com/news/2026-11-14/Ex-World-Bank-official-APEC-s-key-outcome-stronger-mutual-trust-1S481V3n22A/p.html"
     },
     {
       "id": "n07",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "src": "CGTN·Business",
-      "title": "China-Vietnam cooperation: A pharma company's 23-year journey",
-      "link": "https://news.cgtn.com/news/2026-11-13/China-Vietnam-cooperation-A-pharma-company-s-23-year-journey-1S2q1tQtJq8/p.html"
+      "title": "China, Thailand eye higher-level cooperation in digital, green sectors",
+      "link": "https://news.cgtn.com/news/2026-11-14/China-Thailand-eye-higher-level-cooperation-in-digital-green-sectors-1S4nYHxKgtW/p.html"
     },
     {
       "id": "n08",
-      "date": "2026-11-12",
+      "date": "2026-11-09",
       "src": "CGTN·Travel",
-      "title": "This bus has no driver. We got on anyway.",
-      "link": "https://news.cgtn.com/news/2026-11-12/This-bus-has-no-driver-We-got-on-anyway--1RVxKVFOs80/p.html"
+      "title": "HKSAR financial chief: Hong Kong strives to bolster high-value tourism",
+      "link": "https://news.cgtn.com/news/2026-11-09/HKSAR-financial-chief-Hong-Kong-strives-to-bolster-high-value-tourism-1RVhOgkOERq/p.html"
     },
     {
       "id": "n09",
-      "date": "2026-11-10",
-      "src": "CGTN·Travel",
-      "title": "Dining Out in Mandarin",
-      "link": "https://news.cgtn.com/news/2026-11-10/Dining-Out-in-Mandarin-1RWgBr5cdgs/p.html"
-    },
-    {
-      "id": "n10",
       "date": "2026-11-08",
       "src": "CGTN·Culture",
       "title": "From viral TikTok trend to real-life adventure",
       "link": "https://news.cgtn.com/news/2026-11-08/From-viral-TikTok-trend-to-real-life-adventure-1RSxrV7lY8U/p.html"
     },
     {
-      "id": "n11",
+      "id": "n10",
       "date": "2026-11-08",
       "src": "CGTN·Culture",
       "title": "Chinese intangible cultural heritage expo reimagines tradition",
       "link": "https://news.cgtn.com/news/2026-11-08/Chinese-intangible-cultural-heritage-expo-reimagines-tradition-1RU2uaGIB3O/p.html"
     },
     {
-      "id": "n12",
+      "id": "n11",
       "date": "2026-11-07",
       "src": "CGTN·Sports",
       "title": "Two races, two golds in one day for China's Chang Mohan at Dakar 2026",
       "link": "https://news.cgtn.com/news/2026-11-07/Two-races-two-golds-in-one-day-for-China-s-Chang-Mohan-at-Dakar-2026-1RS7olCiWXu/p.html"
     },
     {
-      "id": "n13",
-      "date": "2026-10-31",
+      "id": "n12",
+      "date": "2026-11-06",
       "src": "CGTN·Travel",
-      "title": "Autumn in Beijing, with more than leaves on the agenda",
-      "link": "https://news.cgtn.com/news/2026-10-31/Autumn-in-Beijing-with-more-than-leaves-on-the-agenda-1RGuPL0YI6s/p.html"
+      "title": "How a Yangtze sanctuary protects an entire ecosystem",
+      "link": "https://news.cgtn.com/news/2026-11-06/How-a-Yangtze-sanctuary-protects-an-entire-ecosystem-1RQWqmiV1FS/p.html"
+    },
+    {
+      "id": "n13",
+      "date": "2026-11-02",
+      "src": "CGTN·Travel",
+      "title": "The secret symbolism of Huizhou horse-head gables",
+      "link": "https://news.cgtn.com/news/2026-11-02/The-secret-symbolism-of-Huizhou-horse-head-gables-1RDDkI8uXfy/p.html"
     },
     {
       "id": "n14",
