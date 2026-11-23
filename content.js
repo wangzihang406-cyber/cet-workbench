@@ -7,22 +7,22 @@ window.CET_CONTENT = {
       "id": "n01",
       "date": "2026-11-20",
       "src": "CGTN·China",
-      "title": "Mark Carney’s Asian tour aims to diversify Canada’s trading partners",
-      "link": "https://newsus.cgtn.com/news/2026-11-20/Mark-Carney-s-Asian-tour-aims-to-diversify-Canada-s-trading-partners-1SduhsHbaA8/p.html"
+      "title": "Oldest known rocks in Asia discovered in north China",
+      "link": "https://news.cgtn.com/news/2026-11-20/Oldest-known-rocks-in-Asia-discovered-in-north-China-1SemLLKBTDq/p.html"
     },
     {
       "id": "n02",
       "date": "2026-11-20",
       "src": "CGTN·China",
-      "title": "Tariff disputes on hold, but unresolved as APEC meeting gets underway",
-      "link": "https://newsus.cgtn.com/news/2026-11-20/Tariff-disputes-on-hold-but-unresolved-as-APEC-meeting-gets-underway-1SduogRwLKg/p.html"
+      "title": "MOFA: Japan must honor China-Japan political documents with deeds",
+      "link": "https://news.cgtn.com/news/2026-11-20/MOFA-Japan-must-honor-China-Japan-political-documents-with-deeds-1Se5XRFoQbm/p.html"
     },
     {
       "id": "n03",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "src": "CGTN·China",
-      "title": "John Lee outlines five key takeaways from HK's APEC participation",
-      "link": "https://news.cgtn.com/news/2026-11-19/John-Lee-outlines-five-key-takeaways-from-HK-s-APEC-participation-1ScC9zhA6xq/p.html"
+      "title": "China-Russia-US summit sets landmark strategic stability",
+      "link": "https://news.cgtn.com/news/2026-11-20/China-Russia-US-summit-sets-landmark-strategic-stability-1Se1WCdicr6/p.html"
     },
     {
       "id": "n04",
@@ -33,10 +33,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n05",
-      "date": "2026-11-17",
+      "date": "2026-11-16",
       "src": "CGTN·Business",
-      "title": "BYD: APEC guests amazed by Shenzhen's remarkable transformation",
-      "link": "https://news.cgtn.com/news/2026-11-17/BYD-APEC-guests-amazed-by-Shenzhen-s-remarkable-transformation-1S9lGbq0pP2/p.html"
+      "title": "ABAC meeting wraps in Shenzhen, officially hand over to Vietnam",
+      "link": "https://news.cgtn.com/news/2026-11-16/ABAC-meeting-wraps-in-Shenzhen-officially-hand-over-to-Vietnam-1S7zAbnr8Tm/p.html"
     },
     {
       "id": "n06",
@@ -49,43 +49,43 @@ window.CET_CONTENT = {
       "id": "n07",
       "date": "2026-11-13",
       "src": "CGTN·Business",
-      "title": "IKEA: Beyond consumer market, China is an innovation hub",
-      "link": "https://news.cgtn.com/news/2026-11-13/IKEA-Beyond-consumer-market-China-is-an-innovation-hub-1RQTPQEECf6/p.html"
+      "title": "Inside Suzhou: Where innovation comes to life",
+      "link": "https://news.cgtn.com/news/2026-11-13/Inside-Suzhou-Where-innovation-comes-to-life-1S2FXidRLXi/p.html"
     },
     {
       "id": "n08",
-      "date": "2026-11-13",
+      "date": "2026-11-12",
       "src": "CGTN·Business",
-      "title": "How Shenzhen is shaping the future of the Asia-Pacific",
-      "link": "https://news.cgtn.com/news/2026-11-13/How-Shenzhen-is-shaping-the-future-of-the-Asia-Pacific-1S2v9t9rFbq/p.html"
+      "title": "ETF inflows gather pace as Chinese assets regain investor appeal",
+      "link": "https://news.cgtn.com/news/2026-11-12/ETF-inflows-gather-pace-as-Chinese-assets-regain-investor-appeal-1S0CVgHUfU4/p.html"
     },
     {
       "id": "n09",
-      "date": "2026-11-11",
-      "src": "CGTN·Travel",
-      "title": "Hongcun village: An open-air art studio",
-      "link": "https://news.cgtn.com/news/2026-11-11/Hongcun-village-An-open-air-art-studio-1RW10IZ0FZ6/p.html"
-    },
-    {
-      "id": "n10",
-      "date": "2026-11-10",
-      "src": "CGTN·Travel",
-      "title": "We spent a day in a robot store",
-      "link": "https://news.cgtn.com/news/2026-11-10/We-spent-a-day-in-a-robot-store-1RVwIS64s1i/p.html"
-    },
-    {
-      "id": "n11",
       "date": "2026-11-08",
       "src": "CGTN·Culture",
       "title": "From viral TikTok trend to real-life adventure",
       "link": "https://news.cgtn.com/news/2026-11-08/From-viral-TikTok-trend-to-real-life-adventure-1RSxrV7lY8U/p.html"
     },
     {
-      "id": "n12",
-      "date": "2026-10-31",
+      "id": "n10",
+      "date": "2026-11-06",
       "src": "CGTN·Travel",
-      "title": "Autumn in Beijing, with more than leaves on the agenda",
-      "link": "https://news.cgtn.com/news/2026-10-31/Autumn-in-Beijing-with-more-than-leaves-on-the-agenda-1RGuPL0YI6s/p.html"
+      "title": "Dali in autumn: A rich palette of colors",
+      "link": "https://news.cgtn.com/news/2026-11-06/Dali-in-autumn-A-rich-palette-of-colors-1RQJR4kBgTm/p.html"
+    },
+    {
+      "id": "n11",
+      "date": "2026-11-06",
+      "src": "CGTN·Travel",
+      "title": "Military attaché moved by stories of China's female Red Army soldiers",
+      "link": "https://news.cgtn.com/news/2026-11-06/Military-attach-moved-by-stories-of-China-s-female-Red-Army-soldiers-1RQCZT8Y9tm/p.html"
+    },
+    {
+      "id": "n12",
+      "date": "2026-11-04",
+      "src": "CGTN·Travel",
+      "title": "Would you spend a day by the sea?",
+      "link": "https://news.cgtn.com/news/2026-11-04/Would-you-spend-a-day-by-the-sea--1RNuUQavN4s/p.html"
     },
     {
       "id": "n13",
