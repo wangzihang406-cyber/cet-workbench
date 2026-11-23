@@ -1,7 +1,7 @@
 // 四六级备考工作台 · 每日内容包
 // news 由每日自动化真实抓取 CGTN RSS（多个频道，链接已逐条验证 200）；readings/listenings/dialogues 为 AI 原创改写（四六级难度）
 window.CET_CONTENT = {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
 "news": [
     {
       "id": "n01",
@@ -26,24 +26,24 @@ window.CET_CONTENT = {
     },
     {
       "id": "n04",
-      "date": "2026-11-17",
-      "src": "CGTN·Culture",
-      "title": "Goryeo Buddhist art revives centuries of China-Korea cultural ties",
-      "link": "https://news.cgtn.com/news/2026-11-17/Goryeo-Buddhist-art-revives-centuries-of-China-Korea-cultural-ties-1S979JPSKg8/p.html"
-    },
-    {
-      "id": "n05",
       "date": "2026-11-16",
       "src": "CGTN·Business",
       "title": "ABAC meeting wraps in Shenzhen, officially hand over to Vietnam",
       "link": "https://news.cgtn.com/news/2026-11-16/ABAC-meeting-wraps-in-Shenzhen-officially-hand-over-to-Vietnam-1S7zAbnr8Tm/p.html"
     },
     {
+      "id": "n05",
+      "date": "2026-11-15",
+      "src": "CGTN·Culture",
+      "title": "Discover Foshan: where Lingnan traditions come alive",
+      "link": "https://news.cgtn.com/news/2026-11-15/Discover-Foshan-where-Lingnan-traditions-come-alive--1S5zziK4scE/p.html"
+    },
+    {
       "id": "n06",
       "date": "2026-11-15",
       "src": "CGTN·Culture",
-      "title": "Inside Suzhou: Where history meets modern charm",
-      "link": "https://news.cgtn.com/news/2026-11-15/Inside-Suzhou-Where-history-meets-modern-charm-1S5O7vPnWQE/p.html"
+      "title": "Carved in bone: The enduring beauty of China's earliest writing",
+      "link": "https://news.cgtn.com/news/2026-11-15/Carved-in-bone-The-enduring-beauty-of-China-s-earliest-writing-1S5E9SkOKKQ/p.html"
     },
     {
       "id": "n07",
@@ -61,10 +61,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n09",
-      "date": "2026-11-08",
+      "date": "2026-11-10",
       "src": "CGTN·Culture",
-      "title": "From viral TikTok trend to real-life adventure",
-      "link": "https://news.cgtn.com/news/2026-11-08/From-viral-TikTok-trend-to-real-life-adventure-1RSxrV7lY8U/p.html"
+      "title": "Jingshan Park: A golden view of Beijing's Central Axis",
+      "link": "https://news.cgtn.com/news/2026-11-10/Jingshan-Park-A-golden-view-of-Beijing-s-Central-Axis-1RXn2j9P1Uk/p.html"
     },
     {
       "id": "n10",
@@ -89,24 +89,24 @@ window.CET_CONTENT = {
     },
     {
       "id": "n13",
-      "date": "2026-10-30",
+      "date": "2026-10-26",
       "src": "CGTN·Sports",
-      "title": "Xi's special envoy to attend 4th Youth Olympic Games opening",
-      "link": "https://news.cgtn.com/news/2026-10-30/Xi-s-special-envoy-to-attend-4th-Youth-Olympic-Games-opening-1RFelwev0sg/p.html"
+      "title": "Chen Yi crowned in women's singles at table tennis Asian Championships",
+      "link": "https://news.cgtn.com/news/2026-10-26/Chen-Yi-crowned-in-women-s-singles-at-table-tennis-Asian-Championships-1RydnRZWy7C/p.html"
     },
     {
       "id": "n14",
-      "date": "2026-10-29",
+      "date": "2026-10-26",
       "src": "CGTN·Sports",
-      "title": "Hong Kexin claims gold for China at World Wrestling Championships",
-      "link": "https://news.cgtn.com/news/2026-10-29/Hong-Kexin-claims-gold-for-China-at-World-Wrestling-Championships-1RDbGrrMclG/p.html"
+      "title": "Zou Jingyuan wins parallel bars gold as gymnastics worlds conclude",
+      "link": "https://news.cgtn.com/news/2026-10-26/Zou-Jingyuan-wins-parallel-bars-gold-as-gymnastics-worlds-conclude-1Ryd2B15SBG/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-10-03",
+      "date": "2026-10-18",
       "src": "CGTN·Sports",
-      "title": "Tegla Loroupe welcomes OCA Refugee Team, urges stronger sporting ties",
-      "link": "https://news.cgtn.com/news/2026-10-03/Tegla-Loroupe-welcomes-OCA-Refugee-Team-urges-stronger-sporting-ties-1QVUOSN8MrC/p.html"
+      "title": "Zverev, Medvedev ousted with Spanish duo to clash for Shanghai title",
+      "link": "https://news.cgtn.com/news/2026-10-18/Zverev-Medvedev-ousted-with-Spanish-duo-to-clash-for-Shanghai-title-1RkV2SW3mpi/p.html"
     }
   ],
   "readings": [
