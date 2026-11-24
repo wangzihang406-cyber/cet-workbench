@@ -1,7 +1,7 @@
 // 四六级备考工作台 · 每日内容包
 // news 由每日自动化真实抓取 CGTN RSS（多个频道，链接已逐条验证 200）；readings/listenings/dialogues 为 AI 原创改写（四六级难度）
 window.CET_CONTENT = {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
 "news": [
     {
       "id": "n01",
@@ -33,80 +33,80 @@ window.CET_CONTENT = {
     },
     {
       "id": "n05",
-      "date": "2026-11-15",
+      "date": "2026-11-16",
       "src": "CGTN·Culture",
-      "title": "Discover Foshan: where Lingnan traditions come alive",
-      "link": "https://news.cgtn.com/news/2026-11-15/Discover-Foshan-where-Lingnan-traditions-come-alive--1S5zziK4scE/p.html"
+      "title": "Documentaries on Xi's cultural vision premiere across APEC economies",
+      "link": "https://news.cgtn.com/news/2026-11-16/Documentaries-on-Xi-s-cultural-vision-premiere-across-APEC-economies-1S6ZqY7Bbq0/p.html"
     },
     {
       "id": "n06",
       "date": "2026-11-15",
       "src": "CGTN·Culture",
-      "title": "Carved in bone: The enduring beauty of China's earliest writing",
-      "link": "https://news.cgtn.com/news/2026-11-15/Carved-in-bone-The-enduring-beauty-of-China-s-earliest-writing-1S5E9SkOKKQ/p.html"
+      "title": "Inside Suzhou: Where history meets modern charm",
+      "link": "https://news.cgtn.com/news/2026-11-15/Inside-Suzhou-Where-history-meets-modern-charm-1S5O7vPnWQE/p.html"
     },
     {
       "id": "n07",
+      "date": "2026-11-13",
+      "src": "CGTN·Culture",
+      "title": "From the wild to the human heart: Films for this winter",
+      "link": "https://news.cgtn.com/news/2026-11-13/From-the-wild-to-the-human-heart-Films-for-this-winter-1S2qiIAvfjy/p.html"
+    },
+    {
+      "id": "n08",
       "date": "2026-11-13",
       "src": "CGTN·Business",
       "title": "WEF field trip: How two Chinese cities are greening industry",
       "link": "https://news.cgtn.com/news/2026-11-13/WEF-field-trip-How-two-Chinese-cities-are-greening-industry-1S2dzp04CTm/p.html"
     },
     {
-      "id": "n08",
+      "id": "n09",
       "date": "2026-11-13",
       "src": "CGTN·Business",
       "title": "How Shenzhen is shaping the future of the Asia-Pacific",
       "link": "https://news.cgtn.com/news/2026-11-13/How-Shenzhen-is-shaping-the-future-of-the-Asia-Pacific-1S2v9t9rFbq/p.html"
     },
     {
-      "id": "n09",
-      "date": "2026-11-10",
-      "src": "CGTN·Culture",
-      "title": "Jingshan Park: A golden view of Beijing's Central Axis",
-      "link": "https://news.cgtn.com/news/2026-11-10/Jingshan-Park-A-golden-view-of-Beijing-s-Central-Axis-1RXn2j9P1Uk/p.html"
-    },
-    {
       "id": "n10",
-      "date": "2026-11-06",
+      "date": "2026-11-09",
       "src": "CGTN·Travel",
-      "title": "Dali in autumn: A rich palette of colors",
-      "link": "https://news.cgtn.com/news/2026-11-06/Dali-in-autumn-A-rich-palette-of-colors-1RQJR4kBgTm/p.html"
+      "title": "The quiet detail of Sanxingdui jade",
+      "link": "https://news.cgtn.com/news/2026-11-09/The-quiet-detail-of-Sanxingdui-jade-1RVDL6lJcL6/p.html"
     },
     {
       "id": "n11",
-      "date": "2026-11-06",
+      "date": "2026-11-09",
       "src": "CGTN·Travel",
-      "title": "Military attaché moved by stories of China's female Red Army soldiers",
-      "link": "https://news.cgtn.com/news/2026-11-06/Military-attach-moved-by-stories-of-China-s-female-Red-Army-soldiers-1RQCZT8Y9tm/p.html"
+      "title": "What was in his hands?",
+      "link": "https://news.cgtn.com/news/2026-11-09/What-was-in-his-hands--1RVDZurzPYk/p.html"
     },
     {
       "id": "n12",
-      "date": "2026-11-04",
+      "date": "2026-11-07",
       "src": "CGTN·Travel",
-      "title": "Would you spend a day by the sea?",
-      "link": "https://news.cgtn.com/news/2026-11-04/Would-you-spend-a-day-by-the-sea--1RNuUQavN4s/p.html"
+      "title": "A taste of Shantou: Fresh seafood rice rolls",
+      "link": "https://news.cgtn.com/news/2026-11-07/A-taste-of-Shantou-Fresh-seafood-rice-rolls-1RSqvl5A8Du/p.html"
     },
     {
       "id": "n13",
-      "date": "2026-10-26",
+      "date": "2026-10-25",
       "src": "CGTN·Sports",
-      "title": "Chen Yi crowned in women's singles at table tennis Asian Championships",
-      "link": "https://news.cgtn.com/news/2026-10-26/Chen-Yi-crowned-in-women-s-singles-at-table-tennis-Asian-Championships-1RydnRZWy7C/p.html"
+      "title": "Aichi-Nagoya bids farewell to Asian Para Games in closing ceremony",
+      "link": "https://news.cgtn.com/news/2026-10-25/Aichi-Nagoya-bids-farewell-to-Asian-Para-Games-in-closing-ceremony-1Rwv6rZYcGk/p.html"
     },
     {
       "id": "n14",
-      "date": "2026-10-26",
+      "date": "2026-10-19",
       "src": "CGTN·Sports",
-      "title": "Zou Jingyuan wins parallel bars gold as gymnastics worlds conclude",
-      "link": "https://news.cgtn.com/news/2026-10-26/Zou-Jingyuan-wins-parallel-bars-gold-as-gymnastics-worlds-conclude-1Ryd2B15SBG/p.html"
+      "title": "Fifth Asian Para Games open in Aichi-Nagoya with nearly 3,000 athletes",
+      "link": "https://news.cgtn.com/news/2026-10-19/Fifth-Asian-Para-Games-open-in-Aichi-Nagoya-with-nearly-3-000-athletes-1RmxTuya5j2/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-10-18",
+      "date": "2026-10-16",
       "src": "CGTN·Sports",
-      "title": "Zverev, Medvedev ousted with Spanish duo to clash for Shanghai title",
-      "link": "https://news.cgtn.com/news/2026-10-18/Zverev-Medvedev-ousted-with-Spanish-duo-to-clash-for-Shanghai-title-1RkV2SW3mpi/p.html"
+      "title": "Shared love of pickleball draws young Americans and Chinese together",
+      "link": "https://news.cgtn.com/news/2026-10-16/Shared-love-of-pickleball-draws-young-Americans-and-Chinese-together-1RhGZh1Hh8Q/p.html"
     }
   ],
   "readings": [
