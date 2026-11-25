@@ -5,108 +5,108 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
-      "date": "2026-11-23",
-      "src": "CGTN·China",
-      "title": "Chinese envoys step up peace efforts in Middle East, Horn of Africa",
-      "link": "https://news.cgtn.com/news/2026-11-23/Chinese-envoys-step-up-peace-efforts-in-Middle-East-Horn-of-Africa-1SiPdVqBN1C/p.html"
+      "date": "2026-11-25",
+      "src": "CGTN·Business",
+      "title": "Mexico's strawberry growers struggle amid US dumping claims",
+      "link": "https://newsus.cgtn.com/news/2026-11-25/Mexico-s-strawberry-growers-struggle-amid-US-dumping-claims-1Slxg0EFqWk/p.html"
     },
     {
       "id": "n02",
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "src": "CGTN·China",
-      "title": "How Kunqu finds new life at Beijing's Zhengyici Theater",
-      "link": "https://news.cgtn.com/news/2026-11-23/How-Kunqu-finds-new-life-at-Beijing-s-Zhengyici-Theater-1SiL8kP53wI/p.html"
+      "title": "Zhao scores twice to keep China's U17 World Cup hopes alive",
+      "link": "https://news.cgtn.com/news/2026-11-24/Zhao-scores-twice-to-keep-China-s-U17-World-Cup-hopes-alive-1Skg2oGAL16/p.html"
     },
     {
       "id": "n03",
-      "date": "2026-11-21",
+      "date": "2026-11-24",
       "src": "CGTN·China",
-      "title": "TV drama 'River of No Return' begins promotional tour in Nanjing",
-      "link": "https://news.cgtn.com/news/2026-11-21/TV-drama-River-of-No-Return-begins-promotional-tour-in-Nanjing-1SfHH8wvLoI/p.html"
+      "title": "China to extend its longest spaceflight record with a year-long stay",
+      "link": "https://news.cgtn.com/news/2026-11-24/China-to-extend-its-longest-spaceflight-record-with-a-year-long-stay-1SkQIkIG7Sw/p.html"
     },
     {
       "id": "n04",
-      "date": "2026-11-17",
-      "src": "CGTN·Business",
-      "title": "BYD: APEC guests amazed by Shenzhen's remarkable transformation",
-      "link": "https://news.cgtn.com/news/2026-11-17/BYD-APEC-guests-amazed-by-Shenzhen-s-remarkable-transformation-1S9lGbq0pP2/p.html"
+      "date": "2026-11-22",
+      "src": "CGTN·China",
+      "title": "Why the China-ASEAN relation matters",
+      "link": "https://news.cgtn.com/news/2026-11-22/Why-the-China-ASEAN-relation-matters-1Shbu0B5R16/p.html"
     },
     {
       "id": "n05",
-      "date": "2026-11-16",
-      "src": "CGTN·Culture",
-      "title": "Documentaries on Xi's cultural vision premiere across APEC economies",
-      "link": "https://news.cgtn.com/news/2026-11-16/Documentaries-on-Xi-s-cultural-vision-premiere-across-APEC-economies-1S6ZqY7Bbq0/p.html"
+      "date": "2026-11-17",
+      "src": "CGTN·Business",
+      "title": "Ambassador Xie Feng urges stronger ties at US-China Hong Kong Forum",
+      "link": "https://newsus.cgtn.com/news/2026-11-17/Ambassador-Xie-Feng-urges-stronger-ties-at-US-China-Hong-Kong-Forum-1S8qQUbHVw4/p.html"
     },
     {
       "id": "n06",
-      "date": "2026-11-15",
+      "date": "2026-11-16",
       "src": "CGTN·Culture",
-      "title": "Inside Suzhou: Where history meets modern charm",
-      "link": "https://news.cgtn.com/news/2026-11-15/Inside-Suzhou-Where-history-meets-modern-charm-1S5O7vPnWQE/p.html"
+      "title": "Where snow meets azure: The enchanting heart-shaped lake of Xizang",
+      "link": "https://news.cgtn.com/news/2026-11-16/Where-snow-meets-azure-The-enchanting-heart-shaped-lake-of-Xizang-1S7qFIrq9Lq/p.html"
     },
     {
       "id": "n07",
-      "date": "2026-11-13",
+      "date": "2026-11-15",
       "src": "CGTN·Culture",
-      "title": "From the wild to the human heart: Films for this winter",
-      "link": "https://news.cgtn.com/news/2026-11-13/From-the-wild-to-the-human-heart-Films-for-this-winter-1S2qiIAvfjy/p.html"
+      "title": "Carved in bone: The enduring beauty of China's earliest writing",
+      "link": "https://news.cgtn.com/news/2026-11-15/Carved-in-bone-The-enduring-beauty-of-China-s-earliest-writing-1S5E9SkOKKQ/p.html"
     },
     {
       "id": "n08",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "src": "CGTN·Business",
-      "title": "WEF field trip: How two Chinese cities are greening industry",
-      "link": "https://news.cgtn.com/news/2026-11-13/WEF-field-trip-How-two-Chinese-cities-are-greening-industry-1S2dzp04CTm/p.html"
+      "title": "Peruvian captain's \"Water Bus\" transforms river travel",
+      "link": "https://news.cgtn.com/news/2026-11-14/Peruvian-captain-s-Water-Bus-transforms-river-travel-1S492exDgje/p.html"
     },
     {
       "id": "n09",
-      "date": "2026-11-13",
-      "src": "CGTN·Business",
-      "title": "How Shenzhen is shaping the future of the Asia-Pacific",
-      "link": "https://news.cgtn.com/news/2026-11-13/How-Shenzhen-is-shaping-the-future-of-the-Asia-Pacific-1S2v9t9rFbq/p.html"
+      "date": "2026-11-12",
+      "src": "CGTN·Culture",
+      "title": "Guizhou cili tea blends tradition with innovation at Beijing tea expo",
+      "link": "https://news.cgtn.com/news/2026-11-12/Guizhou-cili-tea-blends-tradition-with-innovation-at-Beijing-tea-expo-1S0CfhnPZ3q/p.html"
     },
     {
       "id": "n10",
-      "date": "2026-11-09",
+      "date": "2026-11-06",
       "src": "CGTN·Travel",
-      "title": "The quiet detail of Sanxingdui jade",
-      "link": "https://news.cgtn.com/news/2026-11-09/The-quiet-detail-of-Sanxingdui-jade-1RVDL6lJcL6/p.html"
+      "title": "Military attaché moved by stories of China's female Red Army soldiers",
+      "link": "https://news.cgtn.com/news/2026-11-06/Military-attach-moved-by-stories-of-China-s-female-Red-Army-soldiers-1RQCZT8Y9tm/p.html"
     },
     {
       "id": "n11",
-      "date": "2026-11-09",
+      "date": "2026-11-05",
       "src": "CGTN·Travel",
-      "title": "What was in his hands?",
-      "link": "https://news.cgtn.com/news/2026-11-09/What-was-in-his-hands--1RVDZurzPYk/p.html"
+      "title": "Respect and tolerance in online discourse under discussion in Wuzhen",
+      "link": "https://news.cgtn.com/news/2026-11-05/Respect-and-tolerance-in-online-discourse-under-discussion-in-Wuzhen-1ROUGYfl5M4/p.html"
     },
     {
       "id": "n12",
-      "date": "2026-11-07",
+      "date": "2026-11-04",
       "src": "CGTN·Travel",
-      "title": "A taste of Shantou: Fresh seafood rice rolls",
-      "link": "https://news.cgtn.com/news/2026-11-07/A-taste-of-Shantou-Fresh-seafood-rice-rolls-1RSqvl5A8Du/p.html"
+      "title": "What does Beijing look like in golden autumn?",
+      "link": "https://news.cgtn.com/news/2026-11-04/What-does-Beijing-look-like-in-golden-autumn--1RNv2wTOKqs/p.html"
     },
     {
       "id": "n13",
-      "date": "2026-10-25",
+      "date": "2026-10-26",
       "src": "CGTN·Sports",
-      "title": "Aichi-Nagoya bids farewell to Asian Para Games in closing ceremony",
-      "link": "https://news.cgtn.com/news/2026-10-25/Aichi-Nagoya-bids-farewell-to-Asian-Para-Games-in-closing-ceremony-1Rwv6rZYcGk/p.html"
+      "title": "Zou Jingyuan wins parallel bars gold as gymnastics worlds conclude",
+      "link": "https://news.cgtn.com/news/2026-10-26/Zou-Jingyuan-wins-parallel-bars-gold-as-gymnastics-worlds-conclude-1Ryd2B15SBG/p.html"
     },
     {
       "id": "n14",
-      "date": "2026-10-19",
+      "date": "2026-10-20",
       "src": "CGTN·Sports",
-      "title": "Fifth Asian Para Games open in Aichi-Nagoya with nearly 3,000 athletes",
-      "link": "https://news.cgtn.com/news/2026-10-19/Fifth-Asian-Para-Games-open-in-Aichi-Nagoya-with-nearly-3-000-athletes-1RmxTuya5j2/p.html"
+      "title": "Zhang Zhenlin shines as Shanghai Sharks start CBA season with win",
+      "link": "https://news.cgtn.com/news/2026-10-20/Zhang-Zhenlin-shines-as-Shanghai-Sharks-start-CBA-season-with-win--1RoggfnU84o/p.html"
     },
     {
       "id": "n15",
       "date": "2026-10-16",
       "src": "CGTN·Sports",
-      "title": "Shared love of pickleball draws young Americans and Chinese together",
-      "link": "https://news.cgtn.com/news/2026-10-16/Shared-love-of-pickleball-draws-young-Americans-and-Chinese-together-1RhGZh1Hh8Q/p.html"
+      "title": "Choi takes early lead at Buick LPGA Shanghai, Yin tied for third",
+      "link": "https://news.cgtn.com/news/2026-10-16/Choi-takes-early-lead-at-Buick-LPGA-Shanghai-Yin-tied-for-third-1RhC2ZqwaiY/p.html"
     }
   ],
   "readings": [
