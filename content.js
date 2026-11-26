@@ -5,108 +5,108 @@ window.CET_CONTENT = {
 "news": [
     {
       "id": "n01",
-      "date": "2026-11-25",
-      "src": "CGTN·Business",
-      "title": "Mexico's strawberry growers struggle amid US dumping claims",
-      "link": "https://newsus.cgtn.com/news/2026-11-25/Mexico-s-strawberry-growers-struggle-amid-US-dumping-claims-1Slxg0EFqWk/p.html"
+      "date": "2026-11-26",
+      "src": "CGTN·China",
+      "title": "Senior CPC official meets PCC delegation",
+      "link": "https://news.cgtn.com/news/2026-11-26/Senior-CPC-official-meets-PCC-delegation-1SnpZ24m4EM/p.html"
     },
     {
       "id": "n02",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "src": "CGTN·China",
-      "title": "Zhao scores twice to keep China's U17 World Cup hopes alive",
-      "link": "https://news.cgtn.com/news/2026-11-24/Zhao-scores-twice-to-keep-China-s-U17-World-Cup-hopes-alive-1Skg2oGAL16/p.html"
+      "title": "Floral headdress trend brings new life to historic fishing village",
+      "link": "https://news.cgtn.com/news/2026-11-25/Floral-headdress-trend-brings-new-life-to-historic-fishing-village-1SmncVzrhkI/p.html"
     },
     {
       "id": "n03",
-      "date": "2026-11-24",
-      "src": "CGTN·China",
-      "title": "China to extend its longest spaceflight record with a year-long stay",
-      "link": "https://news.cgtn.com/news/2026-11-24/China-to-extend-its-longest-spaceflight-record-with-a-year-long-stay-1SkQIkIG7Sw/p.html"
+      "date": "2026-11-23",
+      "src": "CGTN·Business",
+      "title": "EU Chamber in China: China-EU dialogue needs tangible results",
+      "link": "https://news.cgtn.com/news/2026-11-23/EU-Chamber-in-China-China-EU-dialogue-needs-tangible-results-1SjbMaUqW1G/p.html"
     },
     {
       "id": "n04",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "src": "CGTN·China",
-      "title": "Why the China-ASEAN relation matters",
-      "link": "https://news.cgtn.com/news/2026-11-22/Why-the-China-ASEAN-relation-matters-1Shbu0B5R16/p.html"
+      "title": "Cutting-edge tech on display in Beijing's Zhongguancun",
+      "link": "https://news.cgtn.com/news/2026-11-23/Cutting-edge-tech-on-display-in-Beijing-s-Zhongguancun-1SjnW6yCPGo/p.html"
     },
     {
       "id": "n05",
-      "date": "2026-11-17",
-      "src": "CGTN·Business",
-      "title": "Ambassador Xie Feng urges stronger ties at US-China Hong Kong Forum",
-      "link": "https://newsus.cgtn.com/news/2026-11-17/Ambassador-Xie-Feng-urges-stronger-ties-at-US-China-Hong-Kong-Forum-1S8qQUbHVw4/p.html"
+      "date": "2026-11-21",
+      "src": "CGTN·Culture",
+      "title": "New series explores China's ancient academies",
+      "link": "https://news.cgtn.com/news/2026-11-21/New-series-explores-China-s-ancient-academies-1SfLqZ0KBEc/p.html"
     },
     {
       "id": "n06",
-      "date": "2026-11-16",
-      "src": "CGTN·Culture",
-      "title": "Where snow meets azure: The enchanting heart-shaped lake of Xizang",
-      "link": "https://news.cgtn.com/news/2026-11-16/Where-snow-meets-azure-The-enchanting-heart-shaped-lake-of-Xizang-1S7qFIrq9Lq/p.html"
+      "date": "2026-11-19",
+      "src": "CGTN·Travel",
+      "title": "Goitered gazelles roam the Xinjiang Gobi",
+      "link": "https://news.cgtn.com/news/2026-11-19/Goitered-gazelles-roam-the-Xinjiang-Gobi-1SceC9kkPPq/p.html"
     },
     {
       "id": "n07",
-      "date": "2026-11-15",
-      "src": "CGTN·Culture",
-      "title": "Carved in bone: The enduring beauty of China's earliest writing",
-      "link": "https://news.cgtn.com/news/2026-11-15/Carved-in-bone-The-enduring-beauty-of-China-s-earliest-writing-1S5E9SkOKKQ/p.html"
+      "date": "2026-11-17",
+      "src": "CGTN·Business",
+      "title": "China-ASEAN cooperation injects new momentum into regional economy",
+      "link": "https://news.cgtn.com/news/2026-11-17/China-ASEAN-cooperation-injects-new-momentum-into-regional-economy-1S96dy0OkHm/p.html"
     },
     {
       "id": "n08",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "src": "CGTN·Business",
-      "title": "Peruvian captain's \"Water Bus\" transforms river travel",
-      "link": "https://news.cgtn.com/news/2026-11-14/Peruvian-captain-s-Water-Bus-transforms-river-travel-1S492exDgje/p.html"
+      "title": "Twelve APEC leaders to attend CEO Summit in Shenzhen",
+      "link": "https://news.cgtn.com/news/2026-11-15/Twelve-APEC-leaders-to-attend-CEO-Summit-in-Shenzhen-1S5mNgHhkKA/p.html"
     },
     {
       "id": "n09",
-      "date": "2026-11-12",
+      "date": "2026-11-14",
       "src": "CGTN·Culture",
-      "title": "Guizhou cili tea blends tradition with innovation at Beijing tea expo",
-      "link": "https://news.cgtn.com/news/2026-11-12/Guizhou-cili-tea-blends-tradition-with-innovation-at-Beijing-tea-expo-1S0CfhnPZ3q/p.html"
+      "title": "Fujian holds grand tribute to Mazu, China's beloved sea goddess",
+      "link": "https://news.cgtn.com/news/2026-11-14/Fujian-holds-grand-tribute-to-Mazu-China-s-beloved-sea-goddess-1S41yYO4RDW/p.html"
     },
     {
       "id": "n10",
-      "date": "2026-11-06",
-      "src": "CGTN·Travel",
-      "title": "Military attaché moved by stories of China's female Red Army soldiers",
-      "link": "https://news.cgtn.com/news/2026-11-06/Military-attach-moved-by-stories-of-China-s-female-Red-Army-soldiers-1RQCZT8Y9tm/p.html"
+      "date": "2026-11-13",
+      "src": "CGTN·Culture",
+      "title": "From the wild to the human heart: Films for this winter",
+      "link": "https://news.cgtn.com/news/2026-11-13/From-the-wild-to-the-human-heart-Films-for-this-winter-1S2qiIAvfjy/p.html"
     },
     {
       "id": "n11",
-      "date": "2026-11-05",
+      "date": "2026-11-11",
       "src": "CGTN·Travel",
-      "title": "Respect and tolerance in online discourse under discussion in Wuzhen",
-      "link": "https://news.cgtn.com/news/2026-11-05/Respect-and-tolerance-in-online-discourse-under-discussion-in-Wuzhen-1ROUGYfl5M4/p.html"
+      "title": "Renting a bike? Here’s What to Say in Mandarin",
+      "link": "https://news.cgtn.com/news/2026-11-11/Renting-a-bike-Here-s-What-to-Say-in-Mandarin-1RZcehX3EQg/p.html"
     },
     {
       "id": "n12",
-      "date": "2026-11-04",
+      "date": "2026-11-07",
       "src": "CGTN·Travel",
-      "title": "What does Beijing look like in golden autumn?",
-      "link": "https://news.cgtn.com/news/2026-11-04/What-does-Beijing-look-like-in-golden-autumn--1RNv2wTOKqs/p.html"
+      "title": "'Like it, want it, got it': Shenzhen, an engineer's wonderland",
+      "link": "https://news.cgtn.com/news/2026-11-07/-Like-it-want-it-got-it-Shenzhen-an-engineer-s-wonderland-1RSyJeyvKZq/p.html"
     },
     {
       "id": "n13",
-      "date": "2026-10-26",
+      "date": "2026-11-06",
       "src": "CGTN·Sports",
-      "title": "Zou Jingyuan wins parallel bars gold as gymnastics worlds conclude",
-      "link": "https://news.cgtn.com/news/2026-10-26/Zou-Jingyuan-wins-parallel-bars-gold-as-gymnastics-worlds-conclude-1Ryd2B15SBG/p.html"
+      "title": "Cristiano Ronaldo confirms international retirement",
+      "link": "https://news.cgtn.com/news/2026-11-06/Cristiano-Ronaldo-confirms-international-retirement-1RQt7eYlyxy/p.html"
     },
     {
       "id": "n14",
-      "date": "2026-10-20",
+      "date": "2026-10-25",
       "src": "CGTN·Sports",
-      "title": "Zhang Zhenlin shines as Shanghai Sharks start CBA season with win",
-      "link": "https://news.cgtn.com/news/2026-10-20/Zhang-Zhenlin-shines-as-Shanghai-Sharks-start-CBA-season-with-win--1RoggfnU84o/p.html"
+      "title": "Chengdu's title hopes suffer setback as Dalian wins 1-0 in CSL",
+      "link": "https://news.cgtn.com/news/2026-10-25/Chengdu-s-title-hopes-suffer-setback-as-Dalian-wins-1-0-in-CSL-1RwxpnoFB5u/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-10-16",
+      "date": "2026-10-15",
       "src": "CGTN·Sports",
-      "title": "Choi takes early lead at Buick LPGA Shanghai, Yin tied for third",
-      "link": "https://news.cgtn.com/news/2026-10-16/Choi-takes-early-lead-at-Buick-LPGA-Shanghai-Yin-tied-for-third-1RhC2ZqwaiY/p.html"
+      "title": "Adidas CEO: Competition with Chinese brands makes us better",
+      "link": "https://news.cgtn.com/news/2026-10-15/Adidas-CEO-Competition-with-Chinese-brands-makes-us-better-1RgtSbuMhRC/p.html"
     }
   ],
   "readings": [
