@@ -6,107 +6,107 @@ window.CET_CONTENT = {
     {
       "id": "n01",
       "date": "2026-11-27",
+      "src": "CGTN·Culture",
+      "title": "Buddha Jumps Over the Wall the crown jewel of Fujian cuisine",
+      "link": "https://news.cgtn.com/news/2026-11-27/Buddha-Jumps-Over-the-Wall-the-crown-jewel-of-Fujian-cuisine-1SpAMq8LnJS/p.html"
+    },
+    {
+      "id": "n02",
+      "date": "2026-11-27",
       "src": "CGTN·China",
       "title": "Path to Zero: How China's desert forests store carbon out of sight",
       "link": "https://news.cgtn.com/news/2026-11-27/Path-to-Zero-How-China-s-desert-forests-store-carbon-out-of-sight-1SoAHlFGYF2/p.html"
     },
     {
-      "id": "n02",
+      "id": "n03",
+      "date": "2026-11-26",
+      "src": "CGTN·Travel",
+      "title": "Following the seasons: The wisdom of Xinjiang's Kazakh herders",
+      "link": "https://news.cgtn.com/news/2026-11-26/Following-the-seasons-The-wisdom-of-Xinjiang-s-Kazakh-herders-1SnZanWEJs4/p.html"
+    },
+    {
+      "id": "n04",
       "date": "2026-11-26",
       "src": "CGTN·China",
       "title": "China urges Japan to fulfill obligations on abandoned chemical weapons",
       "link": "https://news.cgtn.com/news/2026-11-26/China-urges-Japan-to-fulfill-obligations-on-abandoned-chemical-weapons-1SnYMqD9rgc/p.html"
     },
     {
-      "id": "n03",
+      "id": "n05",
       "date": "2026-11-24",
       "src": "CGTN·Business",
       "title": "Leading Chinese economist on inclusive globalization post-APEC",
       "link": "https://news.cgtn.com/news/2026-11-24/Leading-Chinese-economist-on-inclusive-globalization-post-APEC-1SkSyBskNHi/p.html"
     },
     {
-      "id": "n04",
+      "id": "n06",
       "date": "2026-11-24",
       "src": "CGTN·China",
       "title": "China vows mature, steady, sustainable development of ties with UK",
       "link": "https://news.cgtn.com/news/2026-11-24/FM-China-vows-mature-stead-sustainable-development-of-ties-with-UK-1Sl7wQTPoIw/p.html"
     },
     {
-      "id": "n05",
-      "date": "2026-11-21",
+      "id": "n07",
+      "date": "2026-11-20",
       "src": "CGTN·Culture",
-      "title": "New series explores China's ancient academies",
-      "link": "https://news.cgtn.com/news/2026-11-21/New-series-explores-China-s-ancient-academies-1SfLqZ0KBEc/p.html"
+      "title": "APEC leaders' spouses visit cultural exhibition in Shenzhen",
+      "link": "https://news.cgtn.com/news/2026-11-20/APEC-leaders-spouses-visit-cultural-exhibition-in-Shenzhen-1SeaH01tZcY/p.html"
     },
     {
-      "id": "n06",
+      "id": "n08",
       "date": "2026-11-20",
       "src": "CGTN·Business",
       "title": "China proposes global bay areas association to expand trade",
       "link": "https://news.cgtn.com/news/2026-11-20/China-proposes-global-bay-areas-association-to-expand-trade-1Se7PwJX2UM/p.html"
     },
     {
-      "id": "n07",
-      "date": "2026-11-19",
-      "src": "CGTN·Travel",
-      "title": "Goitered gazelles roam the Xinjiang Gobi",
-      "link": "https://news.cgtn.com/news/2026-11-19/Goitered-gazelles-roam-the-Xinjiang-Gobi-1SceC9kkPPq/p.html"
-    },
-    {
-      "id": "n08",
+      "id": "n09",
       "date": "2026-11-16",
       "src": "CGTN·Business",
       "title": "COP31: Former Chilean minister: Open markets key to green transition",
       "link": "https://news.cgtn.com/news/2026-11-16/COP31-Former-Chilean-minister-Open-markets-key-to-green-transition-1S76uW3L0yc/p.html"
     },
     {
-      "id": "n09",
-      "date": "2026-11-14",
-      "src": "CGTN·Culture",
-      "title": "Fujian holds grand tribute to Mazu, China's beloved sea goddess",
-      "link": "https://news.cgtn.com/news/2026-11-14/Fujian-holds-grand-tribute-to-Mazu-China-s-beloved-sea-goddess-1S41yYO4RDW/p.html"
-    },
-    {
       "id": "n10",
-      "date": "2026-11-13",
+      "date": "2026-11-12",
       "src": "CGTN·Culture",
-      "title": "From the wild to the human heart: Films for this winter",
-      "link": "https://news.cgtn.com/news/2026-11-13/From-the-wild-to-the-human-heart-Films-for-this-winter-1S2qiIAvfjy/p.html"
+      "title": "China Film Showcase brings Chinese cinema to Dublin",
+      "link": "https://news.cgtn.com/news/2026-11-12/China-Film-Showcase-brings-Chinese-cinema-to-Dublin-1S0myvcz5Zu/p.html"
     },
     {
       "id": "n11",
-      "date": "2026-11-11",
+      "date": "2026-11-09",
       "src": "CGTN·Travel",
-      "title": "Renting a bike? Here’s What to Say in Mandarin",
-      "link": "https://news.cgtn.com/news/2026-11-11/Renting-a-bike-Here-s-What-to-Say-in-Mandarin-1RZcehX3EQg/p.html"
+      "title": "What was in his hands?",
+      "link": "https://news.cgtn.com/news/2026-11-09/What-was-in-his-hands--1RVDZurzPYk/p.html"
     },
     {
       "id": "n12",
-      "date": "2026-11-07",
-      "src": "CGTN·Travel",
-      "title": "'Like it, want it, got it': Shenzhen, an engineer's wonderland",
-      "link": "https://news.cgtn.com/news/2026-11-07/-Like-it-want-it-got-it-Shenzhen-an-engineer-s-wonderland-1RSyJeyvKZq/p.html"
+      "date": "2026-11-05",
+      "src": "CGTN·Sports",
+      "title": "Sheng Lihao, Wang Zifei retain title at ISSF World Championships",
+      "link": "https://news.cgtn.com/news/2026-11-05/Sheng-Lihao-Wang-Zifei-retain-title-at-ISSF-World-Championships-1ROJnZ73KlW/p.html"
     },
     {
       "id": "n13",
-      "date": "2026-11-06",
-      "src": "CGTN·Sports",
-      "title": "Cristiano Ronaldo confirms international retirement",
-      "link": "https://news.cgtn.com/news/2026-11-06/Cristiano-Ronaldo-confirms-international-retirement-1RQt7eYlyxy/p.html"
+      "date": "2026-11-04",
+      "src": "CGTN·Travel",
+      "title": "Climbing the Great Wall in Mandarin",
+      "link": "https://news.cgtn.com/news/2026-11-04/Climbing-the-Great-Wall-in-Mandarin-1RNjaAGWRsk/p.html"
     },
     {
       "id": "n14",
-      "date": "2026-10-25",
+      "date": "2026-10-15",
       "src": "CGTN·Sports",
-      "title": "Chengdu's title hopes suffer setback as Dalian wins 1-0 in CSL",
-      "link": "https://news.cgtn.com/news/2026-10-25/Chengdu-s-title-hopes-suffer-setback-as-Dalian-wins-1-0-in-CSL-1RwxpnoFB5u/p.html"
+      "title": "Changchun welcomes flame as 2027 Winter Universiade countdown begins",
+      "link": "https://news.cgtn.com/news/2026-10-15/Changchun-welcomes-flame-as-2027-Winter-Universiade-countdown-begins-1RfXQt5x8kw/p.html"
     },
     {
       "id": "n15",
-      "date": "2026-10-15",
+      "date": "2026-10-10",
       "src": "CGTN·Sports",
-      "title": "Adidas CEO: Competition with Chinese brands makes us better",
-      "link": "https://news.cgtn.com/news/2026-10-15/Adidas-CEO-Competition-with-Chinese-brands-makes-us-better-1RgtSbuMhRC/p.html"
+      "title": "Zheng Qinwen reaches China Open semifinals with straight-set win",
+      "link": "https://news.cgtn.com/news/2026-10-10/Zheng-Qinwen-reaches-China-Open-semifinals-with-straight-set-win-1R7KP2weY8g/p.html"
     }
   ],
   "readings": [
