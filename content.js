@@ -14,57 +14,57 @@ window.CET_CONTENT = {
       "id": "n02",
       "date": "2026-11-27",
       "src": "CGTN·China",
-      "title": "Path to Zero: How China's desert forests store carbon out of sight",
-      "link": "https://news.cgtn.com/news/2026-11-27/Path-to-Zero-How-China-s-desert-forests-store-carbon-out-of-sight-1SoAHlFGYF2/p.html"
+      "title": "Bangkok hosts seminar on Xi's book on protecting human rights",
+      "link": "https://news.cgtn.com/news/2026-11-27/Bangkok-hosts-seminar-on-Xi-s-book-on-protecting-human-rights-1SpY0m6Brl6/p.html"
     },
     {
       "id": "n03",
-      "date": "2026-11-26",
-      "src": "CGTN·Travel",
-      "title": "Following the seasons: The wisdom of Xinjiang's Kazakh herders",
-      "link": "https://news.cgtn.com/news/2026-11-26/Following-the-seasons-The-wisdom-of-Xinjiang-s-Kazakh-herders-1SnZanWEJs4/p.html"
+      "date": "2026-11-27",
+      "src": "CGTN·China",
+      "title": "Netherlands vows to counter US chip bill targeting ASML China sales",
+      "link": "https://news.cgtn.com/news/2026-11-27/Netherlands-vows-to-counter-US-chip-bill-targeting-ASML-China-sales-1SpiBiktaPC/p.html"
     },
     {
       "id": "n04",
       "date": "2026-11-26",
       "src": "CGTN·China",
-      "title": "China urges Japan to fulfill obligations on abandoned chemical weapons",
-      "link": "https://news.cgtn.com/news/2026-11-26/China-urges-Japan-to-fulfill-obligations-on-abandoned-chemical-weapons-1SnYMqD9rgc/p.html"
+      "title": "China urges Japan to destroy abandoned chemical weapons",
+      "link": "https://news.cgtn.com/news/2026-11-26/China-urges-Japan-to-destroy-abandoned-chemical-weapons-1SnqFQ4FRmw/p.html"
     },
     {
       "id": "n05",
-      "date": "2026-11-24",
-      "src": "CGTN·Business",
-      "title": "Leading Chinese economist on inclusive globalization post-APEC",
-      "link": "https://news.cgtn.com/news/2026-11-24/Leading-Chinese-economist-on-inclusive-globalization-post-APEC-1SkSyBskNHi/p.html"
+      "date": "2026-11-25",
+      "src": "CGTN·Travel",
+      "title": "How the Hani people shaped a living landscape through coexistence",
+      "link": "https://news.cgtn.com/news/2026-11-25/How-the-Hani-people-shaped-a-living-landscape-through-coexistence-1Smm5EadQRy/p.html"
     },
     {
       "id": "n06",
-      "date": "2026-11-24",
-      "src": "CGTN·China",
-      "title": "China vows mature, steady, sustainable development of ties with UK",
-      "link": "https://news.cgtn.com/news/2026-11-24/FM-China-vows-mature-stead-sustainable-development-of-ties-with-UK-1Sl7wQTPoIw/p.html"
+      "date": "2026-11-23",
+      "src": "CGTN·Business",
+      "title": "EU Chamber in China: China-EU dialogue needs tangible results",
+      "link": "https://news.cgtn.com/news/2026-11-23/EU-Chamber-in-China-China-EU-dialogue-needs-tangible-results-1SjbMaUqW1G/p.html"
     },
     {
       "id": "n07",
+      "date": "2026-11-21",
+      "src": "CGTN·Business",
+      "title": "Why are global business leaders impressed by Shenzhen?",
+      "link": "https://news.cgtn.com/news/2026-11-21/Why-are-global-business-leaders-impressed-by-Shenzhen--1SfPUg2VZD2/p.html"
+    },
+    {
+      "id": "n08",
       "date": "2026-11-20",
       "src": "CGTN·Culture",
       "title": "APEC leaders' spouses visit cultural exhibition in Shenzhen",
       "link": "https://news.cgtn.com/news/2026-11-20/APEC-leaders-spouses-visit-cultural-exhibition-in-Shenzhen-1SeaH01tZcY/p.html"
     },
     {
-      "id": "n08",
-      "date": "2026-11-20",
-      "src": "CGTN·Business",
-      "title": "China proposes global bay areas association to expand trade",
-      "link": "https://news.cgtn.com/news/2026-11-20/China-proposes-global-bay-areas-association-to-expand-trade-1Se7PwJX2UM/p.html"
-    },
-    {
       "id": "n09",
-      "date": "2026-11-16",
+      "date": "2026-11-15",
       "src": "CGTN·Business",
-      "title": "COP31: Former Chilean minister: Open markets key to green transition",
-      "link": "https://news.cgtn.com/news/2026-11-16/COP31-Former-Chilean-minister-Open-markets-key-to-green-transition-1S76uW3L0yc/p.html"
+      "title": "AmCham China president: Why stability matters for US-China business",
+      "link": "https://news.cgtn.com/news/2026-11-15/AmCham-China-president-Why-stability-matters-for-US-China-business-1S5axIt6vyE/p.html"
     },
     {
       "id": "n10",
@@ -75,10 +75,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n11",
-      "date": "2026-11-09",
+      "date": "2026-11-12",
       "src": "CGTN·Travel",
-      "title": "What was in his hands?",
-      "link": "https://news.cgtn.com/news/2026-11-09/What-was-in-his-hands--1RVDZurzPYk/p.html"
+      "title": "He Brought Mexican Flavors to China",
+      "link": "https://news.cgtn.com/news/2026-11-12/He-Brought-Mexican-Flavors-to-China-1S0w5WL8lB6/p.html"
     },
     {
       "id": "n12",
@@ -89,10 +89,10 @@ window.CET_CONTENT = {
     },
     {
       "id": "n13",
-      "date": "2026-11-04",
+      "date": "2026-11-05",
       "src": "CGTN·Travel",
-      "title": "Climbing the Great Wall in Mandarin",
-      "link": "https://news.cgtn.com/news/2026-11-04/Climbing-the-Great-Wall-in-Mandarin-1RNjaAGWRsk/p.html"
+      "title": "Xiatang Shaobing: Baked in an upside-down wok",
+      "link": "https://news.cgtn.com/news/2026-11-05/Xiatang-Shaobing-Baked-in-an-upside-down-wok-1RLzPYI93B6/p.html"
     },
     {
       "id": "n14",
